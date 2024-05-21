@@ -1,0 +1,84 @@
+Source: rust-nu
+Section: FIXME-IN-THE-SOURCE-SECTION
+Priority: optional
+Build-Depends: debhelper (>= 12),
+ dh-cargo (>= 25),
+ cargo:native,
+ rustc:native (>= 1.77.2),
+ libstd-rust-dev,
+ librust-crossterm-0.27+default-dev,
+ librust-ctrlc-3+default-dev (>= 3.4-~~),
+ librust-log-0.4+default-dev,
+ librust-miette-7+default-dev (>= 7.2-~~),
+ librust-miette-7+fancy-dev (>= 7.2-~~),
+ librust-miette-7+fancy-no-backtrace-dev (>= 7.2-~~),
+ librust-mimalloc-0.1-dev (>= 0.1.37-~~),
+ librust-nix-0.28+fs-dev,
+ librust-nix-0.28+process-dev,
+ librust-nix-0.28+signal-dev,
+ librust-nix-0.28+term-dev,
+ librust-nu-cli-0.93+default-dev,
+ librust-nu-cli-0.93+plugin-dev,
+ librust-nu-cli-0.93+system-clipboard-dev,
+ librust-nu-cmd-base-0.93+default-dev,
+ librust-nu-cmd-extra-0.93+default-dev,
+ librust-nu-cmd-lang-0.93+default-dev,
+ librust-nu-cmd-lang-0.93+mimalloc-dev,
+ librust-nu-cmd-lang-0.93+sqlite-dev,
+ librust-nu-cmd-lang-0.93+system-clipboard-dev,
+ librust-nu-cmd-lang-0.93+trash-support-dev,
+ librust-nu-cmd-lang-0.93+which-support-dev,
+ librust-nu-cmd-plugin-0.93+default-dev,
+ librust-nu-command-0.93+default-dev,
+ librust-nu-command-0.93+plugin-dev,
+ librust-nu-command-0.93+sqlite-dev,
+ librust-nu-command-0.93+trash-support-dev,
+ librust-nu-command-0.93+which-support-dev,
+ librust-nu-engine-0.93+default-dev,
+ librust-nu-engine-0.93+plugin-dev,
+ librust-nu-explore-0.93+default-dev,
+ librust-nu-lsp-0.93+default-dev,
+ librust-nu-parser-0.93+default-dev,
+ librust-nu-parser-0.93+plugin-dev,
+ librust-nu-path-0.93+default-dev,
+ librust-nu-plugin-engine-0.93+default-dev,
+ librust-nu-protocol-0.93+default-dev,
+ librust-nu-protocol-0.93+plugin-dev,
+ librust-nu-std-0.93+default-dev,
+ librust-nu-system-0.93+default-dev,
+ librust-nu-utils-0.93+default-dev,
+ librust-reedline-0.32+bashisms-dev,
+ librust-reedline-0.32+default-dev,
+ librust-reedline-0.32+sqlite-dev,
+ librust-reedline-0.32+system-clipboard-dev,
+ librust-serde-json-1+default-dev,
+ librust-simplelog-0.12+default-dev,
+ librust-time-0.3+default-dev,
+ librust-winresource-0.1+default-dev
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Standards-Version: 4.6.2
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/nu]
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/nu
+Homepage: https://www.nushell.sh
+X-Cargo-Crate: nu
+Rules-Requires-Root: no
+
+Package: nu
+Architecture: any
+Multi-Arch: allowed
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${cargo:Depends}
+Recommends:
+ ${cargo:Recommends}
+Suggests:
+ ${cargo:Suggests}
+Provides:
+ ${cargo:Provides}
+Built-Using: ${cargo:Built-Using}
+XB-X-Cargo-Built-Using: ${cargo:X-Cargo-Built-Using}
+Description: New type of shell
+ This package contains the following binaries built from the Rust crate
+ "nu":
+  - nu
