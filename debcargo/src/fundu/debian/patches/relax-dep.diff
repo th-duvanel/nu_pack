@@ -1,0 +1,30 @@
+Index: fundu/Cargo.toml
+===================================================================
+--- fundu.orig/Cargo.toml
++++ fundu/Cargo.toml
+@@ -124,7 +124,7 @@ features = ["derive"]
+ optional = true
+ 
+ [dependencies.time]
+-version = "<= 0.3.16"
++version = "0.3.0"
+ optional = true
+ default-features = false
+ 
+@@ -133,14 +133,14 @@ version = "0.4.23"
+ default-features = false
+ 
+ [dev-dependencies.clap]
+-version = "<=3.2.23"
++version = "3.2.1"
+ features = [
+     "cargo",
+     "derive",
+ ]
+ 
+ [dev-dependencies.criterion]
+-version = "0.4.0"
++version = "0.5.0"
+ 
+ [dev-dependencies.rstest]
+ version = "0.17.0"

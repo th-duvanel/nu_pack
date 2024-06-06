@@ -1,0 +1,23 @@
+rust-signal-hook-registry (1.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package signal-hook-registry 1.4.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 18 Dec 2021 11:03:28 +0100
+
+rust-signal-hook-registry (1.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package signal-hook-registry 1.2.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 24 Dec 2019 16:25:58 +0000
+
+rust-signal-hook-registry (1.1.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package signal-hook-registry 1.1.1 from crates.io using debcargo 2.4.0
+
+  [ Wolfgang Silbermayr ]
+  * Package signal-hook-registry 1.1.0 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 03 Nov 2019 10:55:07 +0100

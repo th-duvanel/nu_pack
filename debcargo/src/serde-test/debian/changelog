@@ -1,0 +1,62 @@
+rust-serde-test (1.0.171-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_test 1.0.171 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 14:55:12 +0000
+
+rust-serde-test (1.0.145-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_test 1.0.145 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Thu, 13 Oct 2022 22:08:32 -0400
+
+rust-serde-test (1.0.136-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_test 1.0.136 from crates.io using debcargo 2.5.0
+
+ -- Carlos F. Sanz <carlos@sanz.dev>  Thu, 02 Jun 2022 21:39:37 -0400
+
+rust-serde-test (1.0.112-1) unstable; urgency=medium
+
+  * Package serde_test 1.0.112 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Jun 2020 23:12:47 +0200
+
+rust-serde-test (1.0.102-1) unstable; urgency=medium
+
+  * Package serde_test 1.0.102 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 08 Nov 2019 14:14:56 +0100
+
+rust-serde-test (1.0.99-1) unstable; urgency=medium
+
+  * Package serde_test 1.0.99 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 17 Aug 2019 09:48:43 +0200
+
+rust-serde-test (1.0.87-1) unstable; urgency=medium
+
+  * Package serde_test 1.0.87 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 05 Feb 2019 17:52:18 +0100
+
+rust-serde-test (1.0.85-1) unstable; urgency=medium
+
+  * Package serde_test 1.0.85 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 21 Jan 2019 15:37:44 +0100
+
+rust-serde-test (1.0.82-1) unstable; urgency=medium
+
+  * Package serde_test 1.0.82 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 11 Dec 2018 13:14:28 +0100
+
+rust-serde-test (1.0.80-1) unstable; urgency=medium
+
+  * Package serde_test 1.0.80 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 20 Oct 2018 16:40:43 +0200

@@ -1,0 +1,19 @@
+rust-bkt (0.6.1-2) unstable; urgency=medium
+
+  * Package bkt 0.6.1 from crates.io using debcargo 2.6.0
+  * Disable flaky tests (closes: #1026801).
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 02 Jul 2023 22:12:58 +0200
+
+rust-bkt (0.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bkt 0.6.1 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 16 Jun 2023 19:39:37 +0200
+
+rust-bkt (0.5.4-1) unstable; urgency=medium
+
+  * Package bkt 0.5.4 from crates.io using debcargo 2.5.0
+
+ -- Ben Westover <kwestover.kw@gmail.com>  Sun, 22 May 2022 18:54:44 +0200

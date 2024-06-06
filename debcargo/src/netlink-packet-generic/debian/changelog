@@ -1,0 +1,5 @@
+rust-netlink-packet-generic (0.3.3-1) unstable; urgency=medium
+
+  * Package netlink-packet-generic 0.3.3 from crates.io using debcargo 2.6.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Mon, 21 Aug 2023 09:00:38 -0400

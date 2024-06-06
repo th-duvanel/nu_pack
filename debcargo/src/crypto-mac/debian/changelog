@@ -1,0 +1,35 @@
+rust-crypto-mac (0.10.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Drop blobby support.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 12 Dec 2020 09:54:03 +0100
+
+rust-crypto-mac (0.10.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crypto-mac 0.10.0 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 02 Dec 2020 12:37:52 +0100
+
+rust-crypto-mac (0.7.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package crypto-mac 0.7.0 from crates.io using debcargo 2.4.3
+  * Fix the build (Closes: #975769)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 28 Nov 2020 09:56:00 +0100
+
+rust-crypto-mac (0.7.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package crypto-mac 0.7.0 from crates.io using debcargo 2.4.2
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Ximin Luo <infinity0@debian.org>  Mon, 27 Jan 2020 22:14:09 +0000
+
+rust-crypto-mac (0.7.0-1) unstable; urgency=medium
+
+  * Package crypto-mac 0.7.0 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Mon, 28 Oct 2019 18:37:41 +0100

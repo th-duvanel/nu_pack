@@ -1,0 +1,5 @@
+rust-result-like-derive (0.4.6-1) unstable; urgency=medium
+
+  * Package result-like-derive 0.4.6 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 25 Sep 2023 17:19:32 +0100

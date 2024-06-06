@@ -1,0 +1,47 @@
+rust-num-rational (0.4.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-rational 0.4.1 from crates.io using debcargo 2.6.0
+  * Work around testsuite failure caused by floating point arithmetic
+    issue on armel (Closes: #1027011).
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Dec 2022 08:44:34 +0000
+
+rust-num-rational (0.4.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-rational 0.4.1 from crates.io using debcargo 2.6.0
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 04 Dec 2022 21:37:16 +0100
+
+rust-num-rational (0.4.0-1) unstable; urgency=medium
+
+  * Package num-rational 0.4.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 19 Dec 2021 17:37:31 +0100
+
+rust-num-rational (0.2.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-rational 0.2.3 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 13 Jan 2020 21:31:55 +0100
+
+rust-num-rational (0.2.2-1) unstable; urgency=medium
+
+  * Package num-rational 0.2.2 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 15 Aug 2019 10:19:30 +0200
+
+rust-num-rational (0.2.1-2) unstable; urgency=medium
+
+  * Package num-rational 0.2.1 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:25:19 +0200
+
+rust-num-rational (0.2.1-1) unstable; urgency=medium
+
+  * Package num-rational 0.2.1 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 22 Apr 2019 10:39:47 +0200

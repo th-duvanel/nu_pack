@@ -1,0 +1,35 @@
+rust-rust-embed-impl (8.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rust-embed-impl 8.2.0 from crates.io using debcargo 2.6.1
+  * remove relax-deps.diff patch (not required anymore for shellexpand)
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Sat, 16 Mar 2024 20:54:19 +0100
+
+rust-rust-embed-impl (6.8.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rust-embed-impl 6.8.1 from crates.io using debcargo 2.6.0
+
+  [ Matthias Geiger ]
+  * Package rust-embed-impl 6.8.1 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 23:07:32 +0000
+
+rust-rust-embed-impl (6.3.1-1) unstable; urgency=medium
+
+  * Package rust-embed-impl 6.3.1 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 29 Dec 2022 12:11:56 +0100
+
+rust-rust-embed-impl (6.3.0-1) unstable; urgency=medium
+
+  * Package rust-embed-impl 6.3.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 13 Oct 2022 21:05:35 -0400
+
+rust-rust-embed-impl (6.2.0-1) unstable; urgency=medium
+
+  * Package rust-embed-impl 6.2.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 24 Jul 2022 10:52:17 +0200

@@ -1,0 +1,8 @@
+rust-pkcs5 (0.7.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Fabian Grünbichler ]
+  * Package pkcs5 0.7.1 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 14 Sep 2023 17:48:33 +0100

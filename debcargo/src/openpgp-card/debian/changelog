@@ -1,0 +1,5 @@
+rust-openpgp-card (0.4.2-1) unstable; urgency=medium
+
+  * Package openpgp-card 0.4.2 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 14 Mar 2024 09:55:39 +0100

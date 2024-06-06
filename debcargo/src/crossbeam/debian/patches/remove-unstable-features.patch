@@ -1,0 +1,8 @@
+--- crossbeam/Cargo.toml
++++ crossbeam/Cargo.toml
+@@ -58,5 +58,0 @@
+-nightly = [
+-    "crossbeam-epoch/nightly",
+-    "crossbeam-utils/nightly",
+-    "crossbeam-queue/nightly",
+-]

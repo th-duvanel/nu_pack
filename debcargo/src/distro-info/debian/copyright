@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: distro-info
+Upstream-Contact: Daniel Watkins <daniel@daniel-watkins.co.uk>
+Source: https://github.com/OddBloke/distro-info-rs/
+
+Files: *
+Copyright: 2018-2023 Daniel Watkins <daniel@daniel-watkins.co.uk>
+License: GPL-3.0
+
+Files: debian/*
+Copyright:
+ 2023-2024 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2023 Jelmer Vernooĳ <jelmer@debian.org>
+License: GPL-3.0
+
+License: GPL-3.0
+ Debian systems provide the GPL 3.0 in /usr/share/common-licenses/GPL-3

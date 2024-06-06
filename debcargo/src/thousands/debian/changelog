@@ -1,0 +1,5 @@
+rust-thousands (0.2.0-1) unstable; urgency=medium
+
+  * Package thousands 0.2.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 27 Jan 2023 09:41:04 +0100

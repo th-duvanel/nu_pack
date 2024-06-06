@@ -1,0 +1,24 @@
+rust-net2 (0.2.39-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package net2 0.2.39 from crates.io using debcargo 2.6.1
+  * Add patch to workaround glibc time64 suseconds_t inconsitency (Closes: #1070001)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 30 Apr 2024 04:57:12 +0000
+
+rust-net2 (0.2.37-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package net2 0.2.37 from crates.io using debcargo 2.4.3
+    - Includes upstream fix for undefined behaviour that
+      is likely to cause breakage with future rustc versions
+      (Closes: 976870)
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 30 Dec 2020 16:04:14 +0000
+
+rust-net2 (0.2.33-1) unstable; urgency=medium
+
+  [ kpcyrd ]
+  * Package net2 0.2.33 from crates.io using debcargo 2.2.1
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 08 Jul 2018 13:14:03 -0700

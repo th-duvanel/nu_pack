@@ -1,0 +1,19 @@
+rust-daemonize (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package daemonize 0.5.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 16 Jul 2023 16:31:15 +0200
+
+rust-daemonize (0.4.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package daemonize 0.4.1 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 13:46:21 +0200
+
+rust-daemonize (0.4.1-1) unstable; urgency=medium
+
+  * Package daemonize 0.4.1 from crates.io using debcargo 2.4.0
+
+ -- Marco d'Itri <md@linux.it>  Mon, 30 Dec 2019 00:16:25 +0100

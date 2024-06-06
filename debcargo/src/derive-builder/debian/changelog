@@ -1,0 +1,58 @@
+rust-derive-builder (0.12.0-1) unstable; urgency=medium
+
+  * Package derive_builder 0.12.0 from crates.io using debcargo 2.6.0
+  * Collapse features
+
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package derive_builder 0.11.2 from crates.io using debcargo 2.6.0 (Closes: #1024376)
+  * Drop env-logger.diff and drop-features.diff, the dependencies they
+    relate to no longer exist in the new upstream version.
+  * Update remaining patches for new upstream.
+
+ -- Blair Noctis <n@sail.ng>  Wed, 19 Jul 2023 23:45:09 +0000
+
+rust-derive-builder (0.9.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package derive_builder 0.9.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 25 Oct 2022 21:08:09 +0000
+
+rust-derive-builder (0.9.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package derive_builder 0.9.0 from crates.io using debcargo 2.5.0
+  * Don't fail build due to compiler warnings.
+  * Drop uninstallable feature packages (Closes: #970109)
+  * Fix env-logger related build failure.
+  * Bump pretty-assertions dev-dependency to version 1.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 22 Jun 2022 03:53:52 +0000
+
+rust-derive-builder (0.9.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Relax dependency on env_logger to ">=0.5, <0.8 (Closes: #959907)
+
+ -- Jan Niehusmann <jan@debian.org>  Sat, 28 Nov 2020 19:22:40 +0100
+
+rust-derive-builder (0.9.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package derive_builder 0.9.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 22 Apr 2020 13:15:40 +0200
+
+rust-derive-builder (0.9.0-1) unstable; urgency=medium
+
+  * Package derive_builder 0.9.0 from crates.io using debcargo 2.4.0
+
+  [ Sylvestre Ledru ]
+  * Team upload.
+  * Package derive_builder 0.7.2 from crates.io using debcargo 2.3.1-alpha.0
+
+  [ Robin Krahl ]
+  * Package derive_builder 0.7.1 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 24 Dec 2019 14:50:18 +0000

@@ -1,0 +1,12 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -205,9 +205,6 @@
+ version = "0.4.11"
+ features = ["examples"]
+ 
+-[dev-dependencies.term-transcript]
+-version = "0.2.0"
+-
+ [features]
+ alloc = []
+ default = ["std"]

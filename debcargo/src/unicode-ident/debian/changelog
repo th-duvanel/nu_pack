@@ -1,0 +1,12 @@
+rust-unicode-ident (1.0.12-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unicode-ident 1.0.12 from crates.io using debcargo 2.6.0
+
+ -- Blair Noctis <n@sail.ng>  Sat, 07 Oct 2023 13:42:51 -0400
+
+rust-unicode-ident (1.0.0-1) unstable; urgency=medium
+
+  * Package unicode-ident 1.0.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 03 Jun 2022 11:11:30 +0200

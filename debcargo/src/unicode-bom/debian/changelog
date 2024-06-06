@@ -1,0 +1,5 @@
+rust-unicode-bom (2.0.2-1) unstable; urgency=medium
+
+  * Package unicode-bom 2.0.2 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 21 Sep 2023 23:01:07 +0200

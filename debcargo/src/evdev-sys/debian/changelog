@@ -1,0 +1,5 @@
+rust-evdev-sys (0.2.5-1) unstable; urgency=medium
+
+  * Package evdev-sys 0.2.5 from crates.io using debcargo 2.6.1
+
+ -- Maytham Alsudany <maytha8thedev@gmail.com>  Fri, 26 Jan 2024 10:39:17 +0100

@@ -1,0 +1,11 @@
+--- cookie-store.orig/Cargo.toml
++++ cookie-store/Cargo.toml
+@@ -44,6 +44,6 @@
+ [dependencies.idna]
+-version = "0.5.0"
++version = ">= 0.4.0, < 1.0"
+ 
+ [dependencies.indexmap]
+-version = "2.0.0"
++version = ">= 1.9.3"
+ optional = true

@@ -1,0 +1,19 @@
+rust-shell-words (1.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package shell-words 1.1.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 15 May 2022 09:26:20 +0200
+
+rust-shell-words (1.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package shell-words 1.0.0 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 28 Jun 2020 20:32:59 +0200
+
+rust-shell-words (0.1.0-1) unstable; urgency=medium
+
+  * Package shell-words 0.1.0 from crates.io using debcargo 2.2.10
+
+ -- Helen Koike <helen@koikeco.de>  Sat, 20 Jul 2019 16:39:34 -0300

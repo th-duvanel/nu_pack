@@ -1,0 +1,32 @@
+rust-gpg-error (0.6.0-1) unstable; urgency=medium
+
+  * Package gpg-error 0.6.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 21 Dec 2023 08:41:08 -0500
+
+rust-gpg-error (0.5.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Depend on librust-libgpg-error-sys >= 0.5.2-2 to use the fixed version
+    (Closes: #1022405)
+
+ -- Blair Noctis <n@sail.ng>  Thu, 17 Nov 2022 18:52:41 +0100
+
+rust-gpg-error (0.5.2-1) unstable; urgency=medium
+
+  * Package gpg-error 0.5.2 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 15 Oct 2022 09:22:51 -0400
+
+rust-gpg-error (0.5.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gpg-error 0.5.1 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:07:57 +0200
+
+rust-gpg-error (0.5.1-1) unstable; urgency=medium
+
+  * Package gpg-error 0.5.1 from crates.io using debcargo 2.4.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 06 Feb 2020 20:32:58 +0100

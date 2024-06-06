@@ -1,0 +1,11 @@
+rust-num (0.4.0-1) unstable; urgency=medium
+
+  * Package num 0.4.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 19 Dec 2021 18:43:55 +0100
+
+rust-num (0.2.0-1) unstable; urgency=medium
+
+  * Package num 0.2.0 from crates.io using debcargo 2.2.7
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 03 Jan 2020 14:32:17 +0100

@@ -1,0 +1,13 @@
+rust-tower-layer (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tower-layer 0.3.2 from crates.io using debcargo 2.6.0
+  * Closes: #1053591
+
+ -- Reinhard Tartler <siretart@tauware.de>  Mon, 09 Oct 2023 09:42:16 -0400
+
+rust-tower-layer (0.3.1-1) unstable; urgency=medium
+
+  * Package tower-layer 0.3.1 from crates.io using debcargo 2.5.0
+
+ -- Blair Noctis <n@sail.ng>  Mon, 05 Sep 2022 18:13:24 +0200

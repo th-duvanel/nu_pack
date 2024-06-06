@@ -1,0 +1,99 @@
+rust-gdk4 (0.8.2-3) unstable; urgency=medium
+
+  * Add dmabuf*.rs files under d/missing-sources 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 06 May 2024 18:00:32 +0200
+
+rust-gdk4 (0.8.2-2) unstable; urgency=medium
+
+  * Marked v4_14 and v.4_16 feature as broken
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 06 May 2024 12:03:24 +0200
+
+rust-gdk4 (0.8.2-1) unstable; urgency=medium
+
+  * Package gdk4 0.8.2 from crates.io using debcargo 2.6.1
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 11:26:28 +0200
+
+rust-gdk4 (0.8.1-2) experimental; urgency=medium
+
+  * Team upload
+  * Package gdk4 0.8.1 from crates.io using debcargo 2.6.1
+  * Restore accidentally dropped autopkgtest Depends: libgtk-4-dev
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 19 Apr 2024 20:31:51 -0400
+
+rust-gdk4 (0.8.1-1) experimental; urgency=medium
+
+  * Team upload
+  * Package gdk4 0.8.1 from crates.io using debcargo 2.6.1
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 16:43:20 -0400
+
+rust-gdk4 (0.8.0-1) experimental; urgency=medium
+
+  * Package gdk4 0.8.0 from crates.io using debcargo 2.6.1
+  * Remove unnecessary patch
+  * Updated copyright years
+  * Properly depend on packages needed for code regeneration
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 20 Feb 2024 17:00:43 +0100
+
+rust-gdk4 (0.7.3-1) unstable; urgency=medium
+
+  * Package gdk4 0.7.3 from crates.io using debcargo 2.6.0
+  * Specify version for gir-rust-code-generator dependency
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 08 Oct 2023 14:15:07 +0200
+
+rust-gdk4 (0.7.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Package gdk4 0.7.2 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:37:27 -0400
+
+rust-gdk4 (0.7.2-2) experimental; urgency=medium
+
+  * Specify dependency on rustc 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 16 Sep 2023 13:06:41 +0200
+
+rust-gdk4 (0.7.2-1) experimental; urgency=medium
+
+  * Package gdk4 0.7.2 from crates.io using debcargo 2.6.0
+  * Regenerate source code with debian tools before build
+  * Rebased patches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 15 Sep 2023 23:02:14 +0200
+
+rust-gdk4 (0.6.3-1) unstable; urgency=medium
+
+  * Package gdk4 0.6.3 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+  * Added relax-gir-dep.diff patch to enable tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:25:34 +0200
+
+rust-gdk4 (0.5.5-2) unstable; urgency=medium
+
+  * Package gdk4 0.5.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 21:02:23 +0200
+
+rust-gdk4 (0.5.5-1) experimental; urgency=medium
+
+  * Package gdk4 0.5.5 from crates.io using debcargo 2.6.0
+  * Added myself to uploaders
+  * Marked tests as broken
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 15:26:34 +0200
+
+rust-gdk4 (0.3.1-1) unstable; urgency=medium
+
+  * Package gdk4 0.3.1 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 06 Feb 2022 18:58:48 +0100

@@ -1,0 +1,5 @@
+rust-crypto-bigint (0.5.2-1) unstable; urgency=medium
+
+  * Package crypto-bigint 0.5.2 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Sat, 18 Nov 2023 15:19:03 +0100

@@ -1,0 +1,53 @@
+rust-native-tls (0.2.11-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump base64 test dep to 0.21
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Fri, 16 Jun 2023 22:07:39 +0200
+
+rust-native-tls (0.2.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package native-tls 0.2.11 from crates.io using debcargo 2.6.0
+  * Revert a number of changes in testsuite and disable newly added tests to
+    allow the testsuite to continue to run with static test certificates.
+  * Re-encode identity.p12.base64 so it can be decoded by current openssel
+    without requring legacy options to be enabled.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 04 Feb 2023 22:49:40 +0000
+
+rust-native-tls (0.2.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package native-tls 0.2.8 from crates.io using debcargo 2.5.0
+  * Update disable-tests-that-access-network.patch for new upstream
+  * Remove update-hex.patch, new upstream no longer has a dev-dependency
+    on rust-hex.
+  * Update strip-security-framework for new upstream.
+    + Remove dependency on security-framework-sys as well as security-framework
+      there doesn't seem much point in having one without the other.
+    + Remove dependency of "alpn" feature on security-framework/alpn
+  * Strip out "vendored" feature, Debian's rust-openssl-sys package no
+    longer offers a "vendored" feature for it to depend on.
+  * Update copyright years.
+  * Revert upstream switch from static test certs to dynamically generated
+    ones, sine we don't have rust-test-cert-gen in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 24 Dec 2021 09:45:00 +0000
+
+rust-native-tls (0.2.4-1) unstable; urgency=medium
+
+  * Package native-tls 0.2.4 from crates.io using debcargo 2.4.2
+    (Closes: #959653)
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package native-tls 0.2.4 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 10 May 2020 17:41:15 +0200
+
+rust-native-tls (0.2.3-1) unstable; urgency=medium
+
+  * Package native-tls 0.2.3 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Sat, 03 Aug 2019 00:45:04 +0200

@@ -1,0 +1,13 @@
+rust-maybe-uninit (2.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package maybe-uninit 2.0.0 from crates.io using debcargo 2.4.2
+  * Source-only upload for testing migration.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 14 Apr 2020 13:46:58 +0000
+
+rust-maybe-uninit (2.0.0-1) unstable; urgency=medium
+
+  * Package maybe-uninit 2.0.0 from crates.io using debcargo 2.4.2
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 06 Feb 2020 19:27:32 +0100

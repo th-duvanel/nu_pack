@@ -1,0 +1,38 @@
+Index: object/Cargo.toml
+===================================================================
+--- object.orig/Cargo.toml
++++ object/Cargo.toml
+@@ -33,20 +33,11 @@ resolver = "2"
+ [package.metadata.docs.rs]
+ features = ["doc"]
+ 
+-[dependencies.alloc]
+-version = "1.0.0"
+-optional = true
+-package = "rustc-std-workspace-alloc"
+ 
+ [dependencies.compiler_builtins]
+ version = "0.1.2"
+ optional = true
+ 
+-[dependencies.core]
+-version = "1.0.0"
+-optional = true
+-package = "rustc-std-workspace-core"
+-
+ [dependencies.crc32fast]
+ version = "1.2"
+ optional = true
+@@ -119,12 +110,6 @@ read = [
+     "unaligned",
+ ]
+ read_core = []
+-rustc-dep-of-std = [
+-    "core",
+-    "compiler_builtins",
+-    "alloc",
+-    "memchr/rustc-dep-of-std",
+-]
+ std = ["memchr/std"]
+ unaligned = []
+ unstable = []

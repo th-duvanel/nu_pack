@@ -1,0 +1,24 @@
+rust-unsafe-libyaml (0.2.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unsafe-libyaml 0.2.11 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 May 2024 04:39:28 +0000
+
+rust-unsafe-libyaml (0.2.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unsafe-libyaml 0.2.10 from crates.io using debcargo 2.6.1
+  * Fixes unaligned write of u64 on 32-bit and 16-bit platforms, RUSTSEC-2023-0075.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 10 Feb 2024 11:26:07 -0500
+
+rust-unsafe-libyaml (0.2.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unsafe-libyaml 0.2.9 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Package unsafe-libyaml 0.2.5 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Jul 2023 04:25:11 +0000

@@ -1,0 +1,97 @@
+rust-rtnetlink (0.13.1-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package rtnetlink 0.13.1 from crates.io using debcargo 2.6.1
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 15:39:25 +0000
+
+rust-rtnetlink (0.13.1-5) experimental; urgency=medium
+
+  * Team upload.
+  * Package rtnetlink 0.13.1 from crates.io using debcargo 2.6.1
+  * Add patch for nix 0.27.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 29 Feb 2024 13:28:20 +0000
+
+rust-rtnetlink (0.13.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package rtnetlink 0.13.1 from crates.io using debcargo 2.6.1
+  * Tighten nix dependency, nix 0.27 will require code changes.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 29 Feb 2024 12:07:57 +0000
+
+rust-rtnetlink (0.13.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package rtnetlink 0.13.1 from crates.io using debcargo 2.6.1
+  * Disable test_as_root feature, it was previously disabled as part of
+    disable-smol.patch.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 04 Jan 2024 11:00:02 +0000
+
+rust-rtnetlink (0.13.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rtnetlink 0.13.1 from crates.io using debcargo 2.6.1
+  * Drop disable-smol.patch, no longer needed (Closes: #1059912)
+  * Set collapse_features = true.
+  * Update fix-tests-no-default-features.patch for removal of disable-smol.patch
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 04 Jan 2024 00:52:16 +0000
+
+rust-rtnetlink (0.13.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rtnetlink 0.13.1 from crates.io using debcargo 2.6.0
+  * Drop relax-dep-env-logger.patch no longer needed.
+  * Update remaining patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 10 Aug 2023 22:33:19 +0000
+
+rust-rtnetlink (0.10.1-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package rtnetlink 0.10.1 from crates.io using debcargo 2.6.0
+  * Relax nix dependency to ">= 0.24.1, < 1.0"
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 08 Dec 2022 18:35:02 +0000
+
+rust-rtnetlink (0.10.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package rtnetlink 0.10.1 from crates.io using debcargo 2.5.0
+  * Disable a couple of tests that fail on debci, i'm pretty sure these
+    are failing due to a permissions issue rather than a bug.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 25 Aug 2022 00:18:11 +0000
+
+rust-rtnetlink (0.10.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package rtnetlink 0.10.1 from crates.io using debcargo 2.5.0
+  * Bump nix dependency to 0.25
+  * Fix autopkgtest
+    + Disable examples which rely on async-std which is not in Debian.
+    + Disable a test that fails in my test environment (with or without Debian
+      patches)
+    + Remove test_is_broken from debcargo.toml.
+    + Fix running tests with --no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 23 Aug 2022 05:14:36 +0000
+
+rust-rtnetlink (0.10.1-2) unstable; urgency=medium
+
+  * Package rtnetlink 0.10.1 from crates.io using debcargo 2.5.0
+  * Disable feature 'smol_socket', avoid unpackaged async_global_executor dependency
+  * relax dependency on crate 'env-logger'
+  * relax dependency on crate 'ipnetwork'
+
+ -- Reinhard Tartler <siretart@tauware.de>  Fri, 05 Aug 2022 09:27:35 +0200
+
+rust-rtnetlink (0.10.1-1) unstable; urgency=medium
+
+  * Package rtnetlink 0.10.1 from crates.io using debcargo 2.5.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Tue, 28 Jun 2022 18:57:07 -0400

@@ -1,0 +1,148 @@
+rust-quick-xml (0.31.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.31.0 from crates.io using debcargo 2.6.1
+  * Upload to unstable (Closes: #1065677)
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 27 May 2024 04:57:02 +0000
+
+rust-quick-xml (0.31.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.31.0 from crates.io using debcargo 2.6.1
+  * Update patches for new upstream.
+  * Adjust serde dependencies.
+    + Dev-depend on the derive feature of serde rather than directly on
+      serde-derive
+    + Bump minimum serde version to 1.0.103
+    + Use a semver dependency instead of a >= dependency.
+  * Use version 0.5 of criterion instead of 0.3.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 10 Mar 2024 02:22:37 +0000
+
+rust-quick-xml (0.27.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.27.1 from crates.io using debcargo 2.6.0
+  * Fix some errors in 32-bit patch that were causing test failures on
+    64-bit architectures.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 24 Jun 2023 18:40:25 +0000
+
+rust-quick-xml (0.27.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.27.1 from crates.io using debcargo 2.6.0
+  * Fix a bunch more tests on 32-bit architectures.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 24 Jun 2023 01:23:51 +0000
+
+rust-quick-xml (0.27.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.27.1 from crates.io using debcargo 2.6.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Mon, 19 Jun 2023 18:15:44 -0400
+
+rust-quick-xml (0.26.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.26.0 from crates.io using debcargo 2.6.0
+  * Add breaks on old version of librust-xcb-dev to help britney's autopkgtest
+    scheduler.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 24 Dec 2022 09:05:30 +0000
+
+rust-quick-xml (0.26.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.26.0 from crates.io using debcargo 2.6.0
+  * Fix tests on 32-bit.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 23 Dec 2022 19:14:24 +0000
+
+rust-quick-xml (0.26.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.26.0 from crates.io using debcargo 2.6.0 (Closes: #1020416)
+  * Stop overridding debian/control
+  * Set collapse_features = true
+  * Drop relax-deps.diff - no longer needed
+  * Stop excluding benches
+  * Drop remove-non-free-tests.diff, the tests in question are no longer included
+    in the crates.io release.
+  * Update remove-serde-value-dep.diff for new upstream
+  * Update excludes for new upstream.
+  * Remove optional dependency on document-features
+  * Remove dev-dependency on tokio-test
+  * Relax dev-dependency on criterion to allow both 0.3 and 0.4
+  * Remove references to tests and benches that are no longer included in the
+    crates.io release.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 22 Dec 2022 19:51:33 +0000
+
+rust-quick-xml (0.22.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.22.0 from crates.io using debcargo 2.5.0
+  * Relax encoding_rs dependency to 0.8
+  * Remove serde-value dev-dependency, and single test that was using it, to
+    allow other tests to run
+  * Mark encoding_rs autopkgtests as broken
+
+ -- James McCoy <jamessan@debian.org>  Wed, 15 Jun 2022 20:55:12 -0400
+
+rust-quick-xml (0.22.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.22.0 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Tue, 14 Jun 2022 22:15:58 -0400
+
+rust-quick-xml (0.20.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.20.0 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 18 Oct 2020 10:04:57 +0200
+
+rust-quick-xml (0.17.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.17.2 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:14:55 +0200
+
+rust-quick-xml (0.17.2-1) unstable; urgency=medium
+
+  [ Robin Krahl ]
+  * Package quick-xml 0.17.2 from crates.io using debcargo 2.4.2
+  * Exclude non-free XML files.
+  * Really exclude benchmark tests from packaging. Closes: #933520.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 25 Jan 2020 17:44:57 +0000
+
+rust-quick-xml (0.17.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.17.0 from crates.io using debcargo 2.4.0
+
+  [ Robin Krahl ]
+  * Package quick-xml 0.16.1 from crates.io using debcargo 2.4.0
+  * Exclude benchmark tests from packaging. Closes: #933520
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 04 Nov 2019 20:37:06 +0100
+
+rust-quick-xml (0.14.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-xml 0.14.0 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:11:33 +0200
+
+rust-quick-xml (0.14.0-1) unstable; urgency=medium
+
+  * Package quick-xml 0.14.0 from crates.io using debcargo 2.2.10
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Sat, 13 Jul 2019 22:14:26 +0200

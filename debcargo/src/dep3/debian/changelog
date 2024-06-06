@@ -1,0 +1,11 @@
+rust-dep3 (0.1.2-1) unstable; urgency=medium
+
+  * Package dep3 0.1.2 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 09 Mar 2024 14:44:10 +0000
+
+rust-dep3 (0.1.1-1) unstable; urgency=medium
+
+  * Package dep3 0.1.1 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 28 Nov 2023 21:10:25 +0000

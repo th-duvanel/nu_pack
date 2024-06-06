@@ -1,0 +1,14 @@
+rust-imagepipe (0.5.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package imagepipe 0.5.0 from crates.io using debcargo 2.6.1
+  * Bump serde-yaml to 0.9
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 May 2024 06:17:07 +0000
+
+rust-imagepipe (0.5.0-1) unstable; urgency=medium
+
+  * Package imagepipe 0.5.0 from crates.io using debcargo 2.6.0
+  * Initial release. (Closes: #1032068)
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Wed, 03 Apr 2024 12:41:12 -0400

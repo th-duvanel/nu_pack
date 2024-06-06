@@ -1,0 +1,69 @@
+rust-netlink-sys (0.8.5-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package netlink-sys 0.8.5 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 08 Feb 2024 19:57:03 +0000
+
+rust-netlink-sys (0.8.5-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package netlink-sys 0.8.5 from crates.io using debcargo 2.6.1
+  * Add patch for async-io 2.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 01 Feb 2024 18:23:12 +0000
+
+rust-netlink-sys (0.8.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package netlink-sys 0.8.5 from crates.io using debcargo 2.6.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Thu, 27 Jul 2023 09:33:53 -0400
+
+rust-netlink-sys (0.8.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package netlink-sys 0.8.3 from crates.io using debcargo 2.5.0
+  * Use != 0 rather than == 1 comparisions when interpreting getsockopt so that
+    socket::test::options passes on big endian systems.
+  * Skip test_event_loop on big endian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Nov 2022 03:24:04 +0000
+
+rust-netlink-sys (0.8.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package netlink-sys 0.8.3 from crates.io using debcargo 2.5.0
+  * Disable examples that rely on netlink-packet-audit, which is not referenced
+    by the Cargo.toml in the crates.io release and is not in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 31 Oct 2022 02:16:50 +0000
+
+rust-netlink-sys (0.8.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package netlink-sys 0.8.3 from crates.io using debcargo 2.5.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 25 Jun 2022 18:39:18 -0400
+
+rust-netlink-sys (0.8.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+  * Package netlink-sys 0.8.2 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sat, 04 Jun 2022 15:59:56 -0400
+
+rust-netlink-sys (0.8.2-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package netlink-sys 0.8.2 from crates.io using debcargo 2.5.0
+  * Add relax-deps.diff, to allow building against mio 0.8.
+
+ -- James McCoy <jamessan@debian.org>  Wed, 01 Jun 2022 21:27:06 -0400
+
+rust-netlink-sys (0.8.2-1) unstable; urgency=medium
+
+  * Package netlink-sys 0.8.2 from crates.io using debcargo 2.5.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 09 Apr 2022 14:53:52 +0100

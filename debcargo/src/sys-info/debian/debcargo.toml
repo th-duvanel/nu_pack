@@ -1,0 +1,20 @@
+overlay = "."
+uploaders = ["Daniele Tricoli <eriol@debian.org>"]
+
+excludes = [
+    "c/darwin.c",
+    "c/freebsd.c",
+    "c/netbsd.c",
+    "c/openbsd.c",
+    "c/test.c",
+    "c/windows.c",
+]
+
+whitelist = [
+    "c/linux.c"
+]
+
+[source]
+
+policy = "4.6.0"
+homepage = "https://crates.io/crates/sys-info"

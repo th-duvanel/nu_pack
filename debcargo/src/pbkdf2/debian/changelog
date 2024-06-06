@@ -1,0 +1,29 @@
+rust-pbkdf2 (0.12.2-1) unstable; urgency=medium
+
+  * Package pbkdf2 0.12.2 from crates.io using debcargo 2.6.0
+  * Update remove-streebog.patch for new upstream.
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package pbkdf2 0.12.1 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 31 Aug 2023 00:58:41 +0000
+
+rust-pbkdf2 (0.11.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pbkdf2 0.11.0 from crates.io using debcargo 2.6.0 (Closes: #974118, #1013139)
+  * Drop old Debian patches, no longer neeed
+  * Patch sha1 dependency to use sha1 crate rather than sha-1 crate.
+  * Set collapse_features = true
+  * Remove dev-dependency on streebog and disable tests that depend on
+    it so the rest of the testsuite can run.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 23 Dec 2022 00:49:55 +0000
+
+rust-pbkdf2 (0.3.0-1) unstable; urgency=medium
+
+  * Source upload
+  * Package pbkdf2 0.3.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 24 Dec 2019 17:05:32 +0000

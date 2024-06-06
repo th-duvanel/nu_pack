@@ -1,0 +1,87 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -44,13 +44,6 @@
+ version = "0.2.43"
+ optional = true
+ 
+-[build-dependencies.cc]
+-version = "1.0.18"
+-
+-[build-dependencies.cmake]
+-version = "0.1.44"
+-optional = true
+-
+ [build-dependencies.pkg-config]
+ version = "0.3.9"
+ 
+@@ -63,5 +56,4 @@
+     "libc",
+     "stock-zlib",
+ ]
+-static = []
+ stock-zlib = []
+--- a/build.rs
++++ b/build.rs
+@@ -10,17 +10,17 @@
+ 
+     let host_and_target_contain = |s| host.contains(s) && target.contains(s);
+ 
+-    let want_ng = false; cfg!(feature = "zlib-ng") && !cfg!(feature = "stock-zlib");
++    let want_ng = false; /*cfg!(feature = "zlib-ng") && !cfg!(feature = "stock-zlib");
+ 
+     if want_ng && target != "wasm32-unknown-unknown" {
+         return build_zlib_ng(&target, true);
+-    }
++    }*/
+ 
+     // Don't run pkg-config if we're linking statically (we'll build below) and
+     // also don't run pkg-config on FreeBSD/DragonFly. That'll end up printing
+     // `-L /usr/lib` which wreaks havoc with linking to an OpenSSL in /usr/local/lib
+     // (Ports, etc.)
+-    let want_static =
++    let want_static = false;
+         cfg!(feature = "static") || env::var("LIBZ_SYS_STATIC").unwrap_or(String::new()) == "1";
+     if !want_static &&
+        !target.contains("msvc") && // pkg-config just never works here
+@@ -42,11 +42,11 @@
+         }
+     }
+ 
+-    if target.contains("windows") {
++    /*if target.contains("windows") {
+         if try_vcpkg() {
+             return;
+         }
+-    }
++    }*/
+ 
+     // All android compilers should come with libz by default, so let's just use
+     // the one already there. Likewise, Haiku always ships with libz, so we can
+@@ -56,7 +56,7 @@
+         return;
+     }
+ 
+-    let mut cfg = cc::Build::new();
++    /*let mut cfg = cc::Build::new();
+ 
+     // Situations where we build unconditionally.
+     //
+@@ -87,10 +87,10 @@
+         return;
+     }
+ 
+-    build_zlib(&mut cfg, &target)
++    build_zlib(&mut cfg, &target)*/
+ }
+ 
+-fn build_zlib(cfg: &mut cc::Build, target: &str) {
++/*fn build_zlib(cfg: &mut cc::Build, target: &str) {
+     let dst = PathBuf::from(env::var_os("OUT_DIR").unwrap());
+     let lib = dst.join("lib");
+ 
+@@ -184,4 +184,4 @@
+     }
+ 
+     false
+-}
++}*/

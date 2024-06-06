@@ -1,0 +1,49 @@
+rust-synstructure (0.13.1-1) unstable; urgency=medium
+
+  * Package synstructure 0.13.1 from crates.io using debcargo 2.6.1
+
+  [ Jelmer Vernooĳ ]
+  * Team upload.
+  * Package synstructure 0.12.6 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 23 Apr 2024 22:39:18 +0200
+
+rust-synstructure (0.12.3-2) unstable; urgency=medium
+
+  * Package synstructure 0.12.3 from crates.io using debcargo 2.4.2
+  * Source-only reupload for transition to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 23 Jan 2020 20:36:14 +0100
+
+rust-synstructure (0.12.3-1) unstable; urgency=medium
+
+  * Package synstructure 0.12.3 from crates.io using debcargo 2.4.0
+  * Remove obsolete dependency version relax patch
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 26 Nov 2019 18:46:39 +0100
+
+rust-synstructure (0.11.0-2) unstable; urgency=medium
+
+  * Package synstructure 0.11.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 16 Aug 2019 16:04:21 -0700
+
+rust-synstructure (0.11.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package synstructure 0.11.0 from crates.io using debcargo 2.2.10
+
+ -- nicoo <nicoo@debian.org>  Wed, 14 Aug 2019 19:38:22 +0200
+
+rust-synstructure (0.10.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package synstructure 0.10.1 from crates.io using debcargo 2.2.8
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 14 Nov 2018 20:27:48 -0800
+
+rust-synstructure (0.9.0-1) unstable; urgency=medium
+
+  * Package synstructure 0.9.0 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 03 Aug 2018 06:43:07 -0700

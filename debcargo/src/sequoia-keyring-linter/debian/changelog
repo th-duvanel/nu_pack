@@ -1,0 +1,61 @@
+rust-sequoia-keyring-linter (1.0.1-2) unstable; urgency=medium
+
+  * Package sequoia-keyring-linter 1.0.1 from crates.io using debcargo 2.6.1
+
+  [ Alexander Kjäll ]
+  * Team upload.
+  * Package sequoia-keyring-linter 1.0.1 from crates.io using debcargo 2.6.1
+  * Improve formatting of man page (Closes: #987986)
+
+ -- Holger Levsen <holger@debian.org>  Sun, 21 Apr 2024 12:42:20 +0200
+
+rust-sequoia-keyring-linter (1.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sequoia-keyring-linter 1.0.1 from crates.io using debcargo 2.6.1
+  * Drop patch for rpassword 6, included in new upstream release.
+  * Bump rpassword dependency to 7
+  * Bump sequoia-openpgp dependency to 1.17 to avoid alignment bug in
+    sha1collisiondetection crate during test builds.
+  * Don't fail build due to deprecated functions.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 27 Nov 2023 22:39:17 +0000
+
+rust-sequoia-keyring-linter (1.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sequoia-keyring-linter 1.0.0 from crates.io using debcargo 2.6.0
+  * Apply upstream patch for rpassword 6.0 (Closes: #1030915).
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 11 Feb 2023 06:43:16 +0000
+
+rust-sequoia-keyring-linter (1.0.0-1) unstable; urgency=medium
+
+  * Package sequoia-keyring-linter 1.0.0 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 02 Nov 2022 11:35:43 -0400
+
+rust-sequoia-keyring-linter (0.5.0-1) unstable; urgency=medium
+
+  * Package sequoia-keyring-linter 0.5.0 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 18 Dec 2020 10:07:18 -0500
+
+rust-sequoia-keyring-linter (0.4.0-1) unstable; urgency=medium
+
+  * Package sequoia-keyring-linter 0.4.0 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 07 Dec 2020 20:19:14 -0500
+
+rust-sequoia-keyring-linter (0.1.0-2) unstable; urgency=medium
+
+  * Package sequoia-keyring-linter 0.1.0 from crates.io using debcargo 2.4.3
+  * ship manpage
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 30 Oct 2020 20:18:29 -0400
+
+rust-sequoia-keyring-linter (0.1.0-1) unstable; urgency=medium
+
+  * Package sequoia-keyring-linter 0.1.0 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 29 Oct 2020 16:19:48 -0400

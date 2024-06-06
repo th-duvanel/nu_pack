@@ -1,0 +1,5 @@
+rust-etcetera (0.8.0-1) unstable; urgency=medium
+
+  * Package etcetera 0.8.0 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 15 Jul 2023 21:13:59 +0100

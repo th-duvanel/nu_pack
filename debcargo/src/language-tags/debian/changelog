@@ -1,0 +1,21 @@
+rust-language-tags (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package language-tags 0.3.2 from crates.io using debcargo 2.5.0 (Closes: #1013105)
+  * Drop heapsize patch, no longer needed.
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 21 Jun 2022 10:47:12 +0000
+
+rust-language-tags (0.2.2-2) unstable; urgency=medium
+
+  * Package language-tags 0.2.2 from crates.io using debcargo 2.2.9
+  * Patch out the unused and non-compiling heapsize feature
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 04 Dec 2018 06:08:30 +0100
+
+rust-language-tags (0.2.2-1) unstable; urgency=medium
+
+  * Package language-tags 0.2.2 from crates.io using debcargo 2.2.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 15 Jul 2018 22:30:42 -0700

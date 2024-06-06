@@ -1,0 +1,104 @@
+rust-rayon-core (1.12.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon-core 1.12.1 from crates.io using debcargo 2.6.1
+  * Update use-crossbeam-channel-for-broadcast-tests.patch for new upstream.
+  * Remove "optional" (in the cargo sense) dependency on web_sync crate
+    and disable web_spin_lock feature that depends on it. rust-web-sync is
+    not in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 28 Jan 2024 19:25:12 +0000
+
+rust-rayon-core (1.12.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon-core 1.12.0 from crates.io using debcargo 2.6.1
+  * Switch from num_cpus::get() > 8 to  std::thread::available_parallelism()
+    in constrain-thread-count.patch following upstream change. This should
+    fix build failure of tests on 32-bit architectures.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 09 Dec 2023 13:41:03 +0000
+
+rust-rayon-core (1.12.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon-core 1.12.0 from crates.io using debcargo 2.6.1
+  * Add patch to make test compatible with rustc 1.70.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 28 Nov 2023 18:52:28 +0000
+
+rust-rayon-core (1.11.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon-core 1.11.0 from crates.io using debcargo 2.6.0
+  * Update constrain-thread-count.patch for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 29 Jul 2023 03:52:08 +0000
+
+rust-rayon-core (1.10.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon-core 1.10.1 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 14 Dec 2022 00:47:04 +0000
+
+rust-rayon-core (1.9.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon-core 1.9.3 from crates.io using debcargo 2.5.0
+  * Constrain thread pool size in stack_overflow_test.rs and improve error
+    reporting. Hopefully this fixes the autopkgtest failure on armhf or
+    at least helps debugging it.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 24 May 2022 04:22:23 +0000
+
+rust-rayon-core (1.9.3-1) unstable; urgency=medium
+
+  * Package rayon-core 1.9.3 from crates.io using debcargo 2.5.0
+  * add myself to uploaders
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 21 May 2022 16:09:04 -0400
+
+rust-rayon-core (1.8.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon-core 1.8.1 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 02 Jan 2022 11:07:20 +0000
+
+rust-rayon-core (1.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon-core 1.7.0 from crates.io using debcargo 2.4.2
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 13 Apr 2020 21:03:22 +0000
+
+rust-rayon-core (1.6.0-1) unstable; urgency=medium
+
+  * Package rayon-core 1.6.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 28 Sep 2019 11:09:15 +0200
+
+rust-rayon-core (1.5.0-2) unstable; urgency=medium
+
+  * Package rayon-core 1.5.0 from crates.io using debcargo 2.3.1-alpha.0
+
+  [ kpcyrd ]
+  * Update the package to build with more recent version of crossbeam-deque
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 17 Jul 2019 06:03:14 +0200
+
+rust-rayon-core (1.5.0-1) unstable; urgency=medium
+
+  * Package rayon-core 1.5.0 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Jul 2019 09:56:18 +0200
+
+rust-rayon-core (1.4.1-1) unstable; urgency=medium
+
+  * Package rayon-core 1.4.1 from crates.io using debcargo 2.2.7
+
+  [ Wolfgang Silbermayr ]
+  * Package rayon-core 1.4.1 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Sat, 22 Sep 2018 18:13:49 +0200

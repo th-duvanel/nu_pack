@@ -1,0 +1,64 @@
+rust-phf-generator (0.11.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package phf_generator 0.11.2 from crates.io using debcargo 2.6.0
+  * Update copyright file.
+  * Fix building with the criterion feature.
+  * Set collapse_features = true.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 25 Jul 2023 22:46:55 +0000
+
+rust-phf-generator (0.10.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package phf_generator 0.10.0 from crates.io using debcargo 2.5.0
+  * Upload to unstable
+
+ -- James McCoy <jamessan@debian.org>  Sat, 05 Mar 2022 16:12:17 -0500
+
+rust-phf-generator (0.10.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package phf_generator 0.10.0 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Wed, 23 Feb 2022 20:07:37 -0500
+
+rust-phf-generator (0.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package phf_generator 0.8.0 from crates.io using debcargo 2.4.4
+  * Bump rand dependency to 0.8
+  * Remove dev-dependency on criterion and disable bench that uses
+    criterion so the autopkgtest can run.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 11:11:25 +0000
+
+rust-phf-generator (0.8.0-1) unstable; urgency=medium
+
+  * Package phf_generator 0.8.0 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Wed, 18 Dec 2019 14:18:19 +0100
+
+rust-phf-generator (0.7.24-2) unstable; urgency=medium
+
+  * Patch rand dependency to 0.7
+
+ -- kpcyrd <git@rxv.cc>  Sat, 07 Sep 2019 13:44:06 +0200
+
+rust-phf-generator (0.7.24-1) unstable; urgency=medium
+
+  * Package phf_generator 0.7.24 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Sun, 04 Aug 2019 02:10:09 +0200
+
+rust-phf-generator (0.7.23-1) unstable; urgency=medium
+
+  * Package phf_generator 0.7.23 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Tue, 11 Sep 2018 14:56:53 +0200
+
+rust-phf-generator (0.7.22-1) unstable; urgency=medium
+
+  * Package phf_generator 0.7.22 from crates.io using debcargo 2.2.5
+
+ -- kpcyrd <git@rxv.cc>  Sun, 26 Aug 2018 15:22:48 +0200

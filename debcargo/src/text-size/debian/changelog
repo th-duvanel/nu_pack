@@ -1,0 +1,11 @@
+rust-text-size (1.1.1-1) unstable; urgency=medium
+
+  * Package text-size 1.1.1 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 23 Sep 2023 01:53:54 +0100
+
+rust-text-size (1.1.0-1) unstable; urgency=medium
+
+  * Package text-size 1.1.0 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 01 Jun 2023 17:05:45 +0100

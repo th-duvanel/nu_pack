@@ -1,0 +1,21 @@
+rust-dlib (0.5.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package dlib 0.5.2 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Wed, 27 Dec 2023 12:48:35 -0500
+
+rust-dlib (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package dlib 0.5.0 from crates.io using debcargo 2.5.0
+  * Disable tests since they rely on a separate dlib-test crate and the
+    doctests fail.
+
+ -- James McCoy <jamessan@debian.org>  Sun, 19 Dec 2021 06:16:54 -0500
+
+rust-dlib (0.4.2-1) unstable; urgency=medium
+
+  * Package dlib 0.4.2 from crates.io using debcargo 2.4.3
+
+ -- Fabio Rafael da Rosa <fdr@fabiodarosa.org>  Sat, 31 Oct 2020 22:45:18 +0100

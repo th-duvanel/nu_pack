@@ -1,0 +1,8 @@
+overlay = "."
+uploaders = ["Sylvestre Ledru <sylvestre@debian.org>"]
+
+whitelist = ["**/*.c"]
+
+[packages.lib]
+test_depends = ["g++"]
+

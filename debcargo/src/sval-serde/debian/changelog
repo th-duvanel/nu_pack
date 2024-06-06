@@ -1,0 +1,9 @@
+rust-sval-serde (2.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sval_serde 2.6.1 from crates.io using debcargo 2.6.0
+
+  [ Fabian Grünbichler ]
+  * Package sval_serde 2.6.1 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 22 Aug 2023 17:08:59 +0000

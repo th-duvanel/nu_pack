@@ -1,0 +1,177 @@
+rust-cargo (0.70.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.70.1 from crates.io using debcargo 2.6.1
+  * Relax indexmap dependency.
+
+  [ Zixing Liu ]
+
+  * Update opener to 0.6.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 11:16:00 +0000
+
+rust-cargo (0.70.1-2) unstable; urgency=medium
+
+  * Package cargo 0.70.1 from crates.io using debcargo 2.6.1
+  * Relax dependencies on itertools, toml and toml_edit.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 30 Jan 2024 16:16:58 +0000
+
+rust-cargo (0.70.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.70.1 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Fri, 15 Dec 2023 11:41:09 +0100
+
+rust-cargo (0.66.0-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.66.0 from crates.io using debcargo 2.6.1
+  * Bump dependencies on libgit2-sys and git2.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 03 Dec 2023 16:06:33 +0000
+
+rust-cargo (0.66.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.66.0 from crates.io using debcargo 2.6.0
+  * Add upstream patch for toml-edit 0.19.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 26 Aug 2023 15:26:57 +0000
+
+rust-cargo (0.66.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.66.0 from crates.io using debcargo 2.6.0
+  * Bump dependency on pretty_env_logger to 0.5.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 10 Aug 2023 23:50:23 +0000
+
+rust-cargo (0.66.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.66.0 from crates.io using debcargo 2.6.0
+  * Include patch for env-logger 0.10
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 10 Aug 2023 17:43:03 +0200
+
+rust-cargo (0.66.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * bump base64 dep to 0.21
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Mon, 12 Jun 2023 01:00:57 +0000
+
+rust-cargo (0.66.0-1) unstable; urgency=medium
+
+  * Package cargo 0.66.0 from crates.io using debcargo 2.6.0
+  * Backport upstream patches to fix CVE-2022-46176 and update
+    git2 dependencies.
+
+  [ Fabian Gruenbichler ]
+  * Team upload.
+  * Package cargo 0.66.0 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 12 Jan 2023 16:31:37 +0000
+
+rust-cargo (0.63.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.63.1 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Wed, 16 Nov 2022 09:52:25 +0100
+
+rust-cargo (0.63.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.63.1 from crates.io using debcargo 2.5.0
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Tue, 27 Sep 2022 20:58:56 -0400
+
+rust-cargo (0.57.0-1) unstable; urgency=medium
+
+  * Package cargo 0.57.0 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 20:38:40 +0100
+
+rust-cargo (0.43.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.43.1 from crates.io using debcargo 2.4.3
+  * Bump dependency on flate2 to ease buster->bullseye upgrades
+    (Closes: #990436).
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 29 Jun 2021 15:59:14 +0000
+
+rust-cargo (0.43.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.43.1 from crates.io using debcargo 2.4.3
+  * Bump dependencies on git2, git2-curl and libgit2-sys,
+    the old versions are broken with the new libgit2 that was
+    recently uploaded to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 07 Dec 2020 05:19:36 +0000
+
+rust-cargo (0.43.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.43.1 from crates.io using debcargo 2.4.3
+  * Relax dependency on core-foundation
+  * Mark autopkgtest as broken, it has never passed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 06 Dec 2020 01:10:49 +0000
+
+rust-cargo (0.43.1-1) unstable; urgency=medium
+
+  * Package cargo 0.43.1 from crates.io using debcargo 2.4.2
+  * Closes: #955638
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 18 Apr 2020 16:14:45 +0100
+
+rust-cargo (0.41.0-2) unstable; urgency=medium
+
+  * Package cargo 0.41.0 from crates.io using debcargo 2.4.0
+  * Skip tests due to missing files from parent workspace.
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Dec 2019 04:13:38 +0000
+
+rust-cargo (0.41.0-1) unstable; urgency=medium
+
+  * Package cargo 0.41.0 from crates.io using debcargo 2.4.0
+  * Closes: #946415
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Dec 2019 01:18:37 +0000
+
+rust-cargo (0.37.0-1) unstable; urgency=medium
+
+  * Package cargo 0.37.0 from crates.io using debcargo 2.4.0
+  * Upgrade to url 2.
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 15 Aug 2019 19:06:15 -0700
+
+rust-cargo (0.35.0-1) unstable; urgency=medium
+
+  * Package cargo 0.35.0 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 30 May 2019 22:10:23 -0700
+
+rust-cargo (0.32.0-2) unstable; urgency=medium
+
+  * Package cargo 0.32.0 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 18 Dec 2018 17:31:33 -0800
+
+rust-cargo (0.32.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo 0.32.0 from crates.io using debcargo 2.2.9
+
+ -- Matt Kraai <kraai@debian.org>  Sat, 15 Dec 2018 22:13:00 -0800
+
+rust-cargo (0.31.0-1) unstable; urgency=medium
+
+  * Package cargo 0.31.0 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 14 Nov 2018 20:47:03 -0800

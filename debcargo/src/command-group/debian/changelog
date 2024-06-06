@@ -1,0 +1,13 @@
+rust-command-group (2.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package command-group 2.1.0 from crates.io using debcargo 2.6.1
+  * Add upstream patch for nix 0.27.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 14:50:14 +0000
+
+rust-command-group (2.1.0-1) unstable; urgency=medium
+
+  * Package command-group 2.1.0 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 20 Sep 2023 01:30:28 +0100

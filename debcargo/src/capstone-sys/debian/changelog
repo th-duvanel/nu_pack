@@ -1,0 +1,34 @@
+rust-capstone-sys (0.15.0-2) unstable; urgency=medium
+
+  * Package capstone-sys 0.15.0 from crates.io using debcargo 2.6.0
+
+  [ Matthias Geiger ]
+  * Team upload.
+  * Package capstone-sys 0.15.0 from crates.io using debcargo 2.6.0
+  * Updated patch for newer bindgen.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Sep 2023 23:28:17 +0000
+
+rust-capstone-sys (0.15.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package capstone-sys 0.15.0 from crates.io using debcargo 2.5.0
+  * Remove overridden control files.
+  * Clean up a stray file in clean target.
+  * Set collapse_features = true
+  * Relax dependency on bindgen.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 20 Aug 2022 21:00:07 +0000
+
+rust-capstone-sys (0.11.0-2) unstable; urgency=medium
+
+  * Package capstone-sys 0.11.0 from crates.io using debcargo 2.4.4
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Thu, 07 Oct 2021 11:56:22 +0200
+
+rust-capstone-sys (0.11.0-1) unstable; urgency=medium
+
+  * Package capstone-sys 0.11.0 from crates.io using debcargo 2.4.4
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Wed, 06 Oct 2021 14:21:48 +0200

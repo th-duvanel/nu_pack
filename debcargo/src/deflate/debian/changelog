@@ -1,0 +1,47 @@
+rust-deflate (1.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package deflate 1.0.0 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Sat, 08 Oct 2022 11:30:57 +0200
+
+rust-deflate (0.8.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package deflate 0.8.6 from crates.io using debcargo 2.5.0
+  * Set collapse_features = true
+  * Relax dev-dependency on miniz-oxide.
+  * Add dev-dependency needed for bench.
+  * Fix tests that depend on missing test data by using a source file as
+    test data instead.
+  * Fix tests when the "benchmarks" feature is enabled.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Apr 2022 03:43:21 +0000
+
+rust-deflate (0.8.6-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package deflate 0.8.6 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 26 Nov 2020 13:12:50 +0100
+
+rust-deflate (0.7.20-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package deflate 0.7.20 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 26 Nov 2020 12:22:57 +0100
+
+rust-deflate (0.7.19-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package deflate 0.7.19 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:24:29 +0200
+
+rust-deflate (0.7.19-1) unstable; urgency=medium
+
+  * Package deflate 0.7.19 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Mon, 22 Apr 2019 10:34:24 +0200

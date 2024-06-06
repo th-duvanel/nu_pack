@@ -1,0 +1,13 @@
+Index: ntp-proto/Cargo.toml
+===================================================================
+--- ntp-proto.orig/Cargo.toml
++++ ntp-proto/Cargo.toml
+@@ -32,7 +32,7 @@ version = "1.0"
+ optional = true
+ 
+ [dependencies.md-5]
+-version = "0.10.0"
++version = "0.10"
+ 
+ [dependencies.rand]
+ version = "0.8.0"

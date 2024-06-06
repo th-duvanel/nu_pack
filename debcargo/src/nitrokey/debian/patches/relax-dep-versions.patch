@@ -1,0 +1,7 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -36,3 +36,3 @@
+ [dependencies.rand_core]
+-version = "0.5.1"
++version = "0.6"
+ features = ["getrandom"]

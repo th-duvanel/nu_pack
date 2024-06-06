@@ -1,0 +1,5 @@
+rust-cache-padded (1.1.1-1) unstable; urgency=medium
+
+  * Package cache-padded 1.1.1 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 19 Dec 2021 19:25:50 +0100

@@ -1,0 +1,26 @@
+overlay = "."
+collapse_features = true
+uploaders = [
+    "Alexander Kjäll <alexander.kjall@gmail.com>",
+    "Daniel Kahn Gillmor <dkg@fifthhorseman.net>",
+    "Holger Levsen <holger@debian.org>"
+]
+bin_name = "sqop"
+summary = "Stateless OpenPGP Command Line Interface using Sequoia"
+
+description = """
+sqop offers a Rust-based implementation of the Stateless OpenPGP
+Command Line Interface.
+
+This standards-derived interface is an implementation of
+https://datatracker.ietf.org/doc/draft-dkg-openpgp-stateless-cli/,
+intended to be used in interoperability tests and simple OpenPGP
+commands, while leaving no trace in the filesystem.
+"""
+
+[source]
+section = "utils"
+build_depends = ["bash-completion"]
+
+[packages.bin]
+section = "utils"

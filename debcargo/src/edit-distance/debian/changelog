@@ -1,0 +1,6 @@
+rust-edit-distance (2.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package edit-distance 2.1.0 from crates.io using debcargo 2.2.10
+
+ -- Niklas Claesson <nicke.claesson@gmail.com>  Thu, 06 Jul 2023 00:09:06 +0200

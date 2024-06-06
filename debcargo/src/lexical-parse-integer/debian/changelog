@@ -1,0 +1,5 @@
+rust-lexical-parse-integer (0.8.6-1) unstable; urgency=medium
+
+  * Package lexical-parse-integer 0.8.6 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 02 Sep 2023 15:45:52 +0100

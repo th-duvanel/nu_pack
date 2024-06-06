@@ -1,0 +1,63 @@
+rust-wayland-client (0.31.2-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package wayland-client 0.31.2 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 07 Apr 2024 03:59:09 +0000
+
+rust-wayland-client (0.31.1-1) experimental; urgency=medium
+
+  * Package wayland-client 0.31.1 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Thu, 28 Dec 2023 08:43:19 -0500
+
+rust-wayland-client (0.30.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-client 0.30.2 from crates.io using debcargo 2.6.0
+  * Exclude examples to run autopkgtest
+  * Rebase patch
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 05 Jul 2023 21:47:56 +0200
+
+rust-wayland-client (0.30.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-client 0.30.1 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 04 Jul 2023 20:53:36 +0200
+
+rust-wayland-client (0.30.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package wayland-client 0.30.1 from crates.io using debcargo 2.6.0
+  * Updated patchset
+  * Collapsed features in debcargo.toml
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 25 May 2023 10:18:55 +0200
+
+rust-wayland-client (0.29.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-client 0.29.4 from crates.io using debcargo 2.5.0
+  * Be less restrictive about versions of the nix crate, this has the potential
+    for future breakage but overall is likely to be less work than continuously
+    bumping the dependencies.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 10 Jun 2022 01:19:25 +0000
+
+rust-wayland-client (0.29.4-1) unstable; urgency=medium
+
+  * Package wayland-client 0.29.4 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sun, 10 Apr 2022 10:43:11 -0400
+
+rust-wayland-client (0.29.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-client 0.29.1 from crates.io using debcargo 2.5.0
+
+  [ James McCoy ]
+  * Package wayland-client 0.29.0 from crates.io using debcargo 2.4.4
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Wed, 23 Feb 2022 20:20:49 -0500

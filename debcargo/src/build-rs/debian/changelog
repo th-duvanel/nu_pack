@@ -1,0 +1,5 @@
+rust-build-rs (0.1.2-1) unstable; urgency=medium
+
+  * Package build-rs 0.1.2 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 22 Jun 2023 15:04:00 +0300

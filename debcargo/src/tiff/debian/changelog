@@ -1,0 +1,62 @@
+rust-tiff (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tiff 0.9.0 from crates.io using debcargo 2.6.0
+  * Rewrote disable-criterion.diff to disable-benches.diff
+  * Rebased skip-test-missing-data patch to skip all failing tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Sep 2023 20:44:44 +0200
+
+rust-tiff (0.7.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tiff 0.7.3 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Tue, 18 Oct 2022 17:31:58 +0000
+
+rust-tiff (0.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tiff 0.6.1 from crates.io using debcargo 2.5.0
+  * Drop relax-dep.diff, no longer needed.
+  * Disable bench that depends on criterion
+  * Disable tests which depend on test data that is not included in the
+    crates.io release.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 18 Apr 2022 22:48:01 +0000
+
+rust-tiff (0.5.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tiff 0.5.0 from crates.io using debcargo 2.4.4
+  * Relax dependency on miniz-oxide.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 22 Oct 2021 12:17:56 +0000
+
+rust-tiff (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tiff 0.5.0 from crates.io using debcargo 2.4.3
+    (Closes: #945857)
+  * Don't run the tests are they are now shipping with the upstream package
+    https://github.com/image-rs/image-tiff/blob/master/Cargo.toml#L17
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 04 Oct 2020 18:47:26 +0200
+
+rust-tiff (0.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tiff 0.3.1 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:18:51 +0200
+
+rust-tiff (0.3.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tiff 0.3.1 from crates.io using debcargo 2.2.10
+
+  [ kpcyrd ]
+  * Package tiff 0.3.0 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 20 Jun 2019 16:54:46 -0700

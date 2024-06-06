@@ -1,0 +1,27 @@
+rust-md5 (0.7.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package md5 0.7.0 from crates.io using debcargo 2.4.2
+  * Mark test as broken, it seems that the autopkgtest
+    fails without the default features enabled.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 15 Apr 2020 09:16:06 +0000
+
+rust-md5 (0.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package md5 0.7.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 29 Dec 2019 11:46:22 +0100
+
+rust-md5 (0.6.1-1) unstable; urgency=medium
+
+  * Package md5 0.6.1 from crates.io using debcargo 2.4.0 (Closes: #935911)
+
+ -- kpcyrd <git@rxv.cc>  Sun, 08 Sep 2019 05:20:16 +0200
+
+rust-md5 (0.3.8-1) unstable; urgency=medium
+
+  * Package md5 0.3.8 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Sun, 26 Aug 2018 10:57:13 +0200

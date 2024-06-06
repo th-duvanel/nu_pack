@@ -1,0 +1,27 @@
+rust-enum-primitive-derive (0.2.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package enum-primitive-derive 0.2.2 from crates.io using debcargo 2.5.0
+  * Upload to unstable
+
+ -- James McCoy <jamessan@debian.org>  Sat, 05 Mar 2022 16:10:39 -0500
+
+rust-enum-primitive-derive (0.2.2-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package enum-primitive-derive 0.2.2 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Tue, 22 Feb 2022 21:53:21 -0500
+
+rust-enum-primitive-derive (0.1.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package enum-primitive-derive 0.1.2 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:06:05 +0200
+
+rust-enum-primitive-derive (0.1.2-1) unstable; urgency=medium
+
+  * Package enum-primitive-derive 0.1.2 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Mon, 23 Dec 2019 02:25:40 +0000

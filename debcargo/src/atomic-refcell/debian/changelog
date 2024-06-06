@@ -1,0 +1,19 @@
+rust-atomic-refcell (0.1.13-1) unstable; urgency=medium
+
+  * Package atomic_refcell 0.1.13 from crates.io using debcargo 2.6.1
+  * Updated my mail address
+  * Collapsed features in debcargo.toml
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 10 Jan 2024 00:23:50 +0100
+
+rust-atomic-refcell (0.1.10-1) unstable; urgency=medium
+
+  * Package atomic_refcell 0.1.10 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 13 Jun 2023 15:27:03 +0200
+
+rust-atomic-refcell (0.1.9-1) experimental; urgency=medium
+
+  * Package atomic_refcell 0.1.9 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 24 May 2023 08:10:34 -0400

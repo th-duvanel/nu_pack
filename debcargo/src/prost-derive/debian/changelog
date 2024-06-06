@@ -1,0 +1,33 @@
+rust-prost-derive (0.12.4-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package prost-derive 0.12.4 from crates.io using debcargo 2.6.1
+
+ -- Reinhard Tartler <siretart@tauware.de>  Wed, 17 Apr 2024 06:45:13 -0400
+
+rust-prost-derive (0.11.9-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package prost-derive 0.11.9 from crates.io using debcargo 2.6.1
+  * Upgrade itertools to 0.12.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 30 Mar 2024 23:16:07 -0400
+
+rust-prost-derive (0.11.9-1) unstable; urgency=medium
+
+  * Package prost-derive 0.11.9 from crates.io using debcargo 2.6.0.
+
+ -- Emanuele Rocca <ema@debian.org>  Mon, 31 Jul 2023 16:10:37 +0200
+
+rust-prost-derive (0.11.6-2) unstable; urgency=medium
+
+  * Package prost-derive 0.11.6 from crates.io using debcargo 2.6.0
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Emanuele Rocca <ema@debian.org>  Mon, 23 Jan 2023 17:37:42 +0100
+
+rust-prost-derive (0.11.6-1) unstable; urgency=medium
+
+  * Package prost-derive 0.11.6 from crates.io using debcargo 2.6.0
+
+ -- Emanuele Rocca <ema@debian.org>  Tue, 17 Jan 2023 16:55:57 +0100

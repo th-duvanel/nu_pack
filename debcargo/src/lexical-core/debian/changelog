@@ -1,0 +1,76 @@
+rust-lexical-core (0.7.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package lexical-core 0.7.6 from crates.io using debcargo 2.6.0
+  * Bump dtoa dependency to 1.0 and rewrite a couple of functions that depend
+    on a removed function in dtoa.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 07 Aug 2023 01:32:23 +0000
+
+rust-lexical-core (0.7.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package lexical-core 0.7.6 from crates.io using debcargo 2.5.0 (Closes: 1013116)
+  * Update patches for new upstream.
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 24 Jun 2022 00:02:43 +0000
+
+rust-lexical-core (0.4.8-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package lexical-core 0.4.8 from crates.io using debcargo 2.5.0
+  * Relax dev-dependency on approx.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 29 Jan 2022 09:56:47 +0000
+
+rust-lexical-core (0.4.8-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package lexical-core 0.4.8 from crates.io using debcargo 2.5.0
+  * Switch back to using stackvector for the "correct" feature,
+    we don't have a suitable version of arrayvec in Debian anymore
+    and nothing actually seems to use the "correct" feature anyway.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 19 Dec 2021 03:34:05 +0000
+
+rust-lexical-core (0.4.8-3) unstable; urgency=medium
+
+  * Team upload.
+  * d/patches: added patch relax-deps.patch
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 22:35:10 +0100
+
+rust-lexical-core (0.4.8-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package lexical-core 0.4.8 from crates.io using debcargo 2.4.4
+  * Mark all features test as broken, enabling multiple backends
+    at the same time is not supported.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 30 Oct 2021 18:51:47 +0000
+
+rust-lexical-core (0.4.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package lexical-core 0.4.8 from crates.io using debcargo 2.4.4
+    + Fixes build with newer rustc ( Closes: 995915 )
+  * Reduce context for Cargo.toml in upgrade-static_assertions-to-1.patch so it
+    applies to the new upstream source without fuzz.
+  * Relax dependency on arrayvec.
+  * Disable proptest, quickcheck and property-tests features.
+  * Don't mark arrayvec as optional to avoid introducing a new binary package.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 14 Oct 2021 14:55:30 +0000
+
+rust-lexical-core (0.4.3-2) unstable; urgency=medium
+
+  * Upgraded dependency static_assertions to version 1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 26 Sep 2020 11:34:16 +0200
+
+rust-lexical-core (0.4.3-1) unstable; urgency=medium
+
+  * Package lexical-core 0.4.3 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Tue, 13 Aug 2019 13:23:49 +0200

@@ -1,0 +1,5 @@
+rust-unzip (0.1.0-1) unstable; urgency=medium
+
+  * Package unzip 0.1.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 03 Mar 2024 18:58:14 +0100

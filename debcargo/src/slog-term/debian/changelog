@@ -1,0 +1,14 @@
+rust-slog-term (2.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package slog-term 2.9.0 from crates.io using debcargo 2.6.1
+  * Stop patching "term" dependency, Debian is now in sync with upstream.
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 01 Jan 2024 21:54:18 +0000
+
+rust-slog-term (2.6.0-1) unstable; urgency=medium
+
+  * Package slog-term 2.6.0 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 04 Nov 2020 11:25:13 +0100

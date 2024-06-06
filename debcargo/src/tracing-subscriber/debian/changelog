@@ -1,0 +1,81 @@
+rust-tracing-subscriber (0.3.18-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-subscriber 0.3.18 from crates.io using debcargo 2.6.1
+  * Relax the nu-ansi-term dep (Closes: #1069782)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 24 Apr 2024 19:25:10 +0200
+
+rust-tracing-subscriber (0.3.18-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-subscriber 0.3.18 from crates.io using debcargo 2.6.1
+  * Bump nu-ansi-term to 0.49.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 07 Jan 2024 03:54:29 +0000
+
+rust-tracing-subscriber (0.3.18-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-subscriber 0.3.18 from crates.io using debcargo 2.6.1
+  * Drop drop-valuable.diff, debian now has valuable.
+  * Update remaining patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 06 Dec 2023 01:21:48 +0000
+
+rust-tracing-subscriber (0.3.17-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-subscriber 0.3.17 from crates.io using debcargo 2.6.0
+  * Drop matchers dependency and env-filter feature for now, they can be
+    restored when bug #1053420 is fixed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 03 Oct 2023 19:26:29 +0000
+
+rust-tracing-subscriber (0.3.17-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-subscriber 0.3.17 from crates.io using debcargo 2.6.0 (Closes: #1041957)
+  * Drop revert-switch-to-nu-ansi-term.diff, nu-ansi-term is now in Debian.
+  * Update remaining patches for new upstream.
+  * Bump dependency on nu-ansi-term to 0.48.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 31 Jul 2023 02:49:53 +0000
+
+rust-tracing-subscriber (0.3.16-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-subscriber 0.3.16 from crates.io using debcargo 2.6.0
+  * Skip reload_filter test on arm32, it appears to be flaky there.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 10 Feb 2023 01:07:16 +0000
+
+rust-tracing-subscriber (0.3.16-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-subscriber 0.3.16 from crates.io using debcargo 2.6.0 (Closes: #1022238)
+  * Revert upstream switch from ansi_term to nu-ansi-term since nu-ansi-term is
+    not in Debian.
+  * Diable tests which depend on tracing-mock which is not in Debian or even on
+    crates.io so the rest of the tests can run.
+  * Change expected paths in some tests to match the results we get (presumablly
+    the paths have changed because we are not testing as part of a larger
+    workspace).
+  * Mark tests and benches with feature requirements.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Dec 2022 05:00:21 +0000
+
+rust-tracing-subscriber (0.3.11-2) unstable; urgency=medium
+
+  * Drop the valuable feature since rust-valuable-serde is
+    stuck in NEW for the moment.  Closes: #1022233.
+
+ -- John Goerzen <jgoerzen@complete.org>  Fri, 28 Oct 2022 12:05:12 +0000
+
+rust-tracing-subscriber (0.3.11-1) unstable; urgency=medium
+
+  * Package tracing-subscriber 0.3.11 from crates.io using debcargo 2.5.0
+  * This package is needed for packaging Filespooler; covered by
+    ITP #1013290 (no ITP for this library per Rust packaging policy)
+
+ -- John Goerzen <jgoerzen@complete.org>  Thu, 22 Sep 2022 12:21:50 +0000

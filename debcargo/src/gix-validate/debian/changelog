@@ -1,0 +1,5 @@
+rust-gix-validate (0.8.0-1) unstable; urgency=medium
+
+  * Package gix-validate 0.8.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 21 Sep 2023 22:39:48 +0200

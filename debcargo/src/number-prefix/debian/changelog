@@ -1,0 +1,17 @@
+rust-number-prefix (0.4.0-1) unstable; urgency=medium
+
+  * Package number_prefix 0.4.0 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 22 Dec 2020 13:08:03 +0100
+
+rust-number-prefix (0.3.0-1) unstable; urgency=medium
+
+  * Package number_prefix 0.3.0 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 16 Oct 2019 13:54:33 +0200
+
+rust-number-prefix (0.2.8-1) unstable; urgency=medium
+
+  * Package number_prefix 0.2.8 from crates.io using debcargo 2.1.4
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 07 Jul 2018 21:58:24 +0200

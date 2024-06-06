@@ -1,0 +1,9 @@
+--- a/build.rs
++++ b/build.rs
+@@ -104,4 +104,6 @@
+     }
+ 
+     cfg.compile("libpsm_s.a");
++
++    println!("dh-cargo:deb-built-using=psm_s=0={}", std::env::var("CARGO_MANIFEST_DIR").unwrap());
+ }

@@ -1,0 +1,136 @@
+rust-rav1e (0.7.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rav1e 0.7.1 from crates.io using debcargo 2.6.1
+  * Bump librust-ivf-dev dependencies to (>= 0.1.3) to help Ubuntu's
+    autopkgtest scheduler.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 17 Feb 2024 07:23:49 +0000
+
+rust-rav1e (0.7.1-1) unstable; urgency=medium
+
+  * Package rav1e 0.7.1 from crates.io using debcargo 2.6.1
+  * debian/patches: Refresh for 0.7.1
+    - Remove profiling feature
+  * debian/control: Define Static-Built-Using for rav1e
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 09 Feb 2024 17:36:19 +0100
+
+rust-rav1e (0.6.6-7) unstable; urgency=medium
+
+  * Team upload.
+  * Package rav1e 0.6.6 from crates.io using debcargo 2.6.1
+  * Really upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 18 Jan 2024 19:09:52 +0000
+
+rust-rav1e (0.6.6-6) experimental; urgency=medium
+
+  * Team upload.
+  * Package rav1e 0.6.6 from crates.io using debcargo 2.6.1
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 18 Jan 2024 18:53:52 +0000
+
+rust-rav1e (0.6.6-5) experimental; urgency=medium
+
+  * Package rav1e 0.6.6 from crates.io using debcargo 2.6.1
+  * Relax itertools dependency to ">= 0.10, < 1.0"
+  * Relax toml dependency to ">= 0.7, < 1.0"
+  * Add build-dependency for the toml crate, it looks like cargo cbuild
+    needs it to be present, even though it isn't used by the default features.
+    (Closes: #1060927)
+
+  [ Alexander Kjäll ]
+  * Team upload.
+  * Package rav1e 0.6.6 from crates.io using debcargo 2.6.1
+  * Upgrade toml to 0.7
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 18 Jan 2024 13:32:59 +0000
+
+rust-rav1e (0.6.6-4) unstable; urgency=medium
+
+  * Package rav1e 0.6.6 from crates.io using debcargo 2.6.1
+
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package rav1e 0.6.6 from crates.io using debcargo 2.6.0
+  * Add +default to quickcheck build-dependency.
+    + This doesn't matter in Debian right now, because currently quickcheck
+      is built with collapsed features, but it's more correct and it did cause
+      a build failure in raspbian.
+
+  [ James McCoy ]
+  * Relax assert_cmd dev-dependency to 2.0
+  * Add Cargo.lock to debian/clean. (Closes: #1046755)
+  * Fix paths for src/x86/filmgrain*.asm in debian/copyright
+
+ -- James McCoy <jamessan@debian.org>  Thu, 23 Nov 2023 13:15:09 -0500
+
+rust-rav1e (0.6.6-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package rav1e 0.6.6 from crates.io using debcargo 2.6.0
+  * Remove dependency on clap_lex, upstream added it merely so they could
+    pin it's version for msrv reasons that are not relavent to Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 06 Jul 2023 06:02:12 +0000
+
+rust-rav1e (0.6.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rav1e 0.6.6 from crates.io using debcargo 2.6.0
+  * Unpin clap dependency, upstream pinned it for msrv reasons and we
+    don't need that in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 04 Jul 2023 14:07:59 +0000
+
+rust-rav1e (0.6.6-1) unstable; urgency=medium
+
+  * Package rav1e 0.6.6 from crates.io using debcargo 2.6.0
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 16 Jun 2023 20:48:36 +0200
+
+rust-rav1e (0.5.1-6) unstable; urgency=medium
+
+  * debian/: Update to v_frame 0.3, av-metrics 0.9 and dav1d-sys 0.7 (Closes:
+    #1026066)
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Thu, 29 Dec 2022 12:11:23 +0100
+
+rust-rav1e (0.5.1-5) unstable; urgency=medium
+
+  * debian/patches: Use system-deps 6
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 02 Oct 2022 21:43:53 +0200
+
+rust-rav1e (0.5.1-4) unstable; urgency=medium
+
+  * Package rav1e 0.5.1 from crates.io using debcargo 2.5.0
+  * debian/patches: Disable more internal features
+  * debian/debcargo.conf: Mark another test as broken
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 17 Sep 2022 19:22:38 +0200
+
+rust-rav1e (0.5.1-3) unstable; urgency=medium
+
+  * Package rav1e 0.5.1 from crates.io using debcargo 2.5.0
+  * debian/rules: Really remove Cargo.lock
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 16 Sep 2022 22:31:16 +0200
+
+rust-rav1e (0.5.1-2) unstable; urgency=medium
+
+  * Package rav1e 0.5.1 from crates.io using debcargo 2.5.0
+  * debian/rules: Exclude Cargo.lock
+  * debian/patches/buildrs.patch: Fix build on arm64
+  * debian/debcargo.conf: Disable broken tests
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 16 Sep 2022 01:19:44 +0200
+
+rust-rav1e (0.5.1-1) unstable; urgency=medium
+
+  * Initial packaging (Closes: #920842)
+  * Package rav1e 0.5.1 from crates.io using debcargo 2.5.0
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 21 Aug 2022 21:17:14 +0200

@@ -1,0 +1,5 @@
+rust-capnpc (0.19.0-1) unstable; urgency=medium
+
+  * Package capnpc 0.19.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 14 Mar 2024 19:55:20 +0100

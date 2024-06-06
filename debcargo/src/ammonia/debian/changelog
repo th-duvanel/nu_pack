@@ -1,0 +1,52 @@
+rust-ammonia (3.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ammonia 3.3.0 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 23 Jan 2024 16:30:30 +0000
+
+rust-ammonia (3.2.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ammonia 3.2.1 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 15 Nov 2022 19:54:06 +0000
+
+rust-ammonia (3.1.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ammonia 3.1.2 from crates.io using debcargo 2.4.4 (Closes:
+    #991497)
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Thu, 14 Oct 2021 22:14:28 +0200
+
+rust-ammonia (3.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package ammonia 3.1.0 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 18 Oct 2020 11:20:52 +0200
+
+rust-ammonia (3.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package ammonia 3.1.0 from crates.io using debcargo 2.4.2
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sat, 29 Aug 2020 15:50:27 +0200
+
+rust-ammonia (3.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package ammonia 3.0.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 13:29:27 +0200
+
+rust-ammonia (3.0.0-1) unstable; urgency=medium
+
+  * Source upload
+  * Package ammonia 3.0.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 28 Oct 2019 18:52:39 +0100

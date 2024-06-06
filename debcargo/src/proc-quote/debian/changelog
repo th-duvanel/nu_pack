@@ -1,0 +1,21 @@
+rust-proc-quote (0.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-quote 0.4.0 from crates.io using debcargo 2.4.4
+
+ -- Simon Chopin <simon.chopin@canonical.com>  Fri, 28 Jan 2022 12:48:07 +0100
+
+rust-proc-quote (0.3.2-2) unstable; urgency=medium
+
+  * Source upload
+  * Package proc-quote 0.3.2 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 26 Nov 2020 00:11:51 +0100
+
+rust-proc-quote (0.3.2-1) unstable; urgency=medium
+
+  * Source upload
+  * Package proc-quote 0.3.2 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 29 Aug 2020 16:51:29 +0200
+

@@ -1,0 +1,12 @@
+rust-clone-file (0.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package clone-file 0.1.0 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 24 Feb 2024 22:35:10 +0000
+
+rust-clone-file (0.1.0-1) unstable; urgency=medium
+
+  * Package clone-file 0.1.0 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Sun, 23 Jul 2023 20:16:07 +0200

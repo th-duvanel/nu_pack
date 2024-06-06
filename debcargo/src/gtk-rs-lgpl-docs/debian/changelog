@@ -1,0 +1,19 @@
+rust-gtk-rs-lgpl-docs (0.1.12-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gtk-rs-lgpl-docs 0.1.12 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:23:41 +0200
+
+rust-gtk-rs-lgpl-docs (0.1.12-1) unstable; urgency=medium
+
+  * Package gtk-rs-lgpl-docs 0.1.12 from crates.io using debcargo 2.3.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 08 Jul 2019 06:38:00 +0200
+
+rust-gtk-rs-lgpl-docs (0.1.7-1) unstable; urgency=medium
+
+  * Package gtk-rs-lgpl-docs 0.1.7 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 26 Dec 2018 15:09:09 -0800

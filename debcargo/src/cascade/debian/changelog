@@ -1,0 +1,11 @@
+rust-cascade (1.0.1-1) unstable; urgency=medium
+
+  * Package cascade 1.0.1 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 15 Oct 2022 09:15:36 -0400
+
+rust-cascade (1.0.0-1) unstable; urgency=medium
+
+  * Package cascade 1.0.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 21 May 2022 10:45:23 +0200

@@ -1,0 +1,4 @@
+disable-examples-and-benches.patch
+disable-demangle-cpp.patch
+disable-inferno.patch
+tweak-deps.patch

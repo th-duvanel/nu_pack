@@ -1,0 +1,43 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ansi_colours
+Upstream-Contact: Michał Nazarewicz <mina86@mina86.com>
+Source: https://github.com/mina86/ansi_colours
+
+Files: *
+Copyright: FIXME (overlay) UNKNOWN-YEARS Michał Nazarewicz <mina86@mina86.com>
+License: LGPL-3.0-or-later
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: LICENSE
+Copyright: 2007 Free Software Foundation, Inc. <https://fsf.org/>
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: src/ansi256.rs
+Copyright: 2018 by Michał Nazarewicz <mina86@mina86.com>
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: src/lib.rs
+Copyright: 2018 by Michał Nazarewicz <mina86@mina86.com>
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: debian/*
+Copyright:
+ 2019-2023 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2019-2023 Paride Legovini <paride@debian.org>
+License: LGPL-3.0-or-later
+
+License: LGPL-3.0-or-later
+ Debian systems provide the LGPL 3.0 in /usr/share/common-licenses/LGPL-3

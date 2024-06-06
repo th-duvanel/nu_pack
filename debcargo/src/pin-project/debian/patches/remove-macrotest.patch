@@ -1,0 +1,42 @@
+--- pin-project.orig/Cargo.toml
++++ pin-project/Cargo.toml
+@@ -22,2 +22,34 @@
+ repository = "https://github.com/taiki-e/pin-project"
++autotests = false
++
++[[test]]
++name = "auxiliary"
++path = "tests/auxiliary/mod.rs"
++
++[[test]]
++name = "drop_order"
++
++[[test]]
++name = "pin_project"
++
++[[test]]
++name = "repr_packed"
++
++[[test]]
++name = "cfg"
++
++[[test]]
++name = "lint"
++
++[[test]]
++name = "proper_unpin"
++
++[[test]]
++name = "compiletest"
++
++[[test]]
++name = "pinned_drop"
++
++[[test]]
++name = "unsafe_unpin"
+ 
+@@ -26,4 +59,2 @@
+ 
+-[dev-dependencies.macrotest]
+-version = "1.0.9"
+ 

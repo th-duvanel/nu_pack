@@ -1,0 +1,12 @@
+rust-pure-rust-locales (0.8.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pure-rust-locales 0.8.1 from crates.io using debcargo 2.6.1
+
+ -- Nikos Tsipinakis <nikos@tsipinakis.com>  Thu, 02 May 2024 11:24:47 +0000
+
+rust-pure-rust-locales (0.7.0-1) unstable; urgency=medium
+
+  * Package pure-rust-locales 0.7.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 24 Nov 2023 18:39:56 +0100

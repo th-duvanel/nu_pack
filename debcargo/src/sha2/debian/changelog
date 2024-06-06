@@ -1,0 +1,62 @@
+rust-sha2 (0.10.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sha2 0.10.8 from crates.io using debcargo 2.6.1 (Closes: #1054250)
+  * Bump hex-literal dev-dependency to 0.4.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 24 Nov 2023 13:24:16 +0000
+
+rust-sha2 (0.10.7-1) unstable; urgency=medium
+
+  * Package sha2 0.10.7 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Thu, 27 Jul 2023 18:06:42 +0200
+
+rust-sha2 (0.10.5-1) unstable; urgency=medium
+
+  * Package sha2 0.10.5 from crates.io using debcargo 2.5.0
+
+  [ Matthias Geiger ]
+  * Team upload.
+  * Package sha2 0.10.5 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Thu, 13 Oct 2022 20:55:20 -0400
+
+rust-sha2 (0.10.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sha2 0.10.2 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 Aug 2022 14:54:37 +0200
+
+rust-sha2 (0.10.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sha2 0.10.2 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 01 Jun 2022 09:59:03 +0200
+
+rust-sha2 (0.9.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sha2 0.9.2 from crates.io using debcargo 2.4.3
+  * Removing benchmark feature tests
+
+  [ kpcyrd ]
+  * Package sha2 0.9.2 from crates.io using debcargo 2.4.3
+  * Mark tests as broken since they are x86_64/x86 only
+
+ -- Ed Neville <ed-debian@s5h.net>  Sun, 20 Dec 2020 22:37:54 +0100
+
+rust-sha2 (0.9.2-1) unstable; urgency=medium
+
+  * Package sha2 0.9.2 from crates.io using debcargo 2.4.3
+  * Use feature_collapse
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 25 Nov 2020 21:44:15 +0100
+
+rust-sha2 (0.8.0-1) unstable; urgency=medium
+
+  * Package sha2 0.8.0 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Sat, 20 Oct 2018 16:27:20 +0200

@@ -1,0 +1,37 @@
+rust-ansi-colours (1.2.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ansi_colours 1.2.2 from crates.io using debcargo 2.6.1 (Closes: #1057373)
+  * Stop patching criterion dev-dependency, upstream's dependency now matches
+    the version in Debian.
+  * Patch termcolor dependency to allow any 1.x version.
+  * Update remaining patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Dec 2023 17:38:06 +0000
+
+rust-ansi-colours (1.1.1-1) unstable; urgency=medium
+
+  * Package ansi_colours 1.1.1 from crates.io using debcargo 2.6.0
+  * Update copyright file.
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package ansi_colours 1.1.1 from crates.io using debcargo 2.6.0
+    (Closes: #1024132)
+  * Drop built-using.patch, no build.rs present
+  * Patch out dep on unpackaged crc64 and empfindung and dependent tests
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 17 Nov 2022 21:21:38 +0000
+
+rust-ansi-colours (1.0.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package ansi_colours 1.0.1 from crates.io using debcargo 2.2.10
+
+ -- Helen Koike <helen@koikeco.de>  Sat, 20 Jul 2019 15:14:58 -0300
+
+rust-ansi-colours (1.0.1-1) unstable; urgency=medium
+
+  * Package ansi_colours 1.0.1 from crates.io using debcargo 2.2.10
+
+ -- Paride Legovini <pl@ninthfloor.org>  Thu, 20 Jun 2019 16:42:54 -0700

@@ -1,0 +1,26 @@
+Index: tre-command/Cargo.toml
+===================================================================
+--- tre-command.orig/Cargo.toml
++++ tre-command/Cargo.toml
+@@ -50,10 +50,10 @@ features = ["derive"]
+ version = "0.2"
+ 
+ [dependencies.indexmap]
+-version = "1.9.0"
++version = "2"
+ 
+ [dependencies.lscolors]
+-version = "0.10"
++version = "0.16"
+ 
+ [dependencies.regex]
+ version = "1.5.5"
+@@ -66,7 +66,7 @@ features = ["derive"]
+ version = "1.0"
+ 
+ [dependencies.slab]
+-version = "0.4.2"
++version = "0.4.1"
+ 
+ [dependencies.termcolor]
+ version = "1"

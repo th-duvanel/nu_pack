@@ -1,0 +1,52 @@
+rust-zbus-macros (4.1.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package zbus_macros 4.1.0 from crates.io using debcargo 2.6.1
+  * Add patch to downgrade MSRV
+  * Stop excluding test files
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 22 Feb 2024 22:51:38 +0100
+
+rust-zbus-macros (3.14.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Package zbus_macros 3.14.1 from crates.io using debcargo 2.6.0
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sun, 08 Oct 2023 09:10:43 -0400
+
+rust-zbus-macros (3.12.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package zbus_macros 3.12.0 from crates.io using debcargo 2.6.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Jun 2023 00:09:07 +0000
+
+rust-zbus-macros (3.12.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package zbus_macros 3.12.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 May 2023 15:27:38 +0200
+
+rust-zbus-macros (1.9.2-1) unstable; urgency=medium
+
+  * Team upload (Closes: #1000942).
+  * d/patches: add relax-proc-macro-crate.patch to make it compatible with
+    proc-macro-crate 1.1.
+  * d/patches: removed patch relax-deps.patch
+  * Package zbus_macros 1.9.2 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 19 Dec 2021 20:25:58 +0100
+
+rust-zbus-macros (1.0.0-2) unstable; urgency=high
+
+  * Rebuild.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 10 Jan 2021 10:26:11 +0100
+
+rust-zbus-macros (1.0.0-1) unstable; urgency=medium
+
+  * Package zbus_macros 1.0.0 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 22 Dec 2020 15:12:39 +0100

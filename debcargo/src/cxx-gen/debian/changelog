@@ -1,0 +1,17 @@
+rust-cxx-gen (0.7.87-1) unstable; urgency=medium
+
+  * Package cxx-gen 0.7.87 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 24 Jan 2023 18:58:37 +0100
+
+rust-cxx-gen (0.7.86-1) unstable; urgency=medium
+
+  * Package cxx-gen 0.7.86 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 11 Jan 2023 19:42:51 +0100
+
+rust-cxx-gen (0.7.73-1) unstable; urgency=medium
+
+  * Package cxx-gen 0.7.73 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 Aug 2022 12:28:50 +0200

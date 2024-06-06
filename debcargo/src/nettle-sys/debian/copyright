@@ -1,0 +1,32 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nettle-sys
+Upstream-Contact:
+ juga <juga@sequoia-pgp.org>
+ Justus Winter <justus@sequoia-pgp.org>
+ Kai Michaelis <kai@sequoia-pgp.org>
+ Neal H. Walfield <neal@sequoia-pgp.org>
+Source: https://gitlab.com/sequoia-pgp/nettle-sys
+
+Files: *
+Copyright:
+ 2017-2019 juga <juga@sequoia-pgp.org>
+ 2017-2023 Justus Winter <justus@sequoia-pgp.org>
+ 2017-2019 Kai Michaelis <kai@sequoia-pgp.org>
+ 2017-2019 Neal H. Walfield <neal@sequoia-pgp.org>
+License: LGPL-3.0 or GPL-2.0 or GPL-3.0
+
+Files: debian/*
+Copyright:
+ 2019-2023 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2019-2022 Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+ 2019 kpcyrd <git@rxv.cc>
+License: LGPL-3.0 or GPL-2.0 or GPL-3.0
+
+License: GPL-2.0
+ Debian systems provide the GPL 2.0 in /usr/share/common-licenses/GPL-2
+
+License: GPL-3.0
+ Debian systems provide the GPL 3.0 in /usr/share/common-licenses/GPL-3
+
+License: LGPL-3.0
+ Debian systems provide the LGPL 3.0 in /usr/share/common-licenses/LGPL-3

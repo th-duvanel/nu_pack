@@ -1,0 +1,22 @@
+rust-indoc (2.0.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package indoc 2.0.3 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 14:13:37 +0000
+
+rust-indoc (2.0.1-1) unstable; urgency=medium
+
+  * Package indoc 2.0.1 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package indoc 2.0.0 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 24 Jun 2023 22:55:18 +0000
+
+rust-indoc (1.0.4-1) unstable; urgency=medium
+
+  * Package indoc 1.0.4 from crates.io using debcargo 2.5.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 09 Apr 2022 18:41:37 +0100

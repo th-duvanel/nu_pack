@@ -1,0 +1,16 @@
+overlay = "."
+uploaders = ["Ed Neville <ed-debian@s5h.net>"]
+requires_root = "binary-targets"
+
+[packages.bin]
+section = "utils"
+summary = "please, a polite, regex-first sudo clone"
+description = """
+Delegate accurate least privilege access with ease. There are times when
+what is intended to be executed can be expressed easily with a regex to
+expose only what is needed and nothing more.
+"""
+
+[source]
+section = "utils"
+build_depends = ["bash-completion"]

@@ -1,0 +1,34 @@
+rust-rand-chacha (0.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rand_chacha 0.3.1 from crates.io using debcargo 2.5.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 09:04:53 +0000
+
+rust-rand-chacha (0.3.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package rand_chacha 0.3.1 from crates.io using debcargo 2.5.0
+  * Use collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Jan 2022 13:23:15 +0000
+
+rust-rand-chacha (0.2.2-1) unstable; urgency=medium
+
+  * Package rand_chacha 0.2.2 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 05 May 2020 10:46:10 +0200
+
+rust-rand-chacha (0.2.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rand_chacha 0.2.1 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 03 Sep 2019 09:09:13 -0700
+
+rust-rand-chacha (0.1.1-1) unstable; urgency=medium
+
+  * Package rand_chacha 0.1.1 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 19 Jan 2019 16:11:28 -0800

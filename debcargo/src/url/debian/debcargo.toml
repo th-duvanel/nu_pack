@@ -1,0 +1,8 @@
+overlay = "."
+uploaders = ["Paride Legovini <paride@debian.org>",
+             "Wolfgang Silbermayr <wolfgang@silbermayr.at>"]
+
+# The auto-generated summary is too long.
+summary = "URL library for Rust"
+
+collapse_features = true

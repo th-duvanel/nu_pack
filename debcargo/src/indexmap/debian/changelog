@@ -1,0 +1,95 @@
+rust-indexmap (2.2.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package indexmap 2.2.6 from crates.io using debcargo 2.6.1
+  * Upload to unstable (Closes: #1053953)
+  * Adjust patches for new upstream.
+  * Remove newly added "optional" dependency on borsh crate.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 03:28:10 +0000
+
+rust-indexmap (2.2.2-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package indexmap 2.2.2 from crates.io using debcargo 2.6.1
+  * Update drop-quickcheck.diff for new upstream release.
+  * Update relax-itertools.patch for new upstream and current situation in
+    Debian.
+  * Fix tests with --no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 06 Feb 2024 23:54:48 +0000
+
+rust-indexmap (1.9.3-2) unstable; urgency=medium
+
+  * Package indexmap 1.9.3 from crates.io using debcargo 2.6.1
+  * Relax dependency on itertools.
+
+  [ Alexander Kjäll ]
+  * Team upload.
+  * Package indexmap 1.9.3 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 06 Feb 2024 20:22:02 +0000
+
+rust-indexmap (1.9.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package indexmap 1.9.3 from crates.io using debcargo 2.6.0
+  * Disable quickcheck feature to break dependency cycle with regex crates.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 14 Oct 2023 23:40:34 +0000
+
+rust-indexmap (1.9.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package indexmap 1.9.2 from crates.io using debcargo 2.6.0
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 15 Dec 2022 22:44:21 +0000
+
+rust-indexmap (1.9.1-1) unstable; urgency=medium
+
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package indexmap 1.9.1 from crates.io using debcargo 2.5.0
+
+  [ Daniel Kahn Gillmor ]
+  * Drop rustc-rayon feature from debian-packaged crate.
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 27 Jun 2022 21:47:19 -0400
+
+rust-indexmap (1.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package indexmap 1.7.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 01 Jan 2022 21:13:18 +0100
+
+rust-indexmap (1.3.2-1) unstable; urgency=medium
+
+  * Package indexmap 1.3.2 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 04 May 2020 10:50:41 +0200
+
+rust-indexmap (1.2.0-1) unstable; urgency=medium
+
+  * Package indexmap 1.2.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 28 Sep 2019 11:00:16 +0200
+
+rust-indexmap (1.1.0-1) unstable; urgency=medium
+
+  * Package indexmap 1.1.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 28 Aug 2019 14:12:01 +0200
+
+rust-indexmap (1.0.2-1) unstable; urgency=medium
+
+  * Package indexmap 1.0.2 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 03 Dec 2018 08:02:32 +0100
+
+rust-indexmap (1.0.1-1) unstable; urgency=medium
+
+  * Package indexmap 1.0.1 from crates.io using debcargo 2.2.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 15 Jul 2018 22:34:42 -0700

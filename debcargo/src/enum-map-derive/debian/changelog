@@ -1,0 +1,39 @@
+rust-enum-map-derive (0.17.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package enum-map-derive 0.17.0 from crates.io using debcargo 2.6.1
+
+ -- Zixing Liu <zixing.liu@canonical.com>  Fri, 24 May 2024 17:16:21 +0200
+
+rust-enum-map-derive (0.11.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package enum-map-derive 0.11.0 from crates.io using debcargo 2.6.0
+  * d/copyright, d/copyright.debcargo.hint: update Source field as the
+    upstream has moved the source repository to Codeberg.
+
+ -- Zixing Liu <zixing.liu@canonical.com>  Sat, 16 Sep 2023 21:28:17 +0200
+
+rust-enum-map-derive (0.10.0-1) unstable; urgency=medium
+
+  * Package enum-map-derive 0.10.0 from crates.io using debcargo 2.5.0
+  * Update copyright file.
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package enum-map-derive 0.10.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 13 Nov 2022 12:23:12 +0000
+
+rust-enum-map-derive (0.4.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package enum-map-derive 0.4.3 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:05:47 +0200
+
+rust-enum-map-derive (0.4.3-1) unstable; urgency=medium
+
+  * Package enum-map-derive 0.4.3 from crates.io using debcargo 2.4.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 23 Dec 2019 02:23:42 +0000

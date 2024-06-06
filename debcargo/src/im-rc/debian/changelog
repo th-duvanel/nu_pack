@@ -1,0 +1,58 @@
+rust-im-rc (15.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package im-rc 15.1.0 from crates.io using debcargo 2.5.0
+  * Drop relax-dep.patch, no longer needed.
+  * Update remaining patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 24 Jun 2022 16:29:07 +0000
+
+rust-im-rc (15.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package im-rc 15.0.0 from crates.io using debcargo 2.5.0
+  * Relax dependencies on rand/rand-core/rand-xoshiro
+  * Add patch to replace metrohash with keccak in test.
+  * Disable tests that require proptest-derive so the rest of the testsuite
+    can run.
+  * Relax dependency on quickcheck.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 09:51:17 +0000
+
+rust-im-rc (15.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package im-rc 15.0.0 from crates.io using debcargo 2.4.4
+  * Drop relax-dep.patch
+  * Disable the newly intoroduced "pool" feature as it depends
+    on the refpool feature.
+
+  [ Ximin Luo ]
+  * Package im-rc 15.0.0 from crates.io using debcargo 2.4.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 21 Nov 2021 09:33:08 +0000
+
+rust-im-rc (14.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package im-rc 14.3.0 from crates.io using debcargo 2.4.2
+  * Disable the refpool and arbitrary features for now as rust-refpool is not
+    in Debian and the ftp-masters are currently blocking new rust packages.
+
+  [ Ximin Luo ]
+  * Package im-rc 14.3.0 from crates.io using debcargo 2.4.2
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Sep 2020 10:52:34 +0000
+
+rust-im-rc (13.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package im-rc 13.0.0 from crates.io using debcargo 2.2.10
+
+ -- Nikos Tsipinakis <nikos@tsipinakis.com>  Thu, 15 Aug 2019 17:55:36 -0700
+
+rust-im-rc (12.3.0-1) unstable; urgency=medium
+
+  * Package im-rc 12.3.0 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 22 Jan 2019 18:53:41 -0800

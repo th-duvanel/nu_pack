@@ -1,0 +1,12 @@
+Index: lru/Cargo.toml
+===================================================================
+--- lru.orig/Cargo.toml
++++ lru/Cargo.toml
+@@ -36,7 +36,3 @@ version = "0.1.*"
+ 
+ [features]
+ default = ["hashbrown"]
+-nightly = [
+-    "hashbrown",
+-    "hashbrown/nightly",
+-]

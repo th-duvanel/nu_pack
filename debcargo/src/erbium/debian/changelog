@@ -1,0 +1,40 @@
+rust-erbium (1.0.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package erbium 1.0.5 from crates.io using debcargo 2.6.0
+  * Drop relax-vergen - vergen is now up to date with what upstream wants.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 29 Oct 2023 06:07:09 +0000
+
+rust-erbium (1.0.5-1) unstable; urgency=medium
+
+  * Re-add erbium.conf example.
+  * Package erbium 1.0.5 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 03 Jul 2023 10:22:26 +0100
+
+rust-erbium (1.0.4-3) unstable; urgency=medium
+
+  * Team upload
+  * Drop invalid debian/examples file
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 26 Jun 2023 21:00:35 -0400
+
+rust-erbium (1.0.4-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jelmer Vernooĳ ]
+  * Ship manpages erbium.8 and erbium.conf.5.
+  * Ship example configuration file.
+
+  [ Jeremy Bícha ]
+  * Fix Source Section
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 15 Jun 2023 06:14:28 -0400
+
+rust-erbium (1.0.4-1) unstable; urgency=medium
+
+  * Package erbium 1.0.4 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 03 Jun 2023 12:50:18 +0100

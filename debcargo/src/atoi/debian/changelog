@@ -1,0 +1,13 @@
+rust-atoi (2.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package atoi 2.0.0 from crates.io using debcargo 2.6.0
+  * Collapse features
+
+ -- Blair Noctis <n@sail.ng>  Sun, 16 Jul 2023 12:44:39 +0100
+
+rust-atoi (0.2.3-1) unstable; urgency=medium
+
+  * Package atoi 0.2.3 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Sun, 26 Aug 2018 10:29:45 +0200

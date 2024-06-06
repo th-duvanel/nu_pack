@@ -1,0 +1,148 @@
+rust-once-cell (1.19.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.19.0 from crates.io using debcargo 2.6.1 (Closes: #1060719)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 14 Jan 2024 15:20:36 +0000
+
+rust-once-cell (1.18.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.18.0 from crates.io using debcargo 2.6.0
+  * Update relax-test.diff for new upstream.
+  * Re-enable atomic-polyfill and critical-section features (Closes: #1030121)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 02:42:59 +0000
+
+rust-once-cell (1.17.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.17.0 from crates.io using debcargo 2.6.0 (Closes: #1030793)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Feb 2023 16:19:55 +0000
+
+rust-once-cell (1.16.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.16.0 from crates.io using debcargo 2.5.0 (Closes: #1023813)
+  * Update patches for new upstream.
+  * Remove optional dependency on critical-section, it's not in Debian and it
+    doesn't build with Debian's current rustc.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 10 Nov 2022 15:34:50 +0000
+
+rust-once-cell (1.14.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.14.0 from crates.io using debcargo 2.5.0
+  * Add breaks on librust-string-cache-dev (<< 0.8.4) to help britney's autopkgtest scheduler.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 07 Sep 2022 18:34:57 +0000
+
+rust-once-cell (1.14.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.14.0 from crates.io using debcargo 2.5.0
+  * Drop outdated patches
+
+ -- Blair Noctis <n@sail.ng>  Sat, 03 Sep 2022 12:33:11 +0200
+
+rust-once-cell (1.12.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.12.0 from crates.io using debcargo 2.5.0
+  * Fix dependencies (Closes: )
+    + Reinstate disable-atomic-polyfill.diff and update it for new upstream.
+    + Adjust version of parking-lot-core dependency to match version in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 28 May 2022 12:46:06 +0000
+
+rust-once-cell (1.12.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.12.0 from crates.io using debcargo 2.5.0
+
+ -- Simon Quigley <tsimonq2@debian.org>  Wed, 25 May 2022 04:20:51 -0500
+
+rust-once-cell (1.9.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.9.0 from crates.io using debcargo 2.5.0
+  * remove the optional dep to atomic-polyfill
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 31 Dec 2021 10:54:11 +0100
+
+rust-once-cell (1.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.9.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 30 Dec 2021 19:31:58 +0100
+
+rust-once-cell (1.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.8.0 from crates.io using debcargo 2.5.0
+  * Drop patch changing version of parking_lot dependency, no longer needed.
+  * Relax dev-dependency on crossbeam-utils.
+  * Disable a test that fails to find the file it needs in the autopkgtest environment
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Dec 2021 13:15:51 +0000
+
+rust-once-cell (1.8.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.8.0 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 05 Dec 2021 18:10:34 +0100
+
+rust-once-cell (1.5.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.5.2 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Aug 2021 17:28:10 +0200
+
+rust-once-cell (1.3.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.3.1 from crates.io using debcargo 2.4.2
+  * Remove patch for reentrant_init test incorporated upstream
+  * Add patch to update crossbeam-utils to 0.7.2
+
+ -- David Bürgin <dbuergin@gluet.ch>  Fri, 03 Apr 2020 11:35:23 +0200
+
+rust-once-cell (1.2.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.2.0 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 08 Jan 2020 22:45:50 +0000
+
+rust-once-cell (1.2.0-2) unstable; urgency=medium
+
+  * Patch failing reentrant_init test
+  * Package once_cell 1.2.0 from crates.io using debcargo 2.4.1
+
+ -- Nikos Tsipinakis <nikos@tsipinakis.com>  Wed, 08 Jan 2020 14:16:01 +0000
+
+rust-once-cell (1.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 1.2.0 from crates.io using debcargo 2.4.0
+
+ -- Marco d'Itri <md@linux.it>  Mon, 30 Dec 2019 01:58:12 +0100
+
+rust-once-cell (0.1.8-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package once_cell 0.1.8 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:25:50 +0200
+
+rust-once-cell (0.1.8-2) unstable; urgency=medium
+
+  * Package once_cell 0.1.8 from crates.io using debcargo 2.2.10
+
+ -- Nikos Tsipinakis <nikos@tsipinakis.com>  Mon, 18 Feb 2019 18:55:05 +0100

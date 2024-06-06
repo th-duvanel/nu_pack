@@ -1,0 +1,112 @@
+rust-gdk4-wayland (0.8.2-2) unstable; urgency=medium
+
+  * Extend patch to relax wayland crates, too
+  * Mark v4_16 feature as broken in debcargo.toml
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 06 May 2024 11:58:41 +0200
+
+rust-gdk4-wayland (0.8.2-1) unstable; urgency=medium
+
+  * Package gdk4-wayland 0.8.2 from crates.io using debcargo 2.6.1
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 11:40:46 +0200
+
+rust-gdk4-wayland (0.8.1-2) experimental; urgency=medium
+
+  * Team upload
+  * Package gdk4-wayland 0.8.1 from crates.io using debcargo 2.6.1
+  * Build with rust-wayland 0.31
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 19 Apr 2024 15:17:27 -0400
+
+rust-gdk4-wayland (0.8.1-1) experimental; urgency=medium
+
+  * Team upload
+  * Package gdk4-wayland 0.8.1 from crates.io using debcargo 2.6.1
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 16:45:18 -0400
+
+rust-gdk4-wayland (0.8.0-1) experimental; urgency=medium
+
+  * Package gdk4-wayland 0.8.0 from crates.io using debcargo 2.6.1
+  * Properly depend on packages needed for code regenration
+  * Remove hard dependency on rustc 1.70
+  * Refresh patches for new upstream
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 20 Feb 2024 20:05:19 +0100
+
+rust-gdk4-wayland (0.7.2-5) experimental; urgency=medium
+
+  * Team upload.
+  * Package gdk4-wayland 0.7.2 from crates.io using debcargo 2.6.1
+  * Bump wayland stack to 0.31
+
+ -- James McCoy <jamessan@debian.org>  Thu, 28 Dec 2023 17:01:02 -0500
+
+rust-gdk4-wayland (0.7.2-4) unstable; urgency=medium
+
+  * Team upload
+  * Package gdk4-wayland 0.7.2 from crates.io using debcargo 2.6.0
+  * Don't mark 4.12 test as flaky because Debian has GTK4 4.12 now
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sun, 08 Oct 2023 13:07:10 -0400
+
+rust-gdk4-wayland (0.7.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Package gdk4-wayland 0.7.2 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:38:43 -0400
+
+rust-gdk4-wayland (0.7.2-2) experimental; urgency=medium
+
+  * Specify dependency on rustc 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 16 Sep 2023 13:08:45 +0200
+
+rust-gdk4-wayland (0.7.2-1) experimental; urgency=medium
+
+  * Package gdk4-wayland 0.7.2 from crates.io using debcargo 2.6.0
+  * Regenerate source code with debian tools before build
+  * Rebased patches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 15 Sep 2023 23:04:12 +0200
+
+rust-gdk4-wayland (0.6.3-1) unstable; urgency=medium
+
+  * Package gdk4-wayland 0.6.3 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+  * Added relax-gir-dep.diff patch to enable tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:29:05 +0200
+
+rust-gdk4-wayland (0.5.5-2) unstable; urgency=medium
+
+  * Package gdk4-wayland 0.5.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 21:04:30 +0200
+
+rust-gdk4-wayland (0.5.5-1) experimental; urgency=medium
+
+  * Package gdk4-wayland 0.5.5 from crates.io using debcargo 2.6.0
+  * Added myself to uploaders
+  * Dropped obsolete patches
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 15:33:01 +0200
+
+rust-gdk4-wayland (0.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package gdk4-wayland 0.3.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 May 2022 20:16:45 +0200
+
+rust-gdk4-wayland (0.3.1-1) unstable; urgency=medium
+
+  * Source upload
+  * Package gdk4-wayland 0.3.1 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Fri, 29 Oct 2021 20:35:02 +0000

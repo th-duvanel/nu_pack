@@ -1,0 +1,9 @@
+rust-svg (0.16.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package svg 0.16.0 from crates.io using debcargo 2.6.1
+
+  [ Blair Noctis ]
+  * Package svg 0.13.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 11 Apr 2024 20:13:28 +0200

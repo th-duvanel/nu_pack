@@ -1,0 +1,29 @@
+rust-rustdoc-stripper (0.1.12-1) unstable; urgency=medium
+
+  * Package rustdoc-stripper 0.1.12 from crates.io using debcargo 2.4.3
+
+  [ Ximin Luo ]
+  * No need to exclude or clean Cargo.lock with dh-cargo >= 20.
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Jun 2020 11:00:52 +0200
+
+rust-rustdoc-stripper (0.1.9-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustdoc-stripper 0.1.9 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:24:12 +0200
+
+rust-rustdoc-stripper (0.1.9-1) unstable; urgency=medium
+
+  * Package rustdoc-stripper 0.1.9 from crates.io using debcargo 2.3.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 08 Jul 2019 06:32:15 +0200
+
+rust-rustdoc-stripper (0.1.5-1) unstable; urgency=medium
+
+  * Package rustdoc-stripper 0.1.5 from crates.io using debcargo 2.2.9
+    Closes: #916325
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 16 Dec 2018 17:09:45 +0100

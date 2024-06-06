@@ -1,0 +1,57 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: adblock
+Upstream-Contact: Anton Lazarev <alazarev@brave.com>
+Source: https://github.com/brave/adblock-rust/
+
+Files: *
+Copyright: 2019-2024 The Brave Authors
+License: MPL-2.0
+Comment:
+ This was discussed upstream with the authors on GitHub and documented here:
+ https://github.com/brave/adblock-rust/issues/332
+
+Files: src/url_parser/parser.rs
+Copyright: 2013-2016 The rust-url developers.
+License: Apache-2.0 or MIT
+
+Files: src/resources/resource_storage.rs
+Copyright: 2019-2024 The Brave Authors
+           2016-2020 Maciej Hirsz <hello@maciej.codes>
+License: Apache-2.0 or MIT, and MPL-2.0
+Comment:
+ The Maciej Hirsz copyright along with the dual Apache-2.0/MIT license used by
+ them only covers one block of code as labeled in the code with a comment. The
+ rest of the file is copyrighted by The Brave Authors and under the MPL-2.0
+ license.
+
+Files: debian/*
+Copyright:
+ 2024 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2024 Loren M. Lang <lorenl@north-winds.org>
+License: MPL-2.0
+
+License: Apache-2.0
+ Debian systems provide the Apache 2.0 license in
+ /usr/share/common-licenses/Apache-2.0
+
+License: MPL-2.0
+ Debian systems provide the MPL 2.0 in /usr/share/common-licenses/MPL-2.0
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.

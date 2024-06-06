@@ -1,0 +1,13 @@
+rust-roff (0.2.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package roff 0.2.1 from crates.io using debcargo 2.5.0
+  * Drop patch already upstream
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 02 Nov 2022 16:38:17 -0400
+
+rust-roff (0.1.0-1) unstable; urgency=medium
+
+  * Package roff 0.1.0 from crates.io using debcargo 2.4.2
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 19 Sep 2022 21:45:37 +0200

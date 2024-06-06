@@ -1,0 +1,5 @@
+rust-email-address (0.2.4-1) unstable; urgency=medium
+
+  * Package email_address 0.2.4 from crates.io using debcargo 2.6.1
+
+ -- Bernhard Dick <bernhard@bdick.de>  Tue, 02 Apr 2024 17:30:18 -0400

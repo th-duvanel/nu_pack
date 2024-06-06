@@ -1,0 +1,39 @@
+rust-failure (0.1.7-1) unstable; urgency=medium
+
+  * Package failure 0.1.7 from crates.io using debcargo 2.4.2
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 04 Apr 2020 08:34:12 +0200
+
+rust-failure (0.1.6-2) unstable; urgency=medium
+
+  * Package failure 0.1.6 from crates.io using debcargo 2.4.2
+  * Mark no-default-features test broken
+
+  [ Ximin Luo ]
+  * Restore running tests.
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 18 Feb 2020 11:40:57 +0100
+
+rust-failure (0.1.6-1) unstable; urgency=medium
+
+  * Package failure 0.1.6 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 24 Dec 2019 21:17:00 +0000
+
+rust-failure (0.1.5-1) unstable; urgency=medium
+
+  * Package failure 0.1.5 from crates.io using debcargo 2.2.10
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Sat, 16 Mar 2019 14:27:28 -0700
+
+rust-failure (0.1.3-1) unstable; urgency=medium
+
+  * Package failure 0.1.3 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 14 Nov 2018 20:34:34 -0800
+
+rust-failure (0.1.2-1) unstable; urgency=medium
+
+  * Package failure 0.1.2 from crates.io using debcargo 2.2.7
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 10 Oct 2018 21:12:33 -0700

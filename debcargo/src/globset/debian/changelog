@@ -1,0 +1,89 @@
+rust-globset (0.4.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package globset 0.4.14 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 03 Dec 2023 14:13:32 +0000
+
+rust-globset (0.4.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package globset 0.4.13 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 03 Oct 2023 21:29:52 +0000
+
+rust-globset (0.4.10-1) unstable; urgency=medium
+
+  * Package globset 0.4.10 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package globset 0.4.10 from crates.io using debcargo 2.6.0
+  * Drop disable-feature-serde.diff, mark tests for feature serde1 flaky
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 12 Jun 2023 22:26:08 +0000
+
+rust-globset (0.4.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package globset 0.4.9 from crates.io using debcargo 2.5.0
+
+  [ Sylvestre Ledru ]
+  * Package globset 0.4.8 from crates.io using debcargo 2.4.4-alpha.0
+  * Fix files from the past (Closes: #992633, #992634)
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Thu, 20 Oct 2022 20:51:33 -0400
+
+rust-globset (0.4.8-1) unstable; urgency=medium
+
+  * Package globset 0.4.8 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Aug 2021 15:05:49 +0200
+
+rust-globset (0.4.5-1) unstable; urgency=medium
+
+  * Package globset 0.4.5 from crates.io using debcargo 2.4.3
+  * Disable the serde feature to skip NEW
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package globset 0.4.5 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 20 Jun 2020 10:31:40 +0200
+
+rust-globset (0.4.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package globset 0.4.4 from crates.io using debcargo 2.4.0
+  * Explicitly declare dependency on lazy_static. (Closes: #942243)
+
+  [ Sylvestre Ledru ]
+  * Package globset 0.4.4 from crates.io using debcargo 2.4.0
+  * Source upload
+
+ -- Ximin Luo <infinity0@debian.org>  Mon, 25 Nov 2019 00:21:00 +0000
+
+rust-globset (0.4.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package globset 0.4.4 from crates.io using debcargo 2.4.0
+
+  [ Sylvestre Ledru ]
+  * Package globset 0.4.4 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 07 Aug 2019 20:56:58 -0700
+
+rust-globset (0.4.2-1) unstable; urgency=medium
+
+  * Package globset 0.4.2 from crates.io using debcargo 2.2.8
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 04 Nov 2018 21:03:26 +0100
+
+rust-globset (0.4.1-1) unstable; urgency=medium
+
+  * Package globset 0.4.1 from crates.io using debcargo 2.2.5
+
+  [ Sylvestre Ledru ]
+  * Package globset 0.4.0 from crates.io using debcargo 2.1.4
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Jul 2018 01:12:07 -0700

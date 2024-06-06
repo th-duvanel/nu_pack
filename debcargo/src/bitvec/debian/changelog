@@ -1,0 +1,5 @@
+rust-bitvec (1.0.1-1) unstable; urgency=medium
+
+  * Package bitvec 1.0.1 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Wed, 09 Aug 2023 15:31:12 +0300

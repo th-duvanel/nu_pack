@@ -1,0 +1,13 @@
+Index: lexical-core/Cargo.toml
+===================================================================
+--- lexical-core.orig/Cargo.toml
++++ lexical-core/Cargo.toml
+@@ -61,7 +61,7 @@ optional = true
+ version = "1"
+ optional = true
+ [dev-dependencies.approx]
+-version = "0.4.0"
++version = ">= 0.4, < 0.6"
+ 
+ [features]
+ correct = ["static_assertions", "table"]

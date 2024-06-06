@@ -1,0 +1,25 @@
+rust-sha1 (0.10.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sha1 0.10.5 from crates.io using debcargo 2.6.0 (Closes: #1041953)
+  * Rewrite copyright file. sha1 0.6.x and sha1 0.10.x are completely seperate
+    implementations with different copyright information and licenses. The
+    copyright file in the previous upload incorrectly reflected 0.6.x
+  * Bump dev-dependency on hex-literal to 0.3
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 31 Jul 2023 01:42:25 +0000
+
+rust-sha1 (0.10.1-1) unstable; urgency=medium
+
+  * Package sha1 0.10.1 from crates.io using debcargo 2.5.0
+
+  [ Ximin Luo ]
+  * Update copyright info.
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 01 Jun 2022 09:32:41 +0200
+
+rust-sha1 (0.6.0-1) unstable; urgency=medium
+
+  * Package sha1 0.6.0 from crates.io using debcargo 2.1.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 22 Jun 2018 10:03:38 +0200

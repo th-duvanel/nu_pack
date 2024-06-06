@@ -1,0 +1,5 @@
+rust-dbl (0.3.2-1) unstable; urgency=medium
+
+  * Package dbl 0.3.2 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 02 Jul 2023 22:39:04 +0200

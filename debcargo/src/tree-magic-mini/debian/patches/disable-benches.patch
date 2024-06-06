@@ -1,0 +1,20 @@
+Index: tree-magic-mini/Cargo.toml
+===================================================================
+--- tree-magic-mini.orig/Cargo.toml
++++ tree-magic-mini/Cargo.toml
+@@ -21,14 +21,8 @@ readme = "README.md"
+ keywords = ["mime", "filesystem", "media-types"]
+ license = "MIT"
+ repository = "https://github.com/mbrubeck/tree_magic/"
++autobenches = false
+ 
+-[[bench]]
+-name = "from_u8"
+-harness = false
+-
+-[[bench]]
+-name = "match_u8"
+-harness = false
+ [dependencies.bytecount]
+ version = "0.6.0"
+ 

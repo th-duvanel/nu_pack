@@ -1,0 +1,4 @@
+remove-skim.patch
+remove-clipboard-win.patch
+no-bundled.patch
+relax-deps.patch

@@ -1,0 +1,96 @@
+rust-dfrs (0.0.7-9) unstable; urgency=medium
+
+  * Team upload.
+  * Package dfrs 0.0.7 from crates.io using debcargo 2.6.1
+  * Relax nix dependency again and explicitly enable the fs feature
+    (which is no longer enabled by default in 0.27 and above)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 25 Feb 2024 10:48:21 +0000
+
+rust-dfrs (0.0.7-8) unstable; urgency=medium
+
+  * Team upload.
+  * Package dfrs 0.0.7 from crates.io using debcargo 2.6.1
+  * Tighten nix dependency to only allow 0.26.x, 0.27.x breaks the build.
+  * Bump strum dependency to 0.25.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 12 Dec 2023 21:35:33 +0000
+
+rust-dfrs (0.0.7-7) unstable; urgency=medium
+
+  * Team upload.
+  * Package dfrs 0.0.7 from crates.io using debcargo 2.6.0
+  * Cleanup patching of nix dependency (establish a minimum version, don't
+    patch it twice).
+  * Bump env-logger dependency to 0.10.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 06 Sep 2023 03:33:48 +0000
+
+rust-dfrs (0.0.7-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package dfrs 0.0.7 from crates.io using debcargo 2.6.0
+  * Bump strum and strum_macros dependencies to 0.24.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 13 Jul 2023 01:12:01 +0000
+
+rust-dfrs (0.0.7-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package dfrs 0.0.7 from crates.io using debcargo 2.6.0
+  * Disable dwz
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 06 Jul 2023 00:21:38 +0200
+
+rust-dfrs (0.0.7-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package dfrs 0.0.7 from crates.io using debcargo 2.5.0
+  * Unbreak the build (bump nix)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 05 Jun 2022 18:10:04 +0200
+
+rust-dfrs (0.0.7-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package dfrs 0.0.7 from crates.io using debcargo 2.5.0
+  * Stop patching colored dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 21 May 2022 16:14:31 +0000
+
+rust-dfrs (0.0.7-2) unstable; urgency=medium
+
+  * Package dfrs 0.0.7 from crates.io using debcargo 2.5.0
+  * Change nix dependency 0.23
+
+ -- kpcyrd <git@rxv.cc>  Mon, 06 Dec 2021 18:57:03 +0100
+
+rust-dfrs (0.0.7-1) unstable; urgency=medium
+
+  * Package dfrs 0.0.7 from crates.io using debcargo 2.5.0
+  * Closes: #997683
+
+ -- kpcyrd <git@rxv.cc>  Thu, 02 Dec 2021 12:10:27 +0000
+
+rust-dfrs (0.0.6-3) unstable; urgency=medium
+
+  * Package dfrs 0.0.6 from crates.io using debcargo 2.4.3
+  * Change nix dependency 0.19
+
+ -- kpcyrd <git@rxv.cc>  Thu, 05 Nov 2020 00:26:43 +0100
+
+rust-dfrs (0.0.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package dfrs 0.0.6 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 18 Oct 2020 11:14:53 +0200
+
+rust-dfrs (0.0.6-1) unstable; urgency=medium
+
+  * Source upload
+  * Source upload
+  * Package dfrs 0.0.6 from crates.io using debcargo 2.4.3
+
+ -- kpcyrd <git@rxv.cc>  Mon, 12 Oct 2020 09:54:14 +0200

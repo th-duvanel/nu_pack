@@ -1,0 +1,19 @@
+rust-i18n-embed-impl (0.8.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package i18n-embed-impl 0.8.3 from crates.io using debcargo 2.6.1
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Sat, 16 Mar 2024 20:04:20 +0100
+
+rust-i18n-embed-impl (0.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Restore dependency to find-crate
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Sun, 20 Aug 2023 13:40:59 +0200
+
+rust-i18n-embed-impl (0.8.0-1) unstable; urgency=medium
+
+  * Package i18n-embed-impl 0.8.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Mon, 09 Jan 2023 21:55:23 +0100

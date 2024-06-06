@@ -1,0 +1,5 @@
+rust-concat-string (1.0.1-1) unstable; urgency=medium
+
+  * Package concat-string 1.0.1 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 24 Jul 2022 10:53:26 +0200

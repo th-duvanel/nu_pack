@@ -1,0 +1,19 @@
+rust-tokio-stream (0.1.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio-stream 0.1.14 from crates.io using debcargo 2.6.0 (Closes: #1042388)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 12 Aug 2023 03:36:37 +0000
+
+rust-tokio-stream (0.1.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio-stream 0.1.9 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 19 Jun 2022 16:28:32 +0000
+
+rust-tokio-stream (0.1.8-1) unstable; urgency=medium
+
+  * Package tokio-stream 0.1.8 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 23:35:01 +0100

@@ -1,0 +1,65 @@
+rust-value-bag (1.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package value-bag 1.9.0 from crates.io using debcargo 2.6.1
+  * Update patches for new upstream.
+  * Disable tests that reference "SeqBegin" which I can't find a definition
+    of.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 06 May 2024 00:24:22 +0000
+
+rust-value-bag (1.4.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package value-bag 1.4.1 from crates.io using debcargo 2.6.0
+  * Re-enable serde feature and adjust test patches to account for it.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 30 Aug 2023 23:24:40 +0000
+
+rust-value-bag (1.4.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package value-bag 1.4.1 from crates.io using debcargo 2.6.0
+  * Remove empty patches.
+  * Disable features whose dependencies are not currently satisfiable.
+  * Disable test which relies on the test feature in value-bag-sval2.
+  * Remove outdated overridden debian/tests/control.
+  * Mark a test as requiring the "std" feature.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 22 Aug 2023 02:34:11 +0000
+
+rust-value-bag (1.4.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package value-bag 1.4.1 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 09 Jul 2023 19:14:40 +0200
+
+rust-value-bag (1.0.0~alpha.9-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package value-bag 1.0.0-alpha.9 from crates.io using debcargo 2.5.0
+  * Re-enable serde-fmt and sval related features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 20 Oct 2022 15:41:00 +0000
+
+rust-value-bag (1.0.0~alpha.9-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package value-bag 1.0.0-alpha.9 from crates.io using debcargo 2.5.0
+  * Disable serde-fmt and sval related features for now, they can be renabled
+    if/when those packages are in Debian (Closes: #1020484)
+  * Add alloc feature to erased-serde dependency, it fails to build without
+    at least one of std or alloc.
+  * Remove dev-dependency on wasm-bindgen-test, it's not in Debian and doesn't
+    seem to be needed to run the tests on Linux.
+  * Override and manually fix debian/tests/control, it seems debcargo gets the
+    crate directory wrong for alpha versions.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 25 Sep 2022 14:34:06 +0000
+
+rust-value-bag (1.0.0~alpha.9-1) unstable; urgency=medium
+
+  * Package value-bag 1.0.0-alpha.9 from crates.io using debcargo 2.5.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Fri, 09 Sep 2022 07:19:42 -0400

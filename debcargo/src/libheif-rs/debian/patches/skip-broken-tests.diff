@@ -1,0 +1,44 @@
+--- a/tests/heif_struct_test.rs
++++ b/tests/heif_struct_test.rs
+@@ -26,6 +26,7 @@
+ }
+ 
+ #[test]
++#[ignore = "broken in debian, skipping"]
+ fn get_encoder_for_format() {
+     let lib_heif = LibHeif::new();
+     let descriptors = lib_heif.encoder_descriptors(100, None, None);
+--- a/tests/write_test.rs
++++ b/tests/write_test.rs
+@@ -27,6 +27,7 @@
+ }
+ 
+ #[test]
++#[ignore = "broken in debian, skipping"]
+ fn create_and_encode_image() -> Result<()> {
+     let width = 640;
+     let height = 480;
+@@ -58,6 +59,7 @@
+ }
+ 
+ #[test]
++#[ignore = "broken in debian, skipping"]
+ fn create_and_encode_monochrome_image() -> Result<()> {
+     let width = 640;
+     let height = 480;
+@@ -94,6 +96,7 @@
+ }
+ 
+ #[test]
++#[ignore = "broken in debian, skipping"]
+ fn set_encoder_param() -> Result<()> {
+     let width = 640;
+     let height = 480;
+@@ -126,6 +129,7 @@
+ }
+ 
+ #[test]
++#[ignore = "broken in debian, skipping"]
+ fn add_metadata() -> Result<()> {
+     let width = 640;
+     let height = 480;

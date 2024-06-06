@@ -1,0 +1,96 @@
+rust-plist (1.6.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package plist 1.6.1 from crates.io using debcargo 2.6.1
+  * Drop quick-xml-0.27.diff
+  * Bump serde-yaml dev-dependency to 0.9
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 27 May 2024 05:42:52 +0000
+
+rust-plist (1.6.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package plist 1.6.1 from crates.io using debcargo 2.6.1
+  * Drop indexmap-1.diff.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 04:05:06 +0000
+
+rust-plist (1.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package plist 1.6.1 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 07 Apr 2024 22:34:02 +0200
+
+rust-plist (1.6.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package plist 1.6.0 from crates.io using debcargo 2.6.1
+  * Stop patching time dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 19 Feb 2024 13:12:40 +0000
+
+rust-plist (1.6.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package plist 1.6.0 from crates.io using debcargo 2.6.1
+  * Revert some upstream dependency bumps that are not currently
+    satisfiable in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 03 Dec 2023 17:11:08 +0000
+
+rust-plist (1.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump base64 to 0.21
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Thu, 15 Jun 2023 14:02:09 +0000
+
+rust-plist (1.3.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package plist 1.3.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 12 Jun 2022 09:31:56 +0200
+
+rust-plist (1.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package plist 1.0.0 from crates.io using debcargo 2.4.4
+  * Relax dependency on base64
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 22 Aug 2021 12:29:31 +0000
+
+rust-plist (1.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package plist 1.0.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 29 Aug 2020 17:51:24 +0200
+
+rust-plist (0.5.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * enable use with base64 0.12.*
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 10 Jun 2020 15:39:10 -0400
+
+rust-plist (0.5.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package plist 0.5.4 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 14 Apr 2020 12:14:44 +0200
+
+rust-plist (0.5.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package plist 0.5.1 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 08 Jan 2020 23:20:49 +0000
+
+rust-plist (0.4.2-1) unstable; urgency=medium
+
+  * Package plist 0.4.2 from crates.io using debcargo 2.2.10
+
+ -- Helen Koike <helen@koikeco.de>  Sat, 20 Jul 2019 16:35:01 -0300

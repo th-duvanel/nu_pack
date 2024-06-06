@@ -1,0 +1,6 @@
+rust-reduce (0.1.1-1) unstable; urgency=medium
+
+  [ kpcyrd ]
+  * Package reduce 0.1.1 from crates.io using debcargo 2.2.1
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 08 Jul 2018 13:14:49 -0700

@@ -1,0 +1,121 @@
+rust-curl-sys (0.4.67-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package curl-sys 0.4.67+curl-8.3.0 from crates.io using debcargo 2.6.0
+  * Reinstate force-system-lib-on-osx feature.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 11 Oct 2023 03:35:21 +0000
+
+rust-curl-sys (0.4.67-1) unstable; urgency=medium
+
+  * Package curl-sys 0.4.67+curl-8.3.0 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Package curl-sys 0.4.66+curl-8.3.0 from crates.io using debcargo 2.6.0
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package curl-sys 0.4.65+curl-8.2.1 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 10 Oct 2023 18:27:23 +0000
+
+rust-curl-sys (0.4.58-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package curl-sys 0.4.58+curl-7.86.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 29 Oct 2022 09:41:40 +0000
+
+rust-curl-sys (0.4.56-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package curl-sys 0.4.56+curl-7.83.1 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Thu, 20 Oct 2022 20:47:43 -0400
+
+rust-curl-sys (0.4.55-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package curl-sys 0.4.55+curl-7.83.1 from crates.io using debcargo 2.5.0
+
+  [ Ximin Luo ]
+  * Package curl-sys 0.4.49+curl-7.79.1 from crates.io using debcargo 2.4.4
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Tue, 27 Sep 2022 20:55:14 -0400
+
+rust-curl-sys (0.4.49-2) unstable; urgency=medium
+
+  * Package curl-sys 0.4.49+curl-7.79.1 from crates.io using debcargo 2.5.0
+  * avoid spurious re-builds since we do not bundle libcurl (Thanks, Ximin!)
+  * keep package names stable across debcargo transition (works around
+    #1001251)
+  * Add myself to uploaders
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 19 Jul 2022 23:51:08 -0400
+
+rust-curl-sys (0.4.49-1) unstable; urgency=medium
+
+  * Package curl-sys 0.4.49+curl-7.79.1 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 18:51:31 +0100
+
+rust-curl-sys (0.4.36-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package curl-sys 0.4.36+curl-7.71.1 from crates.io using debcargo 2.4.3
+  * Update disable-vendor.patch for new upstream
+  * Refresh disable-mesalink.patch for new upstream
+  * Add new patch disable-libz-sys.patch to disable libz-sys and
+    zlib-ng-compat features which depend on a package that is not
+    in Debian.
+  * Manually fix debian/tests/control until commit
+    293fb88f2156d0db6262349aa4b1c4d3a3b1186a is in a released version of
+    debcargo ( Closes: 968858 ).
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Sep 2020 18:38:58 +0000
+
+rust-curl-sys (0.4.30-2) unstable; urgency=medium
+
+  * Package curl-sys 0.4.30+curl-7.69.1 from crates.io using debcargo 2.4.2
+  * Fix static linking for autopkgtests.
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 21 Apr 2020 21:18:53 +0100
+
+rust-curl-sys (0.4.30-1) unstable; urgency=medium
+
+  * Package curl-sys 0.4.30+curl-7.69.1 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 18 Apr 2020 19:16:17 +0100
+
+rust-curl-sys (0.4.24-1) unstable; urgency=medium
+
+  * Package curl-sys 0.4.24 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 28 Nov 2019 01:31:32 +0000
+
+rust-curl-sys (0.4.18-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package curl-sys 0.4.18 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:20:15 +0200
+
+rust-curl-sys (0.4.18-1) unstable; urgency=medium
+
+  * Package curl-sys 0.4.18 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 30 May 2019 21:46:06 -0700
+
+rust-curl-sys (0.4.12-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package curl-sys 0.4.12 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Fri, 21 Sep 2018 23:24:13 +0200
+
+rust-curl-sys (0.4.8-1) unstable; urgency=medium
+
+  * Package curl-sys 0.4.8 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 03 Aug 2018 06:41:56 -0700

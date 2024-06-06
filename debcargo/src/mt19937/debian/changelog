@@ -1,0 +1,5 @@
+rust-mt19937 (2.0.1-1) unstable; urgency=medium
+
+  * Package mt19937 2.0.1 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 20 Sep 2023 07:59:28 +0100

@@ -1,0 +1,72 @@
+rust-csv (1.2.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package csv 1.2.2 from crates.io using debcargo 2.6.0
+  * Drop relax-dep.diff, no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 12 Jun 2023 22:18:24 +0000
+
+rust-csv (1.1.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package csv 1.1.6 from crates.io using debcargo 2.4.2
+  * Bump itoa dependency to version 1.x
+  * Disable tests that fail when build with --all-targets (Closes: 1005050)
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 02 May 2022 12:06:47 +0000
+
+rust-csv (1.1.5-2) unstable; urgency=medium
+
+  * Fix the file timestamps.
+
+ -- Paride Legovini <paride@debian.org>  Sat, 05 Dec 2020 16:27:37 +0000
+
+rust-csv (1.1.5-1) unstable; urgency=medium
+
+  * Package csv 1.1.5 from crates.io using debcargo 2.4.3
+    Closes: #962803
+
+ -- Paride Legovini <paride@debian.org>  Fri, 04 Dec 2020 00:28:03 +0000
+
+rust-csv (1.1.3-1) unstable; urgency=medium
+
+  * Package csv 1.1.3 from crates.io using debcargo 2.4.2
+
+ -- Paride Legovini <paride@debian.org>  Wed, 03 Jun 2020 11:15:10 +0000
+
+rust-csv (1.1.1-1) unstable; urgency=medium
+
+  * Package csv 1.1.1 from crates.io using debcargo 2.2.10
+
+ -- Paride Legovini <pl@ninthfloor.org>  Sun, 25 Aug 2019 22:06:59 +0000
+
+rust-csv (1.0.7-1) experimental; urgency=medium
+
+  * Package csv 1.0.7 from crates.io using debcargo 2.2.10
+
+ -- Paride Legovini <pl@ninthfloor.org>  Fri, 31 May 2019 19:05:02 +0000
+
+rust-csv (1.0.5-1) unstable; urgency=medium
+
+  * Package csv 1.0.5 from crates.io using debcargo 2.2.9
+
+ -- Paride Legovini <pl@ninthfloor.org>  Fri, 04 Jan 2019 09:36:50 +0000
+
+rust-csv (1.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package csv 1.0.2 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 07 Oct 2018 11:29:49 +0200
+
+rust-csv (1.0.1-1) unstable; urgency=medium
+
+  * Package csv 1.0.1 from crates.io using debcargo 2.2.6
+
+ -- Paride Legovini <pl@ninthfloor.org>  Wed, 29 Aug 2018 20:03:24 +0000
+
+rust-csv (1.0.0-1) unstable; urgency=medium
+
+  * Package csv 1.0.0 from crates.io using debcargo 2.2.4
+
+ -- Paride Legovini <pl@ninthfloor.org>  Thu, 26 Jul 2018 17:21:07 +0200

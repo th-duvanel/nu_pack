@@ -1,0 +1,5 @@
+rust-goldenfile (1.5.2-1) unstable; urgency=medium
+
+  * Package goldenfile 1.5.2 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 14 Sep 2023 14:54:00 +0100

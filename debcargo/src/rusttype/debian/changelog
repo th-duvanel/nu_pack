@@ -1,0 +1,21 @@
+rust-rusttype (0.9.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusttype 0.9.3 from crates.io using debcargo 2.6.0
+  * Actually include patch to bump owned_ttf_parser dependency
+
+ -- James McCoy <jamessan@debian.org>  Sun, 16 Jul 2023 11:36:44 -0400
+
+rust-rusttype (0.9.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusttype 0.9.3 from crates.io using debcargo 2.6.0
+  * Bump owned_ttf_parser dependency to 0.19
+
+ -- James McCoy <jamessan@debian.org>  Sun, 16 Jul 2023 09:43:04 -0400
+
+rust-rusttype (0.9.3-1) unstable; urgency=medium
+
+  * Package rusttype 0.9.3 from crates.io using debcargo 2.6.0
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Tue, 27 Jun 2023 17:04:25 +0900

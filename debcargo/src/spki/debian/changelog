@@ -1,0 +1,5 @@
+rust-spki (0.7.2-1) unstable; urgency=medium
+
+  * Package spki 0.7.2 from crates.io using debcargo 2.6.0
+
+ -- Emanuele Rocca <ema@debian.org>  Tue, 22 Aug 2023 13:26:07 +0200

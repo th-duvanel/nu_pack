@@ -1,0 +1,32 @@
+--- cssparser.orig/src/tests.rs
++++ cssparser/src/tests.rs
+@@ -109,3 +109,3 @@
+ 
+-#[test]
++/*#[test]
+ fn component_value_list() {
+@@ -251,3 +251,3 @@
+     }
+-}
++}*/
+ 
+@@ -364,3 +364,3 @@
+ 
+-#[test]
++/*#[test]
+ fn color3() {
+@@ -499,3 +499,3 @@
+     );
+-}
++}*/
+ 
+@@ -846,3 +846,3 @@
+ 
+-#[cfg(feature = "bench")]
++/*#[cfg(feature = "bench")]
+ const BACKGROUND_IMAGE: &'static str = include_str!("big-data-url.css");
+@@ -864,3 +864,3 @@
+     })
+-}
++}*/
+ 

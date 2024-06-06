@@ -1,0 +1,5 @@
+rust-chic (1.2.2-1) unstable; urgency=medium
+
+  * Package chic 1.2.2 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 01 Sep 2023 11:54:21 +0100

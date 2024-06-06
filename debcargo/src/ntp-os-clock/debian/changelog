@@ -1,0 +1,29 @@
+rust-ntp-os-clock (1.1.2-1) unstable; urgency=medium
+
+  * Package ntp-os-clock 1.1.2 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 01 Feb 2024 13:31:54 +0100
+
+rust-ntp-os-clock (1.1.1-1) unstable; urgency=medium
+
+  * Package ntp-os-clock 1.1.1 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 25 Jan 2024 07:55:23 +0100
+
+rust-ntp-os-clock (1.1.0-1) unstable; urgency=medium
+
+  * Package ntp-os-clock 1.1.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 15 Dec 2023 11:36:58 +0100
+
+rust-ntp-os-clock (1.0.0-1) unstable; urgency=medium
+
+  * Package ntp-os-clock 1.0.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 10 Oct 2023 23:33:21 +0200
+
+rust-ntp-os-clock (0.3.6-1) unstable; urgency=medium
+
+  * Package ntp-os-clock 0.3.6 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 20 Aug 2023 10:53:49 +0200

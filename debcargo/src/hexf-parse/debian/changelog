@@ -1,0 +1,5 @@
+rust-hexf-parse (0.2.1-1) unstable; urgency=medium
+
+  * Package hexf-parse 0.2.1 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 12 Aug 2023 23:39:09 +0100

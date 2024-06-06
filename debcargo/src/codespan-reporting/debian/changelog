@@ -1,0 +1,18 @@
+rust-codespan-reporting (0.11.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package codespan-reporting 0.11.1 from crates.io using debcargo 2.6.0
+  * Stop pointlessly patching version of insta dev-dependency.
+  * Disable "peg_calculator" example as it needs rustyline and peg.
+
+  [ Matthias Geiger ]
+  * Patched out dev-dependencies on rustyline and peg.
+  * Package codespan-reporting 0.11.1 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 29 Dec 2022 23:30:32 +0000
+
+rust-codespan-reporting (0.11.1-1) unstable; urgency=medium
+
+  * Package codespan-reporting 0.11.1 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 Aug 2022 11:34:50 +0200

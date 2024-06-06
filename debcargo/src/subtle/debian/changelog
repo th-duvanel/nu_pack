@@ -1,0 +1,33 @@
+rust-subtle (2.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package subtle 2.5.0 from crates.io using debcargo 2.6.1 (Closes: #1061381)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 28 Jan 2024 14:39:56 +0000
+
+rust-subtle (2.4.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package subtle 2.4.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 01 Jun 2022 09:51:02 +0200
+
+rust-subtle (2.1.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package subtle 2.1.1 from crates.io using debcargo 2.4.2
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Ximin Luo <infinity0@debian.org>  Mon, 27 Jan 2020 22:51:26 +0000
+
+rust-subtle (2.1.1-1) unstable; urgency=medium
+
+  * Package subtle 2.1.1 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Wed, 28 Aug 2019 13:33:16 +0200
+
+rust-subtle (0.9.0-1) unstable; urgency=medium
+
+  * Package subtle 0.9.0 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Fri, 21 Sep 2018 23:18:01 +0200

@@ -1,0 +1,15 @@
+rust-tabled (0.14.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tabled 0.14.0 from crates.io using debcargo 2.6.0
+  * Disable tests that depend on the testing_table crate which is not published
+    on Crates.io and is not in Debian (Closes: #1053429).
+  * Adjust example to use a file that exists in the crates.io release.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 05 Oct 2023 19:18:26 +0000
+
+rust-tabled (0.14.0-1) unstable; urgency=medium
+
+  * Package tabled 0.14.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 24 Sep 2023 12:32:30 +0200

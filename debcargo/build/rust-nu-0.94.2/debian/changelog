@@ -1,0 +1,9 @@
+rust-nu (0.94.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package nu 0.94.2 from crates.io using debcargo 2.6.1
+
+  [ Sylvestre Ledru ]
+  * Package nu 0.81.0 from crates.io using debcargo 2.6.0
+
+ -- Thiago Duvanel Ferreira <thiago.duvanel@usp.br>  Thu, 06 Jun 2024 14:24:35 +0000

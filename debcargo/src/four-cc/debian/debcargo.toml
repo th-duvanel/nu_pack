@@ -1,0 +1,12 @@
+overlay = "."
+uploaders = ["Fab Stz <fabstz-it@yahoo.fr>"]
+
+summary = "Newtype wrapper for representation of 4-char-code values"
+
+collapse_features = true
+
+[packages."lib+schemars"]
+test_is_broken = true
+# broken on ubuntu but not on debian
+[packages."lib+nightly"]
+test_is_broken = true

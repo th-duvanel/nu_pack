@@ -1,0 +1,19 @@
+rust-typed-arena (2.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package typed-arena 2.0.1 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Mon, 26 Sep 2022 20:40:54 -0400
+
+rust-typed-arena (2.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package typed-arena 2.0.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:23:01 +0200
+
+rust-typed-arena (2.0.0-1) unstable; urgency=medium
+
+  * Package typed-arena 2.0.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 28 Dec 2019 11:25:12 +0100

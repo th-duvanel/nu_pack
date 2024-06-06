@@ -1,0 +1,65 @@
+rust-typenum (1.16.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package typenum 1.16.0 from crates.io using debcargo 2.6.0
+  * Mark tests for const-generics feature (new in 1.16) as "broken",
+    the feature fails to build on 32-bit architectures (Closes: #1031752).
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 22 Feb 2023 02:55:59 +0000
+
+rust-typenum (1.16.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package typenum 1.16.0 from crates.io using debcargo 2.6.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Tue, 10 Jan 2023 15:14:52 +0100
+
+rust-typenum (1.15.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package typenum 1.15.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 23 May 2022 23:08:41 +0200
+
+rust-typenum (1.15.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package typenum 1.15.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 23 May 2022 22:55:42 +0200
+
+rust-typenum (1.12.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package typenum 1.12.0 from crates.io using debcargo 2.4.3
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 01 Oct 2020 23:13:34 +0100
+
+rust-typenum (1.11.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package typenum 1.11.2 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 28 Nov 2019 01:39:59 +0000
+
+rust-typenum (1.10.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package typenum 1.10.0 from crates.io using debcargo 2.2.10
+  * Add patch to series file, whoops.
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 31 May 2019 00:03:10 -0700
+
+rust-typenum (1.10.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package typenum 1.10.0 from crates.io using debcargo 2.2.10
+  * Add patch that fixes FTBFS on i386.
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 18 May 2019 19:13:40 -0700
+
+rust-typenum (1.10.0-1) unstable; urgency=medium
+
+  * Package typenum 1.10.0 from crates.io using debcargo 2.2.1
+
+ -- kpcyrd <git@rxv.cc>  Sun, 08 Jul 2018 13:24:38 -0700

@@ -1,0 +1,13 @@
+rust-qr2term (0.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package qr2term 0.3.1 from crates.io using debcargo 2.6.0
+  * Bump crossterm dependency to 0.27.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 23 Nov 2023 04:51:34 +0000
+
+rust-qr2term (0.3.1-1) unstable; urgency=medium
+
+  * Package qr2term 0.3.1 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 14 Jul 2023 23:39:13 +0200

@@ -1,0 +1,12 @@
+rust-ecdsa (0.16.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ecdsa 0.16.8 from crates.io using debcargo 2.6.1 (Closes: #1061375)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 28 Jan 2024 06:08:32 +0000
+
+rust-ecdsa (0.16.7-1) unstable; urgency=medium
+
+  * Package ecdsa 0.16.7 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Wed, 29 Nov 2023 09:03:21 -0500

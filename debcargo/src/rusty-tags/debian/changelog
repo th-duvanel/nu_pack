@@ -1,0 +1,59 @@
+rust-rusty-tags (3.10.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusty-tags 3.10.0 from crates.io using debcargo 2.6.0
+  * Update relax-dep-versions.patch for new upstream and current situation in
+    Debian.
+  * Apply workaround for dh_dwz crash
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Aug 2023 15:49:47 +0000
+
+rust-rusty-tags (3.5.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusty-tags 3.5.1 from crates.io using debcargo 2.5.0
+  * Relax dirs version constraint to support 4.x
+
+ -- James McCoy <jamessan@debian.org>  Sun, 11 Sep 2022 14:05:05 -0400
+
+rust-rusty-tags (3.5.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusty-tags 3.5.1 from crates.io using debcargo 2.4.2
+  * Update to dirs 3.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 04 Oct 2020 15:11:50 +0200
+
+rust-rusty-tags (3.5.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusty-tags 3.5.1 from crates.io using debcargo 2.4.0
+  * Update to fix a build dep rust-dirs (Closes: #946019)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 03 Dec 2019 09:42:30 +0100
+
+rust-rusty-tags (3.5.1-1) unstable; urgency=medium
+
+  * Package rusty-tags 3.5.1 from crates.io using debcargo 2.2.10
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Sun, 14 Jul 2019 10:15:14 +0200
+
+rust-rusty-tags (3.5.0-1) unstable; urgency=medium
+
+  * Package rusty-tags 3.5.0 from crates.io using debcargo 2.2.10
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Sat, 16 Mar 2019 15:03:50 -0700
+
+rust-rusty-tags (3.4.0-1) unstable; urgency=medium
+
+  * Package rusty-tags 3.4.0 from crates.io using debcargo 2.2.10
+  * Fix section for the source package. Closes: #921466
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Mon, 11 Feb 2019 15:58:59 +0100
+
+rust-rusty-tags (3.3.0-1) unstable; urgency=medium
+
+  * Initial release. Closes: #920392
+  * Package rusty-tags 3.3.0 from crates.io using debcargo 2.2.10
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Tue, 29 Jan 2019 09:42:32 +0100

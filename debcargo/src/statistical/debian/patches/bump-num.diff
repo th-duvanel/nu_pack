@@ -1,0 +1,7 @@
+--- statistical.orig/Cargo.toml
++++ statistical/Cargo.toml
+@@ -24,3 +24,3 @@
+ [dependencies.num]
+-version = "0.2"
++version = "0.4"
+ 

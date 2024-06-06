@@ -1,0 +1,5 @@
+rust-hex-slice (0.1.4-1) unstable; urgency=medium
+
+  * Package hex-slice 0.1.4 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Wed, 07 Feb 2024 17:10:26 +0100

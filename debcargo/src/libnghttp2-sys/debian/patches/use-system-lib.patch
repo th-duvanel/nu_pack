@@ -1,0 +1,10 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -28,5 +28,5 @@
+ [dependencies.libc]
+ version = "0.2"
+ 
+-[build-dependencies.cc]
+-version = "1.0.24"
++[build-dependencies.pkg-config]
++version = "0.3"

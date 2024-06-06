@@ -1,0 +1,56 @@
+rust-zvariant-2 (2.10.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package zvariant 2.10.0 from crates.io using debcargo 2.6.0
+  * Skip part of "framing_offset_size_bump" test on 32-bit.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Jun 2023 21:49:05 +0000
+
+rust-zvariant-2 (2.10.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package zvariant 2.10.0 from crates.io using debcargo 2.6.0
+  * Disable tests that require glib crate, upstream uses a git snapshot
+    of the glib crate for testing which is not appropriate in Debian.
+  * Disable test that relies on testdata which is not included in the
+    Crates.io release.
+  * Stop setting test_is_broken
+  * Fix code to build with new enumflags2.
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 26 Jun 2023 21:09:31 +0000
+
+rust-zvariant-2 (2.10.0-2) experimental; urgency=medium
+
+  * Package zvariant 2.10.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 16 Jun 2023 13:56:03 -0400
+
+rust-zvariant (2.10.0-1) unstable; urgency=medium
+
+  * Package zvariant 2.10.0 from crates.io using debcargo 2.5.0
+  * Disable the arrayvec feature, my attempts to port it to the
+    new version of arrayvec were a failure and nothing depends on
+    it.
+  * Disable benches that depend on Criterion and relax the
+    dev-dependency on rand so the autopkgtest can run.
+  * Disable tests that fail with a missing import error.
+  * Disable test that fails with missing test data.
+
+  [ Henry-Nicolas Tourneur ]
+  * Team upload.
+  * Package zvariant 2.8.0 from crates.io using debcargo 2.4.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 19 Dec 2021 21:39:59 +0100
+
+rust-zvariant (2.0.0-2) unstable; urgency=medium
+
+  * Rebuild.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 22 Dec 2020 11:05:08 +0100
+
+rust-zvariant (2.0.0-1) unstable; urgency=medium
+
+  * Package zvariant 2.0.0 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 10 Dec 2020 12:57:16 +0100

@@ -1,0 +1,37 @@
+rust-termion (1.5.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package termion 1.5.6 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 29 Jan 2022 22:18:19 +0000
+
+rust-termion (1.5.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package termion 1.5.5 from crates.io using debcargo 2.4.2
+
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Tue, 14 Apr 2020 10:12:54 +0200
+
+rust-termion (1.5.4-3) unstable; urgency=medium
+
+  * Package termion 1.5.4 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Dec 2019 06:28:39 +0000
+
+rust-termion (1.5.4-2) unstable; urgency=medium
+
+  * Package termion 1.5.4 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Dec 2019 02:48:22 +0000
+
+rust-termion (1.5.4-1) unstable; urgency=medium
+
+  * Package termion 1.5.4 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 24 Dec 2019 15:02:57 +0000
+
+rust-termion (1.5.1-1) unstable; urgency=medium
+
+  * Package termion 1.5.1 from crates.io using debcargo 2.2.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 29 Jul 2018 07:10:36 -0700

@@ -1,0 +1,5 @@
+rust-static-alloc (0.2.5-1) unstable; urgency=medium
+
+  * Package static-alloc 0.2.5 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 02 Mar 2024 14:31:19 +0100

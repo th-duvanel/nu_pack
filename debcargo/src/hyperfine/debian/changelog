@@ -1,0 +1,101 @@
+rust-hyperfine (1.18.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package hyperfine 1.18.0 from crates.io using debcargo 2.6.1
+  * Relax nix dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Feb 2024 06:08:46 +0000
+
+rust-hyperfine (1.18.0-1) unstable; urgency=medium
+
+  * Package hyperfine 1.18.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 07 Dec 2023 11:48:46 +0100
+
+rust-hyperfine (1.17.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package hyperfine 1.17.0 from crates.io using debcargo 2.6.0
+
+  [ Sylvestre Ledru ]
+  * Package hyperfine 1.17.0 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 11 Jul 2023 22:11:01 +0000
+
+rust-hyperfine (1.15.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package hyperfine 1.15.0 from crates.io using debcargo 2.6.0
+  * Apply upstream patch for indicatif 0.17
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 22 Jan 2023 00:41:44 +0000
+
+rust-hyperfine (1.15.0-1) unstable; urgency=medium
+
+  * Package hyperfine 1.15.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 22 Sep 2022 10:07:12 +0200
+
+rust-hyperfine (1.14.0-2) unstable; urgency=medium
+
+  * Package hyperfine 1.14.0 from crates.io using debcargo 2.5.0
+  * Unbreak the build after the nix upgrade
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 05 Jun 2022 11:20:35 +0200
+
+rust-hyperfine (1.14.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package hyperfine 1.14.0 from crates.io using debcargo 2.5.0
+  * Drop previous patches, no longer needed.
+  * Add new patch dropping nix dependency to match the version in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 21 May 2022 19:00:05 +0000
+
+rust-hyperfine (1.13.0-1) unstable; urgency=medium
+
+  * Package hyperfine 1.13.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 15 Apr 2022 09:03:09 +0200
+
+rust-hyperfine (1.12.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package hyperfine 1.12.0 from crates.io using debcargo 2.5.0
+  * Stop patching rand dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 09:49:26 +0000
+
+rust-hyperfine (1.12.0-2) unstable; urgency=medium
+
+  * Package hyperfine 1.12.0 from crates.io using debcargo 2.5.0
+  * Use rust-decimal 0.17
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 19 Dec 2021 18:35:11 +0100
+
+rust-hyperfine (1.12.0-1) unstable; urgency=medium
+
+  * Package hyperfine 1.12.0 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 20 Oct 2021 22:56:00 +0200
+
+rust-hyperfine (1.11.0-3) unstable; urgency=medium
+
+  * Package hyperfine 1.11.0 from crates.io using debcargo 2.4.4-alpha.0
+  * Disable dwz (Closes: #995918)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 10 Oct 2021 18:22:00 +0200
+
+rust-hyperfine (1.11.0-2) unstable; urgency=medium
+
+  * Package hyperfine 1.11.0 from crates.io using debcargo 2.4.3
+  * Source upload
+  * Add a proper summary & description
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 23 Nov 2020 09:49:48 +0100
+
+rust-hyperfine (1.11.0-1) unstable; urgency=medium
+
+  * Package hyperfine 1.11.0 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Nov 2020 22:37:27 +0100

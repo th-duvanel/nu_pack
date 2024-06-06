@@ -1,0 +1,30 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -30,13 +30,13 @@
+ license = "MIT"
+ repository = "https://github.com/zip-rs/zip.git"
+ 
+-[[bench]]
+-name = "read_entry"
+-harness = false
+-
+-[[bench]]
+-name = "read_metadata"
+-harness = false
++#[[bench]]
++#name = "read_entry"
++#harness = false
++#
++#[[bench]]
++#name = "read_metadata"
++#harness = false
+ 
+ [dependencies.aes]
+ version = "0.8.2"
+@@ -86,4 +86,4 @@
+ 
+-[dev-dependencies.bencher]
+-version = "0.1.5"
++#[dev-dependencies.bencher]
++#version = "0.1.5"
+ 

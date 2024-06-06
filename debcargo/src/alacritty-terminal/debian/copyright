@@ -1,0 +1,22 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: alacritty_terminal
+Upstream-Contact:
+ Christian Duerr <contact@christianduerr.com>
+ Joe Wilm <joe@jwilm.com>
+
+Files: *
+Copyright:
+ 2017-2022 Christian Duerr <contact@christianduerr.com>
+ 2016-2021 Joe Wilm <joe@jwilm.com>
+License: Apache-2.0
+
+Files: debian/*
+Copyright:
+ 2020-2024 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2020-2024 Fabio Rafael da Rosa <fdr@fabiodarosa.org>
+ 2020-2024 James McCoy <jamessan@debian.org>
+License: Apache-2.0
+
+License: Apache-2.0
+ Debian systems provide the Apache 2.0 license in
+ /usr/share/common-licenses/Apache-2.0

@@ -1,0 +1,5 @@
+rust-llvm-bitcode (0.1.2-1) unstable; urgency=medium
+
+  * Package llvm-bitcode 0.1.2 from crates.io using debcargo 2.5.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 06 Jul 2023 13:04:18 +0100

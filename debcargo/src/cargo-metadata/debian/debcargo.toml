@@ -1,0 +1,11 @@
+overlay = "."
+uploaders = ["Robin Krahl <robin.krahl@ireas.org>"]
+
+collapse_features = true
+
+[packages.lib]
+# Most of the tests don’t work:
+#  - some of the tests in selftest make assumptions about the registry path
+#  - some of the tests in test_samples require files that are not uploaded to
+#    crates.io
+test_is_broken = true

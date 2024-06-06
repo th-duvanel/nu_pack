@@ -1,0 +1,11 @@
+rust-wayland-protocols-0.29 (0.29.5-2) unstable; urgency=medium
+
+  * Package wayland-protocols 0.29.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 04 Jul 2023 21:21:41 +0200
+
+rust-wayland-protocols-0.29 (0.29.5-1) experimental; urgency=medium
+
+  * Package wayland-protocols 0.29.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 29 Jun 2023 09:04:01 -0400

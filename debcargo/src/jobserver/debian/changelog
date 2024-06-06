@@ -1,0 +1,56 @@
+rust-jobserver (0.1.27-1) unstable; urgency=medium
+
+  * Package jobserver 0.1.27 from crates.io using debcargo 2.6.0
+  * Remove dev-dependency on old version of futures/tokio and disable test
+    that depends on them so the rest of the tests can run.
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package jobserver 0.1.26 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 10 Oct 2023 17:55:57 +0000
+
+rust-jobserver (0.1.24-1) unstable; urgency=medium
+
+  * Package jobserver 0.1.24 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 19:35:22 +0100
+
+rust-jobserver (0.1.21-1) unstable; urgency=medium
+
+  * Package jobserver 0.1.21 from crates.io using debcargo 2.4.3
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 01 Oct 2020 23:23:34 +0100
+
+rust-jobserver (0.1.17-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package jobserver 0.1.17 from crates.io using debcargo 2.2.10
+
+  * Source upload for rebuild...
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 29 Oct 2019 08:43:44 +0100
+
+rust-jobserver (0.1.17-1) unstable; urgency=medium
+
+  * Package jobserver 0.1.17 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Mon, 09 Sep 2019 12:39:53 -0700
+
+rust-jobserver (0.1.14-1) unstable; urgency=medium
+
+  * Package jobserver 0.1.14 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 16 Jul 2019 23:18:11 -0700
+
+rust-jobserver (0.1.13-1) unstable; urgency=medium
+
+  * Package jobserver 0.1.13 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 30 May 2019 22:55:01 -0700
+
+rust-jobserver (0.1.11-1) unstable; urgency=medium
+
+  * Package jobserver 0.1.11 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 03 Aug 2018 02:00:52 -0700

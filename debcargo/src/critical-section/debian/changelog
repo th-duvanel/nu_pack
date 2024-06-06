@@ -1,0 +1,9 @@
+rust-critical-section (1.1.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package critical-section 1.1.1 from crates.io using debcargo 2.6.0
+
+  [ Sylvestre Ledru ]
+  * Package critical-section 0.2.5 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 16 Jun 2023 20:31:17 +0200

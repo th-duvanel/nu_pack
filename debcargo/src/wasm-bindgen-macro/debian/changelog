@@ -1,0 +1,59 @@
+rust-wasm-bindgen-macro (0.2.87-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package wasm-bindgen-macro 0.2.87 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 31 Oct 2023 16:05:42 +0000
+
+rust-wasm-bindgen-macro (0.2.83-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package wasm-bindgen-macro 0.2.83 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Sep 2022 00:50:29 +0000
+
+rust-wasm-bindgen-macro (0.2.78-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package wasm-bindgen-macro 0.2.78 from crates.io using debcargo 2.5.0
+
+  [ kpcyrd ]
+  * Package wasm-bindgen-macro 0.2.68 from crates.io using debcargo 2.4.3
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 08 Jan 2022 12:01:34 +0000
+
+rust-wasm-bindgen-macro (0.2.58-1) unstable; urgency=medium
+
+  * Package wasm-bindgen-macro 0.2.58 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 08 Jan 2020 15:06:46 +0100
+
+rust-wasm-bindgen-macro (0.2.56-1) unstable; urgency=medium
+
+  * Package wasm-bindgen-macro 0.2.56 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 01 Jan 2020 23:56:31 +0100
+
+rust-wasm-bindgen-macro (0.2.51-1) unstable; urgency=medium
+
+  * Package wasm-bindgen-macro 0.2.51 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 05 Oct 2019 09:22:07 +0200
+
+rust-wasm-bindgen-macro (0.2.50-1) unstable; urgency=medium
+
+  * Package wasm-bindgen-macro 0.2.50 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 08 Sep 2019 21:15:04 +0200
+
+rust-wasm-bindgen-macro (0.2.49-1) unstable; urgency=medium
+
+  * Package wasm-bindgen-macro 0.2.49 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 15 Aug 2019 10:54:20 +0200
+
+rust-wasm-bindgen-macro (0.2.33-1) unstable; urgency=medium
+
+  * Package wasm-bindgen-macro 0.2.33 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 26 Jan 2019 10:08:33 -0800

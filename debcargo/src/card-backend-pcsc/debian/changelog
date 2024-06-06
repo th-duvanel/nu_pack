@@ -1,0 +1,5 @@
+rust-card-backend-pcsc (0.5.0-1) unstable; urgency=medium
+
+  * Package card-backend-pcsc 0.5.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 25 Mar 2024 10:18:06 +0100

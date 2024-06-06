@@ -1,0 +1,27 @@
+rust-universal-hash (0.5.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package universal-hash 0.5.1 from crates.io using debcargo 2.6.0 (Closes: #1042389)
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 12 Aug 2023 14:32:37 +0000
+
+rust-universal-hash (0.3.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package universal-hash 0.3.0 from crates.io using debcargo 2.4.3
+  * Fix dep on generic-array (Closes: #975753)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 25 Nov 2020 22:31:39 +0100
+
+rust-universal-hash (0.3.0-2) unstable; urgency=medium
+
+  * Package universal-hash 0.3.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 29 Dec 2019 11:35:01 +0100
+
+rust-universal-hash (0.3.0-1) unstable; urgency=medium
+
+  * Package universal-hash 0.3.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 04 Nov 2019 23:44:31 +0100

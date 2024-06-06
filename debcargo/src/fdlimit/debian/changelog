@@ -1,0 +1,5 @@
+rust-fdlimit (0.2.1-1) unstable; urgency=medium
+
+  * Package fdlimit 0.2.1 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Wed, 06 Apr 2022 20:26:55 -0400

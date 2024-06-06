@@ -1,0 +1,33 @@
+rust-sized-chunks (0.6.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sized-chunks 0.6.5 from crates.io using debcargo 2.4.2
+  * Fix 1970 timestamps (Closes: 992628)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 21 Aug 2021 21:26:43 +0000
+
+rust-sized-chunks (0.6.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sized-chunks 0.6.5 from crates.io using debcargo 2.4.2 (Closes: 970586)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 21 Aug 2021 11:19:13 +0000
+
+rust-sized-chunks (0.6.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sized-chunks 0.6.2 from crates.io using debcargo 2.4.2
+  * Disable the refpool, arbitrary, array-ops and ringbuffer features
+    for now as rust-refpool is not in Debian and the ftp-masters are
+    currently blocking new rust packages.
+
+  [ Ximin Luo ]
+  * Package sized-chunks 0.6.1 from crates.io using debcargo 2.4.2
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Sep 2020 09:28:43 +0000
+
+rust-sized-chunks (0.3.1-1) unstable; urgency=medium
+
+  * Package sized-chunks 0.3.1 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 07 Aug 2019 21:00:48 -0700

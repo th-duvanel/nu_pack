@@ -1,0 +1,7 @@
+overlay = "."
+uploaders = ["Alexander Kjäll <alexander.kjall@gmail.com>"]
+
+[packages.lib]
+depends = [
+    "libgpgme-dev", "pkgconf"
+]

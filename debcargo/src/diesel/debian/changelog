@@ -1,0 +1,82 @@
+rust-diesel (2.0.3-4) unstable; urgency=medium
+
+  * Team upload.
+  * Force dependency on buildtime_bindgen feature for sqlite dependency
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 09 Jan 2024 17:22:50 +0100
+
+rust-diesel (2.0.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Rework patch to enable sqlite feature; renamed patch accordingly
+  * Package diesel 2.0.3 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 09 Jan 2024 00:58:16 +0100
+
+rust-diesel (2.0.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package diesel 2.0.3 from crates.io using debcargo 2.6.0
+  * Dropped use-dotenv patch and updated relax-deps patch as dotenvy is
+    in debian
+  * Build-depend on newer mysqlclient-sys and pq-sys versions that built on 32-
+    bit arches (Closes: #1038135)
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 11 Sep 2023 17:36:52 +0200
+
+rust-diesel (2.0.3-1) unstable; urgency=medium
+
+  [ Matthias Geiger ]
+  * Package diesel 2.0.3 from crates.io using debcargo 2.6.0
+  * Collapsed features in debcargo.toml
+  * Patched dependencies in Cargo.toml (Closes: #984866, #987275)
+  * Added myself to uploaders
+  * Updated copyright
+  * Added dotenv patch
+  * Marked autopkgtest as broken in debcargo.toml
+
+  [ Emanuele Rocca ]
+  * Add noop autopkgtest marked as "superficial" to avoid pointless churn on
+    CI
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 10 Feb 2023 12:05:35 +0100
+
+rust-diesel (1.4.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package diesel 1.4.4 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 18 Oct 2020 11:14:05 +0200
+
+rust-diesel (1.4.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package diesel 1.4.4 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 22 Apr 2020 17:50:24 +0200
+
+rust-diesel (1.4.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package diesel 1.4.2 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 22 Apr 2020 13:29:32 +0200
+
+rust-diesel (1.4.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package diesel 1.4.2 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:10:28 +0200
+
+rust-diesel (1.4.2-1) unstable; urgency=medium
+
+  * Source upload
+  * Package diesel 1.4.2 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Sat, 13 Jul 2019 19:14:23 +0200

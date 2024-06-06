@@ -1,0 +1,100 @@
+rust-pangocairo (0.19.2-3) unstable; urgency=medium
+
+  * Package pangocairo 0.19.2 from crates.io using debcargo 2.6.1
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 04 May 2024 20:01:23 +0200
+
+rust-pangocairo (0.19.2-2) experimental; urgency=medium
+
+  * Team upload
+  * Package pangocairo 0.19.2 from crates.io using debcargo 2.6.1
+  * debian/rules: Include GModule-2.0.gir to fix build with glib 2.80
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 22:38:58 -0400
+
+rust-pangocairo (0.19.2-1) experimental; urgency=medium
+
+  * Drop unnecessary patch for gir-format-check 
+  * Package pangocairo 0.19.2 from crates.io using debcargo 2.6.1
+  * Updated version for gir-rust-code-generator
+  * Updated copyright years and Source: url in d/copyright
+  * Remove hard dependency on rustc >=1.70
+  * Properly depend on packages needed for regeneration
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 20 Feb 2024 16:31:12 +0100
+
+rust-pangocairo (0.18.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Package pangocairo 0.18.0 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:37:39 -0400
+
+rust-pangocairo (0.18.0-2) experimental; urgency=medium
+
+  * Specify dependency on rustc 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 16 Sep 2023 13:01:00 +0200
+
+rust-pangocairo (0.18.0-1) experimental; urgency=medium
+
+  * Package pangocairo 0.18.0 from crates.io using debcargo 2.6.0
+  * Regenerate source code with debian tools before build
+  * Rebased patches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 15 Sep 2023 22:59:17 +0200
+
+rust-pangocairo (0.17.10-1) unstable; urgency=medium
+
+  * Package pangocairo 0.17.10 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+  * Added fix-test.diff patch to enable tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:20:08 +0200
+
+rust-pangocairo (0.16.3-3) unstable; urgency=medium
+
+  * Package pangocairo 0.16.3 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 20:57:31 +0200
+
+rust-pangocairo (0.16.3-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package pangocairo 0.16.3 from crates.io using debcargo 2.6.0
+  * Bump dev-dependency on gir-format-check to 1.2 because older versions do
+    not provide the "Display" implementation that we need. (Closes: #1036794)
+  * Mark tests for the "dox" feature as "broken".
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 27 May 2023 10:26:07 +0200
+
+rust-pangocairo (0.16.3-1) experimental; urgency=medium
+
+  * Package pangocairo 0.16.3 from crates.io using debcargo 2.6.0
+  * Added myself to Uploaders
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 15:09:38 +0200
+
+rust-pangocairo (0.14.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pangocairo 0.14.0 from crates.io using debcargo 2.5.0 (Closes: 1002147)
+
+  [ Henry-Nicolas Tourneur ]
+  * Package pangocairo 0.14.0 from crates.io using debcargo 2.4.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 29 Dec 2021 04:33:11 +0000
+
+rust-pangocairo (0.8.0-1) unstable; urgency=medium
+
+  * Package pangocairo 0.8.0 from crates.io using debcargo 2.2.10
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 03 Oct 2019 15:25:54 +0200
+
+rust-pangocairo (0.6.0-1) unstable; urgency=medium
+
+  * Package pangocairo 0.6.0 from crates.io using debcargo 2.2.9
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 20 Jan 2019 11:26:14 +0100

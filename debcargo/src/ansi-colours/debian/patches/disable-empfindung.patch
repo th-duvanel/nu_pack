@@ -1,0 +1,29 @@
+Description: Disable unpackaged yet empfindung and dependent test
+Last-Update: 2023-13-05
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -42,2 +42,2 @@
+-[dev-dependencies.empfindung]
+-version = "0.2.6"
++#[dev-dependencies.empfindung]
++#version = "0.2.6"
+--- a/src/test.rs
++++ b/src/test.rs
+@@ -40,5 +40,5 @@
+ }
+ 
+-/// Tries all colours in the 256-colour ANSI palette and chooses one with
++/*// Tries all colours in the 256-colour ANSI palette and chooses one with
+ /// smallest ΔE*₀₀ to `rgb(y, y, y)`.
+ fn best_grey(y: u8) -> u8 {
+@@ -66,7 +66,7 @@
+     for i in 0..256 {
+         assert_eq!(best_grey(i as u8), to_ansi((i as u8, i as u8, i as u8)));
+     }
+-}
++}*/
+ 
+ /// Tests that getting value for grey colour given as RGB triple and one given
+ /// as just shade of grey produce the same result.

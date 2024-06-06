@@ -1,0 +1,35 @@
+rust-sop (0.7.0-1) unstable; urgency=medium
+
+  * Package sop 0.7.0 from crates.io using debcargo 2.6.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 21 Nov 2023 18:03:17 -0500
+
+rust-sop (0.4.2-1) unstable; urgency=medium
+
+  * Package sop 0.4.2 from crates.io using debcargo 2.6.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 07 Feb 2023 10:34:49 -0500
+
+rust-sop (0.4.0-1) unstable; urgency=medium
+
+  * Package sop 0.4.0 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 07 Jul 2022 17:21:19 -0400
+
+rust-sop (0.3.1-1) unstable; urgency=medium
+
+  * Package sop 0.3.1 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 09 Feb 2022 19:42:41 -0500
+
+rust-sop (0.3.0-1) unstable; urgency=medium
+
+  * Package sop 0.3.0 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 09 Feb 2022 01:19:36 -0500
+
+rust-sop (0.2.0-1) unstable; urgency=medium
+
+  * Package sop 0.2.0 from crates.io using debcargo 2.4.4
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 19 Oct 2021 00:22:54 -0400

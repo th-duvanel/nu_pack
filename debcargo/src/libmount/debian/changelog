@@ -1,0 +1,98 @@
+rust-libmount (0.1.15-7) unstable; urgency=medium
+
+  * Team upload.
+  * Package libmount 0.1.15 from crates.io using debcargo 2.6.1
+  * Explicitly enable required nix features since nix 0.24 no longer enables
+    them by default.
+  * Raise minimum nix version to 0.24 as earlier versions do not advertise
+    the features in question.
+  * Bump env_logger dev-dependency to 0.10.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 28 Feb 2024 03:55:41 +0000
+
+rust-libmount (0.1.15-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package libmount 0.1.15 from crates.io using debcargo 2.6.0
+  * Relax nix dependency to ">= 0.22, < 1.0"
+  * Eliminate use of use of function as_errno which was deprecated in nix
+    0.22 and removed in nix 0.26.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 10 Dec 2022 12:42:03 +0000
+
+rust-libmount (0.1.15-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package libmount 0.1.15 from crates.io using debcargo 2.5.0
+  * Allow build with nix 0.25.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 23 Aug 2022 01:50:10 +0000
+
+rust-libmount (0.1.15-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package libmount 0.1.15 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Jun 2022 23:35:29 +0000
+
+rust-libmount (0.1.15-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package libmount 0.1.15 from crates.io using debcargo 2.5.0
+  * Bump nix dependency to 0.23
+  * Bump env_logger dev dependency to 0.9
+  * Make testsuite tolerate chroot environments where no / mount is
+    available to test.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Dec 2021 18:56:56 +0000
+
+rust-libmount (0.1.15-2) unstable; urgency=medium
+
+  [ Ed Neville ]
+  * Team upload.
+  * Package libmount 0.1.15 from crates.io using debcargo 2.4.3
+  * Updating nix dependency to 0.19
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 15 Dec 2020 20:13:06 +0100
+
+rust-libmount (0.1.15-1) unstable; urgency=medium
+
+  * Package libmount 0.1.15 from crates.io using debcargo 2.4.0
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package libmount 0.1.15 from crates.io using debcargo 2.4.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 01 Jan 2020 15:32:20 +0100
+
+rust-libmount (0.1.14-1) unstable; urgency=medium
+
+  * Package libmount 0.1.14 from crates.io using debcargo 2.4.0
+  * Patch nix dependency to 0.15
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 18 Oct 2019 04:17:48 +0200
+
+rust-libmount (0.1.13-1) unstable; urgency=medium
+
+  * Package libmount 0.1.13 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 15:59:01 +0200
+
+rust-libmount (0.1.12-1) unstable; urgency=medium
+
+  * Package libmount 0.1.12 from crates.io using debcargo 2.2.9
+  * Drop obsolete patch which updated nix dependency to 0.13
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 30 Jan 2019 19:58:20 +0100
+
+rust-libmount (0.1.11-2) unstable; urgency=medium
+
+  * Package libmount 0.1.11 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 29 Jan 2019 07:15:32 +0100
+
+rust-libmount (0.1.11-1) unstable; urgency=medium
+
+  * Package libmount 0.1.11 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 16 Dec 2018 17:15:16 +0100

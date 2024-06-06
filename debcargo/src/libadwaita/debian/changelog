@@ -1,0 +1,54 @@
+rust-libadwaita (0.6.0-4) unstable; urgency=medium
+
+  * Package libadwaita 0.6.0 from crates.io using debcargo 2.6.1
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 15:22:52 +0200
+
+rust-libadwaita (0.6.0-3) experimental; urgency=medium
+
+  * Team upload
+  * Package libadwaita 0.6.0 from crates.io using debcargo 2.6.1
+  * Restore accidentally dropped Depends: libadwaita-1-dev
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 19 Apr 2024 16:58:41 -0400
+
+rust-libadwaita (0.6.0-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package libadwaita 0.6.0 from crates.io using debcargo 2.6.1
+  * Restore accidentally dropped Depends: libadwaita-1-dev
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 19 Apr 2024 16:46:52 -0400
+
+rust-libadwaita (0.6.0-1) experimental; urgency=medium
+
+  * Package libadwaita 0.6.0 from crates.io using debcargo 2.6.1
+  * Properly depend on packages needed for code regenration
+  * Remove hard dependency on rustc >= 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 20 Feb 2024 20:53:04 +0100
+
+rust-libadwaita (0.5.3-1) unstable; urgency=medium
+
+  * Package libadwaita 0.5.3 from crates.io using debcargo 2.6.0
+  * Specify version for gir-rust-code-generator dependency
+  * Specified version for libadwaita dependency
+  * Stop marking v1.4 feature as broken as the newer libadwaita is in
+    debian
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 08 Oct 2023 17:07:55 +0200
+
+rust-libadwaita (0.5.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Package libadwaita 0.5.2 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:39:53 -0400
+
+rust-libadwaita (0.5.2-1) experimental; urgency=medium
+
+  * Package libadwaita 0.5.2 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 17 Sep 2023 17:08:14 -0400

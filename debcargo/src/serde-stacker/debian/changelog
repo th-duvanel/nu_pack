@@ -1,0 +1,28 @@
+rust-serde-stacker (0.1.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_stacker 0.1.10 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 15:11:12 +0000
+
+rust-serde-stacker (0.1.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_stacker 0.1.4 from crates.io using debcargo 2.5.0
+
+ -- Carlos F. Sanz <carlos@sanz.dev>  Thu, 02 Jun 2022 22:11:30 -0400
+
+rust-serde-stacker (0.1.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package serde_stacker 0.1.1 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 18 Oct 2020 11:22:38 +0200
+
+rust-serde-stacker (0.1.1-1) unstable; urgency=medium
+
+  * Source upload
+  * Package serde_stacker 0.1.1 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 10 May 2020 18:27:07 +0200

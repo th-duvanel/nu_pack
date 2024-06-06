@@ -1,0 +1,7 @@
+overlay = "."
+uploaders = ["Paride Legovini <paride@debian.org>"]
+
+[packages."lib+@"]
+# a file is missing in libgit2-sys
+test_is_broken = true
+test_depends = ["git"]

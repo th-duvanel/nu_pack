@@ -1,0 +1,11 @@
+rust-x11-dl (2.21.0-1) unstable; urgency=medium
+
+  * Package x11-dl 2.21.0 from crates.io using debcargo 2.6.0
+
+ -- James McCoy <jamessan@debian.org>  Thu, 06 Jul 2023 22:23:41 -0400
+
+rust-x11-dl (2.19.1-1) unstable; urgency=medium
+
+  * Package x11-dl 2.19.1 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Tue, 19 Apr 2022 20:58:23 -0400

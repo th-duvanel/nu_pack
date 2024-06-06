@@ -1,0 +1,11 @@
+rust-kuznyechik (0.8.2-1) unstable; urgency=medium
+
+  * Package kuznyechik 0.8.2 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 20 Aug 2023 12:59:32 +0200
+
+rust-kuznyechik (0.8.1-1) unstable; urgency=medium
+
+  * Package kuznyechik 0.8.1 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 15 Jul 2023 15:50:16 +0200

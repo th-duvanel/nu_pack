@@ -1,0 +1,49 @@
+rust-getopts (0.2.21-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package getopts 0.2.21 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 Aug 2022 14:58:41 +0200
+
+rust-getopts (0.2.21-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package getopts 0.2.21 from crates.io using debcargo 2.4.3
+  * Removing dependency on std
+
+ -- Ed Neville <ed-debian@s5h.net>  Mon, 04 Jan 2021 18:50:25 +0100
+
+rust-getopts (0.2.21-2) unstable; urgency=medium
+
+  * Package getopts 0.2.21 from crates.io using debcargo 2.4.2
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 23 Jan 2020 08:52:07 +0100
+
+rust-getopts (0.2.21-1) unstable; urgency=medium
+
+  * Package getopts 0.2.21 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 02 Nov 2019 10:40:31 +0100
+
+rust-getopts (0.2.19-1) unstable; urgency=medium
+
+  * Package getopts 0.2.19 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 06:09:14 +0200
+
+rust-getopts (0.2.18-1) unstable; urgency=medium
+
+  * Package getopts 0.2.18 from crates.io using debcargo 2.2.10
+    (Closes: #923175)
+
+  [ Wolfgang Silbermayr ]
+  * Package getopts 0.2.18 from crates.io using debcargo 2.2.7
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 24 Feb 2019 20:43:57 +0100
+
+rust-getopts (0.2.17-1) unstable; urgency=medium
+
+  * Package getopts 0.2.17 from crates.io using debcargo 2.1.0
+    (Closes: #895355)
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Jun 2018 11:30:36 -0700

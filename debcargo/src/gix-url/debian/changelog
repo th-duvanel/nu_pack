@@ -1,0 +1,12 @@
+rust-gix-url (0.27.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gix-url 0.27.3 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 16 Apr 2024 14:13:43 +0000
+
+rust-gix-url (0.25.1-1) unstable; urgency=medium
+
+  * Package gix-url 0.25.1 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 30 Nov 2023 22:38:39 +0100

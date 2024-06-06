@@ -1,0 +1,38 @@
+rust-selinux (0.4.3-1) unstable; urgency=medium
+
+  * Package selinux 0.4.3 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 19 Jan 2024 23:08:06 +0100
+
+rust-selinux (0.4.1-1) unstable; urgency=medium
+
+  * Package selinux 0.4.1 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 24 Jun 2023 11:00:01 +0200
+
+rust-selinux (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package selinux 0.3.2 from crates.io using debcargo 2.6.0
+    + New upstream fixes build on 32-bit.
+  * Drop old dependency patch, no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 27 Nov 2022 08:30:51 +0000
+
+rust-selinux (0.3.0-1) unstable; urgency=medium
+
+  * Package selinux 0.3.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 12 Oct 2022 14:17:34 +0200
+
+rust-selinux (0.2.3-1) unstable; urgency=medium
+
+  * Package selinux 0.2.3 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 22 Aug 2021 21:39:12 +0200
+
+rust-selinux (0.2.2-1) unstable; urgency=medium
+
+  * Package selinux 0.2.2 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 22 Aug 2021 18:54:09 +0200

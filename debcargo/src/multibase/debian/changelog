@@ -1,0 +1,12 @@
+rust-multibase (0.9.1-1) unstable; urgency=medium
+
+  * Package multibase 0.9.1 from crates.io using debcargo 2.6.0
+    (Closes: #1027356)
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Mon, 04 Sep 2023 08:47:02 +0200
+
+rust-multibase (0.8.0-1) unstable; urgency=medium
+
+  * Package multibase 0.8.0 from crates.io using debcargo 2.5.0
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Thu, 11 Aug 2022 15:18:07 +0200

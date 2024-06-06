@@ -1,0 +1,60 @@
+rust-opener (0.6.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package opener 0.6.1 from crates.io using debcargo 2.6.1
+  * Disable "vendored" feature in dbus dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 11:05:46 +0000
+
+rust-opener (0.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package opener 0.6.1 from crates.io using debcargo 2.6.1
+
+ -- Zixing Liu <zixing.liu@canonical.com>  Wed, 01 May 2024 17:33:55 +0200
+
+rust-opener (0.5.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package opener 0.5.2 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 12 Jun 2023 22:47:55 +0000
+
+rust-opener (0.5.0-1) unstable; urgency=medium
+
+  * Package opener 0.5.0 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 19:58:22 +0100
+
+rust-opener (0.4.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package opener 0.4.1 from crates.io using debcargo 2.4.2
+  * package.lib -> packages.lib
+
+ -- Nick Black <dankamongmen@gmail.com>  Tue, 20 Oct 2020 00:10:51 +0200
+
+rust-opener (0.4.1-1) unstable; urgency=medium
+
+  * Package opener 0.4.1 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Dec 2019 03:06:06 +0000
+
+rust-opener (0.4.0-1) unstable; urgency=medium
+
+  * Package opener 0.4.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 16 Jul 2019 23:24:24 -0700
+
+rust-opener (0.3.2-1) unstable; urgency=medium
+
+  * Package opener 0.3.2 from crates.io using debcargo 2.2.10
+  * Fix FTBFS (Closes: #924206)
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 16 Mar 2019 14:21:01 -0700
+
+rust-opener (0.3.0-1) unstable; urgency=medium
+
+  * Package opener 0.3.0 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 14 Nov 2018 20:43:00 -0800

@@ -1,0 +1,8 @@
+rust-tr (0.1.7-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Fab Stz ]
+  * Package tr 0.1.7 from crates.io using debcargo 2.6.1
+
+ -- Johannes Schauer Marin Rodrigues <josch@debian.org>  Wed, 20 Mar 2024 22:41:03 +0100

@@ -1,0 +1,10 @@
+rust-csv2svg (0.2.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package csv2svg 0.2.2 from crates.io using debcargo 2.6.1
+
+  [ Ananthu C V ]
+  * Package csv2svg 0.2.1 from crates.io using debcargo 2.6.1
+    (Closes: #1068726)
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 04 May 2024 10:43:26 +0200

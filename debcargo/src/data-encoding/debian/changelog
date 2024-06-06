@@ -1,0 +1,40 @@
+rust-data-encoding (2.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package data-encoding 2.5.0 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 24 Mar 2024 08:12:43 +0000
+
+rust-data-encoding (2.4.0-1) unstable; urgency=medium
+
+  * Package data-encoding 2.4.0 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Thu, 27 Jul 2023 13:05:55 +0200
+
+rust-data-encoding (2.3.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package data-encoding 2.3.3 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 19 Jun 2023 12:00:22 +0100
+
+rust-data-encoding (2.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package data-encoding 2.3.2 from crates.io using debcargo 2.5.0
+
+ -- Dylan Aïssi <daissi@debian.org>  Mon, 31 Jan 2022 16:19:42 +0100
+
+rust-data-encoding (2.1.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package data-encoding 2.1.2 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:20:23 +0200
+
+rust-data-encoding (2.1.2-1) unstable; urgency=medium
+
+  * Package data-encoding 2.1.2 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Mon, 20 May 2019 22:43:45 +0200

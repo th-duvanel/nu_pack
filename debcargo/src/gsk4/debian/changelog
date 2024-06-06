@@ -1,0 +1,85 @@
+rust-gsk4 (0.8.2-1) unstable; urgency=medium
+
+  * Package gsk4 0.8.2 from crates.io using debcargo 2.6.1
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 11:51:19 +0200
+
+rust-gsk4 (0.8.1-1) experimental; urgency=medium
+
+  * Team upload
+  * Package gsk4 0.8.1 from crates.io using debcargo 2.6.1
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 17:33:00 -0400
+
+rust-gsk4 (0.8.0-1) experimental; urgency=medium
+
+  * Package gsk4 0.8.0 from crates.io using debcargo 2.6.1
+  * Updated copyright years
+  * Properly depend on packages needed for code regeneration
+  * Dropped hard dependency on rustc >= 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 20 Feb 2024 18:33:32 +0100
+
+rust-gsk4 (0.7.3-2) unstable; urgency=medium
+
+  * Drop unnecessary patch for gir-format-check 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 23 Nov 2023 21:52:18 +0100
+
+rust-gsk4 (0.7.3-1) unstable; urgency=medium
+
+  * Package gsk4 0.7.3 from crates.io using debcargo 2.6.0
+  * Specify version for gir-rust-code-generator dependency
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 08 Oct 2023 14:56:14 +0200
+
+rust-gsk4 (0.7.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Package gsk4 0.7.2 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:38:31 -0400
+
+rust-gsk4 (0.7.2-2) experimental; urgency=medium
+
+  * Specify dependency on rustc 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 16 Sep 2023 13:07:58 +0200
+
+rust-gsk4 (0.7.2-1) experimental; urgency=medium
+
+  * Package gsk4 0.7.2 from crates.io using debcargo 2.6.0
+  * Regenerate source code with debian tools before build
+  * Rebased patches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 15 Sep 2023 23:03:23 +0200
+
+rust-gsk4 (0.6.3-1) unstable; urgency=medium
+
+  * Package gsk4 0.6.3 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+  * Added relax-gir-dep.diff patch to enable tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:28:17 +0200
+
+rust-gsk4 (0.5.5-2) unstable; urgency=medium
+
+  * Package gsk4 0.5.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 21:03:55 +0200
+
+rust-gsk4 (0.5.5-1) experimental; urgency=medium
+
+  * Package gsk4 0.5.5 from crates.io using debcargo 2.6.0
+  * Added myself to uploaders
+  * Marked tests as broken
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 15:30:15 +0200
+
+rust-gsk4 (0.3.1-1) unstable; urgency=medium
+
+  * Package gsk4 0.3.1 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Fri, 11 Mar 2022 09:56:55 +0100

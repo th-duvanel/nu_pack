@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+%:
+	dh $@ --buildsystem cargo
+
+override_dh_auto_test:
+	# tests need to be run through 'script' since they do terminal stuff
+	script -c 'dh_auto_test -- test --all' /dev/null

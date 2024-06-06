@@ -1,0 +1,19 @@
+rust-bson (2.10.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bson 2.10.0 from crates.io using debcargo 2.6.1
+  * Stop patching indexmap dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 16:54:00 +0000
+
+rust-bson (2.10.0-1) unstable; urgency=medium
+
+  * Package bson 2.10.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Wed, 10 Apr 2024 16:05:21 -0400
+
+rust-bson (2.9.0-1) unstable; urgency=medium
+
+  * Package bson 2.9.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 02 Mar 2024 15:26:48 +0100

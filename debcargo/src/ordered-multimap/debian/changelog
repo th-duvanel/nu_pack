@@ -1,0 +1,35 @@
+rust-ordered-multimap (0.4.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package ordered-multimap 0.4.3 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 03:58:21 +0000
+
+rust-ordered-multimap (0.4.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ordered-multimap 0.4.3 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 27 Jun 2022 17:21:33 -0400
+
+rust-ordered-multimap (0.4.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ordered-multimap 0.4.2 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 02 Jan 2022 10:26:34 +0000
+
+rust-ordered-multimap (0.3.1-2) unstable; urgency=medium
+
+  * Source upload
+  * Package ordered-multimap 0.3.1 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 14 Jan 2021 10:36:31 +0100
+
+rust-ordered-multimap (0.3.1-1) unstable; urgency=medium
+
+  * Source upload
+  * Package ordered-multimap 0.3.1 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 22 Dec 2020 17:15:14 +0100
+

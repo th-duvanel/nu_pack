@@ -1,0 +1,63 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: uniquote
+Upstream-Contact: dylni
+Source: https://github.com/dylni/uniquote
+
+Files: *
+Copyright: 2020 Dylan Iuzzolino
+License: (MIT or Apache-2.0) and Unicode-DFS-2016
+
+Files: debian/*
+Copyright:
+ 2022 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2022 Sylvestre Ledru <sylvestre@debian.org>
+ 2023 Zixing Liu <zixing.liu@canonical.com>
+License: MIT or Apache-2.0
+
+License: Apache-2.0
+ Debian systems provide the Apache 2.0 license in
+ /usr/share/common-licenses/Apache-2.0
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: (MIT
+ FIXME (overlay): Unrecognized crate license, please find the full license text in the rest of the crate source code and copy-paste it here
+
+License: Apache-2.0)
+ FIXME (overlay): Unrecognized crate license, please find the full license text in the rest of the crate source code and copy-paste it here
+
+License: Unicode-DFS-2016
+ UNICODE, INC. LICENSE AGREEMENT - DATA FILES AND SOFTWARE
+ See Terms of Use for definitions of Unicode Inc.'s Data Files and Software.
+ .
+ Unicode Data Files include all data files under the directories
+ http://www.unicode.org/Public/, http://www.unicode.org/reports/,
+ http://www.unicode.org/cldr/data/, http://source.icu-project.org/repos/icu/,
+ http://www.unicode.org/ivd/data/, and
+ http://www.unicode.org/utility/trac/browser/.
+ .
+ Unicode Data Files do not include PDF online code charts under the directory
+ http://www.unicode.org/Public/.
+ .
+ Software includes any source code published in the Unicode Standard or under
+ the directories http://www.unicode.org/Public/,
+ http://www.unicode.org/reports/, http://www.unicode.org/cldr/data/,
+ http://source.icu-project.org/repos/icu/, and
+ http://www.unicode.org/utility/trac/browser/.

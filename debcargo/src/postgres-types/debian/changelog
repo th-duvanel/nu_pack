@@ -1,0 +1,34 @@
+rust-postgres-types (0.2.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package postgres-types 0.2.6 from crates.io using debcargo 2.6.1
+  * Bump fallible-iterator dependency to 0.3.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 06 Jan 2024 00:22:22 +0000
+
+rust-postgres-types (0.2.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package postgres-types 0.2.6 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 31 Oct 2023 05:15:20 +0000
+
+rust-postgres-types (0.2.4-3) unstable; urgency=medium
+
+  * Restore feature deps eui48 and geo-types, now packaged
+
+ -- Blair Noctis <n@sail.ng>  Wed, 16 Nov 2022 22:21:00 +0100
+
+rust-postgres-types (0.2.4-2) unstable; urgency=medium
+
+  * Package postgres-types 0.2.4 from crates.io using debcargo 2.5.0
+  * Add patch removing dep variants of older versions
+  * Add patch removing unused, unpackaged yet deps
+
+ -- Blair Noctis <n@sail.ng>  Fri, 21 Oct 2022 12:35:56 -0400
+
+rust-postgres-types (0.2.4-1) unstable; urgency=medium
+
+  * Package postgres-types 0.2.4 from crates.io using debcargo 2.5.0
+
+ -- Blair Noctis <n@sail.ng>  Mon, 19 Sep 2022 18:51:30 +0200

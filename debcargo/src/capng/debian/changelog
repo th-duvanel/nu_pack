@@ -1,0 +1,5 @@
+rust-capng (0.2.3-1) unstable; urgency=medium
+
+  * Package capng 0.2.3 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Fri, 14 Apr 2023 18:12:16 +0300

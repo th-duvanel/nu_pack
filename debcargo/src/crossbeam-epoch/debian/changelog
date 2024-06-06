@@ -1,0 +1,103 @@
+rust-crossbeam-epoch (0.9.18-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-epoch 0.9.18 from crates.io using debcargo 2.6.1
+  * Drop relax-dep.patch, upstream no longer uses memoffset.
+  * Update remaining patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 28 Jan 2024 08:06:06 +0000
+
+rust-crossbeam-epoch (0.9.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-epoch 0.9.13 from crates.io using debcargo 2.6.0
+  * Revert upstream bump of memoffset dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 28 Jan 2023 10:06:56 +0000
+
+rust-crossbeam-epoch (0.9.8-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-epoch 0.9.8 from crates.io using debcargo 2.5.0
+  * Fix tests when run with no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 22 May 2022 19:25:39 +0000
+
+rust-crossbeam-epoch (0.9.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-epoch 0.9.8 from crates.io using debcargo 2.5.0
+  * drop unstable feature "loom" in addition to "nightly"
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 21 May 2022 16:08:55 -0400
+
+rust-crossbeam-epoch (0.8.2-2) unstable; urgency=medium
+  * Team upload.
+  * Added d/patches/relax-deps.patch so that crossbeam-epoch works with
+    memoffset 0.6.
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 22:11:07 +0100
+
+rust-crossbeam-epoch (0.8.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-epoch 0.8.2 from crates.io using debcargo 2.4.2
+  * Drop arrayvec hunk from update-dep-versions.patch the corresponding
+    dependency no longer exists.
+  * Update hunk in update-dep-versions.patch that disables nightly
+    feature.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 13 Apr 2020 17:14:53 +0000
+
+rust-crossbeam-epoch (0.7.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-epoch 0.7.2 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Dec 2019 01:57:13 +0000
+
+rust-crossbeam-epoch (0.7.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-epoch 0.7.2 from crates.io using debcargo 2.2.10
+
+  * Source upload for rebuild...
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 28 Oct 2019 21:43:57 +0100
+
+rust-crossbeam-epoch (0.7.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-epoch 0.7.2 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 04 Sep 2019 23:32:53 -0700
+
+rust-crossbeam-epoch (0.7.1-1) unstable; urgency=medium
+
+  * Package crossbeam-epoch 0.7.1 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 05 Feb 2019 17:23:17 +0100
+
+rust-crossbeam-epoch (0.7.0-1) unstable; urgency=medium
+
+  * Package crossbeam-epoch 0.7.0 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 20 Jan 2019 23:15:16 -0800
+
+rust-crossbeam-epoch (0.6.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-epoch 0.6.0 from crates.io using debcargo 2.2.8
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 20 Oct 2018 21:39:43 +0200
+
+rust-crossbeam-epoch (0.5.2-1) unstable; urgency=medium
+
+  * Package crossbeam-epoch 0.5.2 from crates.io using debcargo 2.2.6
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 09 Sep 2018 12:07:54 -0700
+
+rust-crossbeam-epoch (0.5.1-1) unstable; urgency=medium
+
+  * Package crossbeam-epoch 0.5.1 from crates.io using debcargo 2.2.5
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 03 Aug 2018 01:00:34 -0700

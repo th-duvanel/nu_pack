@@ -1,0 +1,13 @@
+rust-thread-scoped (1.0.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package thread-scoped 1.0.2 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:26:12 +0200
+
+rust-thread-scoped (1.0.2-1) unstable; urgency=medium
+
+  * Package thread-scoped 1.0.2 from crates.io using debcargo 2.2.10
+
+ -- Julio Merino <julio@meroh.net>  Mon, 18 Feb 2019 18:50:11 +0100

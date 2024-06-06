@@ -1,0 +1,19 @@
+rust-fragile (2.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package fragile 2.0.0 from crates.io using debcargo 2.6.0 (Closes: #1024437)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 29 Oct 2023 05:04:44 +0000
+
+rust-fragile (1.2.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package fragile 1.2.1 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 08 Oct 2022 09:55:22 -0400
+
+rust-fragile (0.3.0-1) unstable; urgency=medium
+
+  * Package fragile 0.3.0 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 24 Nov 2018 09:41:06 +0100

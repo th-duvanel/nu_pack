@@ -1,0 +1,53 @@
+rust-digest (0.10.7-2) unstable; urgency=medium
+
+  * Enable oid feature and const-oid optional dependency
+
+ -- kpcyrd <git@rxv.cc>  Fri, 28 Jul 2023 11:01:59 +0200
+
+rust-digest (0.10.7-1) unstable; urgency=medium
+
+  * Package digest 0.10.7 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Thu, 27 Jul 2023 13:22:55 +0200
+
+rust-digest (0.10.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package digest 0.10.5 from crates.io using debcargo 2.5.0
+  * Remove the dep const-oid
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 30 Oct 2022 10:21:21 +0100
+
+rust-digest (0.10.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package digest 0.10.5 from crates.io using debcargo 2.5.0
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 30 Oct 2022 10:13:04 +0100
+
+rust-digest (0.10.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package digest 0.10.3 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 Aug 2022 15:03:30 +0200
+
+rust-digest (0.10.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package digest 0.10.3 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 31 May 2022 22:37:20 +0200
+
+rust-digest (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package digest 0.9.0 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 24 Nov 2020 20:46:27 +0100
+
+rust-digest (0.8.0-1) unstable; urgency=medium
+
+  * Package digest 0.8.0 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Sun, 14 Oct 2018 09:42:28 +0200

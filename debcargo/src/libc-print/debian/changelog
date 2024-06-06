@@ -1,0 +1,22 @@
+rust-libc-print (0.1.20-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package libc-print 0.1.20 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 31 Dec 2022 17:22:34 +0000
+
+rust-libc-print (0.1.14-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package libc-print 0.1.14 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 28 Nov 2020 15:22:41 +0100
+
+rust-libc-print (0.1.14-1) unstable; urgency=medium
+
+  * Source upload
+  * Package libc-print 0.1.14 from crates.io using debcargo 2.4.3
+    Closes: #973916
+
+ -- Nick Black <dankamongmen@gmail.com>  Wed, 25 Nov 2020 15:53:57 +0100

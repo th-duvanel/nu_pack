@@ -1,0 +1,4 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -42,1 +42,0 @@
+-zlib-ng-compat = ["libz-sys/zlib-ng"]

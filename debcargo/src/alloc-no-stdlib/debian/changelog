@@ -1,0 +1,11 @@
+rust-alloc-no-stdlib (2.0.4-1) unstable; urgency=medium
+
+  * Package alloc-no-stdlib 2.0.4 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 22 Oct 2022 09:46:31 -0400
+
+rust-alloc-no-stdlib (2.0.3-1) unstable; urgency=medium
+
+  * Package alloc-no-stdlib 2.0.3 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 12 Mar 2022 10:17:40 +0100

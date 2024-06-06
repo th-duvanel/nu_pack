@@ -1,0 +1,41 @@
+rust-bzip2 (0.4.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bzip2 0.4.4 from crates.io using debcargo 2.6.0
+    + New upstream fixes CVE-2023-22895 (Closes: #1029158)
+  * Update remove-futures-and-tokio.diff
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 18 Jan 2023 23:00:57 +0000
+
+rust-bzip2 (0.4.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bzip2 0.4.3 from crates.io using debcargo 2.6.0
+  * Update remove-futures-and-tokio.diff for 0.4.3
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 23 Dec 2022 00:34:06 +0000
+
+rust-bzip2 (0.4.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bzip2 0.4.1 from crates.io using debcargo 2.4.4
+  * Update tokio removal patch for 0.4.1
+
+  [ Fabian Grünbichler ]
+  * Patch out tokio feature, not yet compatible with futures 0.3 / tokio 0.2
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 21 Oct 2021 13:53:44 +0000
+
+rust-bzip2 (0.4.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bzip2 0.4.1 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 14 Oct 2020 23:20:02 -0400
+
+rust-bzip2 (0.3.3-1) unstable; urgency=medium
+
+  * Package bzip2 0.3.3 from crates.io using debcargo 2.2.9
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 29 Dec 2018 18:38:30 +0100

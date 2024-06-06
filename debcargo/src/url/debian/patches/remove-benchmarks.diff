@@ -1,0 +1,10 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -38,4 +39,0 @@
+-[[bench]]
+-name = "parse_url"
+-path = "benches/parse_url.rs"
+-harness = false
+@@ -55,2 +51,0 @@
+-[dev-dependencies.bencher]
+-version = "0.1"

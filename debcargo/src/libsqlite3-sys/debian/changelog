@@ -1,0 +1,54 @@
+rust-libsqlite3-sys (0.26.0-1) unstable; urgency=medium
+
+  * Package libsqlite3-sys 0.26.0 from crates.io using debcargo 2.6.0
+  * Relax bindgen dependency to ">= 0.60, < 1.0"
+
+  [ Matthias Geiger ]
+  * Team upload.
+  * Package libsqlite3-sys 0.26.0 from crates.io using debcargo 2.6.0
+  * Drop patches, replace them with a single one for the bindgen update
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 03 Sep 2023 17:13:20 +0000
+
+rust-libsqlite3-sys (0.25.1-1) unstable; urgency=medium
+
+  * Package libsqlite3-sys 0.25.1 from crates.io using debcargo 2.5.0
+  * drop winsqlite3 feature as well (we do not have it available on debian
+    anyway)
+  * drop bindgen memory layout tests as they are architecture specific
+    (and fail on 32-bit machines)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 16 Aug 2022 20:35:39 -0400
+
+rust-libsqlite3-sys (0.25.0-1) unstable; urgency=medium
+
+  * Package libsqlite3-sys 0.25.0 from crates.io using debcargo 2.5.0
+  * Added myself to uploaders
+  * dropped embedded code copy of sqlcipher as well
+  * collapse_features = true
+  * added dependency on libsqlcipher-dev for sqlcipher feature
+  * dropped bundled features and in_gecko -- not for us
+  * note that tests are broken except for default and all-features (see
+    https://github.com/rusqlite/rusqlite/issues/1205)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 21 Jul 2022 01:49:13 -0400
+
+rust-libsqlite3-sys (0.15.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package libsqlite3-sys 0.15.0 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:12:17 +0200
+
+rust-libsqlite3-sys (0.15.0-1) unstable; urgency=medium
+
+  * Package libsqlite3-sys 0.15.0 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Sun, 14 Jul 2019 22:35:40 +0200
+
+rust-libsqlite3-sys (0.9.3-1) unstable; urgency=medium
+
+  * Package libsqlite3-sys 0.9.3 from crates.io using debcargo 2.2.8
+
+ -- kpcyrd <git@rxv.cc>  Sat, 20 Oct 2018 21:21:51 +0200

@@ -1,0 +1,12 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index a98adb2..7983c35 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -74,6 +74,7 @@ version = "0.8"
+ [dependencies.sequoia-openpgp]
+ version = "1.17.0"
+ default-features = false
++features = ["crypto-nettle"]
+ 
+ [dependencies.socket2]
+ version = "0.5"

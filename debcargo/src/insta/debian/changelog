@@ -1,0 +1,49 @@
+rust-insta (1.34.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package insta 1.34.0 from crates.io using debcargo 2.6.1 (Closes: #1056660)
+  * Update fix-glob-test-feature-requirement.patch for new upstream.
+  * Unpin csv dependency, upstream pinned it for msrv related reasons which are
+    not relavent to Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Nov 2023 23:45:20 +0000
+
+rust-insta (1.21.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package insta 1.21.0 from crates.io using debcargo 2.5.0 (Closes: #1021878)
+  * Update patches for new upstream and current situation in Debian.
+  * Mark test_glob.rs as needing json feature as well as glob feature.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 18 Oct 2022 03:44:48 +0000
+
+rust-insta (1.5.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package insta 1.5.2 from crates.io using debcargo 2.5.0
+  * Bump dependency on uuid to 1.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 15 Aug 2022 00:16:34 +0000
+
+rust-insta (1.5.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package insta 1.5.2 from crates.io using debcargo 2.5.0
+    + Newer upstream releases require similar crate which is not currently
+      in Debian.
+  * Drop collapse_features.patch, not needed and likely to cause breakage.
+  * Adjust relax-deps.patch for new upstream and current situation in Debian.
+  * Disable test_format_rust_expression, it fails with Debian's version of
+    rustfmt
+  * Stop marking tests as broken.
+
+  [ kpcryd ]
+  * Bump console dependency patch
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 10 Jul 2022 00:23:06 +0000
+
+rust-insta (1.3.0-1) unstable; urgency=medium
+
+  * Package insta 1.3.0 from crates.io using debcargo 2.4.3
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Fri, 03 Sep 2021 10:42:04 +0200

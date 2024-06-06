@@ -1,0 +1,45 @@
+rust-cargo-metadata (0.15.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo_metadata 0.15.4 from crates.io using debcargo 2.6.0
+  * Disable builder feature and remove dependency on derive_builder for now,
+    since librust-derive-builder-dev is not currently installable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 26 Aug 2023 13:14:56 +0000
+
+rust-cargo-metadata (0.15.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo_metadata 0.15.4 from crates.io using debcargo 2.6.0
+  * Relax deps on camino, derive_builder
+
+ -- Blair Noctis <n@sail.ng>  Sun, 02 Jul 2023 22:46:23 +0200
+
+rust-cargo-metadata (0.14.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo_metadata 0.14.2 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 19 Jun 2022 12:45:01 +0200
+
+rust-cargo-metadata (0.9.1-1) unstable; urgency=medium
+
+  * Package cargo_metadata 0.9.1 from crates.io using debcargo 2.4.2
+  * Disable autopkgtests as half of the test cases fail in the autopkgtest
+    environment.
+
+  [ Ximin Luo ]
+  * Team upload.
+  * Package cargo_metadata 0.8.0 from crates.io using debcargo 2.3.0
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Thu, 06 Feb 2020 20:36:45 +0100
+
+rust-cargo-metadata (0.6.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo_metadata 0.6.4 from crates.io using debcargo 2.2.9
+
+  [ Matt Kraai ]
+  * Package cargo_metadata 0.6.2 from crates.io using debcargo 2.2.9
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 16 Dec 2018 17:48:11 +0100

@@ -1,0 +1,32 @@
+rust-pin-project-internal (1.1.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pin-project-internal 1.1.3 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 17 Nov 2023 00:59:45 +0000
+
+rust-pin-project-internal (1.1.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pin-project-internal 1.1.2 from crates.io using debcargo 2.6.0
+  * Reduce context in readd-dev-deps.diff
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Aug 2023 12:48:42 +0000
+
+rust-pin-project-internal (1.0.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pin-project-internal 1.0.10 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 21 Jun 2022 11:08:52 +0000
+
+rust-pin-project-internal (0.4.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pin-project-internal 0.4.8 from crates.io using debcargo 2.4.0
+
+  [ Wolfgang Silbermayr ]
+  * Package pin-project-internal 0.4.7 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 29 Mar 2020 23:18:29 +0200
+

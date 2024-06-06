@@ -1,0 +1,70 @@
+rust-arrayvec (0.7.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+  * Package arrayvec 0.7.4 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Thu, 23 Nov 2023 13:31:30 -0500
+
+rust-arrayvec (0.7.4-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package arrayvec 0.7.4 from crates.io using debcargo 2.6.1
+    + Closes: #1056259
+  * Since upstream added a new zeroize feature, take the opportunity to set
+    collapse_features = true.
+
+ -- James McCoy <jamessan@debian.org>  Thu, 23 Nov 2023 10:10:49 -0500
+
+rust-arrayvec (0.7.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package arrayvec 0.7.2 from crates.io using debcargo 2.6.0
+  * Mark autopkgtests flaky when std feature isn't enabled.
+
+ -- James McCoy <jamessan@debian.org>  Mon, 02 Jan 2023 18:53:30 -0500
+
+rust-arrayvec (0.7.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Package arrayvec 0.7.2 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 18 Dec 2021 00:53:25 +0100
+
+rust-arrayvec (0.5.1-1) unstable; urgency=medium
+
+  * Package arrayvec 0.5.1 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 28 Dec 2019 11:55:58 +0100
+
+rust-arrayvec (0.4.11-1) unstable; urgency=medium
+
+  * Package arrayvec 0.4.11 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 11:52:58 +0200
+
+rust-arrayvec (0.4.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package arrayvec 0.4.10 from crates.io using debcargo 2.2.9
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 21 Jan 2019 12:45:47 +0100
+
+rust-arrayvec (0.4.9-1) unstable; urgency=medium
+
+  * Package arrayvec 0.4.9 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 19 Dec 2018 08:20:08 +0100
+
+rust-arrayvec (0.4.8-1) unstable; urgency=medium
+
+  * Package arrayvec 0.4.8 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 02 Dec 2018 11:24:06 +0100
+
+rust-arrayvec (0.4.7-1) unstable; urgency=medium
+
+  * Package arrayvec 0.4.7 from crates.io using debcargo 2.2.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 27 Jul 2018 08:43:28 +0200

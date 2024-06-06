@@ -1,0 +1,20 @@
+rust-xmltree (0.10.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package xmltree 0.10.3 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 16:56:18 +0000
+
+rust-xmltree (0.10.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package xmltree 0.10.3 from crates.io using debcargo 2.6.1
+  * Apply upstream patch to fix tests with new stricter versio of the xml crate.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 09 Dec 2023 21:27:09 +0000
+
+rust-xmltree (0.10.3-1) unstable; urgency=medium
+
+  * Package xmltree 0.10.3 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 22 May 2023 23:37:45 +0100

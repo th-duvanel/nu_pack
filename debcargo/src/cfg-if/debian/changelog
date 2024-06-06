@@ -1,0 +1,67 @@
+rust-cfg-if (1.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cfg-if 1.0.0 from crates.io using debcargo 2.4.3
+  * cfg-if 0.1 has been uploaded as a separate package
+    as too many packages expects 0.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 23 Nov 2020 22:36:00 +0100
+
+rust-cfg-if (0.1.10-4.1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Peter Michael Green ]
+  * Use a NMU-style version number to avoid conflict with experimental.
+
+  [ Sylvestre Ledru ]
+  * Package cfg-if 0.1.10 from crates.io using debcargo 2.4.2
+  * Fix the testsuite by not making it fail
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 12 Apr 2020 18:00:32 +0000
+
+rust-cfg-if (0.1.10-4) unstable; urgency=medium
+
+  * Team upload.
+  * Drop currently broken compiler-builtins support.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 07 Apr 2020 13:49:40 +0200
+
+rust-cfg-if (0.1.10-3) experimental; urgency=medium
+
+  * Team upload.
+  * Mark compiler-builtins as flaky.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 07 Apr 2020 13:44:18 +0200
+
+rust-cfg-if (0.1.10-2) unstable; urgency=medium
+
+  * Package cfg-if 0.1.10 from crates.io using debcargo 2.4.2
+  * Source-only reupload for transition to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 23 Jan 2020 08:27:36 +0100
+
+rust-cfg-if (0.1.10-1) unstable; urgency=medium
+
+  * Package cfg-if 0.1.10 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 30 Nov 2019 13:34:48 +0100
+
+rust-cfg-if (0.1.9-1) unstable; urgency=medium
+
+  * Package cfg-if 0.1.9 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 08:40:43 +0200
+
+rust-cfg-if (0.1.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cfg-if 0.1.6 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 15 Dec 2018 22:07:54 +0100
+
+rust-cfg-if (0.1.4-1) unstable; urgency=medium
+
+  * Package cfg-if 0.1.4 from crates.io using debcargo 2.1.2
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 05 Jul 2018 02:58:04 -0700

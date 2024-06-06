@@ -1,0 +1,26 @@
+rust-mozim (0.2.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package mozim 0.2.3 from crates.io using debcargo 2.6.1
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 15:36:23 +0000
+
+rust-mozim (0.2.3-1) experimental; urgency=medium
+
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package mozim 0.2.3 from crates.io using debcargo 2.6.1
+  * Relax dependency on nispor
+  * Relax dev-dependency on env-logger.
+
+  [ Reinhard Tartler ]
+  * Upload to experimental to build against nix 0.27
+
+ -- Reinhard Tartler <siretart@tauware.de>  Tue, 23 Apr 2024 10:55:01 -0400
+
+rust-mozim (0.2.2-1) unstable; urgency=medium
+
+  * Package mozim 0.2.2 from crates.io using debcargo 2.6.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Thu, 14 Sep 2023 10:08:14 -0400

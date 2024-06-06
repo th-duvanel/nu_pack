@@ -1,0 +1,34 @@
+rust-utf-8 (0.7.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package utf-8 0.7.6 from crates.io using debcargo 2.4.4
+  * Set X-Cargo-Crate so the crate installs in the right place and
+    the autopkgtest can find it. (Closes: #995419).
+  * Disable benches that depend on nonexistent files.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 31 Oct 2021 22:56:31 +0000
+
+rust-utf-8 (0.7.6-1) unstable; urgency=medium
+
+  * Package utf-8 0.7.6 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 30 Aug 2021 06:55:43 +0200
+
+rust-utf-8 (0.7.5-1) unstable; urgency=medium
+
+  * Package utf-8 0.7.5 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 22 Jan 2019 10:11:02 +0100
+
+rust-utf-8 (0.7.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package utf-8 0.7.4 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 06 Oct 2018 23:42:25 +0200
+
+rust-utf-8 (0.7.2-1) unstable; urgency=medium
+
+  * Package utf-8 0.7.2 from crates.io using debcargo 2.1.2
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 05 Jul 2018 02:33:13 -0700

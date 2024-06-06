@@ -1,0 +1,20 @@
+rust-vm-superio (0.7.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package vm-superio 0.7.0 from crates.io using debcargo 2.6.0
+  * Skip some tests on architectures where AtomicU64 is not available.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 18 Apr 2023 22:31:55 +0000
+
+rust-vm-superio (0.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package vm-superio 0.7.0 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Fri, 14 Apr 2023 19:21:28 +0300
+
+rust-vm-superio (0.5.0-1) unstable; urgency=medium
+
+  * Package vm-superio 0.5.0 from crates.io using debcargo 2.5.0
+
+ -- Liang Yan <ly@xryan.net>  Fri, 15 Apr 2022 13:06:14 +0200

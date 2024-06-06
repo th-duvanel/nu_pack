@@ -1,0 +1,5 @@
+rust-ab-glyph-rasterizer (0.1.7-1) unstable; urgency=medium
+
+  * Package ab_glyph_rasterizer 0.1.7 from crates.io using debcargo 2.5.0
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Mon, 19 Sep 2022 01:39:49 +0900

@@ -1,0 +1,13 @@
+rust-home-dir (0.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package home-dir 0.1.0 from crates.io using debcargo 2.6.1
+  * Explicitly enable "user" feature for nix dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Feb 2024 05:57:32 +0000
+
+rust-home-dir (0.1.0-1) unstable; urgency=medium
+
+  * Package home-dir 0.1.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 02 Jul 2023 23:01:44 +0200

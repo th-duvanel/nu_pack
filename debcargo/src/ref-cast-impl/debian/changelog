@@ -1,0 +1,12 @@
+rust-ref-cast-impl (1.0.18-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ref-cast-impl 1.0.18 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 14:22:45 +0000
+
+rust-ref-cast-impl (1.0.3-1) unstable; urgency=medium
+
+  * Package ref-cast-impl 1.0.3 from crates.io using debcargo 2.4.3
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Mon, 21 Dec 2020 09:49:45 +0100

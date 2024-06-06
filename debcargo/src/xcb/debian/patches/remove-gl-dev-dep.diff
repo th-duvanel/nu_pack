@@ -1,0 +1,22 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -44,7 +44,7 @@
+-[[example]]
+-name = "opengl_window"
+-required-features = [
+-    "glx",
+-    "xlib_xcb",
+-    "dri2",
+-]
++#[[example]]
++#name = "opengl_window"
++#required-features = [
++#    "glx",
++#    "xlib_xcb",
++#    "dri2",
++#]
+@@ -87,2 +87,2 @@
+-[dev-dependencies.gl]
+-version = "0.14.0"
++#[dev-dependencies.gl]
++#version = "0.14.0"

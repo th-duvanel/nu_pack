@@ -1,0 +1,5 @@
+rust-iai (0.1.1-1) unstable; urgency=medium
+
+  * Package iai 0.1.1 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 17 Jun 2023 09:58:46 +0200

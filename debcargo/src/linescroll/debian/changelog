@@ -1,0 +1,14 @@
+rust-linescroll (0.2.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package linescroll 0.2.0 from crates.io using debcargo 2.6.1
+  * Add patch to support nix 0.27 and 0.28.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 23:11:38 +0000
+
+rust-linescroll (0.2.0-1) unstable; urgency=medium
+
+  * Package linescroll 0.2.0 from crates.io using debcargo 2.6.1
+  * Closes: #1039943
+
+ -- Ed Neville <ed-debian@s5h.net>  Wed, 03 Apr 2024 11:01:49 -0400

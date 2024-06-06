@@ -1,0 +1,82 @@
+Index: rcgen/Cargo.toml
+===================================================================
+--- rcgen.orig/Cargo.toml
++++ rcgen/Cargo.toml
+@@ -25,9 +25,6 @@ license = "MIT OR Apache-2.0"
+ repository = "https://github.com/est31/rcgen"
+ autoexamples = false
+ 
+-[package.metadata.docs.rs]
+-features = ["x509-parser"]
+-
+ [profile.dev.package.num-bigint-dig]
+ opt-level = 3
+ 
+@@ -56,11 +53,6 @@ version = "0.16"
+ version = "0.3.6"
+ default-features = false
+ 
+-[dependencies.x509-parser]
+-version = "0.15"
+-features = ["verify"]
+-optional = true
+-
+ [dependencies.yasna]
+ version = "0.5.2"
+ features = [
+@@ -82,9 +74,5 @@ version = "0.8"
+ version = "0.101.0"
+ features = ["std"]
+ 
+-[dev-dependencies.x509-parser]
+-version = "0.15"
+-features = ["verify"]
+-
+ [features]
+ default = ["pem"]
+Index: rcgen/src/lib.rs
+===================================================================
+--- rcgen.orig/src/lib.rs
++++ rcgen/src/lib.rs
+@@ -1757,7 +1757,7 @@ mod tests {
+ 		}
+ 	}
+ 
+-	#[test]
++	/*#[test]
+ 	fn test_with_key_usages() {
+ 		let mut params: CertificateParams = Default::default();
+ 
+@@ -1799,9 +1799,9 @@ mod tests {
+ 		}
+ 
+ 		assert!(found);
+-	}
++	}*/
+ 
+-	#[test]
++	/*#[test]
+ 	fn test_with_key_usages_decipheronly_only() {
+ 		let mut params: CertificateParams = Default::default();
+ 
+@@ -1839,9 +1839,9 @@ mod tests {
+ 		}
+ 
+ 		assert!(found);
+-	}
++	}*/
+ 
+-	#[test]
++	/*#[test]
+ 	fn test_with_extended_key_usages_any() {
+ 		let mut params: CertificateParams = Default::default();
+ 
+@@ -1861,7 +1861,7 @@ mod tests {
+ 		let maybe_extension = cert.extended_key_usage().unwrap();
+ 		let extension = maybe_extension.unwrap();
+ 		assert!(extension.value.any);
+-	}
++	}*/
+ 
+ 	#[test]
+ 	fn signature_algos_different() {

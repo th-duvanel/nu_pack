@@ -1,0 +1,8 @@
+relax-deps.patch
+disable-env-filter.patch
+disable-broken-test.patch
+upgrade-ring.patch
+disable-webpki-roots.patch
+gate-tests-on-required-features.patch
+backport-example.com-dns-fix.patch
+disable-tests-which-require-network.patch

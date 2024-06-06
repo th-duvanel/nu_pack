@@ -1,0 +1,15 @@
+Index: normpath/Cargo.toml
+===================================================================
+--- normpath.orig/Cargo.toml
++++ normpath/Cargo.toml
+@@ -52,10 +52,6 @@ rustdoc-args = [
+     "normpath_docs_rs",
+ ]
+ 
+-[dependencies.print_bytes]
+-version = "1.0"
+-optional = true
+-
+ [dependencies.serde]
+ version = "1.0"
+ optional = true

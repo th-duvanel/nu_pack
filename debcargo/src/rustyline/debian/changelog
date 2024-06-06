@@ -1,0 +1,147 @@
+rust-rustyline (13.0.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustyline 13.0.0 from crates.io using debcargo 2.6.1
+  * Drop nix-0.26.patch
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 16:06:24 +0000
+
+rust-rustyline (13.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustyline 13.0.0 from crates.io using debcargo 2.6.1
+  * Reenable derive feature, as rustyline-derive is now in Debian.
+
+ -- Maytham Alsudany <maytha8thedev@gmail.com>  Mon, 29 Jan 2024 10:34:04 +0100
+
+rust-rustyline (13.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustyline 13.0.0 from crates.io using debcargo 2.6.1
+    + New upstream fixes test failure on 32-bit.
+  * Update patches for new upstream.
+  * Relax dependencies on fd-lock and rusqlite
+  * Revert upstream switch to nix 0.27
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 04 Jan 2024 13:07:43 +0000
+
+rust-rustyline (12.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustyline 12.0.0 from crates.io using debcargo 2.6.1 (Closes: #1059790)
+  * Patch away newly added derive feature, since rustyline-derive is not in Debian.
+  * Stop patching examples for the removal of rustyline-derive, they are now dealt
+    with by feature gaurds in Cargo.toml.
+  * Drop relax-deps.patch, no longer needed.
+  * Update remove-skim.patch and remove-clipboard-win.path for upstream dependency
+    bumps.
+  * Remove "bundled" feature from rusqlite dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 01 Jan 2024 12:18:41 +0000
+
+rust-rustyline (9.1.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustyline 9.1.2 from crates.io using debcargo 2.5.0
+  * Update patches for new upstream and current situation in Debian.
+    + Move removal of skim dependency from relax-deps.patch to it's own patch
+      consistent with other dependency removals.
+    + Drop seperate patch for nix and move nix dependency relaxation into
+      relax-deps.patch, since code changes for nix are no longer needed.
+    + Enforce a minimum version of nix reflecing the upstream dependency,
+      continue to allow any higher 0.x version as most nix version bumps
+      don't affect most packages.
+    + Stop replacing dirs-next with dirs, Debian currently has an appropriate
+      version of dirs-next so we may as well use it.
+    + Stop patching out assert_matches dev-dependency, Debian now has it.
+    + Update remove-rustyline-derive.patch for code changes in new upstream.
+    + Remove dependency on clipboard-win, it's not in Debian and is
+      presumablly only needed on windows.
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Oct 2022 03:34:34 +0000
+
+rust-rustyline (6.3.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustyline 6.3.0 from crates.io using debcargo 2.5.0
+  * Relax dirs version constraint to support 4.x
+
+ -- James McCoy <jamessan@debian.org>  Sun, 11 Sep 2022 14:00:33 -0400
+
+rust-rustyline (6.3.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustyline 6.3.0 from crates.io using debcargo 2.5.0
+  * Fix the nix dep (Closes: #1012497)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 08 Jun 2022 14:05:58 +0200
+
+rust-rustyline (6.3.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustyline 6.3.0 from crates.io using debcargo 2.5.0
+  * Add patch to update nix to 0.23
+  * Make adjustments so that the testsuite can run
+    + Bump env_logger dev dependency to 0.9
+    + Disable tests that use assert_matches
+    + Disable examples that use rustyline-derive
+  * Remove with-fuzzy feature completely rather than simply removing all it's
+    dependencies, so it doesn't cause a failure in the autopkgtest.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Dec 2021 21:26:43 +0000
+
+rust-rustyline (6.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * bumps nix dependency version to 0.19 (to match the archive)
+  * unpatch utf8parse dependency version (0.2 is packaged now)
+  * Package rustyline 6.3.0 from crates.io using debcargo 2.4.3
+
+ -- Fabio Rafael da Rosa <fdr@fabiodarosa.org>  Fri, 06 Nov 2020 18:26:19 +0100
+
+rust-rustyline (6.3.0-1) unstable; urgency=medium
+
+  * Package rustyline 6.3.0 from crates.io using debcargo 2.4.3
+
+ -- kpcyrd <git@rxv.cc>  Sun, 11 Oct 2020 03:59:00 +0200
+
+rust-rustyline (6.0.0-1) unstable; urgency=medium
+
+  * Package rustyline 6.0.0 from crates.io using debcargo 2.4.2
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package rustyline 5.0.5 from crates.io using debcargo 2.4.1-alpha.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 14 Jan 2020 22:37:13 +0000
+
+rust-rustyline (5.0.2-1) unstable; urgency=medium
+
+  * Package rustyline 5.0.2 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Thu, 12 Sep 2019 14:27:19 +0000
+
+rust-rustyline (5.0.0-3) unstable; urgency=medium
+
+  * Update the package to build with more recent version of dirs
+
+ -- kpcyrd <git@rxv.cc>  Sat, 20 Jul 2019 14:51:25 +0000
+
+rust-rustyline (5.0.0-1) unstable; urgency=medium
+
+  * Package rustyline 5.0.0 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Sat, 13 Jul 2019 19:27:28 +0200
+
+rust-rustyline (3.0.0-2) unstable; urgency=medium
+
+  * Package rustyline 3.0.0 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Sun, 03 Feb 2019 21:19:06 +0100
+
+rust-rustyline (3.0.0-1) unstable; urgency=medium
+
+  * Package rustyline 3.0.0 from crates.io using debcargo 2.2.9
+
+ -- kpcyrd <git@rxv.cc>  Wed, 26 Dec 2018 15:07:45 -0800

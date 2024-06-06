@@ -1,0 +1,5 @@
+rust-logos-derive (0.14.0-1) unstable; urgency=medium
+
+  * Package logos-derive 0.14.0 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 02 May 2024 11:22:40 +0200

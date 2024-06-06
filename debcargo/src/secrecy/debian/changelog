@@ -1,0 +1,5 @@
+rust-secrecy (0.8.0-1) unstable; urgency=medium
+
+  * Package secrecy 0.8.0 from crates.io using debcargo 2.6.0
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Mon, 09 Jan 2023 21:51:07 +0100

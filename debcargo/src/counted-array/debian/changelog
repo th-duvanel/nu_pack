@@ -1,0 +1,6 @@
+rust-counted-array (0.1.2-1) unstable; urgency=medium
+
+  * Package counted-array 0.1.2 from crates.io using debcargo 2.5.0
+  * Use stable lazy_static
+
+ -- Blair Noctis <n@sail.ng>  Sat, 17 Sep 2022 14:34:01 +0200

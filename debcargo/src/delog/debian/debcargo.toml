@@ -1,0 +1,4 @@
+overlay = "."
+summary = "Deferred logging implementation for Rust"
+uploaders = ["Philip Rinn <rinni@debian.org>"]
+collapse_features = true

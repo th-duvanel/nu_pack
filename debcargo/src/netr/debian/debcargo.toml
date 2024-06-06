@@ -1,0 +1,11 @@
+overlay = "."
+uploaders = ["Ed Neville <ed-debian@s5h.net>"]
+
+[packages.bin]
+summary = "network terminal graph"
+description = """
+Small terminal program to display a network throughput graph.
+"""
+
+[source]
+section = "net"

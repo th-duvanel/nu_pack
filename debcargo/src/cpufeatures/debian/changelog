@@ -1,0 +1,28 @@
+rust-cpufeatures (0.2.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cpufeatures 0.2.11 from crates.io using debcargo 2.6.1 (Closes: #1056267)
+  * Update dont-fail-build-on-unsupported-architectures.patch for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Nov 2023 22:14:18 +0000
+
+rust-cpufeatures (0.2.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cpufeatures 0.2.4 from crates.io using debcargo 2.5.0
+
+ -- Blair Noctis <n@sail.ng>  Fri, 02 Sep 2022 19:04:40 +0200
+
+rust-cpufeatures (0.2.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cpufeatures 0.2.2 from crates.io using debcargo 2.5.0
+  * Don't fail build on unsupported architectures.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 Jun 2022 17:40:38 +0000
+
+rust-cpufeatures (0.2.2-1) unstable; urgency=medium
+
+  * Package cpufeatures 0.2.2 from crates.io using debcargo 2.5.0
+
+ -- Liang Yan <ly@xryan.net>  Fri, 15 Apr 2022 08:55:36 +0200

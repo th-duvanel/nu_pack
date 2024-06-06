@@ -1,0 +1,5 @@
+rust-equivalent (1.0.1-1) unstable; urgency=medium
+
+  * Package equivalent 1.0.1 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Sun, 23 Jul 2023 20:10:50 +0200

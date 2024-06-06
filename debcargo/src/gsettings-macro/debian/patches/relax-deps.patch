@@ -1,0 +1,14 @@
+Description: Relax build dependencies for Debian
+Author: Arnaud Ferraris <aferraris@debian.org>
+Forwarded: not-needed
+Last-Update: 2024-03-10
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -66,4 +66,4 @@
+ version = "0.19"
+ 
+ [dev-dependencies.serial_test]
+-version = "3.0"
++version = "2.0"

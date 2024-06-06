@@ -1,0 +1,78 @@
+rust-alacritty (0.13.2-1) experimental; urgency=medium
+
+  * Package alacritty 0.13.2 from crates.io using debcargo 2.6.1
+    + Closes: #1068606
+
+ -- James McCoy <jamessan@debian.org>  Wed, 10 Apr 2024 08:29:37 -0400
+
+rust-alacritty (0.13.1-1) experimental; urgency=medium
+
+  * Package alacritty 0.13.1 from crates.io using debcargo 2.6.1
+    + Config file format changed from YAML to TOML.  Run "alacritty migrate"
+      to update existing config files.
+    + Config option `background_opacity`, use `window.background_opacity`
+    + Config option `colors.search.bar`, use `colors.footer_bar` instead
+    + Config option `mouse.url`, use the `hints` config section
+    + Config options `mouse.double_click` and `mouse.triple_click`
+
+ -- James McCoy <jamessan@debian.org>  Mon, 22 Jan 2024 11:20:49 -0500
+
+rust-alacritty (0.12.2-2) unstable; urgency=medium
+
+  * Package alacritty 0.12.2 from crates.io using debcargo 2.6.0
+  * Upload to unstable
+
+ -- James McCoy <jamessan@debian.org>  Thu, 03 Aug 2023 20:52:19 -0400
+
+rust-alacritty (0.12.2-1) experimental; urgency=medium
+
+  * Package alacritty 0.12.2 from crates.io using debcargo 2.6.0
+    + Fix rendering when FreeType fonts have SVGs glyphs (Closes: #1039952)
+  * Drop backported patches
+    + Add--T-short-form-for---title.patch,
+      Fix-notify-doing-active-polling.patch, and bump-notify-dep.patch
+
+ -- James McCoy <jamessan@debian.org>  Wed, 26 Jul 2023 21:10:27 -0400
+
+rust-alacritty (0.11.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package alacritty 0.11.0 from crates.io using debcargo 2.6.0
+  * Adjust dependency on dirs to allow 4.x and 5.x.
+  * Adjust dependency on serde-yaml to allow any 0.x version greater than 0.8,
+    this does carry some risk, but I think it's better than the alternatives.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 26 Jul 2023 01:01:02 +0000
+
+rust-alacritty (0.11.0-4) unstable; urgency=medium
+
+  * Package alacritty 0.11.0 from crates.io using debcargo 2.6.0
+  * Backport patch to stop performing active polling for config file changes.
+
+ -- James McCoy <jamessan@debian.org>  Thu, 02 Feb 2023 08:02:32 -0500
+
+rust-alacritty (0.11.0-3) unstable; urgency=medium
+
+  * Package alacritty 0.11.0 from crates.io using debcargo 2.6.0
+  * Install icon file under the correct name (Alacritty.svg, not
+    alacritty-term.svg).  (Closes: #1025826)
+  * Register as an x-terminal-emulator provider (Closes: #1025859)
+    + Backport patch from upstream to support -T switch
+    + Add Provides: x-terminal-emulator
+    + Add x-terminal-emulator alternative
+
+ -- James McCoy <jamessan@debian.org>  Sun, 11 Dec 2022 13:10:50 -0500
+
+rust-alacritty (0.11.0-2) unstable; urgency=medium
+
+  * Package alacritty 0.11.0 from crates.io using debcargo 2.6.0
+  * Add example config file to package
+
+ -- James McCoy <jamessan@debian.org>  Fri, 09 Dec 2022 09:18:54 -0500
+
+rust-alacritty (0.11.0-1) unstable; urgency=medium
+
+  * Package alacritty 0.11.0 from crates.io using debcargo 2.6.0
+    (Closes: #851639)
+
+ -- James McCoy <jamessan@debian.org>  Sun, 04 Dec 2022 20:09:21 -0500

@@ -1,0 +1,20 @@
+rust-serial-test-derive (2.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serial_test_derive 2.0.0 from crates.io using debcargo 2.6.0
+  * Relax dev-dependency on env-logger.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 06 Aug 2023 01:11:51 +0000
+
+rust-serial-test-derive (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serial_test_derive 0.9.0 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 17 Nov 2022 11:36:22 +0000
+
+rust-serial-test-derive (0.5.1-1) unstable; urgency=medium
+
+  * Package serial_test_derive 0.5.1 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 26 Dec 2020 00:24:21 +0100

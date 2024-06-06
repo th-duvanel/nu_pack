@@ -1,0 +1,11 @@
+rust-endi (1.1.0-2) unstable; urgency=medium
+
+  * Upload to unstable 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 03 Mar 2024 11:25:52 +0100
+
+rust-endi (1.1.0-1) experimental; urgency=medium
+
+  * Package endi 1.1.0 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 28 Feb 2024 14:46:48 -0500

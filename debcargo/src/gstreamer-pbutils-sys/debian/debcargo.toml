@@ -1,0 +1,8 @@
+overlay = "."
+uploaders = ["Matthias Geiger <werdahias@riseup.net>"]
+whitelist = ["tests/constant.c", "tests/layout.c"]
+collapse_features = true
+[packages.lib]
+depends = ["libgstreamer-plugins-base1.0-dev","libgstreamer1.0-dev","libgstreamer-plugins-base1.0-dev"]
+
+

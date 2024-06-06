@@ -1,0 +1,72 @@
+only in patch2:
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -30,2 +30,3 @@
+ default-features = false
++features = ["std"]
+ 
+@@ -34,2 +35,3 @@
+ default-features = false
++features = ["std"]
+ 
+@@ -38,2 +40,3 @@
+ default-features = false
++features = ["std"]
+ 
+@@ -50,2 +53,3 @@
+ default-features = false
++features = ["std"]
+ 
+@@ -54,2 +58,3 @@
+ default-features = false
++features = ["std", "io"]
+ 
+@@ -64,11 +69 @@
+ 
+-[features]
+-default = ["std"]
+-std = [
+-    "futures-core/std",
+-    "futures-task/std",
+-    "futures-io/std",
+-    "futures-util/std",
+-    "futures-util/io",
+-    "futures-executor/std",
+-]
+only in patch2:
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -16,10 +16,4 @@
+ 
+-#[cfg(not(feature = "std"))]
+-compile_error!(
+-    "`futures-test` must have the `std` feature activated, this is a default-active feature"
+-);
+-
+ // Not public API.
+ #[doc(hidden)]
+-#[cfg(feature = "std")]
+ pub mod __private {
+@@ -39,18 +33,12 @@
+ #[macro_use]
+-#[cfg(feature = "std")]
+ mod assert;
+ 
+-#[cfg(feature = "std")]
+ pub mod task;
+ 
+-#[cfg(feature = "std")]
+ pub mod future;
+ 
+-#[cfg(feature = "std")]
+ pub mod stream;
+ 
+-#[cfg(feature = "std")]
+ pub mod sink;
+ 
+-#[cfg(feature = "std")]
+ pub mod io;
+@@ -83,3 +71,2 @@
+ /// ```
+-#[cfg(feature = "std")]
+ pub use futures_macro::test_internal as test;

@@ -1,0 +1,5 @@
+rust-maybe-async (0.2.7-1) unstable; urgency=medium
+
+  * Package maybe-async 0.2.7 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 21 Sep 2023 22:47:25 +0200

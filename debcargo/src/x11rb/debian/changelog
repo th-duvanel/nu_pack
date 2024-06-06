@@ -1,0 +1,90 @@
+rust-x11rb (0.13.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package x11rb 0.13.0 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Feb 2024 00:22:22 +0000
+
+rust-x11rb (0.13.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package x11rb 0.13.0 from crates.io using debcargo 2.6.1
+  * Remove backported nix-0.23.patch and nix-0.24.patch
+  * Remove no longer necessary relax-dep.patch
+  * Remove no longer necessary debian/rules override
+  * Move libxcb1-dev Depends to the allow-unsafe-code feature
+  * Remove test_is_broken for allow-unsafe-code feature
+
+ -- James McCoy <jamessan@debian.org>  Mon, 01 Jan 2024 17:01:54 -0500
+
+rust-x11rb (0.8.1-7) unstable; urgency=medium
+
+  * Team upload.
+  * Package x11rb 0.8.1 from crates.io using debcargo 2.6.0
+  * Use explicitly enabled features for nix, this will be needed with nix
+    0.27 and newer.
+  * Limit nix dependency to 0.26, further porting (or moving to a version
+    of this crate that uses rustix instead of nix) will be needed for
+    nix 0.27.
+  * Bump gethostname dependency to 0.4. (Closes: #1052874)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 26 Sep 2023 15:37:59 +0000
+
+rust-x11rb (0.8.1-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package x11rb 0.8.1 from crates.io using debcargo 2.6.0
+  * Allow any nix version >= 0.24 and less than 1.0. There is a risk of
+    breakage but we can deal with that though autopkgtests, breaks  etc.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 08 Dec 2022 14:27:58 +0000
+
+rust-x11rb (0.8.1-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package x11rb 0.8.1 from crates.io using debcargo 2.5.0
+  * Bump nix dependency to 0.25 (no code changes needed this time)
+  * set test_is_broken for the allow-unsafe-code feature, it fails to build
+    on architectures where AtomicU64 is unavailable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 23 Aug 2022 17:54:12 +0000
+
+rust-x11rb (0.8.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package x11rb 0.8.1 from crates.io using debcargo 2.5.0
+  * Apply upstream patch for nix 0.24.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 10 Jun 2022 01:51:40 +0000
+
+rust-x11rb (0.8.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package x11rb 0.8.1 from crates.io using debcargo 2.5.0
+  * Fix build with rust-nix 0.23.
+  * Set collapse_features = true in debcargo.toml
+    (features are already collapsed in the archive).
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Dec 2021 16:14:50 +0000
+
+rust-x11rb (0.8.1-2) unstable; urgency=medium
+
+  * Package x11rb 0.8.1 from crates.io using debcargo 2.4.3
+    (Closes: #981824).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 21 Jul 2021 14:32:26 +0200
+
+rust-x11rb (0.8.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload.
+  * Package x11rb 0.8.1 from crates.io using debcargo 2.4.3.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 21 Jul 2021 10:46:42 +0200
+
+rust-x11rb (0.7.0-1) unstable; urgency=medium
+
+  * Source upload
+  * Package x11rb 0.7.0 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 31 Oct 2020 18:18:05 +0100

@@ -1,0 +1,13 @@
+Index: ipnet/Cargo.toml
+===================================================================
+--- ipnet.orig/Cargo.toml
++++ ipnet/Cargo.toml
+@@ -24,3 +24,0 @@
+-[dependencies.schemars]
+-version = "0.8"
+-optional = true
+@@ -38,4 +35,0 @@
+-json = [
+-    "serde",
+-    "schemars",
+-]

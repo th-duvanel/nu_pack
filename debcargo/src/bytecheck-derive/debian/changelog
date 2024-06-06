@@ -1,0 +1,18 @@
+rust-bytecheck-derive (0.6.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytecheck_derive 0.6.11 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 29 Jul 2023 02:20:59 +0000
+
+rust-bytecheck-derive (0.6.9-1) unstable; urgency=medium
+
+  * Package bytecheck_derive 0.6.9 from crates.io using debcargo 2.5.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Fri, 05 Aug 2022 10:56:17 +0200
+
+rust-bytecheck-derive (0.6.8-1) unstable; urgency=medium
+
+  * Package bytecheck_derive 0.6.8 from crates.io using debcargo 2.5.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 09 Jul 2022 07:06:52 -0400

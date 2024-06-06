@@ -1,0 +1,37 @@
+rust-capstone (0.11.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package capstone 0.11.0 from crates.io using debcargo 2.5.0
+  * Skip test_arch_m68k_detail and test_arch_tms320c64x_detail on big endian
+    systems.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 30 Oct 2022 23:40:23 +0000
+
+rust-capstone (0.11.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package capstone 0.11.0 from crates.io using debcargo 2.5.0
+  * Remove overridden control files.
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 20 Aug 2022 21:18:56 +0000
+
+rust-capstone (0.7.0-3) unstable; urgency=medium
+
+  * Package capstone 0.7.0 from crates.io using debcargo 2.4.4
+  * Only build for amd64, and arm64 for now.
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Thu, 14 Oct 2021 20:33:33 +0200
+
+rust-capstone (0.7.0-2) unstable; urgency=medium
+
+  * Package capstone 0.7.0 from crates.io using debcargo 2.4.4
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Thu, 07 Oct 2021 13:05:56 +0200
+
+rust-capstone (0.7.0-1) unstable; urgency=medium
+
+  * Package capstone 0.7.0 from crates.io using debcargo 2.4.4
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Wed, 06 Oct 2021 14:30:59 +0200

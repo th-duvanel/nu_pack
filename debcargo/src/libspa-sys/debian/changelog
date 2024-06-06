@@ -1,0 +1,68 @@
+rust-libspa-sys (0.8.0-2) unstable; urgency=medium
+
+  * Upload to unstable 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 17:36:30 +0200
+
+rust-libspa-sys (0.8.0-1) experimental; urgency=medium
+
+  * Package libspa-sys 0.8.0 from crates.io using debcargo 2.6.1
+  * Add patch to relax bindgen
+  * Refresh built-using-dh-cargo patch
+  * Updated list of whitelisted files in debcargo.toml
+  * Collapse features
+  * Updated copyright years
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 22 Feb 2024 17:09:00 +0100
+
+rust-libspa-sys (0.7.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Package libspa-sys 0.7.2 from crates.io using debcargo 2.6.0
+  * Release to Unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 16 Oct 2023 17:59:07 -0400
+
+rust-libspa-sys (0.7.2-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package libspa-sys 0.7.2 from crates.io using debcargo 2.6.0
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 27 Sep 2023 11:36:52 -0400
+
+rust-libspa-sys (0.6.0-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package libspa-sys 0.6.0 from crates.io using debcargo 2.6.0
+
+  [ Matthias Geiger ]
+  * Package libspa-sys 0.6.0 from crates.io using debcargo 2.6.0
+  * Updated my mail address.
+  * Updated relax-deps patch for newer bindgen
+  * Removed explicit dependency on rustc 1.64
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Sep 2023 21:35:49 +0000
+
+rust-libspa-sys (0.6.0-5) unstable; urgency=medium
+
+  * Package libspa-sys 0.6.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 20 Jun 2023 09:41:24 +0200
+
+rust-libspa-sys (0.6.0-4) experimental; urgency=medium
+
+  * Reupload to Experimental since the package isn't buildable in Unstable yet
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 15 Jun 2023 18:02:27 -0400
+
+rust-libspa-sys (0.6.0-2) unstable; urgency=medium
+
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 15 Jun 2023 15:06:37 -0400
+
+rust-libspa-sys (0.6.0-1) experimental; urgency=medium
+
+  * Package libspa-sys 0.6.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Mon, 29 May 2023 07:13:38 -0400

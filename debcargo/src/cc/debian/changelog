@@ -1,0 +1,121 @@
+rust-cc (1.0.83-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cc 1.0.83 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 23 Sep 2023 02:56:08 +0000
+
+rust-cc (1.0.73-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cc 1.0.73 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Thu, 20 Oct 2022 20:41:48 -0400
+
+rust-cc (1.0.71-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cc 1.0.71 from crates.io using debcargo 2.4.4
+  * Apply patch to fix build failures of rust-openssl-sys and rust-curl-sys with gcc-11
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 23 Oct 2021 23:50:50 +0000
+
+rust-cc (1.0.71-1) unstable; urgency=medium
+
+  * Package cc 1.0.71 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 18:18:19 +0100
+
+rust-cc (1.0.59-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cc 1.0.59 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 29 Aug 2020 18:22:09 +0200
+
+rust-cc (1.0.50-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package cc 1.0.50 from crates.io using debcargo 2.4.2
+  * Revert addition of cross-compiler to test dependency, I belive
+    I misinterpreted the error.
+  * Mark the tests as bad for now, they fail on arm64 and afaik have
+    never passed there. I have filed an upstream issue at
+    https://github.com/alexcrichton/cc-rs/issues/486
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 14 Apr 2020 20:37:49 +0000
+
+rust-cc (1.0.50-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package cc 1.0.50 from crates.io using debcargo 2.4.2
+  * The tests apparently want an x86-64 cross-compiler, add a test-dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 14 Apr 2020 09:32:41 +0000
+
+rust-cc (1.0.50-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package cc 1.0.50 from crates.io using debcargo 2.4.2
+  * Add test-dependency on g++
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 13 Apr 2020 12:23:12 +0000
+
+rust-cc (1.0.50-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cc 1.0.50 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 11 Apr 2020 23:28:53 +0200
+
+rust-cc (1.0.50-1) unstable; urgency=medium
+
+  * Package cc 1.0.50 from crates.io using debcargo 2.4.2
+  * Import upstream patch to clear CFLAGS and CXXFLAGS inside tests
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 29 Jan 2020 08:49:11 +0100
+
+rust-cc (1.0.49-1) unstable; urgency=medium
+
+  * Package cc 1.0.49 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Mon, 06 Jan 2020 16:29:44 +0000
+
+rust-cc (1.0.46-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cc 1.0.46 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 02 Nov 2019 10:28:42 +0100
+
+rust-cc (1.0.37-1) unstable; urgency=medium
+
+  * Package cc 1.0.37 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 11:50:28 +0200
+
+rust-cc (1.0.28-1) unstable; urgency=medium
+
+  * Package cc 1.0.28 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 22 Jan 2019 09:53:10 +0100
+
+rust-cc (1.0.25-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cc 1.0.25 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 07 Oct 2018 09:30:58 +0200
+
+rust-cc (1.0.17-2) unstable; urgency=medium
+
+  * Package cc 1.0.17 from crates.io using debcargo 2.2.2
+  * Remove accidentally-committed experiment from previous changelog entry.
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 08 Jul 2018 14:04:40 -0700
+
+rust-cc (1.0.17-1) unstable; urgency=medium
+
+  * Package cc 1.0.17 from crates.io using debcargo 2.2.1
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 08 Jul 2018 12:46:58 -0700

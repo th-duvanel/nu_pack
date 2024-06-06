@@ -1,0 +1,206 @@
+rust-serde (1.0.203-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.203 from crates.io using debcargo 2.6.1
+
+ -- Blair Noctis <n@sail.ng>  Tue, 04 Jun 2024 13:57:42 +0000
+
+rust-serde (1.0.200-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.200 from crates.io using debcargo 2.6.1
+    + Fix formatting of "invalid type" and "invalid value" deserialization
+      error messages containing NaN or infinite floats, which broke tests of
+      other packages.
+
+ -- James McCoy <jamessan@debian.org>  Wed, 01 May 2024 12:23:49 -0400
+
+rust-serde (1.0.199-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.199 from crates.io using debcargo 2.6.1
+    (Closes: #1068878)
+
+ -- James McCoy <jamessan@debian.org>  Tue, 30 Apr 2024 10:02:49 -0400
+
+rust-serde (1.0.195-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.195 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 09 Jan 2024 22:06:07 +0000
+
+rust-serde (1.0.192-1) unstable; urgency=medium
+
+  * Package serde 1.0.192 from crates.io using debcargo 2.6.0 (Closes: #1053951)
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package serde 1.0.188 from crates.io using debcargo 2.6.0
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 09 Nov 2023 14:07:05 +0000
+
+rust-serde (1.0.171-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.171 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 13:07:03 +0000
+
+rust-serde (1.0.152-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.152 from crates.io using debcargo 2.6.0
+  * Set test_is_broken for the unstable feature.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 09 Feb 2023 03:47:47 +0000
+
+rust-serde (1.0.152-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.152 from crates.io using debcargo 2.6.0 (Closes: #1030796)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Feb 2023 18:50:47 +0000
+
+rust-serde (1.0.147-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.147 from crates.io using debcargo 2.6.0 (Closes: #1024750)
+
+ -- Blair Noctis <n@sail.ng>  Thu, 24 Nov 2022 12:06:01 +0000
+
+rust-serde (1.0.145-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.145 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Thu, 13 Oct 2022 22:08:02 -0400
+
+rust-serde (1.0.142-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.142 from crates.io using debcargo 2.5.0 (Closes: 1016739)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 06 Aug 2022 14:06:09 +0000
+
+rust-serde (1.0.137-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.137 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 22 Jun 2022 04:35:16 +0000
+
+rust-serde (1.0.136-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.136 from crates.io using debcargo 2.5.0
+
+ -- Carlos F. Sanz <carlos@sanz.dev>  Wed, 25 May 2022 00:20:17 -0400
+
+rust-serde (1.0.130-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.130 from crates.io using debcargo 2.4.4
+  * Add breaks on old versions of librust-cargo-dev and librust-debcargo-dev
+    to help with testing migration.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 29 Nov 2021 00:10:28 +0000
+
+rust-serde (1.0.130-1) unstable; urgency=medium
+
+  * Package serde 1.0.130 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 19:31:19 +0100
+
+rust-serde (1.0.106-1) unstable; urgency=medium
+
+  * Package serde 1.0.106 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 26 Apr 2020 21:05:17 +0200
+
+rust-serde (1.0.104-1) unstable; urgency=medium
+
+  * Package serde 1.0.104 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 03 Jan 2020 12:06:41 +0100
+
+rust-serde (1.0.102-1) unstable; urgency=medium
+
+  * Package serde 1.0.102 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 08 Nov 2019 13:56:48 +0100
+
+rust-serde (1.0.99-2) unstable; urgency=medium
+
+  * Package serde 1.0.99 from crates.io using debcargo 2.4.0
+  * Mark all-features autopkgtest as flaky
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 18 Aug 2019 07:00:55 +0200
+
+rust-serde (1.0.99-1) unstable; urgency=medium
+
+  * Package serde 1.0.99 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 17 Aug 2019 09:45:56 +0200
+
+rust-serde (1.0.97-1) unstable; urgency=medium
+
+  * Package serde 1.0.97 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 18 Jul 2019 02:23:28 -0700
+
+rust-serde (1.0.95-1) unstable; urgency=medium
+
+  * Package serde 1.0.95 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 16 Jul 2019 23:08:52 -0700
+
+rust-serde (1.0.94-2) unstable; urgency=medium
+
+  * Package serde 1.0.94 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 12 Jul 2019 20:53:50 +0200
+
+rust-serde (1.0.94-1) unstable; urgency=medium
+
+  * Package serde 1.0.94 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 12 Jul 2019 12:15:55 +0200
+
+rust-serde (1.0.87-1) unstable; urgency=medium
+
+  * Package serde 1.0.87 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 05 Feb 2019 17:46:37 +0100
+
+rust-serde (1.0.85-1) unstable; urgency=medium
+
+  * Package serde 1.0.85 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 21 Jan 2019 14:52:28 +0100
+
+rust-serde (1.0.82-1) unstable; urgency=medium
+
+  * Package serde 1.0.82 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 11 Dec 2018 13:02:53 +0100
+
+rust-serde (1.0.79-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde 1.0.79 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 04 Oct 2018 23:12:30 +0200
+
+rust-serde (1.0.70-1) unstable; urgency=medium
+
+  * Package serde 1.0.70 from crates.io using debcargo 2.2.1
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 07 Jul 2018 13:30:15 -0700
+
+rust-serde (1.0.66-1) unstable; urgency=medium
+
+  * Package serde 1.0.66 from crates.io using debcargo 2.1.1
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 22 Jun 2018 00:40:12 -0700

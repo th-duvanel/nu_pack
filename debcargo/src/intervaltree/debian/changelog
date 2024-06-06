@@ -1,0 +1,20 @@
+rust-intervaltree (0.2.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package intervaltree 0.2.7 from crates.io using debcargo 2.5.0 (Closes:1008016)
+  * Drop update-smallvec.patch, no longer needed with new upstream.
+  * Use collapse_features=true
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 23 Apr 2022 23:39:01 +0000
+
+rust-intervaltree (0.2.4-2) unstable; urgency=medium
+
+  * Package intervaltree 0.2.4 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 08 Jan 2020 22:47:02 +0000
+
+rust-intervaltree (0.2.4-1) unstable; urgency=medium
+
+  * Package intervaltree 0.2.4 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 18 Dec 2018 16:58:26 -0800

@@ -1,0 +1,96 @@
+rust-gstreamer-video (0.22.4-3) unstable; urgency=medium
+
+  * Package gstreamer-video 0.22.4 from crates.io using debcargo 2.6.1
+  * Stop marking v1_24 feature as broken
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 14:15:11 +0200
+
+rust-gstreamer-video (0.22.4-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package gstreamer-video 0.22.4 from crates.io using debcargo 2.6.1
+  * Mark v1_22 test as broken
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 19 Apr 2024 18:43:48 -0400
+
+rust-gstreamer-video (0.22.4-1) experimental; urgency=medium
+
+  * Team upload
+  * Package gstreamer-video 0.22.4 from crates.io using debcargo 2.6.1
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 14:57:33 -0400
+
+rust-gstreamer-video (0.22.1-1) experimental; urgency=medium
+
+  * Package gstreamer-video 0.22.1 from crates.io using debcargo 2.6.1
+  * Rebased patches for new upstream
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 24 Feb 2024 19:23:29 +0100
+
+rust-gstreamer-video (0.21.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Package gstreamer-video 0.21.0 from crates.io using debcargo 2.6.0
+  * Ignore v1_24 autopkgtest failure because it requires
+    unreleased gstreamer version
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 29 Sep 2023 09:01:11 -0400
+
+rust-gstreamer-video (0.21.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Package gstreamer-video 0.21.0 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:36:49 -0400
+
+rust-gstreamer-video (0.21.0-1) experimental; urgency=medium
+
+  * Team upload
+  * Package gstreamer-video 0.21.0 from crates.io using debcargo 2.6.0
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 27 Sep 2023 19:24:29 -0400
+
+rust-gstreamer-video (0.20.7-2) unstable; urgency=medium
+
+  * Package gstreamer-video 0.20.7 from crates.io using debcargo 2.6.0
+  * Added skip-broken-test-on-s390x.diff patch to pass autopkgtest on
+    s390x
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 03 Aug 2023 12:33:53 +0200
+
+rust-gstreamer-video (0.20.7-1) unstable; urgency=medium
+
+  * Package gstreamer-video 0.20.7 from crates.io using debcargo 2.6.0
+  * Updated my mail address
+  * Added remove-dox.diff to enable tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:33:39 +0200
+
+rust-gstreamer-video (0.19.3-2) unstable; urgency=medium
+
+  * Package gstreamer-video 0.19.3 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 21:07:03 +0200
+
+rust-gstreamer-video (0.19.3-1) experimental; urgency=medium
+
+  * Package gstreamer-video 0.19.3 from crates.io using debcargo 2.6.0
+  * Added myself to uploaders, dropped slomo from uploaders
+  * Cleaned up copyright
+  * Collapsed features in debcargo.toml
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 15:39:26 +0200
+
+rust-gstreamer-video (0.14.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gstreamer-video 0.14.5 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 22 Apr 2020 13:16:35 +0200
+
+rust-gstreamer-video (0.14.5-1) unstable; urgency=medium
+
+  * Package gstreamer-video 0.14.5 from crates.io using debcargo 2.4.0
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 10 Dec 2019 09:40:12 +0200

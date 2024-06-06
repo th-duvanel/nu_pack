@@ -1,0 +1,31 @@
+rust-four-cc (0.3.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package four-cc 0.3.0 from crates.io using debcargo 2.6.1
+  * Disable zerocopy feature, it's not compatible with the new version
+    of zerocopy.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 23 Feb 2024 04:06:46 +0000
+
+rust-four-cc (0.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Mark nighly feature as flaky as it's failing on Ubuntu but not on Debian
+    CI 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 29 Sep 2023 18:26:03 +0200
+
+rust-four-cc (0.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package four-cc 0.3.0 from crates.io using debcargo 2.6.0
+  * Drop relax-deps patch as schemars is in debian now
+  * Mark tests for schemars feature as flaky
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 11 Sep 2023 14:05:54 +0200
+
+rust-four-cc (0.2.0-1) unstable; urgency=medium
+
+  * Package four-cc 0.2.0 from crates.io using debcargo 2.6.0
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Wed, 06 Sep 2023 23:20:03 +0200

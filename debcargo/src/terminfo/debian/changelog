@@ -1,0 +1,10 @@
+rust-terminfo (0.8.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package terminfo 0.8.0 from crates.io using debcargo 2.6.0
+
+  [ Fabio Rafael da Rosa ]
+  * Package terminfo 0.7.3 from crates.io using debcargo 2.4.3
+  * Add patch bump-dirs-version: Bump dirs dependency to 5.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 14 Sep 2023 13:54:37 +0100

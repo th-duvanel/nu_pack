@@ -1,0 +1,13 @@
+Index: toml-edit/Cargo.toml
+===================================================================
+--- toml-edit.orig/Cargo.toml
++++ toml-edit/Cargo.toml
+@@ -106,7 +106,7 @@ required-features = [
+ ]
+ 
+ [dependencies.indexmap]
+-version = "2.0.0"
++version = ">= 1.9.1"
+ features = ["std"]
+ 
+ [dependencies.kstring]

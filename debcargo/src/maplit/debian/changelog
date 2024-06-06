@@ -1,0 +1,12 @@
+rust-maplit (1.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package maplit 1.0.2 from crates.io using debcargo 2.5.0 (Closes: #1023502)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Nov 2022 17:06:47 +0000
+
+rust-maplit (1.0.1-1) unstable; urgency=medium
+
+  * Package maplit 1.0.1 from crates.io using debcargo 2.2.9
+
+ -- kpcyrd <git@rxv.cc>  Sat, 24 Nov 2018 10:47:31 +0100

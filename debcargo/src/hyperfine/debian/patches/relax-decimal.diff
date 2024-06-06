@@ -1,0 +1,13 @@
+Index: hyperfine/Cargo.toml
+===================================================================
+--- hyperfine.orig/Cargo.toml
++++ hyperfine/Cargo.toml
+@@ -60,7 +60,7 @@ version = "=0.17.4"
+ version = "0.8"
+ 
+ [dependencies.rust_decimal]
+-version = "1.31"
++version = "1"
+ 
+ [dependencies.serde]
+ version = "1.0"

@@ -1,0 +1,34 @@
+rust-unicode-segmentation (1.10.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unicode-segmentation 1.10.1 from crates.io using debcargo 2.6.1 (Closes: #1055098)
+  * Disable benches, they require test data which is not included in the
+    crates.io release.
+  * Bump quickcheck dev-dependency to 1.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 28 Nov 2023 17:26:13 +0000
+
+rust-unicode-segmentation (1.9.0-1) unstable; urgency=medium
+
+  * Package unicode-segmentation 1.9.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 02 Jun 2022 23:07:49 +0200
+
+rust-unicode-segmentation (1.6.0-1) unstable; urgency=medium
+
+  * Package unicode-segmentation 1.6.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 28 Mar 2020 21:01:03 +0100
+
+rust-unicode-segmentation (1.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unicode-segmentation 1.5.0 from crates.io using debcargo 2.2.10
+
+ -- nicoo <nicoo@debian.org>  Sun, 03 Nov 2019 12:47:21 +0100
+
+rust-unicode-segmentation (1.2.1-1) unstable; urgency=medium
+
+  * Package unicode-segmentation 1.2.1 from crates.io using debcargo 2.2.8
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 22 Oct 2018 13:57:06 +0200

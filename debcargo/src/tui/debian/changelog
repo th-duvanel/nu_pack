@@ -1,0 +1,52 @@
+rust-tui (0.19.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tui 0.19.0 from crates.io using debcargo 2.6.0
+  * Add patch for crossterm 0.27.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 23 Nov 2023 04:55:01 +0000
+
+rust-tui (0.19.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tui 0.19.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 24 Aug 2022 23:46:25 +0000
+
+rust-tui (0.18.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tui 0.18.0 from crates.io using debcargo 2.5.0
+  * Disable "demo" example and remove the dev-dependency on argh so the rest
+    of the testsuite can run.
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 14 Jun 2022 21:04:03 +0000
+
+rust-tui (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tui 0.9.0 from crates.io using debcargo 2.4.3
+
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Sun, 20 Dec 2020 22:48:40 +0100
+
+rust-tui (0.8.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package tui 0.8.0 from crates.io using debcargo 2.4.3
+    Fixes dependencies (Closes: #969616)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 05 Oct 2020 09:18:34 +0200
+
+rust-tui (0.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tui 0.8.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 22 Apr 2020 13:24:59 +0200
+
+rust-tui (0.8.0-1) unstable; urgency=medium
+
+  * Package tui 0.8.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 24 Dec 2019 14:59:09 +0000

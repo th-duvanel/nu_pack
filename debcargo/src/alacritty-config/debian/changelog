@@ -1,0 +1,45 @@
+rust-alacritty-config (0.2.1-1) experimental; urgency=medium
+
+  * Package alacritty_config 0.2.1 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Sun, 07 Apr 2024 21:42:32 -0400
+
+rust-alacritty-config (0.2.0-1) experimental; urgency=medium
+
+  * Package alacritty_config 0.2.0 from crates.io using debcargo 2.6.1
+  * Add alacritty_config_derive dev-depenency so autopkgtests run
+
+ -- James McCoy <jamessan@debian.org>  Fri, 12 Jan 2024 16:51:30 -0500
+
+rust-alacritty-config (0.1.2-1) experimental; urgency=medium
+
+  * Package alacritty_config 0.1.2 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Thu, 28 Dec 2023 09:18:39 -0500
+
+rust-alacritty-config (0.1.2~rc2-1) experimental; urgency=medium
+
+  * Package alacritty_config 0.1.2-rc2 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Wed, 27 Dec 2023 11:51:54 -0500
+
+rust-alacritty-config (0.1.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package alacritty_config 0.1.1 from crates.io using debcargo 2.6.0
+  * Adjust dependency on serde-yaml to allow any 0.x version greater than 0.8,
+    this does carry some risk, but I think it's better than the alternatives.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 26 Jul 2023 01:23:20 +0000
+
+rust-alacritty-config (0.1.1-1) experimental; urgency=medium
+
+  * Package alacritty_config 0.1.1 from crates.io using debcargo 2.6.0
+
+ -- James McCoy <jamessan@debian.org>  Tue, 04 Jul 2023 00:27:49 -0400
+
+rust-alacritty-config (0.1.0-1) unstable; urgency=medium
+
+  * Package alacritty_config 0.1.0 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Thu, 13 Oct 2022 06:50:25 -0400

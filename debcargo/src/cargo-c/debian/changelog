@@ -1,0 +1,53 @@
+rust-cargo-c (0.9.19-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo-c 0.9.19+cargo-0.70 from crates.io using debcargo 2.6.1
+  * Relax dependencies on itertools and toml.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 30 Jan 2024 16:50:24 +0000
+
+rust-cargo-c (0.9.19-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo-c 0.9.19+cargo-0.70 from crates.io using debcargo 2.6.0
+  * drop windows-sys dependency
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Fri, 15 Dec 2023 13:33:51 +0100
+
+rust-cargo-c (0.9.14-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo-c 0.9.14+cargo-0.66 from crates.io using debcargo 2.6.0
+  * Bump cbindgen dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 28 Sep 2023 06:23:51 +0000
+
+rust-cargo-c (0.9.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo-c 0.9.14+cargo-0.66 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 12 Jan 2023 13:04:24 +0000
+
+rust-cargo-c (0.9.11-1) unstable; urgency=medium
+
+  * Package cargo-c 0.9.11+cargo-0.63 from crates.io using debcargo 2.6.0
+  * Drop fix-deps.patch - no longer needed.
+
+  [ Fabian Gruenbichler ]
+  * Team upload.
+  * Package cargo-c 0.9.11+cargo-0.63 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 17 Nov 2022 08:30:41 +0000
+
+rust-cargo-c (0.9.5-2) unstable; urgency=medium
+
+  * debian/patches: Relax dependency on cbindgen to >= 0.20
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 25 Jun 2022 19:06:22 +0200
+
+rust-cargo-c (0.9.5-1) unstable; urgency=medium
+
+  * Package cargo-c 0.9.5+cargo-0.57 from crates.io using debcargo 2.5.0
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 24 Jun 2022 00:37:01 +0200

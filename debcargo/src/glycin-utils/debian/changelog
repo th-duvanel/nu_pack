@@ -1,0 +1,35 @@
+rust-glycin-utils (0.1.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package glycin-utils 0.1.0 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 15:09:14 +0000
+
+rust-glycin-utils (0.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package glycin-utils 0.1.0 from crates.io using debcargo 2.6.1
+  * Bump memmap2 dependency to 0.9
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 02 Dec 2023 14:07:09 +0000
+
+rust-glycin-utils (0.1.0-1) unstable; urgency=medium
+
+  * Package glycin-utils 0.1.0 from crates.io using debcargo 2.6.0
+  * Enabled tests.
+  * Rebased patches.
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 16 Sep 2023 19:30:50 +0200
+
+rust-glycin-utils (0.1.0~rc-1) unstable; urgency=medium
+
+  * Package glycin-utils 0.1.0-rc from crates.io using debcargo 2.6.0
+  * Updated relax-deps patch
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Sep 2023 22:53:05 +0200
+
+rust-glycin-utils (0.1.0~beta.4-1) experimental; urgency=medium
+
+  * Package glycin-utils 0.1.0-beta.4 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 31 Aug 2023 17:54:22 -0400

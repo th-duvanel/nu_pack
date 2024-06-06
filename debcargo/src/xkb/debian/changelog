@@ -1,0 +1,32 @@
+rust-xkb (0.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package xkb 0.3.0 from crates.io using debcargo 2.6.0
+  * Disable keysyms that no longer exist in libxkbcommon 1.6.0 (Closes: #1054768)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 28 Oct 2023 04:30:24 +0000
+
+rust-xkb (0.3.0-1) unstable; urgency=medium
+
+  * Package xkb 0.3.0 from crates.io using debcargo 2.6.0
+
+  [ Matthias Geiger ]
+  * Team upload.
+  * Package xkb 0.3.0 from crates.io using debcargo 2.6.0
+  * Dropped patch, no longer needed
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Sep 2023 23:12:58 +0000
+
+rust-xkb (0.2.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package xkb 0.2.1 from crates.io using debcargo 2.5.0
+  * Adjust xcb dependency to make this package installable.
+
+ -- James McCoy <jamessan@debian.org>  Tue, 16 Aug 2022 19:40:12 -0400
+
+rust-xkb (0.2.1-1) unstable; urgency=medium
+
+  * Package xkb 0.2.1 from crates.io using debcargo 2.5.0
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 27 Jun 2022 13:06:34 -0400

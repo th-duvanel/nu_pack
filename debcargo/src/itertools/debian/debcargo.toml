@@ -1,0 +1,12 @@
+overlay = "."
+uploaders = ["Ximin Luo <infinity0@debian.org>"]
+collapse_features = true
+
+[packages.lib]
+test_is_broken = true
+
+[packages."lib+use_alloc"]
+test_is_broken = true
+
+[packages."lib+use_std"]
+test_is_broken = false

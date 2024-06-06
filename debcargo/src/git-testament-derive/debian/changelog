@@ -1,0 +1,27 @@
+rust-git-testament-derive (0.2.0-1) unstable; urgency=medium
+
+  * Package git-testament-derive 0.2.0 from crates.io using debcargo 2.6.1
+  * Updated my mail adress in debcargo.toml
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 31 Jan 2024 00:46:48 +0100
+
+rust-git-testament-derive (0.1.14-1) unstable; urgency=medium
+
+  * Package git-testament-derive 0.1.14 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 30 Dec 2022 19:31:51 +0100
+
+rust-git-testament-derive (0.1.13-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package git-testament-derive 0.1.13 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 21 Nov 2022 09:56:45 +0100
+
+rust-git-testament-derive (0.1.13-1) unstable; urgency=medium
+
+  * Source upload
+  * Package git-testament-derive 0.1.13 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 16 Nov 2022 22:25:57 +0100

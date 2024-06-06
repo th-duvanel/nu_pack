@@ -1,0 +1,55 @@
+rust-rustc-demangle (0.1.21-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustc-demangle 0.1.21 from crates.io using debcargo 2.5.0 (Closes: #1022264)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 23 Oct 2022 08:48:00 +0000
+
+rust-rustc-demangle (0.1.16-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustc-demangle 0.1.16 from crates.io using debcargo 2.4.2
+  * disable librust-rustc-demangle+core-dev
+    librust-rustc-demangle+rustc-dep-of-std-dev tests as they are using nightly
+    feature
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 12 Apr 2020 00:02:29 +0200
+
+rust-rustc-demangle (0.1.16-3) unstable; urgency=medium
+
+  * Package rustc-demangle 0.1.16 from crates.io using debcargo 2.4.2
+  * Source-only reupload for migration to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 23 Jan 2020 18:19:23 +0100
+
+rust-rustc-demangle (0.1.16-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustc-demangle 0.1.16 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 04 Jan 2020 22:12:48 +0000
+
+rust-rustc-demangle (0.1.16-1) unstable; urgency=medium
+
+  * Package rustc-demangle 0.1.16 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 10 Nov 2019 14:01:54 +0100
+
+rust-rustc-demangle (0.1.13-1) unstable; urgency=medium
+
+  * Package rustc-demangle 0.1.13 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 22 Jan 2019 09:56:02 +0100
+
+rust-rustc-demangle (0.1.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustc-demangle 0.1.9 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 06 Oct 2018 23:32:08 +0200
+
+rust-rustc-demangle (0.1.8-1) unstable; urgency=medium
+
+  * Package rustc-demangle 0.1.8 from crates.io using debcargo 2.2.1
+
+ -- kpcyrd <git@rxv.cc>  Sun, 08 Jul 2018 13:19:58 -0700

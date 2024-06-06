@@ -1,0 +1,63 @@
+rust-png (0.17.7-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package png 0.17.7 from crates.io using debcargo 2.6.0
+
+  [ Fabian Grünbichler ]
+  * Team upload
+  * rebuild with miniz_oxide 0.7
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 28 Aug 2023 14:48:45 +0000
+
+rust-png (0.17.7-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package png 0.17.7 from crates.io using debcargo 2.6.0
+  * Bump flate2 dependency to help britney's autopkgtest scheduler.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 03 Jan 2023 10:31:18 +0000
+
+rust-png (0.17.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package png 0.17.7 from crates.io using debcargo 2.6.0
+  * Update copyright file.
+  * Update disable-criterion.diff for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 02 Jan 2023 16:42:36 +0000
+
+rust-png (0.17.6-1) unstable; urgency=medium
+
+  * Package png 0.17.6 from crates.io using debcargo 2.5.0 (Closes: 1021910)
+
+  [ Fabian Gruenbichler ]
+  * Team upload.
+  * Package png 0.17.5 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 18 Oct 2022 16:31:44 +0000
+
+rust-png (0.16.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package png 0.16.8 from crates.io using debcargo 2.5.0
+  * Adjust dependencies for packages in Debian.
+  * Apply upstream fix for rand 0.8
+  * Disable bench that requires Criterion
+  * Disable tests that require test data that is not in the crates.io
+    release.
+  * Apply upstream patch for miniz-oxide 0.4
+  * Disable example that requires glium.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Apr 2022 02:22:28 +0000
+
+rust-png (0.15.0-1) unstable; urgency=medium
+
+  * Package png 0.15.0 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Mon, 22 Jul 2019 03:27:28 +0000
+
+rust-png (0.14.1-1) unstable; urgency=medium
+
+  * Package png 0.14.1 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Thu, 20 Jun 2019 16:51:33 -0700

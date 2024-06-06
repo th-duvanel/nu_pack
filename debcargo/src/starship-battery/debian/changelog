@@ -1,0 +1,28 @@
+rust-starship-battery (0.8.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package starship-battery 0.8.2 from crates.io using debcargo 2.6.0
+  * New upstream release. (Closes: #1055094)
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 14 Nov 2023 23:00:02 +0100
+
+rust-starship-battery (0.8.1-2) unstable; urgency=medium
+
+  * Package starship-battery 0.8.1 from crates.io using debcargo 2.6.0
+  * Add patch to make package installable
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 17 Jun 2023 15:44:56 +0200
+
+rust-starship-battery (0.8.1-1) unstable; urgency=medium
+
+  * Package starship-battery 0.8.1 from crates.io using debcargo 2.6.0
+  * Rebased patches.
+  * Collapsed features in debcargo.toml
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 13 Jun 2023 19:26:43 +0200
+
+rust-starship-battery (0.7.9-1) unstable; urgency=medium
+
+  * Package starship-battery 0.7.9 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Mon, 29 Aug 2022 14:44:54 +0200

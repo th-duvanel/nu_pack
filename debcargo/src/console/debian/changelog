@@ -1,0 +1,67 @@
+rust-console (0.15.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package console 0.15.7 from crates.io using debcargo 2.6.1
+  * Update fix-bench.diff for new upstream.
+  * Drop relax-dep.diff, no longer needed.
+  * Remove dependency on windows-sys, it's not in Debian and only used
+    on windows.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Nov 2023 23:30:29 +0000
+
+rust-console (0.15.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package console 0.15.2 from crates.io using debcargo 2.5.0
+  * Bump dependency on terminal_size to 0.2
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 30 Oct 2022 14:23:21 +0000
+
+rust-console (0.15.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package console 0.15.2 from crates.io using debcargo 2.5.0
+  * Fix benches.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 08 Oct 2022 23:53:58 +0000
+
+rust-console (0.15.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package console 0.15.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 14 Sep 2022 09:11:31 +0200
+
+rust-console (0.15.0-1) unstable; urgency=medium
+
+  * Package console 0.15.0 from crates.io using debcargo 2.5.0
+
+ -- kpcyrd <git@rxv.cc>  Sat, 09 Jul 2022 22:48:04 +0000
+
+rust-console (0.13.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package console 0.13.0 from crates.io using debcargo 2.4.4
+  * fix test when unicode-width is enabled and strip-ansi-escapes is not.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 04 Sep 2021 20:28:34 +0000
+
+rust-console (0.13.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package console 0.13.0 from crates.io using debcargo 2.4.4-alpha.0
+  * Use collapse_features = true
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 03 Sep 2021 08:57:57 +0200
+
+rust-console (0.8.0-1) unstable; urgency=medium
+
+  * Package console 0.8.0 from crates.io using debcargo 2.2.10
+
+ -- Paride Legovini <pl@ninthfloor.org>  Thu, 29 Aug 2019 07:44:10 +0000
+
+rust-console (0.7.7-1) unstable; urgency=medium
+
+  * Package console 0.7.7 from crates.io using debcargo 2.2.10
+
+ -- Paride Legovini <pl@ninthfloor.org>  Sat, 20 Jul 2019 15:03:35 -0300

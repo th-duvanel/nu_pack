@@ -1,0 +1,19 @@
+rust-vcpkg (0.2.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package vcpkg 0.2.8 from crates.io using debcargo 2.4.2
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 Apr 2020 11:32:14 +0000
+
+rust-vcpkg (0.2.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package vcpkg 0.2.6 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 04 Oct 2018 11:47:23 +0200
+
+rust-vcpkg (0.2.4-1) unstable; urgency=medium
+
+  * Package vcpkg 0.2.4 from crates.io using debcargo 2.2.3
+
+ -- kpcyrd <git@rxv.cc>  Mon, 09 Jul 2018 01:08:13 -0700

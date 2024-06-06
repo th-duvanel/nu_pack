@@ -1,0 +1,29 @@
+From: Sebastian Ramacher <sramacher@debian.org>
+Date: Thu, 29 Dec 2022 11:15:26 +0100
+Subject: Remove wasm feature
+
+---
+ Cargo.toml | 5 -----
+ 1 file changed, 5 deletions(-)
+
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -224,10 +224,6 @@
+ [dependencies.v_frame]
+ version = "0.3.7"
+ 
+-[dependencies.wasm-bindgen]
+-version = "0.2.89"
+-optional = true
+-
+ [dependencies.y4m]
+ version = "0.8"
+ optional = true
+@@ -324,7 +320,6 @@
+     "dep:tracing",
+ ]
+ unstable = []
+-wasm = ["wasm-bindgen"]
+ 
+ [target."cfg(any(decode_test, decode_test_dav1d))".dependencies.system-deps]
+ version = "6"

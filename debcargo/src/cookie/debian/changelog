@@ -1,0 +1,69 @@
+rust-cookie (0.18.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cookie 0.18.0 from crates.io using debcargo 2.6.1
+    Closes: #1053610, #1056674.
+  * Enable "private", and "secure", Closes: #1053613.
+
+ -- Reinhard Tartler <siretart@tauware.de>  Wed, 07 Feb 2024 06:39:50 -0500
+
+rust-cookie (0.16.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cookie 0.16.2 from crates.io using debcargo 2.6.0
+  * Add breaks on old versions of reqwest and ureq to help britney's autopkgtest
+    scheduler.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 18 Jun 2023 00:34:38 +0000
+
+rust-cookie (0.16.2-1) unstable; urgency=medium
+
+  * Package cookie 0.16.2 from crates.io using debcargo 2.6.0
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * bump base64 dep to 0.21
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 15 Jun 2023 01:37:37 +0000
+
+rust-cookie (0.16.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cookie 0.16.0 from crates.io using debcargo 2.5.0 (Closes: #984919, #1013098)
+  * Drop old patches, no longer relavent/useful.
+  * Set collapse_features = true
+  * Disable aes-gcm/private/secure features as aes-gcm crate is not packaged in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 Jun 2022 18:44:41 +0000
+
+rust-cookie (0.12.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package cookie 0.12.0 from crates.io using debcargo 2.4.2
+
+ -- Johannes Schilling <dario@deaktualisierung.org>  Wed, 08 Jan 2020 21:46:23 +0000
+
+rust-cookie (0.12.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package cookie 0.12.0 from crates.io using debcargo 2.2.10
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 13 Aug 2019 11:45:32 +0200
+
+rust-cookie (0.12.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cookie 0.12.0 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:19:55 +0200
+
+rust-cookie (0.12.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cookie 0.12.0 from crates.io using debcargo 2.2.10
+
+  [ kpcyrd ]
+  * Package cookie 0.11.0 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 May 2019 22:48:04 +0200

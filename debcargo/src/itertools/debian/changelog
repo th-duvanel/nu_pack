@@ -1,0 +1,48 @@
+rust-itertools (0.12.0-1) experimental; urgency=medium
+
+  * Package itertools 0.12.0 from crates.io using debcargo 2.6.1
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package itertools 0.11.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 18 Jan 2024 11:39:56 +0000
+
+rust-itertools (0.10.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package itertools 0.10.5 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 29 Jun 2023 23:48:59 +0200
+
+rust-itertools (0.10.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package itertools 0.10.3 from crates.io using debcargo 2.5.0
+
+ -- Liang Yan <ly@xryan.net>  Fri, 02 Sep 2022 19:27:49 +0200
+
+rust-itertools (0.10.1-1) unstable; urgency=medium
+
+  * Package itertools 0.10.1 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 19:36:43 +0100
+
+rust-itertools (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package itertools 0.9.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 29 Aug 2020 16:46:51 +0200
+
+rust-itertools (0.8.0-1) unstable; urgency=medium
+
+  * Package itertools 0.8.0 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 20 Jan 2019 23:24:29 -0800
+
+rust-itertools (0.7.8-1) unstable; urgency=medium
+
+  * Package itertools 0.7.8 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 03 Aug 2018 01:29:11 -0700

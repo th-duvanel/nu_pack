@@ -1,0 +1,17 @@
+rust-rgb (0.8.36-1) unstable; urgency=medium
+
+  * Package rgb 0.8.36 from crates.io using debcargo 2.6.0
+  * Fix tests when building with only the argb feature.
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package rgb 0.8.34 from crates.io using debcargo 2.6.0 (Closes: #969213)
+  * Collapse features
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 Mar 2023 23:57:26 +0000
+
+rust-rgb (0.8.11-1) unstable; urgency=medium
+
+  * Initial upload.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 10 Jan 2019 15:20:09 +0100

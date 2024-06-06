@@ -1,0 +1,5 @@
+rust-fxhash (0.2.1-1) unstable; urgency=medium
+
+  * Package fxhash 0.2.1 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Wed, 05 Sep 2018 11:23:11 +0200

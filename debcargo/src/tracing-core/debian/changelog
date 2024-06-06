@@ -1,0 +1,36 @@
+rust-tracing-core (0.1.32-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-core 0.1.32 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 13 Jan 2024 14:13:27 +0000
+
+rust-tracing-core (0.1.30-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-core 0.1.30 from crates.io using debcargo 2.5.0 (Closes: #1022219)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Oct 2022 13:43:58 +0000
+
+rust-tracing-core (0.1.27-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-core 0.1.27 from crates.io using debcargo 2.5.0
+  * Restore dependency on valuable, as it is now in Debian and this variant
+    is required by other packages.
+
+ -- John Goerzen <jgoerzen@complete.org>  Thu, 22 Sep 2022 12:59:43 +0000
+
+rust-tracing-core (0.1.26-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-core 0.1.26 from crates.io using debcargo 2.5.0
+  * Disable optional dependency on valuable, it is not in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 05 Jun 2022 12:14:04 +0000
+
+rust-tracing-core (0.1.20-1) unstable; urgency=medium
+
+  * Package tracing-core 0.1.20 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 14 Oct 2021 23:26:19 +0200

@@ -1,0 +1,13 @@
+rust-unic-common (0.9.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package unic-common 0.9.0 from crates.io using debcargo 2.6.0
+  * Mark tests for "unstable" feature as "broken".
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 28 Dec 2022 12:40:51 +0000
+
+rust-unic-common (0.9.0-1) unstable; urgency=medium
+
+  * Package unic-common 0.9.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 14 Aug 2022 17:58:12 +0200

@@ -1,0 +1,33 @@
+rust-unindent (0.2.1-1) unstable; urgency=medium
+
+  * Package unindent 0.2.1 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 24 Jun 2023 13:11:19 +0200
+
+rust-unindent (0.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unindent 0.2.0 from crates.io using debcargo 2.6.0
+  * Patch to fix an ambiguous (mod) name error
+
+ -- Blair Noctis <n@sail.ng>  Sat, 24 Jun 2023 13:09:39 +0200
+
+rust-unindent (0.1.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unindent 0.1.8 from crates.io using debcargo 2.5.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 09 Apr 2022 14:39:12 +0100
+
+rust-unindent (0.1.5-2) unstable; urgency=medium
+
+  * Package unindent 0.1.5 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:23:36 +0200
+
+rust-unindent (0.1.5-1) unstable; urgency=medium
+
+  * Package unindent 0.1.5 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 03 Jan 2020 00:31:26 +0100
+

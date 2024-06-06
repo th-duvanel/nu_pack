@@ -1,0 +1,2 @@
+no-macho
+skip-tests-on-big-endian.patch

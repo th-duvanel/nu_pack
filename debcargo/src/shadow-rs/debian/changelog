@@ -1,0 +1,47 @@
+rust-shadow-rs (0.24.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package shadow-rs 0.24.1 from crates.io using debcargo 2.6.1
+  * Stop patching git2 dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 03 Dec 2023 17:40:47 +0000
+
+rust-shadow-rs (0.24.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package shadow-rs 0.24.1 from crates.io using debcargo 2.6.0
+  * Stop skipping tests via d/tests/control; use targeted patch instead
+  * Rebased patch to relax dependencies
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 12 Nov 2023 22:24:11 +0100
+
+rust-shadow-rs (0.23.0-1) unstable; urgency=medium
+
+  * Package shadow-rs 0.23.0 from crates.io using debcargo 2.6.0
+  * Drop rules override and file, no longer needed
+  * Rebase relax-deps.diff patch
+  * Update autopkgtest overrides
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 24 Jun 2023 20:43:04 +0200
+
+rust-shadow-rs (0.20.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package shadow-rs 0.20.0 from crates.io using debcargo 2.6.0
+  * Bump git2 dependency to 0.16
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 12 Jan 2023 20:17:04 +0000
+
+rust-shadow-rs (0.20.0-1) unstable; urgency=medium
+
+  * Package shadow-rs 0.20.0 from crates.io using debcargo 2.6.0
+  * Dropped fix-test patch in favour of skipping broken tests
+  * Skipped broken tests in d/rules and d/tests/control
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 11 Jan 2023 15:30:35 +0100
+
+rust-shadow-rs (0.19.0-1) unstable; urgency=medium
+
+  * Package shadow-rs 0.19.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 28 Dec 2022 18:47:16 +0100

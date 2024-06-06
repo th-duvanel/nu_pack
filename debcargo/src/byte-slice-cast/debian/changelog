@@ -1,0 +1,24 @@
+rust-byte-slice-cast (1.2.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package byte-slice-cast 1.2.1 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 29 Sep 2022 16:50:55 +0000
+
+rust-byte-slice-cast (0.3.5-1) unstable; urgency=medium
+
+  * Package byte-slice-cast 0.3.5 from crates.io using debcargo 2.4.0
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 23 Dec 2019 13:58:59 +0200
+
+rust-byte-slice-cast (0.3.4-1) unstable; urgency=medium
+
+  * Package byte-slice-cast 0.3.4 from crates.io using debcargo 2.4.0
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 09 Dec 2019 10:45:45 +0200
+
+rust-byte-slice-cast (0.3.2-1) unstable; urgency=medium
+
+  * Package byte-slice-cast 0.3.2 from crates.io using debcargo 2.4.0
+
+ -- Sebastian Dröge <slomo@debian.org>  Sun, 20 Oct 2019 10:46:54 +0300

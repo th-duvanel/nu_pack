@@ -1,0 +1,34 @@
+rust-fernet (0.2.0+really0.1.4-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package fernet 0.1.4 from crates.io using debcargo 2.6.0
+  * Apply upstream patch for new base64.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 11 Jun 2023 12:33:17 +0000
+
+rust-fernet (0.2.0+really0.1.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package fernet 0.1.4 from crates.io using debcargo 2.6.0
+  * Workaround lack of support for "really" versions in dh-cargo
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 24 Jan 2023 17:40:39 +0000
+
+rust-fernet (0.2.0+really0.1.4-1) unstable; urgency=medium
+
+  * Roll back to 0.1.4, to avoid a transition.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 23 Jan 2023 16:09:24 +0200
+
+rust-fernet (0.2.0-1) unstable; urgency=medium
+
+  * Package fernet 0.2.0 from crates.io using debcargo 2.5.0
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Sun, 22 Jan 2023 09:15:14 +0000
+
+rust-fernet (0.1.4-1) unstable; urgency=medium
+
+  * Package fernet 0.1.4 from crates.io using debcargo 2.5.0
+    (Closes: #1021191)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 03 Oct 2022 18:45:37 +0300

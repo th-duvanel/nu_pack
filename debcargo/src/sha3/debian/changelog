@@ -1,0 +1,38 @@
+rust-sha3 (0.10.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sha3 0.10.2 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 23 Aug 2022 21:33:07 +0200
+
+rust-sha3 (0.10.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sha3 0.10.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 01 Jun 2022 10:02:42 +0200
+
+rust-sha3 (0.9.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sha3 0.9.1 from crates.io using debcargo 2.4.3
+  * Work around #977627
+
+  [ kpcyrd ]
+  * Fix deps (Closes: #975768)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 17 Dec 2020 17:01:53 -0500
+
+rust-sha3 (0.8.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sha3 0.8.2 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:12:36 +0200
+
+rust-sha3 (0.8.2-1) unstable; urgency=medium
+
+  * Package sha3 0.8.2 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Sat, 13 Jul 2019 19:13:25 +0200

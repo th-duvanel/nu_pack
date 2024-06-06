@@ -1,0 +1,15 @@
+rust-async-tar (0.4.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package async-tar 0.4.2 from crates.io using debcargo 2.6.0
+  * Disable tests which rely on test data that is not included in the crates.io
+    release.
+  * Bump dependency on xattr to 1.0.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 10 Jul 2023 00:10:59 +0000
+
+rust-async-tar (0.4.2-1) unstable; urgency=medium
+
+  * Package async-tar 0.4.2 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 17 Jun 2023 10:10:00 +0200

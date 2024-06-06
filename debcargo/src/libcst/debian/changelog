@@ -1,0 +1,12 @@
+rust-libcst (0.1.0-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package libcst 0.1.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 30 Mar 2024 22:45:56 -0400
+
+rust-libcst (0.1.0-1) unstable; urgency=medium
+
+  * Package libcst 0.1.0 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 14 Sep 2023 23:19:59 +0100

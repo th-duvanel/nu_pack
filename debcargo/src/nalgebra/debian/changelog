@@ -1,0 +1,5 @@
+rust-nalgebra (0.32.3-1) experimental; urgency=medium
+
+  * Package nalgebra 0.32.3 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 28 Feb 2024 14:42:09 -0500

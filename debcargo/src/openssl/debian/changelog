@@ -1,0 +1,62 @@
+rust-openssl (0.10.64-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package openssl 0.10.64 from crates.io using debcargo 2.6.1 (Closes: #1065609)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 09 Mar 2024 01:04:41 +0000
+
+rust-openssl (0.10.57-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package openssl 0.10.57 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 07 Sep 2023 02:24:19 +0000
+
+rust-openssl (0.10.45-1) unstable; urgency=medium
+
+  * Package openssl 0.10.45 from crates.io using debcargo 2.6.0 (Closes: #1027331)
+  * Bump dev-dependency on hex from 0.3 to 0.4
+
+  [ Fabian Gruenbichler ]
+  * Team upload.
+  * Package openssl 0.10.42 from crates.io using debcargo 2.5.0
+  * Disable new unstable_boringssl feature.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 31 Dec 2022 10:13:22 +0000
+
+rust-openssl (0.10.41-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package openssl 0.10.41 from crates.io using debcargo 2.5.0
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Tue, 27 Sep 2022 20:23:37 -0400
+
+rust-openssl (0.10.36-1) unstable; urgency=medium
+
+  * Package openssl 0.10.36 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 22:12:53 +0100
+
+rust-openssl (0.10.29-1) unstable; urgency=medium
+
+  * Package openssl 0.10.29 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 18 Apr 2020 16:13:29 +0100
+
+rust-openssl (0.10.23-1) unstable; urgency=medium
+
+  * Package openssl 0.10.23 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 30 May 2019 21:59:26 -0700
+
+rust-openssl (0.10.16-1) unstable; urgency=medium
+
+  * Package openssl 0.10.16 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 26 Dec 2018 15:25:15 -0800
+
+rust-openssl (0.10.10-1) unstable; urgency=medium
+
+  * Package openssl 0.10.10 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 03 Aug 2018 05:38:57 -0700

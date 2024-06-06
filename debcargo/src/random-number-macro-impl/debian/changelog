@@ -1,0 +1,11 @@
+rust-random-number-macro-impl (0.1.7-1) unstable; urgency=medium
+
+  * Package random-number-macro-impl 0.1.7 from crates.io using debcargo 2.6.0
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Sun, 16 Jul 2023 16:32:10 +0200
+
+rust-random-number-macro-impl (0.1.6-1) unstable; urgency=medium
+
+  * Package random-number-macro-impl 0.1.6 from crates.io using debcargo 2.6.0
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Mon, 09 Jan 2023 22:00:06 +0100

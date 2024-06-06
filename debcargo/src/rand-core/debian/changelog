@@ -1,0 +1,58 @@
+rust-rand-core (0.6.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rand_core 0.6.4 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 31 Aug 2023 00:32:18 +0000
+
+rust-rand-core (0.6.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rand_core 0.6.3 from crates.io using debcargo 2.5.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 09:06:52 +0000
+
+rust-rand-core (0.6.3-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package rand_core 0.6.3 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Jan 2022 12:16:41 +0000
+
+rust-rand-core (0.5.1-1) unstable; urgency=medium
+
+  * Package rand_core 0.5.1 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 27 Sep 2019 17:10:31 +0200
+
+rust-rand-core (0.5.0-1) unstable; urgency=medium
+
+  * Package rand_core 0.5.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 11 Aug 2019 12:55:55 +0200
+
+rust-rand-core (0.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rand_core 0.3.0 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:44:04 +0200
+
+rust-rand-core (0.4.0-1) unstable; urgency=medium
+
+  * Package rand_core 0.4.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 19 Jul 2019 06:51:29 +0200
+
+rust-rand-core (0.3.0-1) unstable; urgency=medium
+
+  * Package rand_core 0.3.0 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 04 Jan 2019 21:07:58 +0100
+
+rust-rand-core (0.2.1-1) unstable; urgency=medium
+
+  * Package rand_core 0.2.1 from crates.io using debcargo 2.2.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 15 Jul 2018 22:31:49 -0700

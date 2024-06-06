@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+%:
+	dh $@ --buildsystem cargo
+
+execute_after_dh_auto_install:
+	rm debian/rust-findutils/usr/bin/testing-commandline
+	mkdir -p debian/rust-findutils/usr/lib/cargo/bin/findutils/
+	mv debian/rust-findutils/usr/bin/* \
+	   debian/rust-findutils/usr/lib/cargo/bin/findutils/

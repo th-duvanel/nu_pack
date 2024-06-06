@@ -1,0 +1,32 @@
+rust-libgpg-error-sys (0.6.0-1) unstable; urgency=medium
+
+  * Package libgpg-error-sys 0.6.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 21 Dec 2023 08:42:09 -0500
+
+rust-libgpg-error-sys (0.5.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Patch ./build.rs to use pkgconf, work around gpg-error-config removal in
+    libgpg-error-dev
+
+ -- Blair Noctis <n@sail.ng>  Wed, 16 Nov 2022 22:23:19 +0100
+
+rust-libgpg-error-sys (0.5.2-1) unstable; urgency=medium
+
+  * Package libgpg-error-sys 0.5.2 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 15 Oct 2022 09:23:25 -0400
+
+rust-libgpg-error-sys (0.5.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package libgpg-error-sys 0.5.1 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:11:21 +0200
+
+rust-libgpg-error-sys (0.5.1-1) unstable; urgency=medium
+
+  * Package libgpg-error-sys 0.5.1 from crates.io using debcargo 2.4.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 23 Dec 2019 01:56:56 +0000

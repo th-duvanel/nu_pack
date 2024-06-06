@@ -1,0 +1,5 @@
+rust-tikv-jemallocator (0.5.4-1) unstable; urgency=medium
+
+  * Package tikv-jemallocator 0.5.4 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 20 Oct 2023 16:50:27 +0100

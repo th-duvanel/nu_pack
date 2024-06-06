@@ -1,0 +1,90 @@
+rust-ignore (0.4.22-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ignore 0.4.22 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 12 Jan 2024 10:46:28 +0100
+
+rust-ignore (0.4.21-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ignore 0.4.21 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Dec 2023 02:21:48 +0000
+
+rust-ignore (0.4.20-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ignore 0.4.20 from crates.io using debcargo 2.6.0 (Closes: #1030792)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 04 Jul 2023 01:27:23 +0000
+
+rust-ignore (0.4.18-2) unstable; urgency=medium
+
+  * Package ignore 0.4.18 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 22:33:54 +0100
+
+rust-ignore (0.4.18-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ignore 0.4.18 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Aug 2021 19:22:14 +0200
+
+rust-ignore (0.4.16-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package ignore 0.4.16 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 20 Jun 2020 10:34:40 +0200
+
+rust-ignore (0.4.16-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ignore 0.4.16 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 01 Jun 2020 12:54:41 +0200
+
+rust-ignore (0.4.15-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ignore 0.4.15 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 10 May 2020 16:21:09 +0200
+
+rust-ignore (0.4.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ignore 0.4.13 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 26 Mar 2020 10:22:00 +0100
+
+rust-ignore (0.4.10-1) unstable; urgency=medium
+
+  * Package ignore 0.4.10 from crates.io using debcargo 2.4.0
+
+  [ Sylvestre Ledru ]
+  * Team upload.
+  * Package ignore 0.4.7 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 07 Aug 2019 20:57:32 -0700
+
+rust-ignore (0.4.6-1) unstable; urgency=medium
+
+  * Package ignore 0.4.6 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 05 Feb 2019 19:01:24 -0800
+
+rust-ignore (0.4.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ignore 0.4.4 from crates.io using debcargo 2.2.9
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 15 Dec 2018 11:11:47 +0100
+
+rust-ignore (0.4.3-1) unstable; urgency=medium
+
+  * Package ignore 0.4.3 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 03 Aug 2018 01:08:23 -0700

@@ -1,0 +1,119 @@
+rust-tokio (1.35.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio 1.35.1 from crates.io using debcargo 2.6.1 (Closes: #1060722)
+  * Update fix-test-feature-requirements.patch for new upstream.
+  * Relax dev-dependency on nix.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 16 Jan 2024 08:49:47 +0000
+
+rust-tokio (1.33.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio 1.33.0 from crates.io using debcargo 2.6.0 (Closes: #1050923)
+  * Update patches for new upstream.
+  * Remove dev-dependency on loom.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 29 Oct 2023 19:55:18 +0000
+
+rust-tokio (1.29.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio 1.29.1 from crates.io using debcargo 2.6.0
+  * Stop trying to patch windows code and instead just drop
+    windows support entirely.
+  * Remove freebsd specific dev-dependency on mio-aio crate which
+    is not in Debian.
+  * Disable broken tests.
+  * Remove dev-dependency on mockall and disable tests that depend on it.
+  * Remove wasm-specific dev depends.
+  * Tweak test feature requirements so running tests with
+    "--all-targets --no-default-features --features full" works.
+  * Establish in debcargo.toml that the testsuite requires the "full" feature.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 06 Aug 2023 12:28:07 +0000
+
+rust-tokio (1.24.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio 1.24.2 from crates.io using debcargo 2.6.0
+    + New upstream fixes CVE-2023-22466 which I don't think affects
+      Debian. (Closes: #1029157 )
+  * Update revert-switch-from-winapi-to-windows-sys.patch for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 18 Jan 2023 22:31:43 +0000
+
+rust-tokio (1.23.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio 1.23.0 from crates.io using debcargo 2.6.0 (Closes: #1026805)
+  * Revert upstream switch from winapi to windows-sys.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 22 Dec 2022 22:15:49 +0000
+
+rust-tokio (1.21.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio 1.21.0 from crates.io using debcargo 2.5.0
+  * Drop relax-dep.patch no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 04 Sep 2022 20:24:57 +0000
+
+rust-tokio (1.19.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio 1.19.2 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 19 Jun 2022 16:16:30 +0000
+
+rust-tokio (1.18.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio 1.18.2 from crates.io using debcargo 2.5.0
+  * Re-enable tracing feature (Closes: 1012337)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 05 Jun 2022 12:59:09 +0000
+
+rust-tokio (1.18.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+  * Package tokio 1.18.2 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sat, 04 Jun 2022 16:01:02 -0400
+
+rust-tokio (1.18.2-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package tokio 1.18.2 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Wed, 01 Jun 2022 21:47:17 -0400
+
+rust-tokio (1.15.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio 1.15.0 from crates.io using debcargo 2.5.0
+  * Stop altering dependency on parking-lot, we now have 0.11 in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 31 Dec 2021 11:21:05 +0000
+
+rust-tokio (1.13.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * d/patches: added relax-deps.patch
+  * d/debcargo.toml: enabled collapse_features
+  * Package tokio 1.13.0 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 23:19:47 +0100
+
+rust-tokio (0.1.14-2) unstable; urgency=medium
+
+  * Source-only reupload for bullseye
+
+ -- kpcyrd <git@rxv.cc>  Wed, 17 Jul 2019 05:19:32 +0000
+
+rust-tokio (0.1.14-1) unstable; urgency=medium
+
+  * Package tokio 0.1.14 from crates.io using debcargo 2.2.9
+
+ -- kpcyrd <git@rxv.cc>  Thu, 24 Jan 2019 10:28:50 +0100

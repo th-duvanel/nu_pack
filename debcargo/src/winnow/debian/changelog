@@ -1,0 +1,47 @@
+rust-winnow (0.6.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package winnow 0.6.8 from crates.io using debcargo 2.6.1
+
+ -- Federico Ceratto <federico@debian.org>  Sat, 11 May 2024 22:21:24 +0200
+
+rust-winnow (0.5.40-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package winnow 0.5.40 from crates.io using debcargo 2.6.1
+  * Set test_is_broken for the unstable-recover feature, it fails to build
+    if the "std" feature is not able enabled.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 28 Mar 2024 17:29:41 +0000
+
+rust-winnow (0.5.40-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package winnow 0.5.40 from crates.io using debcargo 2.6.1 (Closes: #1061991)
+  * Disable benches which require test data that is not included in the
+    crates.io release.
+  * Relax dev-dependency on proptest
+  * Remove dev-dependency on term-transcript.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 24 Mar 2024 17:33:04 +0000
+
+rust-winnow (0.5.15-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package winnow 0.5.15 from crates.io using debcargo 2.6.0
+  * Update drop-debug-feature.patch for new upstream.
+
+  [ kpcyrd ]
+  * Package winnow 0.5.1 from crates.io using debcargo 2.6.0
+
+  [ Fabian Grünbichler ]
+  * Add patch to drop debug feature and associated optional dependencies.
+    (Closes: #1043500)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 26 Aug 2023 12:11:45 +0000
+
+rust-winnow (0.4.8-1) unstable; urgency=medium
+
+  * Package winnow 0.4.8 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Sun, 09 Jul 2023 12:13:07 +0200

@@ -1,0 +1,28 @@
+rust-rust-embed-utils (8.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rust-embed-utils 8.2.0 from crates.io using debcargo 2.6.1
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Sat, 16 Mar 2024 20:53:02 +0100
+
+rust-rust-embed-utils (7.8.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rust-embed-utils 7.8.1 from crates.io using debcargo 2.6.0
+
+  [ Matthias Geiger ]
+  * Package rust-embed-utils 7.8.1 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 23:01:49 +0000
+
+rust-rust-embed-utils (7.3.0-1) unstable; urgency=medium
+
+  * Package rust-embed-utils 7.3.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 13 Oct 2022 21:04:58 -0400
+
+rust-rust-embed-utils (7.2.0-1) unstable; urgency=medium
+
+  * Package rust-embed-utils 7.2.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 19 Jul 2022 13:55:19 +0200

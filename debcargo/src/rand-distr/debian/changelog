@@ -1,0 +1,5 @@
+rust-rand-distr (0.4.3-1) unstable; urgency=medium
+
+  * Package rand_distr 0.4.3 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 09 Jun 2022 23:39:45 +0200

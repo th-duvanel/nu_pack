@@ -1,0 +1,17 @@
+overlay = "."
+uploaders = ["Wolfgang Silbermayr <wolfgang@silbermayr.at>"]
+
+excludes = [
+  "benches/**",
+  # This test verifies that the README.md file is up-to-date using the
+  # `cargo readme` subcommand which we don't have packaged
+  "tests/readme_up_to_date.rs",
+]
+
+collapse_features = true
+
+[packages."lib+@"]
+test_is_broken = true
+
+[packages."lib+allocator_api"]
+test_is_broken = true

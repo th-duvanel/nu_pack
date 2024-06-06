@@ -1,0 +1,37 @@
+rust-fallible-iterator (0.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package fallible-iterator 0.3.0 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 05 Jan 2024 23:08:40 +0000
+
+rust-fallible-iterator (0.3.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package fallible-iterator 0.3.0 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 24 Nov 2023 14:09:53 +0000
+
+rust-fallible-iterator (0.2.0-2) unstable; urgency=medium
+
+  * Package fallible-iterator 0.2.0 from crates.io using debcargo 2.4.2
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 25 Jan 2020 18:09:41 +0100
+
+rust-fallible-iterator (0.2.0-1) unstable; urgency=medium
+
+  * Package fallible-iterator 0.2.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 09 Nov 2019 07:26:54 +0100
+
+rust-fallible-iterator (0.1.6-1) unstable; urgency=medium
+
+  * Package fallible-iterator 0.1.6 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 12 Dec 2018 19:00:13 +0100
+
+rust-fallible-iterator (0.1.5-1) unstable; urgency=medium
+
+  * Package fallible-iterator 0.1.5 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Oct 2018 09:38:36 +0200

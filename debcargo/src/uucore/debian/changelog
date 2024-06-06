@@ -1,0 +1,51 @@
+rust-uucore (0.0.23-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package uucore 0.0.23 from crates.io using debcargo 2.6.1
+  * Add patch for nix 0.27
+  * Fix feature requirements for tests.
+  * Mark less tests as broken.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Mar 2024 15:13:43 +0000
+
+rust-uucore (0.0.23-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package uucore 0.0.23 from crates.io using debcargo 2.6.1
+
+ -- Dylan Aïssi <daissi@debian.org>  Mon, 08 Jan 2024 09:55:53 +0100
+
+rust-uucore (0.0.12-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package uucore 0.0.12 from crates.io using debcargo 2.6.0
+  * Mark tests as broken fow now
+
+ -- Dylan Aïssi <daissi@debian.org>  Tue, 11 Jul 2023 18:20:44 +0200
+
+rust-uucore (0.0.12-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package uucore 0.0.12 from crates.io using debcargo 2.6.0
+  * Re-introduce rust-uucore in Debian, required for rust-findutils.
+
+ -- Dylan Aïssi <daissi@debian.org>  Tue, 06 Jun 2023 11:56:15 +0200
+
+rust-uucore (0.0.12-2) unstable; urgency=medium
+
+  * Source upload
+  * Package uucore 0.0.12 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 May 2022 20:19:08 +0200
+
+rust-uucore (0.0.12-1) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package uucore 0.0.12 from crates.io using debcargo 2.4.4
+
+  [ Sylvestre Ledru ]
+  * Source upload
+  * Package uucore 0.0.4 from crates.io using debcargo 2.4.2
+
+ -- Ryan Gonzalez <ryan.gonzalez@collabora.com>  Fri, 11 Feb 2022 18:31:27 +0100

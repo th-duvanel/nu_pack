@@ -1,0 +1,16 @@
+bin = true
+overlay = "."
+uploaders = ["Blair Noctis <n@sail.ng>"]
+
+[source]
+section = "utils"
+build_depends = ["help2man"]
+
+[packages.bin]
+summary = "simplified, example based and community-driven man pages"
+description = """
+tealdeer is a very fast CLI implementation of tldr, the collaborative
+cheatsheets of console commands.
+
+The executable is named tldr.
+"""

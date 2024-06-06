@@ -1,0 +1,24 @@
+rust-cxx-build (1.0.87-1) unstable; urgency=medium
+
+  * Package cxx-build 1.0.87 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 24 Jan 2023 18:59:19 +0100
+
+rust-cxx-build (1.0.86-2) unstable; urgency=medium
+
+  * Package cxx-build 1.0.86 from crates.io using debcargo 2.6.0
+  * Added missing autopkgtest dependency
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Mon, 23 Jan 2023 13:29:12 +0100
+
+rust-cxx-build (1.0.86-1) unstable; urgency=medium
+
+  * Package cxx-build 1.0.86 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 11 Jan 2023 19:42:20 +0100
+
+rust-cxx-build (1.0.73-1) unstable; urgency=medium
+
+  * Package cxx-build 1.0.73 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Mon, 19 Sep 2022 21:44:55 +0200

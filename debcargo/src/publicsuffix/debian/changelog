@@ -1,0 +1,41 @@
+rust-publicsuffix (2.2.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package publicsuffix 2.2.3 from crates.io using debcargo 2.6.1
+  * Relax dependency on hashbrown.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 11 Feb 2024 02:46:09 +0000
+
+rust-publicsuffix (2.2.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package publicsuffix 2.2.3 from crates.io using debcargo 2.6.0
+
+  [ Fabian Grünbichler ]
+  * Team upload
+  * Rebuild with idna 0.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 27 Aug 2023 15:00:02 +0000
+
+rust-publicsuffix (2.2.3-1) unstable; urgency=medium
+
+  * Package publicsuffix 2.2.3 from crates.io using debcargo 2.5.0 (Closes: #1022266)
+  * Remove dev-dependency on rspec and disable test that depends on it so the
+    rest of the tests can run.
+  * Set collapse_features = true
+
+  [ Ximin Luo ]
+  * Team upload.
+  * Package publicsuffix 1.5.4 from crates.io using debcargo 2.4.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 23 Oct 2022 10:49:48 +0000
+
+rust-publicsuffix (1.5.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package publicsuffix 1.5.2 from crates.io using debcargo 2.2.10
+
+  [ kpcyrd ]
+  * Package publicsuffix 1.5.2 from crates.io using debcargo 2.2.9
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 13 Aug 2019 11:03:28 +0200

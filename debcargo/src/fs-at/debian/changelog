@@ -1,0 +1,18 @@
+rust-fs-at (0.1.10-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package fs_at 0.1.10 from crates.io using debcargo 2.6.1
+  * Relax nix dependency.
+  * Remove dev-dependency on test-log and adjust tests accordingly.
+  * Remove dev-dependency on fs-set-times and disable part of test that
+    depends on it.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Feb 2024 04:52:23 +0000
+
+rust-fs-at (0.1.10-1) unstable; urgency=medium
+
+  * Package fs_at 0.1.10 from crates.io using debcargo 2.6.0
+  * d/patches/remove-windows-sys.patch: add a patch to remove all the Windows
+    related crate dependencies.
+
+ -- Zixing Liu <zixing.liu@canonical.com>  Sat, 16 Sep 2023 20:36:26 +0200

@@ -1,0 +1,73 @@
+rust-crossbeam-deque (0.8.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-deque 0.8.5 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 28 Jan 2024 07:30:49 +0000
+
+rust-crossbeam-deque (0.8.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-deque 0.8.3 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Dec 2023 02:35:47 +0000
+
+rust-crossbeam-deque (0.8.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-deque 0.8.1 from crates.io using debcargo 2.5.0
+  * collapse_features = true (upstream has introduced a null/broken "std"
+    feature "for forward compatibility")
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 21 May 2022 16:08:46 -0400
+
+rust-crossbeam-deque (0.7.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-deque 0.7.4 from crates.io using debcargo 2.4.4
+  * Workaround timestamp issue on changelog in /usr/share/doc (Closes: 993166)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 28 Aug 2021 16:06:15 +0000
+
+rust-crossbeam-deque (0.7.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-deque 0.7.4 from crates.io using debcargo 2.4.4
+    - new upstream version fixes CVE-2021-32810 (Closes: 993146)
+  * Bump dev-dependency on rand so autopkgtest can run.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 28 Aug 2021 07:13:50 +0000
+
+rust-crossbeam-deque (0.7.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam-deque 0.7.3 from crates.io using debcargo 2.4.2
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 13 Apr 2020 18:26:58 +0000
+
+rust-crossbeam-deque (0.7.1-1) unstable; urgency=medium
+
+  * Package crossbeam-deque 0.7.1 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Tue, 16 Jul 2019 02:26:35 +0000
+
+rust-crossbeam-deque (0.6.3-1) unstable; urgency=medium
+
+  * Package crossbeam-deque 0.6.3 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 22 Jan 2019 06:43:19 +0100
+
+rust-crossbeam-deque (0.6.2-1) unstable; urgency=medium
+
+  * Package crossbeam-deque 0.6.2 from crates.io using debcargo 2.2.9
+
+  [ kpcyrd ]
+  * Package crossbeam-deque 0.6.2 from crates.io using debcargo 2.2.8
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 11 Dec 2018 13:19:35 +0100
+
+rust-crossbeam-deque (0.6.1-1) unstable; urgency=medium
+
+  * Package crossbeam-deque 0.6.1 from crates.io using debcargo 2.2.6
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 09 Sep 2018 12:09:27 -0700

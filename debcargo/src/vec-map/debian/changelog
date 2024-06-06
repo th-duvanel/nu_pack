@@ -1,0 +1,12 @@
+rust-vec-map (0.8.1-2) unstable; urgency=medium
+
+  * Package vec_map 0.8.1 from crates.io using debcargo 2.2.1
+  * Fix Upstream-Contact syntax in d/copyright
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 07 Jul 2018 13:41:26 -0700
+
+rust-vec-map (0.8.1-1) unstable; urgency=medium
+
+  * Package vec_map 0.8.1 from crates.io using debcargo 2.1.2
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 05 Jul 2018 03:03:47 -0700

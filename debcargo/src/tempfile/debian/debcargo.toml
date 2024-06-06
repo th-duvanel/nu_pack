@@ -1,0 +1,11 @@
+overlay = "."
+uploaders = [
+  "Ximin Luo <infinity0@debian.org>",
+  "Wolfgang Silbermayr <wolfgang@silbermayr.at>",
+  "Robin Krahl <robin.krahl@ireas.org>",
+]
+
+collapse_features = true
+
+[packages."lib+nightly"]
+test_is_broken = true

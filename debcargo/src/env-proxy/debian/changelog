@@ -1,0 +1,26 @@
+rust-env-proxy (0.4.1-1) unstable; urgency=medium
+
+  [ Zixing Liu ]
+  * Team upload.
+  * Package env_proxy 0.4.1 from crates.io using debcargo 2.6.0
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Thu, 21 Sep 2023 08:03:34 +0300
+
+rust-env-proxy (0.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package env_proxy 0.4.0 from crates.io using debcargo 2.2.10
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 28 Oct 2019 12:06:08 +0100
+
+rust-env-proxy (0.3.1-1) unstable; urgency=medium
+
+  * Package env_proxy 0.3.1 from crates.io using debcargo 2.2.10
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Sun, 14 Jul 2019 10:12:17 +0200
+
+rust-env-proxy (0.2.0-1) unstable; urgency=medium
+
+  * Package env_proxy 0.2.0 from crates.io using debcargo 2.2.9
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Tue, 22 Jan 2019 19:27:37 +0100

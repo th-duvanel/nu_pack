@@ -1,0 +1,42 @@
+rust-bytes (1.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytes 1.5.0 from crates.io using debcargo 2.6.1
+    + Closes: #1056264
+
+ -- James McCoy <jamessan@debian.org>  Fri, 24 Nov 2023 17:38:50 -0500
+
+rust-bytes (1.4.0-1) unstable; urgency=medium
+
+  * Package bytes 1.4.0 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Thu, 27 Jul 2023 12:57:58 +0200
+
+rust-bytes (1.2.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytes 1.2.1 from crates.io using debcargo 2.5.0 (Closes: 1021826)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 15 Oct 2022 23:12:00 +0000
+
+rust-bytes (1.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytes 1.1.0 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 23:37:58 +0100
+
+rust-bytes (0.4.12-1) unstable; urgency=medium
+
+  * Package bytes 0.4.12 from crates.io using debcargo 2.2.10
+
+  [ Robin Krahl ]
+  * Package bytes 0.4.12 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Fri, 12 Jul 2019 12:29:35 +0000
+
+rust-bytes (0.4.10-1) unstable; urgency=medium
+
+  * Package bytes 0.4.10 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Sun, 09 Sep 2018 10:11:49 +0200

@@ -1,0 +1,11 @@
+rust-trivialdb (0.1.4-1) unstable; urgency=medium
+
+  * Package trivialdb 0.1.4 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 26 Sep 2023 11:13:36 +0100
+
+rust-trivialdb (0.1.1-1) unstable; urgency=medium
+
+  * Package trivialdb 0.1.1 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 12 Jun 2023 23:13:51 +0100

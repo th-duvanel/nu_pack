@@ -1,0 +1,18 @@
+rust-doc-comment (0.3.3-1) unstable; urgency=medium
+
+  * Package doc-comment 0.3.3 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 29 Aug 2021 21:07:53 +0200
+
+rust-doc-comment (0.3.1-2) unstable; urgency=medium
+
+  * Package doc-comment 0.3.1 from crates.io using debcargo 2.4.0
+  * Mark all-features test as flaky (closes: #933521).
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 18 Oct 2019 13:59:02 +0200
+
+rust-doc-comment (0.3.1-1) unstable; urgency=medium
+
+  * Package doc-comment 0.3.1 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 13 Jul 2019 19:26:33 +0200

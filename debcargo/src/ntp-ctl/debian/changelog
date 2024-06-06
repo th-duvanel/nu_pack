@@ -1,0 +1,5 @@
+rust-ntp-ctl (0.3.6-1) unstable; urgency=medium
+
+  * Package ntp-ctl 0.3.6 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 07 Sep 2023 22:38:38 +0200

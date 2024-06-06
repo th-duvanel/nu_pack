@@ -1,0 +1,20 @@
+rust-macho-unwind-info (0.4.0-1) unstable; urgency=medium
+
+  * Package macho-unwind-info 0.4.0 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 01 May 2024 17:02:20 +0200
+
+rust-macho-unwind-info (0.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package macho-unwind-info 0.3.0 from crates.io using debcargo 2.6.1
+  * Add upstream patch for new zerocopy.
+  * Bump dev-dependency on object.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 23 Feb 2024 03:49:57 +0000
+
+rust-macho-unwind-info (0.3.0-1) unstable; urgency=medium
+
+  * Package macho-unwind-info 0.3.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 21 Nov 2022 22:19:45 +0100

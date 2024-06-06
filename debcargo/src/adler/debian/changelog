@@ -1,0 +1,20 @@
+rust-adler (1.0.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package adler 1.0.2 from crates.io using debcargo 2.5.0
+  * Establish baseline for tests.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 21:52:39 +0000
+
+rust-adler (1.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package adler 1.0.2 from crates.io using debcargo 2.4.4
+
+  [ Daniel Kahn Gillmor ]
+  * Package adler 0.2.3 from crates.io using debcargo 2.4.3
+  * drop unnecessary benchmarking to avoid criterion dependency
+  * clean up test with --no-default-features (fix already upstream
+    but not yet released)
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 22:02:13 +0100

@@ -1,0 +1,8 @@
+overlay = "."
+uploaders = ["Sylvestre Ledru <sylvestre@debian.org>"]
+collapse_features = true
+[source]
+build_depends = ["libacl1-dev"]
+
+[packages.lib]
+depends = ["libacl1-dev"]

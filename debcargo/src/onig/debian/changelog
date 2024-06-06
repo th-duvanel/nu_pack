@@ -1,0 +1,52 @@
+rust-onig (6.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package onig 6.3.2 from crates.io using debcargo 2.5.0
+  * Update overridden debian/tests/control (Closes: 1016603)
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 04 Aug 2022 00:23:07 +0000
+
+rust-onig (6.3.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package onig 6.3.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 02 Jun 2022 17:44:02 +0200
+
+rust-onig (6.1.0-1) unstable; urgency=medium
+
+  * Package onig 6.1.0 from crates.io using debcargo 2.4.3
+    (Closes: #971141)
+  * Disable broken autopkgtest
+  * Update copyright years
+
+ -- Paride Legovini <paride@debian.org>  Thu, 05 Nov 2020 23:04:12 +0000
+
+rust-onig (5.0.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package onig 5.0.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:13:25 +0200
+
+rust-onig (5.0.0-2) unstable; urgency=medium
+
+  * Disable the print-debug autopkgtest (closes: #946208).
+
+ -- Paride Legovini <pl@ninthfloor.org>  Thu, 05 Dec 2019 17:15:46 +0000
+
+rust-onig (5.0.0-1) unstable; urgency=medium
+
+  * Package onig 5.0.0 from crates.io using debcargo 2.4.0
+
+ -- Paride Legovini <pl@ninthfloor.org>  Mon, 02 Dec 2019 16:12:10 +0000
+
+rust-onig (4.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package onig 4.3.2 from crates.io using debcargo 2.2.10
+
+  [ Paride Legovini ]
+  * Package onig 3.2.2 from crates.io using debcargo 2.2.3
+
+ -- Helen Koike <helen@koikeco.de>  Sat, 20 Jul 2019 16:17:14 -0300

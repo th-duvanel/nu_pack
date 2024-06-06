@@ -1,0 +1,62 @@
+rust-textwrap (0.16.1-1) unstable; urgency=medium
+
+  * Package textwrap 0.16.1 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 31 Mar 2024 11:20:54 +0200
+
+rust-textwrap (0.16.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package textwrap 0.16.0 from crates.io using debcargo 2.6.1
+  * Relax dependency on terminal_size
+  * Relax dev-dependency on termion
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 15 Jan 2024 01:20:15 +0000
+
+rust-textwrap (0.16.0-2) unstable; urgency=medium
+
+  * Package textwrap 0.16.0 from crates.io using debcargo 2.5.0
+  * rebuild with terminal-size 0.2.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 30 Oct 2022 09:51:50 +0100
+
+rust-textwrap (0.16.0-1) unstable; urgency=medium
+
+  * Package textwrap 0.16.0 from crates.io using debcargo 2.5.0
+
+  [ Fabian Gruenbichler ]
+  * Team upload.
+  * Package textwrap 0.15.1 from crates.io using debcargo 2.5.0
+
+ -- Blair Noctis <n@sail.ng>  Sun, 30 Oct 2022 09:36:39 +0100
+
+rust-textwrap (0.15.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package textwrap 0.15.0 from crates.io using debcargo 2.5.0
+  * Disable hypenation feature for now, it can be re-enabled if/when
+    a compatible version of the hypenation package is available.
+  * Remove unsatisfiable dev-dependencies and disable a couple of tests
+    so the autopkgtest can run the rest of the tests.
+  * Establish baseline for tests.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 13 Mar 2022 23:35:09 +0000
+
+rust-textwrap (0.15.0-1) unstable; urgency=medium
+
+  * Package textwrap 0.15.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 12 Mar 2022 19:27:37 +0100
+
+rust-textwrap (0.11.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package textwrap 0.11.0 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 18 Dec 2018 19:00:25 -0800
+
+rust-textwrap (0.10.0-1) unstable; urgency=medium
+
+  * Package textwrap 0.10.0 from crates.io using debcargo 2.1.4
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 06 Jul 2018 21:39:35 +0200

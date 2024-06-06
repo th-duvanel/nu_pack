@@ -1,0 +1,5 @@
+rust-m-lexer (0.0.4-1) unstable; urgency=medium
+
+  * Package m_lexer 0.0.4 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 17 Sep 2023 00:48:21 +0100

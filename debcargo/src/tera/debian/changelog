@@ -1,0 +1,48 @@
+rust-tera (1.19.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package tera 1.19.1 from crates.io using debcargo 2.6.1
+  * Drop disable-unstable-features.diff (Closes: #1043449)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 12 Dec 2023 18:13:22 +0000
+
+rust-tera (1.19.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tera 1.19.1 from crates.io using debcargo 2.6.0
+  * Disable a test that fails with a permission denied error on debci.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 07 Oct 2023 02:11:42 +0000
+
+rust-tera (1.19.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tera 1.19.1 from crates.io using debcargo 2.6.0
+  * Update disable-tests-missing-testdata.diff for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 05 Oct 2023 04:49:26 +0000
+
+rust-tera (1.17.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tera 1.17.1 from crates.io using debcargo 2.6.0
+  * Fix autopkgtest failures.
+    + Disable the date-locale feature completely, rather than leaving it
+      in a broken state due to removed dependency.
+    + Disable tests that require test data which is not included in the
+      crates.io release.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 28 Dec 2022 16:19:54 +0000
+
+rust-tera (1.17.0-2) unstable; urgency=medium
+
+  * Package tera 1.17.0 from crates.io using debcargo 2.5.0
+  * Remove the dep to unstable-locales-dev
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 20 Aug 2022 21:30:48 +0200
+
+rust-tera (1.17.0-1) unstable; urgency=medium
+
+  * Package tera 1.17.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 14 Aug 2022 18:31:05 +0200

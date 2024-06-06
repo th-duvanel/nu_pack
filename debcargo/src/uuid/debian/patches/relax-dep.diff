@@ -1,0 +1,16 @@
+Index: uuid/Cargo.toml
+===================================================================
+--- uuid.orig/Cargo.toml
++++ uuid/Cargo.toml
+@@ -176,6 +176,6 @@ v7 = [
+-[target."cfg(all(target_arch = \"wasm32\", target_vendor = \"unknown\", target_os = \"unknown\"))".dev-dependencies.wasm-bindgen-test]
+-version = "0.3"
++# [target."cfg(all(target_arch = \"wasm32\", target_vendor = \"unknown\", target_os = \"unknown\"))".dev-dependencies.wasm-bindgen-test]
++# version = "0.3"
+ 
+-[target."cfg(target = \"wasm32-unknown-unknown\")".dev-dependencies.wasm-bindgen]
+-version = "0.2"
+-package = "wasm-bindgen"
++# [target."cfg(target = \"wasm32-unknown-unknown\")".dev-dependencies.wasm-bindgen]
++# version = "0.2"
++# package = "wasm-bindgen"

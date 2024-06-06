@@ -1,0 +1,17 @@
+rust-tiny-http (0.12.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tiny_http 0.12.0 from crates.io using debcargo 2.5.0 (Closes: #1022820)
+  * Disable rustls support for now, it can be re-enabled if needed but will need
+    a debian/control override due to architecture limitations.
+  * Patch example to use rustcrypto sha1 instead of old sha1 so the autopkgtest
+    can run.
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 27 Oct 2022 18:11:29 +0000
+
+rust-tiny-http (0.8.2-1) unstable; urgency=medium
+
+  * Package tiny_http 0.8.2 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Wed, 06 Apr 2022 20:28:54 -0400

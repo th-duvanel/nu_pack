@@ -1,0 +1,13 @@
+overlay = "."
+uploaders = ["Jelmer Vernooĳ <jelmer@debian.org>"]
+bin = false
+collapse_features = true
+
+[packages.lib]
+test_is_broken = true
+
+[packages."lib+@"]
+test_is_broken = true
+
+[packages."lib+trace"]
+test_is_broken = true

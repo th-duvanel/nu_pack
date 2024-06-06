@@ -1,0 +1,241 @@
+rust-coreutils (0.0.26-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Sylvestre Ledru ]
+  * As nix & chrono have been updated, remove the upstream cherry-picked
+    patches
+
+  [ Peter Michael Green ]
+  * Fix build on 32-bit architectures with time64 (Closes: #1071048)
+    + Use mem::zeroed to create timespec structs as they contain padding on
+      time64 architectures.
+    + Build-depend on librust-selinux-sys-dev (>= 0.6.7-2)  to pick up time64
+      fix.
+  * Add patch to support nix 0.27 (upstream uses 0.28).
+  * Tighten nix dependency in debian/control, the nix 0.27 patch will need
+    to be removed when debian upgrades to nix 0.28.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 15 May 2024 00:16:03 +0000
+
+rust-coreutils (0.0.26-1) unstable; urgency=medium
+
+  * New upstream release
+    (Closes: #1067897, #1069413)
+    Adds support for loongarch (Closes: #1059268)
+  * remove librust-failure-dev, librust-failure-derive-dev unused deps
+  * remove help2man from the build deps (not used)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 01 May 2024 14:03:13 +0200
+
+rust-coreutils (0.0.23-3) unstable; urgency=medium
+
+  * Team upload.
+  * Fix Debian dependency for "half" crate.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 25 Jan 2024 08:27:35 +0000
+
+rust-coreutils (0.0.23-2) unstable; urgency=medium
+
+  * Team upload.
+  * Relax crossterm dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 22 Nov 2023 17:02:31 +0000
+
+rust-coreutils (0.0.23-1) unstable; urgency=medium
+
+  * New upstream release
+  * Fix "Fails to build source after successful build"
+    (closes: #1046006)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 18 Nov 2023 12:38:26 +0100
+
+rust-coreutils (0.0.22-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 15 Oct 2023 22:04:25 +0200
+
+rust-coreutils (0.0.21-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 03 Sep 2023 18:58:30 +0200
+
+rust-coreutils (0.0.20-1) unstable; urgency=medium
+
+  * New upstream release
+  * librust-self-cell-dev is a new dep
+  * Standards-Version updated 4.6.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 16 Jul 2023 18:34:00 +0200
+
+rust-coreutils (0.0.19-3) unstable; urgency=medium
+
+  * Team upload.
+  * On 32-bit architectures, reduce debuginfo level and use thin lto rather
+    than full lto to avoid issues with running out of address space.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 00:20:58 +0000
+
+rust-coreutils (0.0.19-2) unstable; urgency=medium
+
+  * Add missing build dep
+    librust-clap-mangen-dev
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 14 Jul 2023 17:17:12 +0200
+
+rust-coreutils (0.0.19-1) unstable; urgency=medium
+
+  [ Peter Michael Green ]
+  * Drop empty patch lower-zip.diff
+  * Drop relax-bstr.diff
+  * Build-depend explicitly on version 4 of clap and clap-complete.
+
+  [ Sylvestre Ledru ]
+  * New upstream release
+  * Add override_dh_dwz
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 10 Jun 2023 14:04:16 +0200
+
+rust-coreutils (0.0.17-2) unstable; urgency=medium
+
+  * Unbreak the s390x build
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 23 Jan 2023 23:14:48 +0100
+
+rust-coreutils (0.0.17-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Jan 2023 23:27:05 +0100
+
+rust-coreutils (0.0.16-4) unstable; urgency=medium
+
+  * Team upload.
+  * Bump lscolors dependency to 0.14 and build-depend explicitly on it.
+  * Build-depend explicitly on version 3 of clap.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 14 Jan 2023 00:02:28 +0000
+
+rust-coreutils (0.0.16-3) unstable; urgency=medium
+
+  * Relax the dep on nix to unbreak the build
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 21 Dec 2022 09:31:17 +0100
+
+rust-coreutils (0.0.16-2) unstable; urgency=medium
+
+  * Run the tests (but don't fail the build if not 100%)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 03 Nov 2022 09:55:03 +0100
+
+rust-coreutils (0.0.16-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 03 Nov 2022 09:34:36 +0100
+
+rust-coreutils (0.0.15-1) unstable; urgency=medium
+
+  * New upstream release
+    - Update of the desc as all binaries exist now
+      (some options are still missing)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 17 Sep 2022 13:54:25 +0200
+
+rust-coreutils (0.0.14-4~exp2) experimental; urgency=medium
+
+  * Fix the FTBFS on 32 bit with selinux
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 05 Aug 2022 19:08:59 +0200
+
+rust-coreutils (0.0.14-4~exp1) experimental; urgency=medium
+
+  * Use symlink instead of multiple binaries.
+    Works the same way but decrease the footprint
+    Use changes from apertis:
+    https://gitlab.apertis.org/pkg/rust-coreutils/-/tree/apertis/v2023dev1/debian
+  * Be more explicit for some dependencies
+  * Build selinux binaries
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 04 Aug 2022 14:48:40 +0200
+
+rust-coreutils (0.0.14-3) unstable; urgency=medium
+
+  * Remove the ioctl dep and use the libc directly
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 10 Jun 2022 21:00:01 +0200
+
+rust-coreutils (0.0.14-2) unstable; urgency=medium
+
+  * Relax dep against exacl to unbreak the build
+    and potentially fix the FTBFS
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 10 Jun 2022 08:05:39 +0200
+
+rust-coreutils (0.0.14-1) unstable; urgency=medium
+
+  * New upstream release
+  * Added librust-selinux-dev, librust-conv-dev, librust-pretty-assertions-dev
+    librust-time-dev, librust-unindent-dev, librust-rlimit-dev,
+    librust-data-encoding-macro-dev, librust-dns-lookup-dev,
+    librust-os-display-dev, librust-z85-dev, librust-fts-sys-dev,
+    librust-exacl-dev, librust-byte-unit-dev, librust-gcd-dev,
+    librust-signal-hook-dev, librust-paste-dev, librust-quickcheck-dev,
+    librust-crossterm-dev, librust-bigdecimal-dev,
+    librust-binary-heap-plus-dev, librust-ouroboros-dev,
+    librust-memmap2-dev, librust-retain-mut-dev,
+    librust-strum-dev, librust-utf-8-dev
+    as new deps
+  * Fix various dep issues (Closes: #995914)
+  * Package coreutils 0.0.14 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 05 Jun 2022 23:50:57 +0200
+
+rust-coreutils (0.0.6-1~exp1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 03 Apr 2021 12:08:24 +0200
+
+rust-coreutils (0.0.4-1~exp2) experimental; urgency=medium
+
+  * Binaries have been moved in usr/lib/cargo/bin/coreutils
+    The rationale is that some other rust programs are installed
+    in this directory (ex: /usr/lib/cargo/bin/fd). So, users might
+    add /usr/lib/cargo/bin/ to their PATH and caused some unexpected
+    errors if the Rust coreutils binaries aren't behaving like GNU's.
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 23 Mar 2021 10:57:54 +0100
+
+rust-coreutils (0.0.4-1~exp1) experimental; urgency=medium
+
+  * New upstream release
+  * Rebase of the patches
+  * Set a minimal version for platform-info
+  * Use PROFILE=release instead of a silly sed
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 04 Feb 2021 11:28:54 +0100
+
+rust-coreutils (0.0.3-1~exp2) experimental; urgency=medium
+
+  * Set a minimal version for librust-hostname-dev
+  * chroot, hashsum, hostname, kill, more, relpath and uptime were
+    not installed
+  * Add fail missing
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 03 Feb 2021 17:02:19 +0100
+
+rust-coreutils (0.0.3-1~exp1) experimental; urgency=medium
+
+  * New upstream release
+  * Add missing build dependency (librust-cpp-build-dev)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 02 Feb 2021 13:31:05 +0100
+
+rust-coreutils (0.0.2-1~exp1) experimental; urgency=medium
+
+  * Package coreutils 0.0.2 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 11 Jan 2021 22:15:47 +0100

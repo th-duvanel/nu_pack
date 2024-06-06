@@ -1,0 +1,5 @@
+rust-ansi-to-tui (2.0.0-1) unstable; urgency=medium
+
+  * Package ansi-to-tui 2.0.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 27 Jan 2023 09:53:31 +0100

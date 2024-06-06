@@ -1,0 +1,20 @@
+rust-rusty-fork (0.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusty-fork 0.3.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 23 Jun 2022 14:12:20 +0000
+
+rust-rusty-fork (0.2.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusty-fork 0.2.1 from crates.io using debcargo 2.5.0
+  * Port to quick-error 2 (Closes: 1012338).
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 08 Jun 2022 00:37:33 +0000
+
+rust-rusty-fork (0.2.1-1) unstable; urgency=medium
+
+  * Package rusty-fork 0.2.1 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 22 Jan 2019 18:52:50 -0800

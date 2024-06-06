@@ -1,0 +1,72 @@
+rust-rayon (1.8.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon 1.8.1 from crates.io using debcargo 2.6.1 (Closes: #1061484)
+  * Remove "optional" (in the cargo sense) dependency on wasm_sync crate
+    and disable web_spin_lock feature that depends on it. rust-web-sync is
+    not in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 01 Feb 2024 10:34:57 +0000
+
+rust-rayon (1.8.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon 1.8.0 from crates.io using debcargo 2.6.1 (Closes: #1055364)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 28 Nov 2023 18:55:08 +0000
+
+rust-rayon (1.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon 1.7.0 from crates.io using debcargo 2.6.0 (Closes: #1041946)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 29 Jul 2023 04:12:14 +0000
+
+rust-rayon (1.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon 1.6.1 from crates.io using debcargo 2.6.0 (Closes: #1025946)
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 14 Dec 2022 01:47:28 +0000
+
+rust-rayon (1.5.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon 1.5.3 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 21 May 2022 16:09:12 -0400
+
+rust-rayon (1.4.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rayon 1.4.1 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 02 Jan 2022 11:11:14 +0000
+
+rust-rayon (1.1.0-2) unstable; urgency=medium
+
+  * Update the package to build with more recent version of crossbeam-deque
+
+ -- kpcyrd <git@rxv.cc>  Mon, 22 Jul 2019 17:09:15 +0000
+
+rust-rayon (1.1.0-1) unstable; urgency=medium
+
+  * Package rayon 1.1.0 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Jul 2019 09:57:44 +0200
+
+rust-rayon (1.0.3-1) unstable; urgency=medium
+
+  * Package rayon 1.0.3 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 03 Dec 2018 08:08:48 +0100
+
+rust-rayon (1.0.2-1) unstable; urgency=medium
+
+  * Package rayon 1.0.2 from crates.io using debcargo 2.2.7
+
+  [ Wolfgang Silbermayr ]
+  * Package rayon 1.0.2 from crates.io using debcargo 2.2.6
+    (Closes: #908366)
+
+ -- kpcyrd <git@rxv.cc>  Thu, 11 Oct 2018 22:34:02 -0700

@@ -1,0 +1,46 @@
+rust-idna (0.4.0-1) unstable; urgency=medium
+
+  * Package idna 0.4.0 from crates.io using debcargo 2.6.0
+  * Fix building tests with only the alloc feature.
+  * Mark running tests with no features at all as broken.
+  * Set collapse_features = true.
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package idna 0.4.0 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 27 Aug 2023 17:30:34 +0000
+
+rust-idna (0.3.0-1) unstable; urgency=medium
+
+  * Package idna 0.3.0 from crates.io using debcargo 2.5.0
+  * Drop use-std-assert-matches.diff no longer needed.
+  * Remove dev-dependency on tester and disable tests that depend on it
+    so the rest of the tests can run.
+
+  [ Fabian Gruenbichler ]
+  * Team upload.
+  * Package idna 0.3.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 23 Oct 2022 10:01:49 +0000
+
+rust-idna (0.2.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package idna 0.2.3 from crates.io using debcargo 2.5.0
+  * Use std::assert_matches instead of the assert_matches crate.
+  * Use builtin test crate instead of rustc_test or tester
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 Jun 2022 21:07:37 +0000
+
+rust-idna (0.2.0-1) unstable; urgency=medium
+
+  * Package idna 0.2.0 from crates.io using debcargo 2.2.10
+
+ -- Paride Legovini <pl@ninthfloor.org>  Mon, 05 Aug 2019 20:49:54 +0000
+
+rust-idna (0.1.5-1) unstable; urgency=medium
+
+  * Package idna 0.1.5 from crates.io using debcargo 2.2.4
+
+ -- Paride Legovini <pl@ninthfloor.org>  Sun, 29 Jul 2018 07:21:54 -0700

@@ -1,0 +1,26 @@
+rust-const-random (0.1.17-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package const-random 0.1.17 from crates.io using debcargo 2.6.1
+  * Add breaks on old version of ahash.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 06 Feb 2024 21:34:35 +0000
+
+rust-const-random (0.1.17-1) unstable; urgency=medium
+
+  * Package const-random 0.1.17 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 30 Dec 2023 16:40:51 +0000
+
+rust-const-random (0.1.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package const-random 0.1.13 from crates.io using debcargo 2.4.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 28 May 2022 15:19:49 +0000
+
+rust-const-random (0.1.8-1) unstable; urgency=medium
+
+  * Package const-random 0.1.8 from crates.io using debcargo 2.4.2
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 17 Feb 2020 11:25:34 +0100

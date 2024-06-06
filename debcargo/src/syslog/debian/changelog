@@ -1,0 +1,28 @@
+rust-syslog (6.0.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package syslog 6.0.1 from crates.io using debcargo 2.5.0
+  * Add breaks on librust-pleaser-dev (<= 0.5.1-1) to help Britney's
+    autopkgtest scheduling.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 25 Dec 2021 23:50:36 +0000
+
+rust-syslog (6.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Bumping to satisfy time upgrade
+  * Package syslog 6.0.1 from crates.io using debcargo 2.5.0
+
+ -- Ed Neville <ed-debian@s5h.net>  Fri, 24 Dec 2021 11:24:21 +0100
+
+rust-syslog (4.0.1-2) unstable; urgency=medium
+
+  * No changes rebuild.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 12 Jul 2019 00:46:23 +0200
+
+rust-syslog (4.0.1-1) unstable; urgency=medium
+
+  * Package syslog 4.0.1 from crates.io using debcargo 2.2.9
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 11 Feb 2019 12:15:50 +0100

@@ -1,0 +1,12 @@
+rust-python3-dll-a (0.2.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package python3-dll-a 0.2.6 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 10 Dec 2022 19:39:49 +0000
+
+rust-python3-dll-a (0.2.3-1) unstable; urgency=medium
+
+  * Package python3-dll-a 0.2.3 from crates.io using debcargo 2.5.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 24 Aug 2022 14:14:17 +0100

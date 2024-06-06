@@ -1,0 +1,29 @@
+rust-hostname (0.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package hostname 0.3.1 from crates.io using debcargo 2.6.1
+  * Update copyright file.
+  * Bump dev-depends on version-sync.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 23 Jan 2024 20:19:06 +0000
+
+rust-hostname (0.3.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package hostname 0.3.1 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 23 Nov 2020 22:42:30 +0100
+
+rust-hostname (0.1.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package hostname 0.1.5 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:12:05 +0200
+
+rust-hostname (0.1.5-1) unstable; urgency=medium
+
+  * Package hostname 0.1.5 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Sat, 13 Jul 2019 19:22:14 +0200

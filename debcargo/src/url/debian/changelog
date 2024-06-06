@@ -1,0 +1,92 @@
+rust-url (2.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package url 2.5.0 from crates.io using debcargo 2.6.1 (Closes: #1061688)
+  * Reduce idna dependency to 0.4.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 01 Feb 2024 12:08:20 +0000
+
+rust-url (2.4.1-1) unstable; urgency=medium
+
+  * Package url 2.4.1 from crates.io using debcargo 2.6.1 (Closes: #1056257)
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package url 2.4.1 from crates.io using debcargo 2.6.0
+  * Drop disable-debugger-test.patch, upstream removed dep
+  * collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Nov 2023 18:17:41 +0000
+
+rust-url (2.4.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package url 2.4.0 from crates.io using debcargo 2.6.0
+  * Stop patching idna dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 27 Aug 2023 15:10:29 +0000
+
+rust-url (2.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package url 2.4.0 from crates.io using debcargo 2.6.0 (Closes: #1041879)
+  * Disable the debugger_visulaizer feature, it doesn't seem possible to build
+    it from the crates.io release, only from the upstream git.
+  * Revert upstream bump of idna dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Aug 2023 00:58:10 +0000
+
+rust-url (2.3.1-1) unstable; urgency=medium
+
+  * Package url 2.3.1 from crates.io using debcargo 2.5.0
+  * Mark tests for the debugger_visualizer feature as broken, it isn't
+    supported on the version of rustc we currently have.
+  * Remove dev-dependencies on
+
+  [ Fabian Gruenbichler ]
+  * Team upload.
+  * Package url 2.3.1 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 23 Oct 2022 11:33:28 +0000
+
+rust-url (2.2.2-1) unstable; urgency=medium
+
+  * Package url 2.2.2 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 14 Oct 2021 23:02:43 +0200
+
+rust-url (2.1.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package url 2.1.1 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:24:24 +0200
+
+rust-url (2.1.1-1) unstable; urgency=medium
+
+  * Package url 2.1.1 from crates.io using debcargo 2.4.2
+
+ -- Paride Legovini <pl@ninthfloor.org>  Thu, 19 Mar 2020 09:15:36 +0000
+
+rust-url (2.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package url 2.1.0 from crates.io using debcargo 2.2.10
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 13 Aug 2019 09:02:24 +0200
+
+rust-url (1.7.2-1) unstable; urgency=medium
+
+  * Package url 1.7.2 from crates.io using debcargo 2.2.9
+  * Patch out the pre-1.0 serde dependencies
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 06 Dec 2018 13:14:42 +0100
+
+rust-url (1.7.1-1) unstable; urgency=medium
+
+  * Package url 1.7.1 from crates.io using debcargo 2.2.5
+
+  [ Paride Legovini ]
+  * Package url 1.7.1 from crates.io using debcargo 2.2.3
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Jul 2018 00:39:00 -0700

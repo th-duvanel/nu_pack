@@ -1,0 +1,32 @@
+rust-gumdrop (0.8.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gumdrop 0.8.1 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 03 Sep 2022 22:59:51 +0000
+
+rust-gumdrop (0.7.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gumdrop 0.7.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:09:34 +0200
+
+rust-gumdrop (0.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gumdrop 0.7.0 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 08 Jan 2020 23:17:47 +0000
+
+rust-gumdrop (0.6.0-1) unstable; urgency=medium
+
+  * Package gumdrop 0.6.0 from crates.io using debcargo 2.2.10
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 19 Jul 2019 11:07:05 -0300
+
+rust-gumdrop (0.5.0-1) unstable; urgency=medium
+
+  * Package gumdrop 0.5.0 from crates.io using debcargo 2.2.9
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 21 Jan 2019 17:28:56 +0100

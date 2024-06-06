@@ -1,0 +1,22 @@
+rust-gix-chunk (0.4.8-1) unstable; urgency=medium
+
+  * Package gix-chunk 0.4.8 from crates.io using debcargo 2.6.1
+
+  [ Federico Ceratto ]
+  * Team upload.
+  * Package gix-chunk 0.4.7 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 16 Apr 2024 11:22:07 +0000
+
+rust-gix-chunk (0.4.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gix-chunk 0.4.5 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 15 Dec 2023 02:01:28 +0000
+
+rust-gix-chunk (0.4.4-1) unstable; urgency=medium
+
+  * Package gix-chunk 0.4.4 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 21 Sep 2023 22:42:21 +0200

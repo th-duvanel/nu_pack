@@ -1,0 +1,11 @@
+overlay = "."
+uploaders = [
+    "Alexander Kjäll <alexander.kjall@gmail.com>",
+    "Daniel Kahn Gillmor <dkg@fifthhorseman.net>",
+    "Holger Levsen <holger@debian.org>"
+]
+collapse_features = true
+
+summary = "Reimplementation of librnp for Thunderbird by Sequoia"
+
+bin_name = "libsequoia-octopus-librnp0"

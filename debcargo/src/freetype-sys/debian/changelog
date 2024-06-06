@@ -1,0 +1,17 @@
+rust-freetype-sys (0.13.1-1) unstable; urgency=medium
+
+  * Package freetype-sys 0.13.1 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 03 Nov 2020 12:44:30 +0100
+
+rust-freetype-sys (0.9.0-1) unstable; urgency=medium
+
+  * Package freetype-sys 0.9.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 28 Dec 2019 12:55:37 +0100
+
+rust-freetype-sys (0.7.1-1) unstable; urgency=medium
+
+  * Package freetype-sys 0.7.1 from crates.io using debcargo 2.2.10
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 21 Jul 2019 17:43:58 -0300

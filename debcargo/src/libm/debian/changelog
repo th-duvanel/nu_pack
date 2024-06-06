@@ -1,0 +1,50 @@
+rust-libm (0.2.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package libm 0.2.7 from crates.io using debcargo 2.6.0
+  * Update features.patch for new upstream.
+  * Add patch (submitted as pull-request upstream) to fix rint and rintf on x87.
+  * Drop other patches, they are either merged upstream or rendered obsolete
+    by upstream changes.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 05 Oct 2023 17:59:45 +0000
+
+rust-libm (0.2.1-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package libm 0.2.1 from crates.io using debcargo 2.5.0
+  * Apply an upstream fix that fixes a build error when manually running
+    cargo test (this doesn't seem to apply when running under cargo_auto_test,
+    it appears cargo_auto_test overrides the maximum lint level somehow).
+  * Update x87 patches to more closely match what was accepted upstream
+    and to fix most errors in release mode as well as debug mode.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 04 Jan 2022 23:06:17 +0000
+
+rust-libm (0.2.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package libm 0.2.1 from crates.io using debcargo 2.5.0
+  * Fix another excess precsion issue on x87 which showed up in the
+    autopkgtest for rust-num-complex.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 20 Dec 2021 04:07:06 +0000
+
+rust-libm (0.2.1-3) unstable; urgency=medium
+
+  [ Peter Michael Green ]
+  * Fix test cases on x87 (Closes: #979002).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 04 Jan 2021 10:04:18 +0100
+
+rust-libm (0.2.1-2) unstable; urgency=medium
+
+  * Package libm 0.2.1 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 18 Nov 2020 13:32:14 +0100
+
+rust-libm (0.2.1-1) unstable; urgency=medium
+
+  * Package libm 0.2.1 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 12 Nov 2020 13:23:00 +0100

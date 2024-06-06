@@ -1,0 +1,40 @@
+rust-errno (0.3.8-1) unstable; urgency=medium
+
+  * Package errno 0.3.8 from crates.io using debcargo 2.6.1
+  * Drop no-dragonfly.patch, no longer needed.
+  * Update no-windows.patch for new upstream.
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package errno 0.3.3 from crates.io using debcargo 2.6.0
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 14 Jan 2024 21:54:23 +0000
+
+rust-errno (0.3.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package errno 0.3.1 from crates.io using debcargo 2.6.0
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Tue, 13 Jun 2023 09:08:07 +0300
+
+rust-errno (0.2.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package errno 0.2.8 from crates.io using debcargo 2.5.0
+
+ -- John Goerzen <jgoerzen@complete.org>  Mon, 03 Oct 2022 19:16:08 +0000
+
+rust-errno (0.2.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package errno 0.2.4 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:20:42 +0200
+
+rust-errno (0.2.4-1) unstable; urgency=medium
+
+  * Package errno 0.2.4 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Mon, 20 May 2019 22:31:10 +0200

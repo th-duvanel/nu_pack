@@ -1,0 +1,53 @@
+rust-serde-yaml (0.9.34-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_yaml 0.9.34+deprecated from crates.io using debcargo 2.6.1
+  * Update relax-dep.diff for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 May 2024 04:34:21 +0000
+
+rust-serde-yaml (0.8.26-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_yaml 0.8.26 from crates.io using debcargo 2.6.1
+  * Relax indexmap dependency.
+  * Bump indoc dev-dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 13 Feb 2024 11:28:22 +0000
+
+rust-serde-yaml (0.9.21-1) experimental; urgency=medium
+
+  * Package serde_yaml 0.9.21 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package serde_yaml 0.9.17 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 27 Jul 2023 16:58:33 +0000
+
+rust-serde-yaml (0.8.26-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_yaml 0.8.26 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Tue, 06 Sep 2022 08:09:15 -0400
+
+rust-serde-yaml (0.8.23-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_yaml 0.8.23 from crates.io using debcargo 2.5.0
+
+ -- Carlos F. Sanz <carlos@sanz.dev>  Sat, 09 Apr 2022 14:37:03 +0100
+
+rust-serde-yaml (0.8.11-2) unstable; urgency=medium
+
+  * Package serde_yaml 0.8.11 from crates.io using debcargo 2.4.2
+  * Source-only reupload for migration to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 23 Jan 2020 18:38:29 +0100
+
+rust-serde-yaml (0.8.11-1) unstable; urgency=medium
+
+  * Package serde_yaml 0.8.11 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 15 Nov 2019 20:29:30 +0100

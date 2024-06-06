@@ -1,0 +1,64 @@
+rust-vhost-user-backend (0.13.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package vhost-user-backend 0.13.1 from crates.io using debcargo 2.6.1
+  * Adjust test to work with both versions 0.26 and 0.27 of nix.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 21 Jan 2024 20:18:00 +0000
+
+rust-vhost-user-backend (0.10.1-1) unstable; urgency=medium
+
+  * Package vhost-user-backend 0.10.1 from crates.io using debcargo 2.6.0
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Wed, 13 Sep 2023 09:55:35 +0300
+
+rust-vhost-user-backend (0.10.0-2) unstable; urgency=medium
+
+  * restrict to 64bit: Build-Depend: architecture-is-64-bit
+    Uses array of AtomicU64, which either does not exist (armel)
+    or is emulated and slow; upstream does not care about 32bits.
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Wed, 09 Aug 2023 19:44:49 +0300
+
+rust-vhost-user-backend (0.10.0-1) unstable; urgency=medium
+
+  * Package vhost-user-backend 0.10.0 from crates.io using debcargo 2.6.0
+  * Remove relax-deps.diff, reduce avoid-backend-bitmap-in-tests.patch
+  * Set the forgotten collapse_features=true
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Sun, 16 Jul 2023 14:21:15 +0300
+
+rust-vhost-user-backend (0.8.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package vhost-user-backend 0.8.0 from crates.io using debcargo 2.6.0
+  * Avoid using "backend-bitmap" feature of rust-vm-memory in tests as it
+    does not build on all architectures.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 14 May 2023 23:39:40 +0000
+
+rust-vhost-user-backend (0.8.0-4) unstable; urgency=medium
+
+  * drop architecture restrictions now once vmm-sys-util is not
+    restricted
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Sat, 06 May 2023 14:01:41 +0300
+
+rust-vhost-user-backend (0.8.0-3) unstable; urgency=medium
+
+  * enable more 64bit architectures: s390x & sparc64
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Fri, 28 Apr 2023 18:58:45 +0300
+
+rust-vhost-user-backend (0.8.0-2) unstable; urgency=medium
+
+  * restrict Architecture: to the same list as vmm-sys-util
+  * add myself to Uploaders
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Sun, 23 Apr 2023 17:47:18 +0300
+
+rust-vhost-user-backend (0.8.0-1) unstable; urgency=medium
+
+  * Package vhost-user-backend 0.8.0 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Fri, 14 Apr 2023 19:17:12 +0300

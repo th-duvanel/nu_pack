@@ -1,0 +1,15 @@
+rust-futf (0.1.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package futf 0.1.5 from crates.io using debcargo 2.6.0
+  * Set kpcryd as uploader, since they introduced the package and no human
+    uploader is listed.
+  * Disable tests that depend on "nightly" compiler features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 08 Aug 2023 19:02:37 +0000
+
+rust-futf (0.1.4-1) unstable; urgency=medium
+
+  * Package futf 0.1.4 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Sun, 26 Aug 2018 13:09:27 +0200

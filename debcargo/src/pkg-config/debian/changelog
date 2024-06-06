@@ -1,0 +1,93 @@
+rust-pkg-config (0.3.27-1) unstable; urgency=medium
+
+  * Package pkg-config 0.3.27 from crates.io using debcargo 2.6.1
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package pkg-config 0.3.26 from crates.io using debcargo 2.6.0 (Closes: #1056179)
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Nov 2023 17:06:34 +0000
+
+rust-pkg-config (0.3.25-2) unstable; urgency=medium
+
+  * Reinstate patches to allow cross-building automatically.
+
+ -- Fabian Gruenbichler <f.gruenbichler@proxmox.com>  Sat, 17 Sep 2022 12:27:10 +0200
+
+rust-pkg-config (0.3.25-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pkg-config 0.3.25 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 Aug 2022 15:08:41 +0200
+
+rust-pkg-config (0.3.21-1) unstable; urgency=medium
+
+  * Package pkg-config 0.3.21 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 22:13:34 +0100
+
+rust-pkg-config (0.3.18-1) unstable; urgency=medium
+
+  * Package pkg-config 0.3.18 from crates.io using debcargo 2.4.3
+
+  [ Sylvestre Ledru ]
+  * Team upload.
+  * Package pkg-config 0.3.17 from crates.io using debcargo 2.4.2
+  * Disable one more test
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 01 Oct 2020 23:11:59 +0100
+
+rust-pkg-config (0.3.17-4) UNRELEASED; urgency=medium
+
+  * Team upload.
+  * Package pkg-config 0.3.17 from crates.io using debcargo 2.4.2
+  * Disable one more test
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 12 Apr 2020 14:23:49 +0200
+
+rust-pkg-config (0.3.17-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package pkg-config 0.3.17 from crates.io using debcargo 2.4.0
+  * Silent a test to make autopkgtest green
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 11 Apr 2020 16:53:50 +0200
+
+rust-pkg-config (0.3.17-2) unstable; urgency=medium
+
+  * Package pkg-config 0.3.17 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 05 Dec 2019 22:05:38 +0000
+
+rust-pkg-config (0.3.17-1) unstable; urgency=medium
+
+  * Package pkg-config 0.3.17 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 28 Nov 2019 01:40:27 +0000
+
+rust-pkg-config (0.3.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pkg-config 0.3.14 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 04 Oct 2018 23:16:23 +0200
+
+rust-pkg-config (0.3.12-2) unstable; urgency=medium
+
+  * Package pkg-config 0.3.12 from crates.io using debcargo 2.2.4
+  * Fix patch to match exhaustively so it doesn't FTBFS.
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 25 Jul 2018 08:15:59 -0700
+
+rust-pkg-config (0.3.12-1) unstable; urgency=medium
+
+  * Package pkg-config 0.3.12 from crates.io using debcargo 2.2.4
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 24 Jul 2018 20:42:39 -0700
+
+rust-pkg-config (0.3.11-1) unstable; urgency=medium
+
+  * Package pkg-config 0.3.11 from crates.io using debcargo 2.1.2
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 05 Jul 2018 02:03:48 -0700

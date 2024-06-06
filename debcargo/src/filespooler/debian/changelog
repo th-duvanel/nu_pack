@@ -1,0 +1,13 @@
+rust-filespooler (1.2.2-2) unstable; urgency=medium
+
+  * Source-only upload for testing migration.
+
+ -- John Goerzen <jgoerzen@complete.org>  Tue, 01 Nov 2022 12:12:44 +0000
+
+rust-filespooler (1.2.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package filespooler 1.2.2 from crates.io using debcargo 2.5.0
+    Closes: #1013290.
+
+ -- John Goerzen <jgoerzen@complete.org>  Sat, 22 Oct 2022 13:49:28 +0000

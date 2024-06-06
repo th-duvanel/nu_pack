@@ -1,0 +1,5 @@
+rust-mailparse (0.14.0-1) unstable; urgency=medium
+
+  * Package mailparse 0.14.0 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 19 Jun 2023 14:59:51 +0100

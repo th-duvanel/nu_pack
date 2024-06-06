@@ -1,0 +1,90 @@
+rust-libspa (0.8.0-3) unstable; urgency=medium
+
+  * Upload to unstable
+  * Updated my mail address in d/copyright and d/debcargo.toml
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 5 May 2024 17:52:29 +0200
+
+rust-libspa (0.7.2-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package libspa 0.7.2 from crates.io using debcargo 2.6.1
+  * Relax nix dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 29 Feb 2024 09:06:58 +0000
+
+rust-libspa (0.8.0-2) experimental; urgency=medium
+
+  * Drop relax-nix patch now that newer nix is available
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 25 Feb 2024 13:22:01 +0100
+
+rust-libspa (0.8.0-1) experimental; urgency=medium
+
+  * Package libspa 0.8.0 from crates.io using debcargo 2.6.1
+  * Drop fix-arch patch, applied upstream
+  * Drop tighten-deps patch, obsoleted
+  * Drop hard dependency on rustc >= 1.70
+  * Updated my mail address
+  * Updated copyright years
+  * Added patch to relax nix
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 22 Feb 2024 17:26:45 +0100
+
+rust-libspa (0.7.2-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package libspa 0.7.2 from crates.io using debcargo 2.6.0
+  * Add breaks on old version of librust-pipewire-dev, it's dependencies
+    were overly optimistic.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 18 Oct 2023 03:52:38 +0000
+
+rust-libspa (0.7.2-4) unstable; urgency=medium
+
+  * Team upload
+  * Package libspa 0.7.2 from crates.io using debcargo 2.6.0
+  * Update tighten-deps patch to require pipewire 0.7 for autopkgtests
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 17 Oct 2023 08:03:44 -0400
+
+rust-libspa (0.7.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Package libspa 0.7.2 from crates.io using debcargo 2.6.0
+  * Release to Unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 16 Oct 2023 17:59:31 -0400
+
+rust-libspa (0.7.2-2) experimental; urgency=medium
+
+  * Team upload
+  * Cherry-pick proposed patch to fix 32-bit build
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 27 Sep 2023 20:25:14 -0400
+
+rust-libspa (0.7.2-1) experimental; urgency=medium
+
+  * Team upload
+  * Package libspa 0.7.2 from crates.io using debcargo 2.6.0
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 27 Sep 2023 15:18:29 -0400
+
+rust-libspa (0.6.0-3) unstable; urgency=medium
+
+  * Package libspa 0.6.0 from crates.io using debcargo 2.6.0
+  * Include patch to skip failing test on arm(el) and i386
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 23 Jun 2023 19:26:28 +0200
+
+rust-libspa (0.6.0-2) unstable; urgency=medium
+
+  * Package libspa 0.6.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 20 Jun 2023 12:35:23 +0200
+
+rust-libspa (0.6.0-1) experimental; urgency=medium
+
+  * Package libspa 0.6.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 16 Jun 2023 13:05:41 -0400

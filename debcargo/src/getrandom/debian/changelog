@@ -1,0 +1,78 @@
+rust-getrandom (0.2.12-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package getrandom 0.2.12 from crates.io using debcargo 2.6.1 (Closes: #1061675)
+  * Reduce context in drop-js-wasm.patch to avoid fuzz.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 24 Mar 2024 08:51:59 +0000
+
+rust-getrandom (0.2.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package getrandom 0.2.10 from crates.io using debcargo 2.6.0
+  * Set test_is_broken for the compiler_builtins feature, nothing seems to
+    depend on it, so I don't think it's failure should be a blocker.
+
+  [ kpcyrd ]
+  * Package getrandom 0.2.10 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 17 Oct 2023 10:24:05 +0000
+
+rust-getrandom (0.2.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package getrandom 0.2.8 from crates.io using debcargo 2.5.0 (Closes: #1023209)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Nov 2022 05:27:59 +0000
+
+rust-getrandom (0.2.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package getrandom 0.2.4 from crates.io using debcargo 2.5.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 08:59:20 +0000
+
+rust-getrandom (0.2.4-1) experimental; urgency=medium
+
+  * Package getrandom 0.2.4 from crates.io using debcargo 2.5.0
+  * Drop js/wasm related features to avoid introducing new binary packages.
+  * Disable rdrand tests, Debian baseline CPUs don't have rdrand.
+  * Establish baseline for tests.
+
+  [ Ximin Luo ]
+  * Team upload.
+  * Package getrandom 0.1.16 from crates.io using debcargo 2.4.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Jan 2022 11:01:44 +0000
+
+rust-getrandom (0.1.13-4) unstable; urgency=medium
+
+  * Source-only upload
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 16 Dec 2019 15:06:26 -0500
+
+rust-getrandom (0.1.13-3) unstable; urgency=medium
+
+  * Reintroduce missing stdweb feature
+
+ -- kpcyrd <git@rxv.cc>  Sun, 17 Nov 2019 08:40:46 +0100
+
+rust-getrandom (0.1.13-2) unstable; urgency=medium
+
+  * Package getrandom 0.1.13 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Tue, 05 Nov 2019 05:09:35 +0100
+
+rust-getrandom (0.1.12-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package getrandom 0.1.12 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Mon, 09 Sep 2019 12:38:43 -0700
+
+rust-getrandom (0.1.6-1) unstable; urgency=medium
+
+  * Package getrandom 0.1.6 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Sat, 13 Jul 2019 19:38:45 +0200

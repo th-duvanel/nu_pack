@@ -1,0 +1,15 @@
+overlay = "."
+uploaders = ["Robin Krahl <robin.krahl@ireas.org>"]
+collapse_features = true
+
+# We do not want to run the benchmark tests as they require the unstable
+# feature attribute:  `#![feature(test)]`
+# Also, some test files contain a copyright notice with a non-free license, so
+# we have to exclude them.
+excludes = ["tests/documents/linescore.xml", "tests/documents/players.xml", "tests/documents/sample_rss.xml"]
+
+[packages.lib]
+extra_lines = ["Breaks: librust-xcb-dev (<= 1.1.1-1)"]
+
+[packages."lib+encoding_rs"]
+test_is_broken = true

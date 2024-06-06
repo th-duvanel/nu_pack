@@ -1,0 +1,24 @@
+rust-zerocopy-derive (0.7.32-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package zerocopy-derive 0.7.32 from crates.io using debcargo 2.6.1
+  * Add back in dev-dependency on zerocopy which was removed by the cargo
+    publish process.
+  * Disable test that depends on "testutil" crate which is not in Debian or
+    even on crates.io.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 24 Feb 2024 06:17:48 +0000
+
+rust-zerocopy-derive (0.7.32-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package zerocopy-derive 0.7.32 from crates.io using debcargo 2.6.1
+  * Relax dev dependency trybuild
+
+ -- Agathe Porte <gagath@debian.org>  Thu, 22 Feb 2024 15:34:18 +0100
+
+rust-zerocopy-derive (0.3.1-1) unstable; urgency=medium
+
+  * Package zerocopy-derive 0.3.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 21 Nov 2022 22:14:41 +0100

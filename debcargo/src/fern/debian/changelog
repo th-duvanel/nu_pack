@@ -1,0 +1,60 @@
+rust-fern (0.6.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package fern 0.6.2 from crates.io using debcargo 2.6.1
+  * Update patches for new upstream (Closes: #1055091).
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 28 Nov 2023 16:16:28 +0000
+
+rust-fern (0.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package fern 0.6.1 from crates.io using debcargo 2.5.0
+  * Update no-syslog34.patch and no-reopen.patch for new upstream
+  * Drop use-tempfile-instead-of-tempdir.patch, upstream has switched
+  * Adjust dependency on colored to version 2
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 21 May 2022 19:41:12 +0000
+
+rust-fern (0.6.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package fern 0.6.0 from crates.io using debcargo 2.5.0
+  * Remove optional (in the Cargo sense) dependency on reopen
+    It is not packaged in Debian.
+  * Use tempfile instead of tempdir for tests, the latter is
+    not packaged in Debian.
+  * Disable the "syslog3" example, and convert the "syslog"
+    example to syslog 6.
+  * Improve the syslog 6 patch to actually provide a working
+    feature rather than a feature that does nothing.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 25 Dec 2021 22:42:37 +0000
+
+rust-fern (0.6.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Bumping as syslog is now at 6
+  * Package fern 0.6.0 from crates.io using debcargo 2.5.0
+
+ -- Ed Neville <ed-debian@s5h.net>  Fri, 24 Dec 2021 20:45:09 +0100
+
+rust-fern (0.5.8-1) unstable; urgency=medium
+
+  * Package fern 0.5.8 from crates.io using debcargo 2.2.10.
+  * Remove syslog3 support by patching Cargo.toml.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 17 Aug 2019 17:47:40 +0200
+
+rust-fern (0.5.7-2) unstable; urgency=medium
+
+  * Remove syslog3 support.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 11 Feb 2019 12:33:25 +0100
+
+rust-fern (0.5.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package fern 0.5.7 from crates.io using debcargo 2.2.9
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 21 Jan 2019 13:49:03 +0100

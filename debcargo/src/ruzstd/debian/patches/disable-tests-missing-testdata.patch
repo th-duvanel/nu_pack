@@ -1,0 +1,87 @@
+--- ruzstd.orig/src/tests/decode_corpus.rs
++++ ruzstd/src/tests/decode_corpus.rs
+@@ -1 +1 @@
+-#[test]
++/*#[test]
+@@ -186 +186 @@
+-}
++}*/
+--- ruzstd.orig/src/tests/dict_test.rs
++++ ruzstd/src/tests/dict_test.rs
+@@ -76,3 +76,3 @@
+ 
+-#[test]
++/*#[test]
+ fn test_dict_decoding() {
+@@ -258,2 +258,2 @@
+     assert!(failed.is_empty());
+-}
++}*/
+--- ruzstd.orig/src/tests/fuzz_regressions.rs
++++ ruzstd/src/tests/fuzz_regressions.rs
+@@ -1 +1 @@
+-#[test]
++/*#[test]
+@@ -28 +28 @@
+-}
++}*/
+--- ruzstd.orig/src/tests/mod.rs
++++ ruzstd/src/tests/mod.rs
+@@ -53,3 +53,3 @@
+ 
+-#[cfg(test)]
++/*#[cfg(test)]
+ #[test]
+@@ -61,5 +61,5 @@
+     let (_frame, _) = frame::read_frame_header(&mut content).unwrap();
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ fn test_block_header_reading() {
+@@ -75,5 +75,5 @@
+     let _ = block_header; //TODO validate blockheader in a smart way
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ fn test_frame_decoder() {
+@@ -100,5 +100,5 @@
+         .unwrap();
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ fn test_decode_from_to() {
+@@ -196,5 +196,5 @@
+     }
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ fn test_specific_file() {
+@@ -256,5 +256,5 @@
+     }
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ #[cfg(feature = "std")]
+@@ -341,5 +341,5 @@
+     }
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ #[cfg(not(feature = "std"))]
+@@ -425,3 +425,3 @@
+     }
+-}
++}*/
+ 

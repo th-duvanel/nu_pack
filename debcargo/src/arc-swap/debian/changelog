@@ -1,0 +1,114 @@
+rust-arc-swap (1.6.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package arc-swap 1.6.0 from crates.io using debcargo 2.6.1
+  * Upgrade itertools to 0.12.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 29 Jan 2024 10:36:20 +0100
+
+rust-arc-swap (1.6.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Package arc-swap 1.6.0 from crates.io using debcargo 2.6.0
+  * Add relax-deps to bump version of rust-criterion
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 05 Oct 2023 16:17:56 -0400
+
+rust-arc-swap (1.6.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Package arc-swap 1.6.0 from crates.io using debcargo 2.6.0
+  * Refresh patches
+
+ -- Fab Stz <fabstz-it@yahoo.fr>  Thu, 05 Oct 2023 08:38:32 -0400
+
+rust-arc-swap (1.5.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package arc-swap 1.5.1 from crates.io using debcargo 2.5.0 (Closes: #1022245)
+  * Drop old patches - no longer needed.
+  * Remove dev-dependency on active-barrier and disable the tests that depend
+    on it so the rest of the testsuite can run.
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Oct 2022 19:12:13 +0000
+
+rust-arc-swap (0.4.8-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package arc-swap 0.4.8 from crates.io using debcargo 2.5.0
+  * Relax dev-dependency on itertools.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 29 Jan 2022 09:14:41 +0000
+
+rust-arc-swap (0.4.8-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package arc-swap 0.4.8 from crates.io using debcargo 2.4.3
+  * Disable version check tests and remove dev-dependency on
+    version-sync crate (which is not package in Debian) to allow
+    the rest of the testsuite to run.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 14 Mar 2021 20:47:16 +0000
+
+rust-arc-swap (0.4.8-1) unstable; urgency=medium
+
+  * Package arc-swap 0.4.8 from crates.io using debcargo 2.4.3
+    Closes: #985090
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 13 Mar 2021 12:24:41 +0100
+
+rust-arc-swap (0.4.7-1) unstable; urgency=medium
+
+  * Package arc-swap 0.4.7 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 15 Jun 2020 20:41:50 +0200
+
+rust-arc-swap (0.4.4-1) unstable; urgency=medium
+
+  * Package arc-swap 0.4.4 from crates.io using debcargo 2.4.2
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 18 Feb 2020 17:15:14 +0100
+
+rust-arc-swap (0.4.3-1) unstable; urgency=medium
+
+  * Package arc-swap 0.4.3 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 02 Nov 2019 22:48:18 +0100
+
+rust-arc-swap (0.3.11-2) unstable; urgency=medium
+
+  * Package arc-swap 0.3.11 from crates.io using debcargo 2.3.1-alpha.0
+  * Source-only re-upload for migration to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Jul 2019 11:12:58 +0200
+
+rust-arc-swap (0.3.11-1) unstable; urgency=medium
+
+  * Package arc-swap 0.3.11 from crates.io using debcargo 2.3.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 08 Jul 2019 09:38:13 +0200
+
+rust-arc-swap (0.3.7-1) unstable; urgency=medium
+
+  * Package arc-swap 0.3.7 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 20 Jan 2019 21:47:19 +0100
+
+rust-arc-swap (0.3.6-1) unstable; urgency=medium
+
+  * Package arc-swap 0.3.6 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 02 Dec 2018 07:13:46 +0100
+
+rust-arc-swap (0.3.5-1) unstable; urgency=medium
+
+  * Package arc-swap 0.3.5 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 24 Nov 2018 10:51:50 +0100
+
+rust-arc-swap (0.3.4-1) unstable; urgency=medium
+
+  * Package arc-swap 0.3.4 from crates.io using debcargo 2.2.8
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 04 Nov 2018 14:42:46 +0100

@@ -1,0 +1,20 @@
+rust-mime (0.3.17-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package mime 0.3.17 from crates.io using debcargo 2.6.1
+  * Apply upstream patch to remove broken test.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 13 Feb 2024 10:13:11 +0000
+
+rust-mime (0.3.16-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package mime 0.3.16 from crates.io using debcargo 2.5.0 (Closes: 1013117)
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 23 Jun 2022 20:18:18 +0000
+
+rust-mime (0.3.9-1) unstable; urgency=medium
+
+  * Package mime 0.3.9 from crates.io using debcargo 2.2.5
+
+ -- kpcyrd <git@rxv.cc>  Thu, 16 Aug 2018 09:59:26 +0200

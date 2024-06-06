@@ -1,0 +1,29 @@
+rust-ntp-udp (1.1.2-1) unstable; urgency=medium
+
+  * Package ntp-udp 1.1.2 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 01 Feb 2024 13:39:30 +0100
+
+rust-ntp-udp (1.1.1-1) unstable; urgency=medium
+
+  * Package ntp-udp 1.1.1 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 25 Jan 2024 09:02:35 +0100
+
+rust-ntp-udp (1.1.0-1) unstable; urgency=medium
+
+  * Package ntp-udp 1.1.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 15 Dec 2023 11:42:17 +0100
+
+rust-ntp-udp (1.0.0-1) unstable; urgency=medium
+
+  * Package ntp-udp 1.0.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 10 Oct 2023 22:48:27 +0200
+
+rust-ntp-udp (0.3.6-1) unstable; urgency=medium
+
+  * Package ntp-udp 0.3.6 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 23 Aug 2023 05:07:46 +0200

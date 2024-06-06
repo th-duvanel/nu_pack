@@ -1,0 +1,19 @@
+rust-multimap (0.10.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package multimap 0.10.0 from crates.io using debcargo 2.6.1
+
+ -- Reinhard Tartler <siretart@tauware.de>  Thu, 18 Apr 2024 08:26:39 -0400
+
+rust-multimap (0.8.3-2) unstable; urgency=medium
+
+  * Package multimap 0.8.3 from crates.io using debcargo 2.6.0
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Emanuele Rocca <ema@debian.org>  Mon, 23 Jan 2023 17:46:49 +0100
+
+rust-multimap (0.8.3-1) unstable; urgency=medium
+
+  * Package multimap 0.8.3 from crates.io using debcargo 2.6.0
+
+ -- Emanuele Rocca <ema@debian.org>  Fri, 20 Jan 2023 10:36:22 +0100

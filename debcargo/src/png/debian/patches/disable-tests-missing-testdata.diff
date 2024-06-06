@@ -1,0 +1,84 @@
+Index: png/src/decoder/mod.rs
+===================================================================
+--- png.orig/src/decoder/mod.rs
++++ png/src/decoder/mod.rs
+@@ -150,7 +150,7 @@ impl<R: Read> Decoder<R> {
+     ///
+     /// Note that this is a best-effort basis.
+     ///
+-    /// ```
++    /// ```no_run
+     /// use std::fs::File;
+     /// use png::{Decoder, Limits};
+     /// // This image is 32×32, 1bit per pixel. The reader buffers one row which requires 4 bytes.
+@@ -960,7 +960,7 @@ mod tests {
+         }
+     }
+ 
+-    #[test]
++    /*#[test]
+     fn no_data_dup_on_finish() {
+         const IMG: &[u8] = include_bytes!(concat!(
+             env!("CARGO_MANIFEST_DIR"),
+@@ -979,5 +979,5 @@ mod tests {
+             .unwrap_err();
+ 
+         assert_eq!(discriminant(&normal), discriminant(&smal));
+-    }
++    }*/
+ }
+Index: png/src/encoder.rs
+===================================================================
+--- png.orig/src/encoder.rs
++++ png/src/encoder.rs
+@@ -1719,7 +1719,7 @@ mod tests {
+         }
+     }
+ 
+-    #[test]
++    /*#[test]
+     fn image_palette() -> Result<()> {
+         for &bit_depth in &[1u8, 2, 4, 8] {
+             // Do a reference decoding, choose a fitting palette image from pngsuite
+@@ -1757,7 +1757,7 @@ mod tests {
+             assert_eq!(indexed_data, redecoded);
+         }
+         Ok(())
+-    }
++    }*/
+ 
+     #[test]
+     fn expect_error_on_wrong_image_len() -> Result<()> {
+Index: png/src/lib.rs
+===================================================================
+--- png.orig/src/lib.rs
++++ png/src/lib.rs
+@@ -10,7 +10,7 @@
+ //! image data is reached.
+ //!
+ //! ### Using the decoder
+-//! ```
++//! ```no_run
+ //! use std::fs::File;
+ //! // The decoder is a build for reader and can be used to set various decoding options
+ //! // via `Transformations`. The default output transformation is `Transformations::IDENTITY`.
+Index: png/src/decoder/stream.rs
+===================================================================
+--- png.orig/src/decoder/stream.rs
++++ png/src/decoder/stream.rs
+@@ -1312,7 +1312,6 @@ mod tests {
+     use super::SourceChromaticities;
+     use std::fs::File;
+ 
+-    #[test]
+     fn image_gamma() -> Result<(), ()> {
+         fn trial(path: &str, expected: Option<ScaledFloat>) {
+             let decoder = crate::Decoder::new(File::open(path).unwrap());
+@@ -1353,7 +1352,6 @@ mod tests {
+         Ok(())
+     }
+ 
+-    #[test]
+     fn image_source_chromaticities() -> Result<(), ()> {
+         fn trial(path: &str, expected: Option<SourceChromaticities>) {
+             let decoder = crate::Decoder::new(File::open(path).unwrap());

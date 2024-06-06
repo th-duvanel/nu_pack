@@ -1,0 +1,18 @@
+Index: rust-block-cipher-trait-0.6.2/Cargo.toml
+===================================================================
+--- rust-block-cipher-trait-0.6.2.orig/Cargo.toml
++++ rust-block-cipher-trait-0.6.2/Cargo.toml
+@@ -23,11 +23,11 @@ repository = "https://github.com/RustCry
+ [package.metadata.docs.rs]
+ features = ["std"]
+ [dependencies.blobby]
+-version = "0.1"
++version = "0.3"
+ optional = true
+ 
+ [dependencies.generic-array]
+-version = "0.12"
++version = "0.14"
+ 
+ [features]
+ dev = ["blobby"]

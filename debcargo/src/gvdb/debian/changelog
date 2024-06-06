@@ -1,0 +1,55 @@
+rust-gvdb (0.6.1-2) unstable; urgency=medium
+
+  * Upload to unstable 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 15:36:25 +0200
+
+rust-gvdb (0.6.1-1) experimental; urgency=medium
+
+  * Team upload
+  * Package gvdb 0.6.1 from crates.io using debcargo 2.6.1
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 15:20:12 -0400
+
+rust-gvdb (0.6.0-2) experimental; urgency=medium
+
+  * Package gvdb 0.6.0 from crates.io using debcargo 2.6.1
+  * Add patch to relax quickxml dependency
+  * Add patch to relax MSRV
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 23 Feb 2024 16:43:55 +0100
+
+rust-gvdb (0.6.0-1) experimental; urgency=medium
+
+  * Package gvdb 0.6.0 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 23 Feb 2024 16:28:03 +0100
+
+rust-gvdb (0.5.3-1) unstable; urgency=medium
+
+  * Package gvdb 0.5.3 from crates.io using debcargo 2.6.1
+  * Rebased patch for new upstream
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 10 Jan 2024 00:16:40 +0100
+
+rust-gvdb (0.5.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gvdb 0.5.2 from crates.io using debcargo 2.6.1
+  * Bump memmap2 dependency to 0.9.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 02 Dec 2023 14:49:35 +0000
+
+rust-gvdb (0.5.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Package gvdb 0.5.2 from crates.io using debcargo 2.6.0
+  * Drop some unneeded version overrides from relax-deps patch
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sat, 30 Sep 2023 04:34:49 -0400
+
+rust-gvdb (0.5.1-1) unstable; urgency=medium
+
+  * Package gvdb 0.5.1 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 12 Aug 2023 18:26:29 +0300

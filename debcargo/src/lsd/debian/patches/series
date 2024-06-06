@@ -1,0 +1,3 @@
+update-xattr.diff
+disable-windows.diff
+relax-deps.patch

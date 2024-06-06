@@ -1,0 +1,7 @@
+rust-unarray (0.1.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unarray 0.1.4 from crates.io using debcargo 2.6.1
+  * Readd missing proptest build dependency.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 29 Jan 2024 09:51:18 +0100

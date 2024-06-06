@@ -1,0 +1,3 @@
+fix-quickcheck-gen.patch
+relax-deps.patch
+disable-benches.patch

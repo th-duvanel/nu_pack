@@ -1,0 +1,48 @@
+rust-js-sys (0.3.64-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package js-sys 0.3.64 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 31 Oct 2023 16:00:58 +0000
+
+rust-js-sys (0.3.60-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package js-sys 0.3.60 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Sep 2022 01:31:18 +0000
+
+rust-js-sys (0.3.55-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package js-sys 0.3.55 from crates.io using debcargo 2.5.0 (Closes: 975191)
+
+  [ kpcyrd ]
+  * Package js-sys 0.3.45 from crates.io using debcargo 2.4.3
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 08 Jan 2022 12:16:09 +0000
+
+rust-js-sys (0.3.35-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package js-sys 0.3.35 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 17 Jan 2020 01:33:07 +0000
+
+rust-js-sys (0.3.28-1) unstable; urgency=medium
+
+  * Package js-sys 0.3.28 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Sat, 05 Oct 2019 20:30:07 +0000
+
+rust-js-sys (0.3.27-1) unstable; urgency=medium
+
+  * Package js-sys 0.3.27 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Thu, 19 Sep 2019 03:26:51 +0000
+
+rust-js-sys (0.3.25-1) unstable; urgency=medium
+
+  * Package js-sys 0.3.25 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Wed, 28 Aug 2019 17:27:18 +0200

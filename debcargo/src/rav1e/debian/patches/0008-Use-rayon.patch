@@ -1,0 +1,22 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -154,9 +154,7 @@
+ version = "1"
+ 
+ [dependencies.rayon]
+-version = "0.1"
+-default-features = false
+-package = "maybe-rayon"
++version = "1"
+ 
+ [dependencies.scan_fmt]
+ version = "0.2.6"
+@@ -276,7 +274,7 @@
+     "av1-grain/serialize",
+ ]
+ signal_support = ["signal-hook"]
+-threading = ["rayon/threads"]
++threading = []
+ tracing = [
+     "profiling/profile-with-tracing",
+     "tracing-subscriber",

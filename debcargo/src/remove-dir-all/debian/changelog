@@ -1,0 +1,34 @@
+rust-remove-dir-all (0.8.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package remove_dir_all 0.8.2 from crates.io using debcargo 2.6.0
+  * d/patches/remove-windows-sys.patch: add a patch to remove all the Windows
+    related crate dependencies.
+  * d/patches/remove-utility-remove-dir-all.patch: add a patch to remove an
+    unneeded utility binary.
+  * d/debcargo.toml: disable the binary target.
+  * d/rules: add a manual override to remove the sources to build the binary.
+
+ -- Zixing Liu <zixing.liu@canonical.com>  Tue, 19 Sep 2023 20:59:22 +0200
+
+rust-remove-dir-all (0.7.0-1) unstable; urgency=medium
+
+  * Package remove_dir_all 0.7.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 02 Jun 2022 23:10:33 +0200
+
+rust-remove-dir-all (0.5.2-1) unstable; urgency=medium
+
+  * Package remove_dir_all 0.5.2 from crates.io using debcargo 2.2.10
+
+  [ Ximin Luo ]
+  * Package remove_dir_all 0.5.1 from crates.io using debcargo 2.2.5
+  * Clean up d/copyright.
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 07 Jul 2019 10:32:42 +0200
+
+rust-remove-dir-all (0.5.1-1) unstable; urgency=medium
+
+  * Package remove_dir_all 0.5.1 from crates.io using debcargo 2.2.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 29 Jul 2018 07:35:21 -0700

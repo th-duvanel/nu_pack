@@ -1,0 +1,6 @@
+--- sqlx-sqlite.orig/Cargo.toml
++++ sqlx-sqlite/Cargo.toml
+@@ -71,3 +71,2 @@
+     "vcpkg",
+-    "bundled",
+     "unlock_notify",

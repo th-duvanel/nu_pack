@@ -1,0 +1,189 @@
+rust-nix (0.27.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.27.1 from crates.io using debcargo 2.6.1
+  * Add breaks on librust-laurel-dev 0.6.1-3 to help britney's autopkgtest
+    scheduler.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 06 May 2024 00:39:58 +0000
+
+rust-nix (0.27.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.27.1 from crates.io using debcargo 2.6.1
+  * Update patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 13:37:33 +0000
+
+rust-nix (0.26.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.26.2 from crates.io using debcargo 2.6.1
+  * Remove workaround for missing statfs fields on time64 architectures and
+    depend on version of librust-libc-dev with fixed structures.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 28 Apr 2024 14:46:02 +0000
+
+rust-nix (0.26.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.26.2 from crates.io using debcargo 2.6.1
+  * Avoid more cases of failure due to lack of kernel support.
+  * Make require_kernel_version macro more tolerant of different kernel
+    version strings
+  * Add workarounds for some issues related to time64 support in libc
+    crate.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 24 Apr 2024 01:33:28 +0000
+
+rust-nix (0.26.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.26.2 from crates.io using debcargo 2.6.0
+  * Skip test_recvmm2 on s390x, it seems to be flaky there.
+  * Skip a couple of tests that seem prone to hangs in my local testing.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 17 Jun 2023 03:34:40 +0000
+
+rust-nix (0.26.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.26.1 from crates.io using debcargo 2.6.0
+  * Tolerate socket returning EAFNOSUPPORT in some tests, so the rest of the
+    tests can be run on the Debian s390x porterbox.
+  * Tolerate no dropped packets in test_recvmsg_rxq_ovfl on s390x, this seems
+    to happen on debci but not the porterbox, so I can't really debug it
+    further.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 23 Dec 2022 16:57:24 +0000
+
+rust-nix (0.26.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.26.1 from crates.io using debcargo 2.6.0
+  * Fix tests with --no-default-features --features term,process
+  * Upload to unstable (Closes: #1025526).
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 17 Dec 2022 13:56:52 +0000
+
+rust-nix (0.26.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package nix 0.26.1 from crates.io using debcargo 2.6.0
+  * Drop lower-bitflags-dep.diff, no longer needed.
+  * Revert upstream bump of memoffset dependency.
+  * Fix tests with --no-default-features.
+  * Disable kmod tests.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 06 Dec 2022 23:02:44 +0000
+
+rust-nix (0.25.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.25.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 22 Aug 2022 09:38:59 +0200
+
+rust-nix (0.24.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.24.1 from crates.io using debcargo 2.5.0
+  * Add breaks on librust-ctrlc-dev (<< 3.2.2-3~) to help britney's
+    autopkgtest scheduler.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 10 Jun 2022 16:24:58 +0000
+
+rust-nix (0.24.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.24.1 from crates.io using debcargo 2.5.0
+  * Add breaks on librust-vsock-dev (<< 0.2.4-3~)
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 10 Jun 2022 03:50:58 +0000
+
+rust-nix (0.24.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.24.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 04 Jun 2022 11:22:06 +0200
+
+rust-nix (0.23.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.23.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 11 Jan 2022 21:19:55 +0100
+
+rust-nix (0.23.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.23.0 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 05 Dec 2021 17:45:16 +0100
+
+rust-nix (0.19.0-2) unstable; urgency=medium
+
+  * Package nix 0.19.0 from crates.io using debcargo 2.4.4-alpha.0
+
+  [ Ed Neville ]
+  * Team upload.
+  * Closes: #995562 / RUSTSEC-2021-0119
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 07 Oct 2021 21:09:01 +0200
+
+rust-nix (0.19.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package nix 0.19.0 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 04 Nov 2020 10:22:00 +0100
+
+rust-nix (0.16.1-1) unstable; urgency=medium
+
+  * Package nix 0.16.1 from crates.io using debcargo 2.4.0
+
+  [ kpcyrd ]
+  * Package nix 0.16.1 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 31 Dec 2019 15:35:45 +0100
+
+rust-nix (0.15.0-2) unstable; urgency=medium
+
+  * Package nix 0.15.0 from crates.io using debcargo 2.4.0
+  * Include patch to add missing VMIN and VTIME on sparc64
+    (Closes: #943984)
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 02 Nov 2019 09:47:16 +0100
+
+rust-nix (0.15.0-1) unstable; urgency=medium
+
+  * Package nix 0.15.0 from crates.io using debcargo 2.2.10
+
+ -- Paride Legovini <pl@ninthfloor.org>  Sun, 08 Sep 2019 21:37:53 +0000
+
+rust-nix (0.14.1-1) unstable; urgency=medium
+
+  * Package nix 0.14.1 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 15:40:36 +0200
+
+rust-nix (0.13.0-1) unstable; urgency=medium
+
+  * Package nix 0.13.0 from crates.io using debcargo 2.2.9
+    (Closes: #917060)
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 29 Jan 2019 06:25:56 +0100
+
+rust-nix (0.12.0-1) unstable; urgency=medium
+
+  * Package nix 0.12.0 from crates.io using debcargo 2.2.9
+    (Closes: #917060)
+
+ -- Paride Legovini <pl@ninthfloor.org>  Sun, 13 Jan 2019 21:12:02 +0000
+
+rust-nix (0.11.0-1) unstable; urgency=medium
+
+  * Package nix 0.11.0 from crates.io using debcargo 2.2.3
+
+ -- Paride Legovini <pl@ninthfloor.org>  Fri, 13 Jul 2018 20:24:05 +0200

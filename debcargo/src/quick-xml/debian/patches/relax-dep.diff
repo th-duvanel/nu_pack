@@ -1,0 +1,9 @@
+Index: quick-xml/Cargo.toml
+===================================================================
+--- quick-xml.orig/Cargo.toml
++++ quick-xml/Cargo.toml
+@@ -108,3 +108,3 @@ optional = true
+ [dev-dependencies.criterion]
+-version = "0.4"
++version = "0.5"
+ 

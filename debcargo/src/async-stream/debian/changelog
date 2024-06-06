@@ -1,0 +1,14 @@
+rust-async-stream (0.3.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package async-stream 0.3.4 from crates.io using debcargo 2.6.0
+  * Skip a couple of "compile_fail" tests whose output seems to vary between
+    different versions of rustc. (Closes: #1034030)
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 07 Apr 2023 00:44:31 +0000
+
+rust-async-stream (0.3.3-1) unstable; urgency=medium
+
+  * Package async-stream 0.3.3 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 05 Nov 2022 22:31:36 +0100

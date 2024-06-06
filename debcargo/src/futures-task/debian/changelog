@@ -1,0 +1,45 @@
+rust-futures-task (0.3.30-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures-task 0.3.30 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 13 Jan 2024 13:09:50 +0000
+
+rust-futures-task (0.3.29-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures-task 0.3.29 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Nov 2023 19:49:38 +0000
+
+rust-futures-task (0.3.28-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures-task 0.3.28 from crates.io using debcargo 2.6.0 (Closes: #1042791)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Aug 2023 11:30:06 +0000
+
+rust-futures-task (0.3.21-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures-task 0.3.21 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Jul 2022 19:56:12 +0000
+
+rust-futures-task (0.3.17-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures-task 0.3.17 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Fri, 15 Oct 2021 13:22:03 +0200
+
+rust-futures-task (0.3.8-1) unstable; urgency=medium
+
+  [ Henry-Nicolas Tourneur ]
+  * Package futures-task 0.3.8 from crates.io using debcargo 2.4.3
+
+  [ Fabian Grünbichler ]
+  * Package futures-task 0.3.4 from crates.io using debcargo 2.4.2
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Thu, 19 Nov 2020 21:05:56 +0100
+

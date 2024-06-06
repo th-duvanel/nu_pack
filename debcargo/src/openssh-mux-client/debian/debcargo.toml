@@ -1,0 +1,7 @@
+overlay = "."
+uploaders = ["Sebastian Ramacher <sramacher@debian.org>"]
+collapse_features = true
+
+[packages.lib]
+test_depends = ["ssh", "socat"]
+test_is_broken = true

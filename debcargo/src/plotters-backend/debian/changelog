@@ -1,0 +1,19 @@
+rust-plotters-backend (0.3.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package plotters-backend 0.3.5 from crates.io using debcargo 2.6.0
+
+ -- James McCoy <jamessan@debian.org>  Sun, 16 Jul 2023 09:40:04 -0400
+
+rust-plotters-backend (0.3.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package plotters-backend 0.3.4 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 18 Oct 2022 18:53:52 +0000
+
+rust-plotters-backend (0.3.2-1) unstable; urgency=medium
+
+  * Package plotters-backend 0.3.2 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 14 Oct 2021 23:08:18 +0200

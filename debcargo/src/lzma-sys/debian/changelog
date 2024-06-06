@@ -1,0 +1,21 @@
+rust-lzma-sys (0.1.20-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package lzma-sys 0.1.20 from crates.io using debcargo 2.6.0
+  * Fixed autopkgtest
+  * Added collapse_features in debcargo.toml
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 06 Jan 2023 17:05:08 +0100
+
+rust-lzma-sys (0.1.15-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package lzma-sys 0.1.15 from crates.io using debcargo 2.2.10
+
+ -- nicoo <nicoo@debian.org>  Wed, 28 Aug 2019 17:00:00 +0200
+
+rust-lzma-sys (0.1.14-1) unstable; urgency=medium
+
+  * Package lzma-sys 0.1.14 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Sat, 03 Aug 2019 00:42:17 +0200

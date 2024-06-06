@@ -1,0 +1,24 @@
+Patch based on the upstream commit described below
+with paths updated to reflect the Debian rust-onig-sys
+package.
+
+commit c88ab90653c416b63ec994c3883579a15a3bba66
+Author: Will Speak <lithiumflame@gmail.com>
+Date:   Sun Nov 1 12:14:44 2020 +0000
+
+    Add More Pointer Sizes to Config Header
+    
+    This is needed for 32 bit LP32 targets to realise they are 32 bit.
+
+Index: onig-sys/build.rs
+===================================================================
+--- onig-sys.orig/build.rs
++++ onig-sys/build.rs
+@@ -116,6 +116,7 @@ fn compile() {
+             #define SIZEOF_LONG {0}
+             #define SIZEOF_VOIDP {0}
+             #define SIZEOF_LONG_LONG 8
++
+         ",
+                 if bits == "64" { "8" } else { "4" }
+             ),

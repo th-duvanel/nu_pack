@@ -1,0 +1,64 @@
+rust-petgraph (0.6.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package petgraph 0.6.4 from crates.io using debcargo 2.6.0 (Closes: #1049391)
+  * Relax dependency on indexmap.
+  * Relax dev-dependency on itertools.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 29 Oct 2023 08:36:04 +0000
+
+rust-petgraph (0.6.2-1) unstable; urgency=medium
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package petgraph 0.6.2 from crates.io using debcargo 2.5.0
+  * Drop outdated patches
+  * Collapse features
+
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package petgraph 0.6.2 from crates.io using debcargo 2.5.0 (Closes: 1019090)
+  * Update patches for new upstream.
+  * Reorder/cleanup patches for easier testing.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 03 Sep 2022 21:20:09 +0000
+
+rust-petgraph (0.5.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package petgraph 0.5.1 from crates.io using debcargo 2.5.0
+  * Disable quickcheck feature, my attempts to port it to the new
+    version of quickcheck were not succesful.
+  * Fix autopkgtest.
+    + Port tests to rand 0.8
+    + Remove dev-dependencies on defmac and odds and disable
+      tests that depend on them.
+    + Bump itertools dependency to 0.10 to match version in Debian.
+    + Fix benches when building with no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 10:53:39 +0000
+
+rust-petgraph (0.5.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package petgraph 0.5.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 30 Dec 2021 11:32:31 +0100
+
+rust-petgraph (0.5.0-1) unstable; urgency=medium
+
+  * Package petgraph 0.5.0 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 08 Jan 2020 23:31:29 +0000
+
+rust-petgraph (0.4.13-2) unstable; urgency=medium
+
+  * Package petgraph 0.4.13 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 22 Jan 2019 19:07:59 -0800
+
+rust-petgraph (0.4.13-1) unstable; urgency=medium
+
+  * Package petgraph 0.4.13 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 26 Dec 2018 14:16:27 -0800

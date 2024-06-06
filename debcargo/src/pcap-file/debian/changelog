@@ -1,0 +1,5 @@
+rust-pcap-file (2.0.0-1) unstable; urgency=medium
+
+  * Package pcap-file 2.0.0 from crates.io using debcargo 2.6.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Tue, 19 Sep 2023 19:46:40 +0200

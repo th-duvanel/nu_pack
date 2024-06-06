@@ -1,0 +1,117 @@
+rust-pango-sys (0.19.5-2) unstable; urgency=medium
+
+  * Upload to unstable 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 04 May 2024 17:46:03 +0200
+
+rust-pango-sys (0.19.5-1) experimental; urgency=medium
+
+  * Package pango-sys 0.19.5 from crates.io using debcargo 2.6.1
+  * Update dependency on gir-rust-code-generator to 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 04 May 2024 13:07:47 +0200
+
+rust-pango-sys (0.19.0-3) experimental; urgency=medium
+
+  * Team upload
+  * Package pango-sys 0.19.0 from crates.io using debcargo 2.6.1
+  * debian/rules: Include GModule-2.0.gir to fix build with glib 2.80
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 08:50:19 -0400
+
+rust-pango-sys (0.19.0-2) experimental; urgency=medium
+
+  * Fix libpango1.0-dev dependency
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 26 Feb 2024 00:40:42 +0100
+
+rust-pango-sys (0.19.0-1) experimental; urgency=medium
+
+  * Package pango-sys 0.19.0 from crates.io using debcargo 2.6.1
+  * Updated copyright years and Source: url in d/copyright
+  * Properly depend on packages needed for regeneration
+  * Test-depend on libpango1.0-dev
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 11 Feb 2024 13:56:56 +0100
+
+rust-pango-sys (0.18.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Package pango-sys 0.18.0 from crates.io using debcargo 2.6.0
+  * Stop marking pango 1.52 test as flaky
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sun, 08 Oct 2023 13:17:34 -0400
+
+rust-pango-sys (0.18.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Drop obsolete MSRV patch
+  * Package pango-sys 0.18.0 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:01:17 -0400
+
+rust-pango-sys (0.18.0-1) experimental; urgency=medium
+
+  * Package pango-sys 0.18.0 from crates.io using debcargo 2.6.0
+  * Included patch for MSRV downgrade
+  * Regenerate source code with debian tools before build
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Sep 2023 20:33:51 +0200
+
+rust-pango-sys (0.17.10-1) unstable; urgency=medium
+
+  * Package pango-sys 0.17.10 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:00:42 +0200
+
+rust-pango-sys (0.16.3-2) unstable; urgency=medium
+
+  * Package pango-sys 0.16.3 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 20:40:35 +0200
+
+rust-pango-sys (0.16.3-1) experimental; urgency=medium
+
+  * Package pango-sys 0.16.3 from crates.io using debcargo 2.6.0
+  * Dropped obsolete patches
+  * Added myself to Uploaders
+  * Collapsed features in debcargo.toml
+  * Mark v1_52 feature as broken in debcargo.toml
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 13:34:56 +0200
+
+rust-pango-sys (0.14.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * debian/patches: Update to system-deps 6
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 05 Oct 2022 09:40:49 +0200
+
+rust-pango-sys (0.14.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pango-sys 0.14.0 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 19 Dec 2021 18:52:39 +0100
+
+rust-pango-sys (0.9.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package pango-sys 0.9.0 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:24:02 +0200
+
+rust-pango-sys (0.9.0-1) unstable; urgency=medium
+
+  * Package pango-sys 0.9.0 from crates.io using debcargo 2.3.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 08 Jul 2019 06:04:23 +0200
+
+rust-pango-sys (0.7.0-1) unstable; urgency=medium
+
+  * Package pango-sys 0.7.0 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 24 Nov 2018 09:44:55 +0100

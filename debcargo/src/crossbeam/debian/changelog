@@ -1,0 +1,58 @@
+rust-crossbeam (0.8.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam 0.8.4 from crates.io using debcargo 2.6.1 (Closes: #1061092)
+  * Remove reference in debian/copyright to files that no longer exist.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 28 Jan 2024 06:29:31 +0000
+
+rust-crossbeam (0.8.1-1) unstable; urgency=medium
+
+  * Add myself to uploaders
+  * Package crossbeam 0.8.1 from crates.io using debcargo 2.5.0
+  * collapse_features = true (crossbeam-epoch became optional, and thus
+    spawned a new feature which could cause a round trip through NEW)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 21 May 2022 16:09:21 -0400
+
+rust-crossbeam (0.7.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam 0.7.2 from crates.io using debcargo 2.4.3
+  * Try to unbreak it by using the right version of crossbeam-channel
+    (Closes: #974195)
+    It is broken
+  * Disable nightly features
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 27 Nov 2020 21:34:28 +0100
+
+rust-crossbeam (0.7.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossbeam 0.7.2 from crates.io using debcargo 2.2.10
+  * Source upload for rebuild...
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 28 Oct 2019 21:42:34 +0100
+
+rust-crossbeam (0.7.2-1) unstable; urgency=medium
+
+  * Package crossbeam 0.7.2 from crates.io using debcargo 2.4.0
+
+  [ Sylvestre Ledru ]
+  * Team upload.
+  * Package crossbeam 0.6.0 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 04 Sep 2019 23:33:53 -0700
+
+rust-crossbeam (0.3.2-2) unstable; urgency=medium
+
+  * Package crossbeam 0.3.2 from crates.io using debcargo 2.2.1
+  * Use debcargo.toml instead of d/control overlay, it's more maintainable.
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 07 Jul 2018 13:42:20 -0700
+
+rust-crossbeam (0.3.2-1) unstable; urgency=medium
+
+  * Package crossbeam 0.3.2 from crates.io using debcargo 2.1.4
+
+ -- Paul van Tilburg <paulvt@debian.org>  Fri, 06 Jul 2018 22:05:37 +0200

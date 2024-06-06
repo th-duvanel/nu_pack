@@ -1,0 +1,44 @@
+rust-gweather-sys (4.4.0-3) unstable; urgency=medium
+
+  * Upload to unstable
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 16:33:20 +0200
+
+rust-gweather-sys (4.4.0-2) experimental; urgency=medium
+
+  * Team upload
+  * Package gweather-sys 4.4.0 from crates.io using debcargo 2.6.1
+  * debian/rules: Include GModule-2.0.gir to fix build with glib 2.80
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 19 Apr 2024 14:58:01 -0400
+
+rust-gweather-sys (4.4.0-1) experimental; urgency=medium
+
+  * Package gweather-sys 4.4.0 from crates.io using debcargo 2.6.1
+  * Properly depend on packages needed for regenarization
+  * Version gir-rust-code-generator dependency
+  * Updated copyright years
+  * Test- and Build-depend on liblzma-dev
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 13 Feb 2024 22:49:19 +0100
+
+rust-gweather-sys (4.3.1-1) unstable; urgency=medium
+
+  * Package gweather-sys 4.3.1 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 23 Nov 2023 22:08:10 +0100
+
+rust-gweather-sys (4.3.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Package gweather-sys 4.3.0 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 29 Sep 2023 16:18:57 -0400
+
+rust-gweather-sys (4.3.0-1) experimental; urgency=medium
+
+  * Package gweather-sys 4.3.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 17 Sep 2023 18:19:32 -0400

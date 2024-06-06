@@ -1,0 +1,12 @@
+rust-gix-fs (0.10.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gix-fs 0.10.2 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 16 Apr 2024 11:28:21 +0000
+
+rust-gix-fs (0.8.0-1) unstable; urgency=medium
+
+  * Package gix-fs 0.8.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 30 Nov 2023 21:52:48 +0100

@@ -1,0 +1,7 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -62,4 +62,0 @@
+-zlib-ng-compat = [
+-    "libz-sys/zlib-ng",
+-    "libssh2-sys?/zlib-ng-compat",
+-]

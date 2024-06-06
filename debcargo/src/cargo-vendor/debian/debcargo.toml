@@ -1,0 +1,4 @@
+# DO NOT PACKAGE THIS CRATE
+
+# The functionality now already exists as part of cargo, so there is no
+# need to package it.

@@ -1,0 +1,88 @@
+rust-crates-io (0.36.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crates-io 0.36.0 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Fri, 15 Dec 2023 11:40:03 +0100
+
+rust-crates-io (0.34.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package crates-io 0.34.0 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Wed, 16 Nov 2022 09:35:39 +0100
+
+rust-crates-io (0.34.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package crates-io 0.34.0 from crates.io using debcargo 2.5.0
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Tue, 27 Sep 2022 20:57:15 -0400
+
+rust-crates-io (0.33.0-1) unstable; urgency=medium
+
+  * Package crates-io 0.33.0 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 19:03:56 +0100
+
+rust-crates-io (0.31.1-1) unstable; urgency=medium
+
+  * Package crates-io 0.31.1 from crates.io using debcargo 2.4.3
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 01 Oct 2020 23:25:10 +0100
+
+rust-crates-io (0.31.0-1) unstable; urgency=medium
+
+  * Package crates-io 0.31.0 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 18 Apr 2020 16:12:46 +0100
+
+rust-crates-io (0.29.0-1) unstable; urgency=medium
+
+  * Package crates-io 0.29.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 28 Dec 2019 08:07:29 +0000
+
+rust-crates-io (0.28.0-1) unstable; urgency=medium
+
+  * Package crates-io 0.28.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 28 Nov 2019 00:48:34 +0000
+
+rust-crates-io (0.25.0-2) unstable; urgency=medium
+
+  * Package crates-io 0.25.0 from crates.io using debcargo 2.4.0
+  * Upgrade to url 2.
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 15 Aug 2019 18:45:26 -0700
+
+rust-crates-io (0.25.0-1) unstable; urgency=medium
+
+  * Package crates-io 0.25.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 16 Jul 2019 23:27:49 -0700
+
+rust-crates-io (0.23.0-1) unstable; urgency=medium
+
+  * Package crates-io 0.23.0 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 30 May 2019 22:09:00 -0700
+
+rust-crates-io (0.20.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package crates-io 0.20.0 from crates.io using debcargo 2.2.9
+
+ -- Matt Kraai <kraai@debian.org>  Sat, 08 Dec 2018 11:46:59 -0800
+
+rust-crates-io (0.19.0-1) unstable; urgency=medium
+
+  * Package crates-io 0.19.0 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 14 Nov 2018 20:24:11 -0800
+
+rust-crates-io (0.18.0-1) unstable; urgency=medium
+
+  * Package crates-io 0.18.0 from crates.io using debcargo 2.2.7
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 10 Oct 2018 21:16:01 -0700

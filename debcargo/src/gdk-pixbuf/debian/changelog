@@ -1,0 +1,116 @@
+rust-gdk-pixbuf (0.19.2-2) unstable; urgency=medium
+
+  * Upload to unstable 
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 04 May 2024 20:09:39 +0200
+
+rust-gdk-pixbuf (0.19.2-1) experimental; urgency=medium
+
+  * Package gdk-pixbuf 0.19.2 from crates.io using debcargo 2.6.1
+  * Updated copyright years and Source: url in d/copyright
+  * Removed hard dependency on rustc >= 1.70
+  * Updated version for gir-rust-code-generator
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 20 Feb 2024 16:50:33 +0100
+
+rust-gdk-pixbuf (0.18.5-1) unstable; urgency=medium
+
+  * Package gdk-pixbuf 0.18.5 from crates.io using debcargo 2.6.1
+  * Updated copyright info: added myself as copyright holder for
+    debian/files
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 05 Jan 2024 16:06:16 +0100
+
+rust-gdk-pixbuf (0.18.3-1) unstable; urgency=medium
+
+  * Drop unnecessary patch for gir-format-check
+  * Package gdk-pixbuf 0.18.3 from crates.io using debcargo 2.6.1
+  * Updated debcargo.toml in order for the additional dependencies to
+    show up as build-depends only
+  * Versioned dependency on gir-rust-code-generator
+  * Trim whitespace in d/rules
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Dec 2023 05:11:25 +0100
+
+rust-gdk-pixbuf (0.18.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Package gdk-pixbuf 0.18.0 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:36:21 -0400
+
+rust-gdk-pixbuf (0.18.0-2) experimental; urgency=medium
+
+  * Specified dependency on rustc 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 16 Sep 2023 13:01:39 +0200
+
+rust-gdk-pixbuf (0.18.0-1) experimental; urgency=medium
+
+  * Package gdk-pixbuf 0.18.0 from crates.io using debcargo 2.6.0
+  * Regenerate source code with debian tools before build
+  * Rebased patches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 15 Sep 2023 22:59:53 +0200
+
+rust-gdk-pixbuf (0.17.10-1) unstable; urgency=medium
+
+  * Package gdk-pixbuf 0.17.10 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+  * Added relax-gir-dep.diff patch to enable tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:21:05 +0200
+
+rust-gdk-pixbuf (0.16.7-2) unstable; urgency=medium
+
+  * Package gdk-pixbuf 0.16.7 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 20:59:32 +0200
+
+rust-gdk-pixbuf (0.16.7-1) experimental; urgency=medium
+
+  * Package gdk-pixbuf 0.16.7 from crates.io using debcargo 2.6.0
+  * Marked tests as broken in debcargo.toml
+  * Added myself to uploaders
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 15:13:39 +0200
+
+rust-gdk-pixbuf (0.14.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gdk-pixbuf 0.14.0 from crates.io using debcargo 2.5.0 (Closes: 1002137)
+
+  [ Henry-Nicolas Tourneur ]
+  * Package gdk-pixbuf 0.14.0 from crates.io using debcargo 2.4.4
+  * d/patches: removed patch remove-futures-preview-feature.diff
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 28 Dec 2021 21:14:51 +0000
+
+rust-gdk-pixbuf (0.7.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gdk-pixbuf 0.7.0 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:22:47 +0200
+
+rust-gdk-pixbuf (0.7.0-1) unstable; urgency=medium
+
+  * Package gdk-pixbuf 0.7.0 from crates.io using debcargo 2.3.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 08 Jul 2019 06:19:58 +0200
+
+rust-gdk-pixbuf (0.5.0-2) unstable; urgency=medium
+
+  * Package gdk-pixbuf 0.5.0 from crates.io using debcargo 2.2.9
+  * Patch out futures-preview support
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 20 Jan 2019 21:59:16 +0100
+
+rust-gdk-pixbuf (0.5.0-1) unstable; urgency=medium
+
+  * Package gdk-pixbuf 0.5.0 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 18 Dec 2018 10:21:27 +0100

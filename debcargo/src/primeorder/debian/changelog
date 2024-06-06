@@ -1,0 +1,5 @@
+rust-primeorder (0.13.2-1) unstable; urgency=medium
+
+  * Package primeorder 0.13.2 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Wed, 29 Nov 2023 09:13:39 -0500

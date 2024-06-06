@@ -1,0 +1,52 @@
+rust-pep440-rs (0.3.12-2) unstable; urgency=medium
+
+  [ Antonio Russo ]
+  * Team upload.
+  * Add support for pyo3 0.20
+  * Package pep440_rs 0.3.12 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 20 Jan 2024 22:51:39 +0000
+
+rust-pep440-rs (0.3.12-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pep440_rs 0.3.12 from crates.io using debcargo 2.6.0
+  * Stop relaxing serde, Debian now has the version upstream wants.
+  * Stop removing upper limit from regex dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 26 Oct 2023 03:10:27 +0000
+
+rust-pep440-rs (0.3.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pep440_rs 0.3.11 from crates.io using debcargo 2.6.0
+  * Drop patch newer-pyo3 - no longer needed.
+  * Set test_is_broken for the py03 feature, it appears the ppc64el build
+    is suffering from https://github.com/PyO3/pyo3/issues/340 or something
+    similar.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 03 Jul 2023 00:02:41 +0000
+
+rust-pep440-rs (0.3.9-5) unstable; urgency=medium
+
+  * add patch newer-pyo3: fix support for pyo3 0.19.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 12 Jun 2023 21:54:08 +0100
+
+rust-pep440-rs (0.3.9-4) unstable; urgency=medium
+
+  * Package pep440_rs 0.3.9 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 12 Jun 2023 21:44:40 +0100
+
+rust-pep440-rs (0.3.9-3) unstable; urgency=medium
+
+  * pep440-rs: Add patch to relax dependency on serde
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 30 May 2023 16:35:37 +0100
+
+rust-pep440-rs (0.3.9-1) unstable; urgency=medium
+
+  * Package pep440_rs 0.3.9 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 19 May 2023 12:14:23 +0100

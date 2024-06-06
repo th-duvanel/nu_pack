@@ -1,0 +1,37 @@
+rust-fundu (1.0.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package fundu 1.0.0 from crates.io using debcargo 2.6.1
+  * Add upstream patch to fix tests with chrono 0.32 and higher.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 03 May 2024 04:46:02 +0000
+
+rust-fundu (1.0.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package fundu 1.0.0 from crates.io using debcargo 2.6.0
+  * Stop patching chrono and serde dependencies, upstreams dependencies are
+    now satisfied in Debian.
+  * Fix broken dependencies that have no lower limit (allowing building with
+    incompatible old versions) and upper limits that are too low for Debian.
+  * Remove unsatisfiable dev-dependencies and disable tests that depend on
+    them.
+  * Bump criterion dev-dependency to 0.5.
+  * Add feature requirements to tests/examples so that testing passes
+    with --no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 02 Aug 2023 10:05:25 +0000
+
+rust-fundu (1.0.0-2) unstable; urgency=medium
+
+  * Package fundu 1.0.0 from crates.io using debcargo 2.6.0
+  * Fix the deps
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 28 Jun 2023 22:41:23 +0200
+
+rust-fundu (1.0.0-1) unstable; urgency=medium
+
+  * Package fundu 1.0.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 24 Jun 2023 23:07:52 +0200
+

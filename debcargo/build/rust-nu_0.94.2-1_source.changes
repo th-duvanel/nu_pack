@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 06 Jun 2024 14:24:35 +0000
+Source: rust-nu
+Architecture: source
+Version: 0.94.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Changed-By: Thiago Duvanel Ferreira <thiago.duvanel@usp.br>
+Changes:
+ rust-nu (0.94.2-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Package nu 0.94.2 from crates.io using debcargo 2.6.1
+ .
+   [ Sylvestre Ledru ]
+   * Package nu 0.81.0 from crates.io using debcargo 2.6.0
+Checksums-Sha1:
+ 33b1c17ddc0dc083da57e207378972226e7c3c74 3406 rust-nu_0.94.2-1.dsc
+ dd7a3e5b913fee5b7b5d81ce542a0c93f928bc7a 1552682 rust-nu_0.94.2.orig.tar.gz
+ 96035aaf2426049c22b811d63deaff6cbfba760d 2780 rust-nu_0.94.2-1.debian.tar.xz
+ 4826fb4179ef95d4a52e12cb0cd4eeeaad90a8c2 6111 rust-nu_0.94.2-1_source.buildinfo
+Checksums-Sha256:
+ 57e0da15b00a2d81443b6ed1b60e8c689977d5a56ed2d3b67344ee5dc26130e1 3406 rust-nu_0.94.2-1.dsc
+ b44a5030fa20b533d9f3c54a2f235d10a1681d0c375b88800828f9b96b528768 1552682 rust-nu_0.94.2.orig.tar.gz
+ 7e137b195b9a1ccd4b58b2b9bc087c4a241f56a9270775e4546799c1c1ace306 2780 rust-nu_0.94.2-1.debian.tar.xz
+ 2eda8024d5ffc0861b0127c884c6d31d9a0fee1e7e69f6f08d4d13243f39698c 6111 rust-nu_0.94.2-1_source.buildinfo
+Files:
+ a8837a00ac19837f90ec2f32cce03d98 3406 FIXME-IN-THE-SOURCE-SECTION optional rust-nu_0.94.2-1.dsc
+ 6c5eaf4719109cbb338caad757932304 1552682 FIXME-IN-THE-SOURCE-SECTION optional rust-nu_0.94.2.orig.tar.gz
+ 2329c747ef35e6ace1d33304a3a08774 2780 FIXME-IN-THE-SOURCE-SECTION optional rust-nu_0.94.2-1.debian.tar.xz
+ c2b7566ec76e6312c6907985ec1adeb9 6111 FIXME-IN-THE-SOURCE-SECTION optional rust-nu_0.94.2-1_source.buildinfo

@@ -1,0 +1,12 @@
+rust-yaml (0.3.0-2) unstable; urgency=medium
+
+  * Package yaml 0.3.0 from crates.io using debcargo 2.2.9
+  * Patch for arch-dependent build failures (Closes: #910978)
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 08 Dec 2018 21:33:45 +0100
+
+rust-yaml (0.3.0-1) unstable; urgency=medium
+
+  * Package yaml 0.3.0 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Fri, 07 Sep 2018 20:18:28 -0700

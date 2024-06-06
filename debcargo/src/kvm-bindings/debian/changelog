@@ -1,0 +1,35 @@
+rust-kvm-bindings (0.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package kvm-bindings 0.7.0 from crates.io using debcargo 2.6.1
+  * Drop 0001-src-x86-does-not-support-32bit-x86.patch, no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 21 Jan 2024 09:25:57 +0000
+
+rust-kvm-bindings (0.6.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Package kvm-bindings 0.6.0 from crates.io using debcargo 2.6.0
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 26 Oct 2023 09:28:13 -0400
+
+rust-kvm-bindings (0.5.0-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix FTBFS on i386. (Closes: #1021316, #1024868)
+
+ -- Adrian Bunk <bunk@debian.org>  Fri, 10 Mar 2023 08:31:53 +0200
+
+rust-kvm-bindings (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package kvm-bindings 0.5.0 from crates.io using debcargo 2.5.0
+  * Update copyright based on latest version
+
+ -- Liang Yan <ly@xryan.net>  Mon, 26 Sep 2022 20:22:22 -0400
+
+rust-kvm-bindings (0.1.1-1) unstable; urgency=medium
+
+  * Package kvm-bindings 0.1.1 from crates.io using debcargo 2.2.10
+
+ -- nicoo <nicoo@debian.org>  Wed, 28 Aug 2019 13:17:57 +0200

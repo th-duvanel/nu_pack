@@ -1,0 +1,19 @@
+rust-radix-trie (0.2.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package radix_trie 0.2.1 from crates.io using debcargo 2.5.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sun, 24 Jul 2022 08:03:00 +0200
+
+rust-radix-trie (0.1.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package radix_trie 0.1.5 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:15:29 +0200
+
+rust-radix-trie (0.1.5-1) unstable; urgency=medium
+
+  * Package radix_trie 0.1.5 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Fri, 01 Nov 2019 19:49:58 +0100

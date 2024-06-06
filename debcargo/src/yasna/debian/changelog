@@ -1,0 +1,12 @@
+rust-yasna (0.5.2-2) unstable; urgency=medium
+
+  * Package yasna 0.5.2 from crates.io using debcargo 2.6.0
+  * Fix unit test failure on 32-bit platforms.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 13 Jul 2023 16:12:27 +0200
+
+rust-yasna (0.5.2-1) unstable; urgency=medium
+
+  * Package yasna 0.5.2 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 29 Jun 2023 16:44:34 +0200

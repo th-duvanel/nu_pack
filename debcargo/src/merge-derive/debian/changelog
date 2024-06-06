@@ -1,0 +1,5 @@
+rust-merge-derive (0.1.0-1) unstable; urgency=medium
+
+  * Package merge_derive 0.1.0 from crates.io using debcargo 2.5.0
+
+ -- Arnaud Ferraris <arnaud.ferraris@gmail.com>  Sat, 21 May 2022 20:01:55 +0200

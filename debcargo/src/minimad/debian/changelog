@@ -1,0 +1,9 @@
+rust-minimad (0.13.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package minimad 0.13.0 from crates.io using debcargo 2.6.1
+
+  [ Matthias Geiger ]
+  * Package minimad 0.9.1 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 11 Apr 2024 20:33:13 +0200

@@ -1,0 +1,5 @@
+rust-unveil (0.2.0-1) unstable; urgency=medium
+
+  * Package unveil 0.2.0 from crates.io using debcargo 2.2.9
+
+ -- kpcyrd <git@rxv.cc>  Wed, 26 Dec 2018 15:06:17 -0800

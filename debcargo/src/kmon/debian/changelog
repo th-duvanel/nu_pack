@@ -1,0 +1,41 @@
+rust-kmon (1.6.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package kmon 1.6.0 from crates.io using debcargo 2.5.0
+  * Bump tui dependency to 0.19.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 24 Aug 2022 23:56:08 +0000
+
+rust-kmon (1.6.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package kmon 1.6.0 from crates.io using debcargo 2.5.0
+  * Adjust dependencies for versions that are in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 14 Jun 2022 23:17:16 +0000
+
+rust-kmon (1.5.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Disable dwz (Closes: #995913)
+  * Package kmon 1.5.3 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 10 Oct 2021 18:42:08 +0200
+
+rust-kmon (1.5.3-2) unstable; urgency=medium
+
+  * Repackage kmon 1.5.3 from crates.io using debcargo 2.4.4
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Mon, 29 Mar 2021 17:52:58 +0200
+
+rust-kmon (1.5.3-1) unstable; urgency=medium
+
+  * Package kmon 1.5.3 from crates.io using debcargo 2.4.3
+
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Sun, 20 Dec 2020 22:54:24 +0100
+
+rust-kmon (1.5.1-1) unstable; urgency=medium
+
+  * Package kmon 1.5.1 from crates.io using debcargo 2.4.3
+
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Sun, 01 Nov 2020 12:47:13 +0100

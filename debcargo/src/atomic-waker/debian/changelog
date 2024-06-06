@@ -1,0 +1,27 @@
+rust-atomic-waker (1.1.2-1) unstable; urgency=medium
+
+  * Package atomic-waker 1.1.2 from crates.io using debcargo 2.6.0
+  * Updated my mail address in debcargo.toml
+  * Rebased patches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 09 Nov 2023 22:07:35 +0100
+
+rust-atomic-waker (1.1.1-2) unstable; urgency=medium
+
+  * Package atomic-waker 1.1.1 from crates.io using debcargo 2.6.0
+  * Add patch to make package installable
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 14 Jun 2023 12:47:52 +0200
+
+rust-atomic-waker (1.1.1-1) unstable; urgency=medium
+
+  * Package atomic-waker 1.1.1 from crates.io using debcargo 2.6.0
+  * Added collapse_features in debcargo.toml
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 13 Jun 2023 19:31:37 +0200
+
+rust-atomic-waker (1.0.0-1) unstable; urgency=medium
+
+  * Package atomic-waker 1.0.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 24 May 2022 19:54:06 -0600

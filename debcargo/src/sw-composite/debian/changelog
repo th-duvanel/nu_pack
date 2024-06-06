@@ -1,0 +1,12 @@
+rust-sw-composite (0.7.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sw-composite 0.7.2 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:21:21 +0200
+
+rust-sw-composite (0.7.2-1) unstable; urgency=medium
+
+  * Package sw-composite 0.7.2 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 28 Dec 2019 11:30:48 +0100

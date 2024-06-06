@@ -1,0 +1,61 @@
+rust-sleef-sys (0.1.2-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package sleef-sys 0.1.2 from crates.io using debcargo 2.6.0
+  * Fix build error on x86_64 from x86-only symbol (Closes: 978322).
+  * Relax dependency on rust-bindgen a bit more.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 16 Jun 2023 22:02:07 +0200
+
+rust-sleef-sys (0.1.2-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package sleef-sys 0.1.2 from crates.io using debcargo 2.4.3
+  * Relax dependency on rust-bindgen.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 01 Nov 2020 05:58:16 +0000
+
+rust-sleef-sys (0.1.2-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package sleef-sys 0.1.2 from crates.io using debcargo 2.4.3
+  * Update use-system-libs.patch to find sleef.h in multiarch
+    location (Closes: 966987).
+  * Bump build-dependency on libsleef-dev to first version that
+    uses multiarch path.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Sep 2020 18:06:08 +0000
+
+rust-sleef-sys (0.1.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package sleef-sys 0.1.2 from crates.io using debcargo 2.4.2
+  * Mark test as broken, it gives an unsupported arhictecture
+    error on arm64 (and has never passed there).
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 14 Apr 2020 19:35:51 +0000
+
+rust-sleef-sys (0.1.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sleef-sys 0.1.2 from crates.io using debcargo 2.4.2
+
+ -- Johannes Schilling <dario@deaktualisierung.org>  Wed, 08 Jan 2020 21:53:44 +0000
+
+rust-sleef-sys (0.1.2-1) unstable; urgency=medium
+
+  * Package sleef-sys 0.1.2 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 13 Jul 2019 20:24:56 -0700
+
+rust-sleef-sys (0.1.1-2) unstable; urgency=medium
+
+  * Package sleef-sys 0.1.1 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 20 Jan 2019 10:49:35 -0800
+
+rust-sleef-sys (0.1.1-1) unstable; urgency=medium
+
+  * Package sleef-sys 0.1.1 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 19 Jan 2019 13:05:14 -0800

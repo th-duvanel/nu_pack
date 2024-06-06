@@ -1,0 +1,24 @@
+rust-typed-builder (0.18.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package typed-builder 0.18.1 from crates.io using debcargo 2.6.1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 18 Feb 2024 23:24:04 +0100
+
+rust-typed-builder (0.14.0-1) unstable; urgency=medium
+
+  * Package typed-builder 0.14.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 11 Jun 2023 06:42:52 +0200
+
+rust-typed-builder (0.11.0-1) unstable; urgency=medium
+
+  * Package typed-builder 0.11.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 29 Dec 2022 22:02:03 +0100
+
+rust-typed-builder (0.10.0-1) unstable; urgency=medium
+
+  * Package typed-builder 0.10.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 24 Jul 2022 10:55:49 +0200

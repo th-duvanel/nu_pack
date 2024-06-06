@@ -1,0 +1,32 @@
+rust-pktparse (0.7.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package pktparse 0.7.1 from crates.io using debcargo 2.5.0
+  * Upload to unstable
+
+ -- James McCoy <jamessan@debian.org>  Sat, 05 Mar 2022 16:12:38 -0500
+
+rust-pktparse (0.7.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package pktparse 0.7.1 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Tue, 08 Feb 2022 19:34:39 -0500
+
+rust-pktparse (0.5.0-1) unstable; urgency=medium
+
+  * Package pktparse 0.5.0 from crates.io using debcargo 2.4.3
+
+ -- kpcyrd <git@rxv.cc>  Sun, 04 Oct 2020 00:36:10 +0200
+
+rust-pktparse (0.4.0-1) unstable; urgency=medium
+
+  * Package pktparse 0.4.0 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Fri, 19 Jul 2019 04:48:02 +0000
+
+rust-pktparse (0.3.0-1) unstable; urgency=medium
+
+  * Package pktparse 0.3.0 from crates.io using debcargo 2.2.5
+
+ -- kpcyrd <git@rxv.cc>  Fri, 10 Aug 2018 10:14:01 -0700

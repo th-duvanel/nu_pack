@@ -1,0 +1,5 @@
+rust-ntest-test-cases (0.8.0-1) unstable; urgency=medium
+
+  * Package ntest_test_cases 0.8.0 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 05 Nov 2022 22:25:53 +0100

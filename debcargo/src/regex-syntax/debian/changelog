@@ -1,0 +1,104 @@
+rust-regex-syntax (0.8.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package regex-syntax 0.8.2 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 24 Oct 2023 18:33:44 +0000
+
+rust-regex-syntax (0.7.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package regex-syntax 0.7.5 from crates.io using debcargo 2.6.0
+
+ -- Blair Noctis <n@sail.ng>  Sun, 01 Oct 2023 18:37:14 +0000
+
+rust-regex-syntax (0.6.29-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package regex-syntax 0.6.29 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 15 Aug 2023 23:38:26 +0000
+
+rust-regex-syntax (0.6.27-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package regex-syntax 0.6.27 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 08 Oct 2022 05:27:37 +0000
+
+rust-regex-syntax (0.6.25-1) unstable; urgency=medium
+
+  * Package regex-syntax 0.6.25 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 22:16:12 +0100
+
+rust-regex-syntax (0.6.18-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package regex-syntax 0.6.18 from crates.io using debcargo 2.4.4
+  * Closes: #985730
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 22 Mar 2021 20:25:43 -0400
+
+rust-regex-syntax (0.6.17-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package regex-syntax 0.6.17 from crates.io using debcargo 2.4.2
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Wed, 25 Mar 2020 13:35:16 +0100
+
+rust-regex-syntax (0.6.13-1) unstable; urgency=medium
+
+  * Package regex-syntax 0.6.13 from crates.io using debcargo 2.4.2
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 23 Jan 2020 09:12:37 +0100
+
+rust-regex-syntax (0.6.12-1) unstable; urgency=medium
+
+  * Package regex-syntax 0.6.12 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 30 Nov 2019 13:34:41 +0100
+
+rust-regex-syntax (0.6.11-1) unstable; urgency=medium
+
+  * Package regex-syntax 0.6.11 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 07 Aug 2019 20:54:56 -0700
+
+rust-regex-syntax (0.6.8-1) unstable; urgency=medium
+
+  * Package regex-syntax 0.6.8 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 09:06:40 +0200
+
+rust-regex-syntax (0.6.6-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package regex-syntax 0.6.6 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 20 Apr 2019 21:03:27 +0200
+
+rust-regex-syntax (0.6.5-1) unstable; urgency=medium
+
+  * Package regex-syntax 0.6.5 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 05 Feb 2019 17:41:58 +0100
+
+rust-regex-syntax (0.6.4-1) unstable; urgency=medium
+
+  * Package regex-syntax 0.6.4 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 15 Dec 2018 22:44:36 +0100
+
+rust-regex-syntax (0.6.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package regex-syntax 0.6.2 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Oct 2018 16:22:50 +0200
+
+rust-regex-syntax (0.6.1-1) unstable; urgency=medium
+
+  * Package regex-syntax 0.6.1 from crates.io using debcargo 2.1.2
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 05 Jul 2018 02:36:17 -0700

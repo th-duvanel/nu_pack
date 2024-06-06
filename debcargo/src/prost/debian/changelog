@@ -1,0 +1,26 @@
+rust-prost (0.12.4-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package prost 0.12.4 from crates.io using debcargo 2.6.1. (Closes: #1055933)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Wed, 17 Apr 2024 06:47:38 -0400
+
+rust-prost (0.11.9-1) unstable; urgency=medium
+
+  * Package prost 0.11.9 from crates.io using debcargo 2.6.0. (Closes: #1042387)
+  * Add patch relax-dep.diff for dev dependencies.
+
+ -- Emanuele Rocca <ema@debian.org>  Mon, 31 Jul 2023 16:16:29 +0200
+
+rust-prost (0.11.6-2) unstable; urgency=medium
+
+  * Package prost 0.11.6 from crates.io using debcargo 2.6.0
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Emanuele Rocca <ema@debian.org>  Mon, 23 Jan 2023 17:43:56 +0100
+
+rust-prost (0.11.6-1) unstable; urgency=medium
+
+  * Package prost 0.11.6 from crates.io using debcargo 2.6.0
+
+ -- Emanuele Rocca <ema@debian.org>  Wed, 18 Jan 2023 13:32:26 +0100

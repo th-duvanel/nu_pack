@@ -1,0 +1,67 @@
+rust-procfs (0.14.2-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package procfs 0.14.2 from crates.io using debcargo 2.6.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 08 Oct 2023 22:01:07 +0000
+
+rust-procfs (0.14.2-4) experimental; urgency=medium
+
+  * Package procfs 0.14.2 from crates.io using debcargo 2.6.0
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Rebuild with rustix 0.38
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 27 Aug 2023 21:29:47 +0000
+
+rust-procfs (0.14.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package procfs 0.14.2 from crates.io using debcargo 2.6.0
+  * Further autopkgtest tweaks based on debci logs and porterbox testing.
+    + Don't fail tests if MEMORY_FAILURE support is not enabled in kernel.
+    + Don't fail tests if huge pages support is not enabled in kernel.
+    + Fix test_parse_ipaddr on big endian systems.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 22 Jun 2023 15:07:27 +0000
+
+rust-procfs (0.14.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package procfs 0.14.2 from crates.io using debcargo 2.6.0
+  * Further autopkgtest tweaks based on debci logs.
+    + Don't fail tests if "meminfo map is not empty", this can happen when
+      the kernel adds new features.
+    + Don't fail tests if /proc/cpuinfo doesn't contain model or vendor
+      information.
+    + Don't fail tests if /proc/cpuinfo has only one CPU entry, but the
+      system has multiple cores according to stat.cpu_time, this seems
+      to happen on some arm systems.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 19 Jun 2023 00:29:54 +0000
+
+rust-procfs (0.14.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package procfs 0.14.2 from crates.io using debcargo 2.6.0
+  * Bump rustix dependency to 0.37
+  * Tweak tests so they work in a broader range of environments.
+  * Remove dev-dependencies on failure and procfs and disable tests
+    that depend on them so the rest of the testsuite can run.
+  * Disable test_task_runsinglethread, it seems to fail on
+    overloaded/throttled systems.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 13 Jun 2023 21:20:43 +0000
+
+rust-procfs (0.14.1-1) unstable; urgency=medium
+
+  * Team upload.
+  [ Sylvestre Ledru ]
+  * Package procfs 0.14.1 from crates.io using debcargo 2.5.0
+
+  [ Joshua Peisach ]
+  * Package procfs 0.12.0 from crates.io using debcargo 2.5.0 (Closes: #950012)
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sun, 30 Oct 2022 08:54:33 +0100

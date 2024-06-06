@@ -1,0 +1,127 @@
+rust-laurel (0.6.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add upstream patch really fixing sockaddr tests on big-endian. Thanks
+    to Peter Green for making me realize that the issue had not been fixed
+    upstream. (Closes: #1071597)
+
+ -- Hilko Bengen <bengen@debian.org>  Wed, 22 May 2024 20:53:40 +0200
+
+rust-laurel (0.6.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package laurel 0.6.2 from crates.io using debcargo 2.6.1
+  * Replace dh-sysuser with dh_installsysusers. Thanks to Helmut Grohne.
+    Closes: #1069926
+  * Drop unneeded patches
+
+ -- Hilko Bengen <bengen@debian.org>  Fri, 17 May 2024 00:36:24 +0200
+
+rust-laurel (0.6.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package laurel 0.6.1 from crates.io using debcargo 2.6.1
+  * Enable signal feature in nix dependency (neded with nix 0.27)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 04 May 2024 12:00:38 +0000
+
+rust-laurel (0.6.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package laurel 0.6.1 from crates.io using debcargo 2.6.1
+  * Use "TimeSpec::new(" instead of "TimeSpec::from(libc::timespec {", the
+    time64 patches to rust-libc make the latter fail to build on some
+    architectures due to additional padding in the structure.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 01 May 2024 02:49:40 +0000
+
+rust-laurel (0.6.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package laurel 0.6.1 from crates.io using debcargo 2.6.1
+  * Reinstate skip-parse_syslog-on-big-endian.patch and fix it for use
+    with new upstream version.  autopkgtest results show it's still needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 30 Apr 2024 16:06:51 +0000
+
+rust-laurel (0.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package laurel 0.6.1 from crates.io using debcargo 2.6.1
+  * Drop patches: fix-time-overflow, skip-parse_syslog-on-big-endian
+  * Remove divan dev-dependency
+
+ -- Hilko Bengen <bengen@debian.org>  Wed, 03 Apr 2024 17:52:57 +0200
+
+rust-laurel (0.5.6-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package laurel 0.5.6 from crates.io using debcargo 2.6.1
+  * Fix overflow in time calculation on 32-bit architectures.
+  * Skip test parse_syslog on big endian systems, it contains endian-specific
+    test data.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 28 Feb 2024 02:08:45 +0000
+
+rust-laurel (0.5.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package laurel 0.5.6 from crates.io using debcargo 2.6.1
+  * Relax dependency on nix, and explicitly enable features we need since
+    0.27 and higher don't enable them by default.
+  * Disable coalesce_execve bench, it takes longer than I have patience for.
+  * Remove gperftools dev-dependency and disable "parse" bench which depends
+    on it since rust-gperftools is not in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 27 Feb 2024 07:30:15 +0000
+
+rust-laurel (0.5.6-1) unstable; urgency=medium
+
+  * Package laurel 0.5.6 from crates.io using debcargo 2.6.1
+
+ -- Hilko Bengen <bengen@debian.org>  Sat, 27 Jan 2024 22:49:35 +0100
+
+rust-laurel (0.5.5-1) unstable; urgency=medium
+
+  * Package laurel 0.5.5 from crates.io using debcargo 2.6.1
+
+ -- Hilko Bengen <bengen@debian.org>  Thu, 04 Jan 2024 10:23:06 +0100
+
+rust-laurel (0.5.3-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Remove upper limit from bindgen dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 02 Sep 2023 17:04:14 +0000
+
+rust-laurel (0.5.3-1) unstable; urgency=medium
+
+  * New upstream version 0.5.3
+  * Update build-dependencies
+
+ -- Hilko Bengen <bengen@debian.org>  Tue, 18 Jul 2023 16:26:32 +0200
+
+rust-laurel (0.5.2-1) unstable; urgency=medium
+
+  * New upstream version 0.5.2
+
+ -- Hilko Bengen <bengen@debian.org>  Wed, 03 May 2023 19:33:00 +0200
+
+rust-laurel (0.5.1-1) unstable; urgency=medium
+
+  * New upstream version 0.5.1
+
+ -- Hilko Bengen <bengen@debian.org>  Fri, 27 Jan 2023 18:52:36 +0100
+
+rust-laurel (0.5.1~pre2-2) unstable; urgency=medium
+
+  * Add patch to fix FTBFS on 32bit architectures
+
+ -- Hilko Bengen <bengen@debian.org>  Tue, 17 Jan 2023 14:08:47 +0100
+
+rust-laurel (0.5.1~pre2-1) unstable; urgency=medium
+
+  * Initial upload
+  * Package laurel 0.5.1-pre2 from crates.io using debcargo 2.6.0
+
+ -- Hilko Bengen <bengen@debian.org>  Sun, 08 Jan 2023 20:10:24 +0100

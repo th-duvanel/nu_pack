@@ -1,0 +1,6 @@
+overlay = "."
+uploaders = ["Sylvestre Ledru <sylvestre@debian.org>"]
+
+[packages.lib]
+#used for pipetty
+test_depends = ["colorized-logs"] 

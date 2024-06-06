@@ -1,0 +1,127 @@
+rust-openssl-sys (0.9.101-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package openssl-sys 0.9.101 from crates.io using debcargo 2.6.1
+  * Update relax-bindgen.diff for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 08 Mar 2024 23:05:11 +0000
+
+rust-openssl-sys (0.9.93-1) unstable; urgency=medium
+
+  * Package openssl-sys 0.9.93 from crates.io using debcargo 2.6.0
+  * Relax bindgen dependency to ">= 0.60, < 1.0" to cover both old and new
+    bindgen.
+  * Disable some bindgen options that are not available in 0.60, and only
+    needed when buliding against boringssl (which we don't do in Debian).
+  * Update patches for new upstream.
+
+  [ Matthias Geiger ]
+  * Team upload.
+  * Package openssl-sys 0.9.80 from crates.io using debcargo 2.6.0
+  * Include patch for newer bindgen
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 07 Sep 2023 02:21:59 +0000
+
+rust-openssl-sys (0.9.80-1) unstable; urgency=medium
+
+  * Package openssl-sys 0.9.80 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Package openssl-sys 0.9.77 from crates.io using debcargo 2.5.0
+  * Remove outdated patch
+
+  [ Fabian Gruenbichler ]
+  * Team upload.
+  * Package openssl-sys 0.9.76 from crates.io using debcargo 2.5.0
+  * Disable new unstable_boringssl feature and bssl-sys dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 30 Dec 2022 22:36:27 +0000
+
+rust-openssl-sys (0.9.75-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package openssl-sys 0.9.75 from crates.io using debcargo 2.5.0
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Tue, 27 Sep 2022 20:19:39 -0400
+
+rust-openssl-sys (0.9.67-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package openssl-sys 0.9.67 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 22:12:30 +0100
+
+rust-openssl-sys (0.9.55-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package openssl-sys 0.9.55 from crates.io using debcargo 2.4.2
+  * Fix autopkgtest, don't attempt to find removed vendored openssl.
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 21 Apr 2020 21:03:54 +0100
+
+rust-openssl-sys (0.9.55-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package openssl-sys 0.9.55 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 18 Apr 2020 16:08:12 +0100
+
+rust-openssl-sys (0.9.53-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package openssl-sys 0.9.53 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 13 Jan 2020 15:46:41 +0100
+
+rust-openssl-sys (0.9.49-1) unstable; urgency=medium
+
+  * Package openssl-sys 0.9.49 from crates.io using debcargo 2.2.10
+
+ -- nicoo <nicoo@debian.org>  Wed, 28 Aug 2019 17:04:46 +0200
+
+rust-openssl-sys (0.9.48-1) unstable; urgency=medium
+
+  * Package openssl-sys 0.9.48 from crates.io using debcargo 2.2.10
+  * Update my email address in Uploaders.
+
+ -- nicoo <nicoo@debian.org>  Fri, 02 Aug 2019 01:23:31 +0200
+
+rust-openssl-sys (0.9.47-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package openssl-sys 0.9.47 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 30 May 2019 21:58:25 -0700
+
+rust-openssl-sys (0.9.40-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package openssl-sys 0.9.40 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 26 Dec 2018 14:49:49 -0800
+
+rust-openssl-sys (0.9.36-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package openssl-sys 0.9.36 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 06 Oct 2018 23:25:32 +0200
+
+rust-openssl-sys (0.9.35-2) unstable; urgency=medium
+
+  * Package openssl-sys 0.9.35 from crates.io using debcargo 2.2.6
+  * Drop strict requirement on openssl 1.1.0, it works fine with 1.1.1.
+
+ -- Ximin Luo <infinity0@debian.org>  Mon, 03 Sep 2018 22:43:53 -0700
+
+rust-openssl-sys (0.9.35-1) unstable; urgency=medium
+
+  * Package openssl-sys 0.9.35 from crates.io using debcargo 2.2.6
+
+ -- Ximin Luo <infinity0@debian.org>  Mon, 03 Sep 2018 21:26:55 -0700
+
+rust-openssl-sys (0.9.33-1) unstable; urgency=medium
+
+  * Package openssl-sys 0.9.33 from crates.io using debcargo 2.2.4
+
+ -- nicoo <nicoo@debian.org>  Sun, 29 Jul 2018 08:20:52 -0700

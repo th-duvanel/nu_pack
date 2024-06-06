@@ -1,0 +1,11 @@
+rust-ordered-float (2.10.0-2) unstable; urgency=medium
+
+  * Package ordered-float 2.10.0 from crates.io using debcargo 2.5.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 09 Jul 2022 17:12:32 -0400
+
+rust-ordered-float (2.10.0-1) unstable; urgency=medium
+
+  * Package ordered-float 2.10.0 from crates.io using debcargo 2.5.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Thu, 07 Jul 2022 13:17:45 -0400

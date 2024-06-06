@@ -1,0 +1,62 @@
+Index: rust-zbus-1-1.9.3/src/lib.rs
+===================================================================
+--- rust-zbus-1-1.9.3.orig/src/lib.rs
++++ rust-zbus-1-1.9.3/src/lib.rs
+@@ -208,7 +208,6 @@ mod tests {
+     };
+ 
+     use enumflags2::BitFlags;
+-    use ntest::timeout;
+     use serde_repr::{Deserialize_repr, Serialize_repr};
+ 
+     use zvariant::{derive::Type, Fd, OwnedValue, Type};
+@@ -548,7 +547,6 @@ mod tests {
+     }
+ 
+     #[test]
+-    #[timeout(1000)]
+     fn issue_68() {
+         // Tests the fix for https://gitlab.freedesktop.org/dbus/zbus/-/issues/68
+         //
+@@ -582,7 +580,6 @@ mod tests {
+     }
+ 
+     #[test]
+-    #[timeout(1000)]
+     fn issue104() {
+         // Tests the fix for https://gitlab.freedesktop.org/dbus/zbus/-/issues/104
+         //
+Index: rust-zbus-1-1.9.3/src/object_server.rs
+===================================================================
+--- rust-zbus-1-1.9.3.orig/src/object_server.rs
++++ rust-zbus-1-1.9.3/src/object_server.rs
+@@ -635,7 +635,6 @@ impl<'a> ObjectServer<'a> {
+ mod tests {
+     use std::{cell::Cell, collections::HashMap, convert::TryInto, error::Error, rc::Rc, thread};
+ 
+-    use ntest::timeout;
+     use serde::{Deserialize, Serialize};
+     use zvariant::derive::Type;
+ 
+@@ -801,7 +800,6 @@ mod tests {
+     }
+ 
+     #[test]
+-    #[timeout(2000)]
+     fn basic_iface() {
+         let conn = Connection::new_session().unwrap();
+         let mut object_server = ObjectServer::new(&conn);
+Index: rust-zbus-1-1.9.3/Cargo.toml
+===================================================================
+--- rust-zbus-1-1.9.3.orig/Cargo.toml
++++ rust-zbus-1-1.9.3/Cargo.toml
+@@ -86,9 +86,6 @@ default-features = false
+ [dev-dependencies.doc-comment]
+ version = "0.3.3"
+ 
+-[dev-dependencies.ntest]
+-version = "0.7.1"
+-
+ [dev-dependencies.zbus_polkit]
+ version = "1"
+ 

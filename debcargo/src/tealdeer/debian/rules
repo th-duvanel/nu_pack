@@ -1,0 +1,26 @@
+#!/usr/bin/make -f
+%:
+	dh $@ --buildsystem cargo
+
+override_dh_auto_configure:
+	cp completion/* ./
+	mv bash_tealdeer tldr
+	mv fish_tealdeer tldr.fish
+	mv zsh_tealdeer tldr.zsh
+	dh_auto_configure
+
+override_dh_auto_clean:
+	rm tldr tldr.*sh || true
+	dh_auto_clean
+
+override_dh_installman:
+	help2man \
+		--name tldr \
+		--no-info \
+		debian/tealdeer/usr/bin/tldr > debian/tldr.1
+	dh_installman -O--buildsystem=cargo
+
+override_dh_dwz:
+	# Don't do anything, fails because of
+	# https://github.com/rust-lang/rust/issues/66118
+	# (copied from other binary crates)

@@ -1,0 +1,38 @@
+rust-proton-call (3.1.2-1) unstable; urgency=medium
+
+  * Package proton-call 3.1.2 from crates.io using debcargo 2.6.0
+
+ -- Ben Westover <me@benthetechguy.net>  Sun, 05 Mar 2023 22:54:29 -0500
+
+rust-proton-call (3.1.1-2) unstable; urgency=medium
+
+  * Package proton-call 3.1.1 from crates.io using debcargo 2.6.0
+
+ -- Ben Westover <me@benthetechguy.net>  Sun, 05 Mar 2023 22:22:27 -0500
+
+rust-proton-call (3.1.1-1) unstable; urgency=medium
+
+  * Package proton-call 3.1.1 from crates.io using debcargo 2.6.0
+
+ -- Ben Westover <me@benthetechguy.net>  Fri, 16 Dec 2022 18:40:03 -0500
+
+rust-proton-call (3.1.0-1) unstable; urgency=medium
+
+  * Package proton-call 3.1.0 from crates.io using debcargo 2.5.0
+
+ -- Ben Westover <kwestover.kw@gmail.com>  Fri, 15 Apr 2022 11:57:58 +0200
+
+rust-proton-call (3.0.1-2) unstable; urgency=medium
+
+  * Add manpages and examples
+  * Move package to contrib and add steam to suggests
+    (Closes: #1002827)
+
+ -- Ben Westover <kwestover.kw@gmail.com>  Sat, 08 Jan 2022 01:20:19 +0100
+
+rust-proton-call (3.0.1-1) unstable; urgency=medium
+
+  * Package proton-call 3.0.1 from crates.io using debcargo 2.4.4
+
+ -- Ben Westover <kwestover.kw@gmail.com>  Fri, 24 Dec 2021 11:44:43 +0100
+

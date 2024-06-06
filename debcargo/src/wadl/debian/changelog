@@ -1,0 +1,11 @@
+rust-wadl (0.3.0-1) unstable; urgency=medium
+
+  * Package wadl 0.3.0 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 04 Jun 2024 23:50:59 +0100
+
+rust-wadl (0.1.4-1) unstable; urgency=medium
+
+  * Package wadl 0.1.4 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 23 Oct 2023 13:04:18 +0100

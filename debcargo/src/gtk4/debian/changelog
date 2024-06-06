@@ -1,0 +1,138 @@
+rust-gtk4 (0.8.2-1) unstable; urgency=medium
+
+  * Package gtk4 0.8.2 from crates.io using debcargo 2.6.1
+  * Updated d/t/control for new upstream
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 12:07:31 +0200
+
+rust-gtk4 (0.8.1-1) experimental; urgency=medium
+
+  * Team upload
+  * Package gtk4 0.8.1 from crates.io using debcargo 2.6.1
+  * Skip new gio_v2_80 & gnome46 tests
+  * debian/tests/control: Restore accidentally dropped xvfb-run
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 17:42:59 -0400
+
+rust-gtk4 (0.8.0-2) experimental; urgency=medium
+
+  * Test-depend on libpango1.0-dev
+  * Package gtk4 0.8.0 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 24 Feb 2024 16:14:43 +0100
+
+rust-gtk4 (0.8.0-1) experimental; urgency=medium
+
+  * Package gtk4 0.8.0 from crates.io using debcargo 2.6.1
+  * Properly depend on packages needed for code regeneration
+  * Drop hard dependency on rustc >= 1.70
+  * Updated d/t/control for new upstream
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 20 Feb 2024 20:40:27 +0100
+
+rust-gtk4 (0.7.3-3) unstable; urgency=medium
+
+  * Drop unnecessary patch for gir-format-check 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 23 Nov 2023 21:50:29 +0100
+
+rust-gtk4 (0.7.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Package gtk4 0.7.3 from crates.io using debcargo 2.6.0
+  * Don't mark 4.12 test as flaky because Debian has GTK4 4.12 now
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sun, 08 Oct 2023 12:50:55 -0400
+
+rust-gtk4 (0.7.3-1) unstable; urgency=medium
+
+  * Package gtk4 0.7.3 from crates.io using debcargo 2.6.0
+  * Specify version for gir-rust-code-generator dependency
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 08 Oct 2023 16:01:26 +0200
+
+rust-gtk4 (0.7.2-3) unstable; urgency=medium
+
+  [ Matthias Geiger ]
+  * Updated d/tests/control for new version
+
+  [ Jeremy Bícha ]
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 16:35:11 -0400
+
+rust-gtk4 (0.7.2-2) experimental; urgency=medium
+
+  * Specify dependency on rustc 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 16 Sep 2023 13:09:24 +0200
+
+rust-gtk4 (0.7.2-1) experimental; urgency=medium
+
+  * Package gtk4 0.7.2 from crates.io using debcargo 2.6.0
+  * Regenerate source code with debian tools before build
+  * Rebased patches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 15 Sep 2023 23:04:44 +0200
+
+rust-gtk4 (0.6.6-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package gtk4 0.6.6 from crates.io using debcargo 2.6.0
+  * Skip test rust_builder_scope_closure_return_mismatch on arm32, this is
+    a should_panic test and there are issues with panic handling across ffi
+    boundries.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Aug 2023 04:43:18 +0000
+
+rust-gtk4 (0.6.6-3) unstable; urgency=medium
+
+  * Package gtk4 0.6.6 from crates.io using debcargo 2.6.0
+  * Updated debian/tests/control to include flaky tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 03 Aug 2023 17:19:02 +0200
+
+rust-gtk4 (0.6.6-2) unstable; urgency=medium
+
+  * Package gtk4 0.6.6 from crates.io using debcargo 2.6.0
+  * Added test_depends stanza in debcargo.toml to enable tests on the CI
+    runner
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 03 Aug 2023 12:26:15 +0200
+
+rust-gtk4 (0.6.6-1) unstable; urgency=medium
+
+  * Package gtk4 0.6.6 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+  * Added relax-gir-dep.diff patch to enable tests
+  * Established baseline for tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:30:46 +0200
+
+rust-gtk4 (0.5.5-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package gtk4 0.5.5 from crates.io using debcargo 2.6.0
+  * Disable build-time testing on mipsel, they run out of address space.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 29 Jun 2023 23:08:27 +0000
+
+rust-gtk4 (0.5.5-2) unstable; urgency=medium
+
+  * Package gtk4 0.5.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 21:05:13 +0200
+
+rust-gtk4 (0.5.5-1) experimental; urgency=medium
+
+  * Package gtk4 0.5.5 from crates.io using debcargo 2.6.0
+  * Added myself to uploaders
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 15:34:06 +0200
+
+rust-gtk4 (0.3.1-1) unstable; urgency=medium
+
+  * Package gtk4 0.3.1 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Fri, 11 Mar 2022 10:14:34 +0100

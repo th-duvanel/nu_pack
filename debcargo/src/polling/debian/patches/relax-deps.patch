@@ -1,0 +1,13 @@
+Index: polling/Cargo.toml
+===================================================================
+--- polling.orig/Cargo.toml
++++ polling/Cargo.toml
+@@ -52,7 +52,7 @@ default-features = false
+ version = "3.1.0"
+ 
+ [dev-dependencies.fastrand]
+-version = "2.0.0"
++version = ">= 1.8.0, < 3.0"
+ 
+ [dev-dependencies.socket2]
+ version = "0.5.5"

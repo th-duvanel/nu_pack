@@ -1,0 +1,5 @@
+rust-envy (0.4.2-1) unstable; urgency=medium
+
+  * Package envy 0.4.2 from crates.io using debcargo 2.6.0
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Mon, 09 Jan 2023 21:56:01 +0100

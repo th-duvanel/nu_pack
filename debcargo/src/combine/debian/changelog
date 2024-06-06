@@ -1,0 +1,67 @@
+rust-combine (4.6.6-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package combine 4.6.6 from crates.io using debcargo 2.6.0
+  * Re-instate setting autobenches=false in disable-mp4-bench.diff, without it
+    the patch is ineffective.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 04 Dec 2022 14:24:45 +0000
+
+rust-combine (4.6.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package combine 4.6.6 from crates.io using debcargo 2.6.0
+  * Re-order patches for ease of testing.
+  * Bump some dependencies to allow running tests with -Z minimal-versions
+  * Revert broken changes to remove-partial-io.diff
+  * Drop remove-criterion.diff, it's broken and no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 03 Dec 2022 15:48:02 +0000
+
+rust-combine (4.6.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package combine 4.6.6 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Thu, 20 Oct 2022 20:42:41 -0400
+
+rust-combine (4.6.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package combine 4.6.4 from crates.io using debcargo 2.5.0
+  * Set test_is_broken for the regex feature, it fails to build if the std
+    feature is not also enabled.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 28 Jun 2022 21:24:07 +0000
+
+rust-combine (4.6.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package combine 4.6.4 from crates.io using debcargo 2.5.0 (Closes: #1013103, #984914)
+  * Remove features providing support for old versions of futures and tokio
+    which are not in Debian (features for current versions of futures/tokio
+    are retained).
+  * Eliminate dev-dependencies on packages that are not in Debian.
+  * Bump versions of dev-dependencies to match versions in Debian.
+  * Disable bench that dpeneds on a file that is not present.
+  * set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 19 Jun 2022 15:56:36 +0000
+
+rust-combine (3.8.1-1) unstable; urgency=medium
+
+  * Package combine 3.8.1 from crates.io using debcargo 2.4.0
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Sat, 02 Nov 2019 10:47:44 +0100
+
+rust-combine (3.6.7-1) unstable; urgency=medium
+
+  * Package combine 3.6.7 from crates.io using debcargo 2.2.10
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Tue, 19 Feb 2019 10:16:23 +0100
+
+rust-combine (3.6.6-1) unstable; urgency=medium
+
+  * Package combine 3.6.6 from crates.io using debcargo 2.2.9
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Thu, 24 Jan 2019 10:22:13 +0100

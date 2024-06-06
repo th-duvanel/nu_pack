@@ -1,0 +1,14 @@
+--- crossbeam-epoch/Cargo.toml
++++ crossbeam-epoch/Cargo.toml
+@@ -63,5 +62,0 @@
+-loom = [
+-    "loom-crate",
+-    "crossbeam-utils/loom",
+-]
+-nightly = ["crossbeam-utils/nightly"]
+@@ -73,5 +67,0 @@
+-
+-[target."cfg(crossbeam_loom)".dependencies.loom-crate]
+-version = "0.7.1"
+-optional = true
+-package = "loom"

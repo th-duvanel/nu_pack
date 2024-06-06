@@ -1,0 +1,5 @@
+rust-joinery (3.1.0-1) unstable; urgency=medium
+
+  * Package joinery 3.1.0 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 13 Aug 2023 00:11:04 +0100

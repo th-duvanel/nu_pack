@@ -1,0 +1,30 @@
+rust-version-check (0.9.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package version_check 0.9.4 from crates.io using debcargo 2.5.0
+
+ -- Blair Noctis <n@sail.ng>  Mon, 24 Oct 2022 20:08:49 -0400
+
+rust-version-check (0.9.2-1) unstable; urgency=medium
+
+  * Package version_check 0.9.2 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 30 Aug 2020 17:16:59 +0200
+
+rust-version-check (0.9.1-1) unstable; urgency=medium
+
+  * Package version_check 0.9.1 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 07 Oct 2019 10:29:12 +0200
+
+rust-version-check (0.1.5-1) unstable; urgency=medium
+
+  * Package version_check 0.1.5 from crates.io using debcargo 2.2.7
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 24 Sep 2018 07:56:42 +0100
+
+rust-version-check (0.1.4-1) unstable; urgency=medium
+
+  * Package version_check 0.1.4 from crates.io using debcargo 2.1.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 06 Jul 2018 00:47:24 +0200

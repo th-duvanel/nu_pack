@@ -1,0 +1,5 @@
+rust-aes-siv (0.7.0-1) unstable; urgency=medium
+
+  * Package aes-siv 0.7.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 20 Aug 2023 08:40:40 +0200

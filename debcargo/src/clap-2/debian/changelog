@@ -1,0 +1,33 @@
+rust-clap-2 (2.34.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package clap 2.34.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 30 Oct 2022 15:12:59 +0000
+
+rust-clap-2 (2.34.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package clap 2.34.0 from crates.io using debcargo 2.5.0
+  * Allow building against strsim 0.10
+
+ -- James McCoy <jamessan@debian.org>  Sat, 08 Oct 2022 18:39:45 -0400
+
+rust-clap-2 (2.34.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package clap 2.34.0 from crates.io using debcargo 2.5.0
+  * Update patches for new upstream.
+  * Update textwrap dependency to 0.15, and fix code so it builds
+    with 0.15.
+  * Remove dev-dependecny on version-sync crate which is not in Debian.
+  * Establish baseline for tests.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 14 Mar 2022 00:48:53 +0000
+
+rust-clap-2 (2.33.3-1) unstable; urgency=medium
+
+  * Package clap 2.33.3 from crates.io using debcargo 2.5.0
+    As clap will become 3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 16 Feb 2022 12:00:38 +0100

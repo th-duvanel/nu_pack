@@ -1,0 +1,13 @@
+rust-newtype-derive (0.1.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump rustc-version dependency to 0.4 by updating patch
+    0001-Update-rustc_version-build-dep-to-0.2.patch
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Tue, 30 Nov 2021 18:23:59 +0000
+
+rust-newtype-derive (0.1.6-1) unstable; urgency=medium
+
+  * Package newtype_derive 0.1.6 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 18 Dec 2018 22:34:09 +0100

@@ -1,0 +1,52 @@
+rust-derive-builder-core (0.12.0-1) unstable; urgency=medium
+
+  * Package derive_builder_core 0.12.0 from crates.io using debcargo 2.6.0
+
+  [ Matthias Geiger ]
+  * Team upload.
+  * Package derive_builder_core 0.11.2 from crates.io using debcargo 2.6.0
+  * Removed obsolete patch, added patch for pretty-assertions
+  * Added collapse_features = true to debcargo.toml
+
+ -- Blair Noctis <n@sail.ng>  Tue, 18 Jul 2023 00:11:24 +0200
+
+rust-derive-builder-core (0.9.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package derive_builder_core 0.9.0 from crates.io using debcargo 2.5.0
+  * Bump dev-dependency on pretty_assertions.
+  * Bump dependency on darling to 0.14
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 25 Oct 2022 20:46:36 +0000
+
+rust-derive-builder-core (0.9.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package derive_builder_core 0.9.0 from crates.io using debcargo 2.4.4
+  * Adjust fix_test.patch so it will work with both versions 1.0.12
+    and 1.0.76 of the syn crate.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 21 Oct 2021 09:18:34 +0000
+
+rust-derive-builder-core (0.9.0-3) unstable; urgency=medium
+  * d/patches: add fix_test.patch, fixing an autopkgtest regression
+    with more recent rust-syn package version.
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Thu, 14 Oct 2021 21:26:01 +0200
+
+rust-derive-builder-core (0.9.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package derive_builder_core 0.9.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:05:12 +0200
+
+rust-derive-builder-core (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package derive_builder_core 0.9.0 from crates.io using debcargo 2.4.0
+
+  [ Robin Krahl ]
+  * Package derive_builder_core 0.4.1 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 24 Dec 2019 14:48:53 +0000

@@ -1,0 +1,24 @@
+Index: bs58/tests/decode.rs
+===================================================================
+--- bs58.orig/tests/decode.rs
++++ bs58/tests/decode.rs
+@@ -1,8 +1,5 @@
+ mod cases;
+ 
+-#[cfg(feature = "check")]
+-use assert_matches::assert_matches;
+-
+ #[test]
+ fn test_decode() {
+     for &(val, s) in cases::TEST_CASES.iter() {
+@@ -59,3 +56,2 @@ fn test_check_ver_failed() {
+     assert!(d.is_err());
+-    assert_matches!(d.unwrap_err(), bs58::decode::Error::InvalidVersion { .. });
+ }
+Index: bs58/Cargo.toml
+===================================================================
+--- bs58.orig/Cargo.toml
++++ bs58/Cargo.toml
+@@ -40,2 +40,0 @@ harness = false
+-[dev-dependencies.assert_matches]
+-version = "1.3.0"

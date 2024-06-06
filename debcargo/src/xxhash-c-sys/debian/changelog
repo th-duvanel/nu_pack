@@ -1,0 +1,12 @@
+rust-xxhash-c-sys (0.8.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package xxhash-c-sys 0.8.4 from crates.io using debcargo 2.6.0
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Thu, 14 Sep 2023 12:30:42 +0200
+
+rust-xxhash-c-sys (0.8.3-1) unstable; urgency=medium
+
+  * Package xxhash-c-sys 0.8.3 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 14 Apr 2022 18:21:38 -0700

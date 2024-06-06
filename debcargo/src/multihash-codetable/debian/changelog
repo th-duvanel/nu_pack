@@ -1,0 +1,11 @@
+rust-multihash-codetable (0.1.0-2) unstable; urgency=medium
+
+  * Add comment to d/copyright
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Thu, 21 Sep 2023 13:24:12 +0200
+
+rust-multihash-codetable (0.1.0-1) unstable; urgency=medium
+
+  * Package multihash-codetable 0.1.0 from crates.io using debcargo 2.6.0
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Tue, 29 Aug 2023 17:10:58 +0200

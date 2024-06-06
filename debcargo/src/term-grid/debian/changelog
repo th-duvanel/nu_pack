@@ -1,0 +1,5 @@
+rust-term-grid (0.1.7-1) unstable; urgency=medium
+
+  * Package term_grid 0.1.7 from crates.io using debcargo 2.1.4
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 07 Jul 2018 22:11:01 +0200

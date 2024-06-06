@@ -1,0 +1,83 @@
+rust-glib-macros (0.19.5-1) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 5 May 2024 10:57:19 +0200
+
+rust-glib-macros (0.19.4-2) experimental; urgency=medium
+
+  * Add patch to temporarily downgrade heck to 0.4
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 19 Apr 2024 16:51:50 +0200
+
+rust-glib-macros (0.19.4-1) experimental; urgency=medium
+
+  * Team upload
+  * Package glib-macros 0.19.4 from crates.io using debcargo 2.6.1
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 17:26:34 -0400
+
+rust-glib-macros (0.19.2-1) experimental; urgency=medium
+
+  * Package glib-macros 0.19.2 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 19 Feb 2024 00:01:28 +0100
+
+rust-glib-macros (0.18.2-1) unstable; urgency=medium
+
+  * Package glib-macros 0.18.2 from crates.io using debcargo 2.6.0
+  * Drop patch; tests will be re-enable once trybuild2 passes NEW
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 08 Oct 2023 13:37:24 +0200
+
+rust-glib-macros (0.18.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Drop obsolete MSRV patch
+  * Package glib-macros 0.18.0 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 14:32:02 -0400
+
+rust-glib-macros (0.18.0-1) experimental; urgency=medium
+
+  * Package glib-macros 0.18.0 from crates.io using debcargo 2.6.0
+  * Add patch for MSRV downgrade and enablement of tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 15 Sep 2023 22:51:36 +0200
+
+rust-glib-macros (0.17.10-1) unstable; urgency=medium
+
+  * Package glib-macros 0.17.10 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:14:35 +0200
+
+rust-glib-macros (0.16.3-2) unstable; urgency=medium
+
+  * Package glib-macros 0.16.3 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 20:53:01 +0200
+
+rust-glib-macros (0.16.3-1) experimental; urgency=medium
+
+  * Package glib-macros 0.16.3 from crates.io using debcargo 2.6.0
+  * Collapsed features in debcargo.toml
+  * Dropped obsolete patches
+  * Added myself to uploaders
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 14:46:49 +0200
+
+rust-glib-macros (0.14.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package glib-macros 0.14.1 from crates.io using debcargo 2.5.0
+  * Add patch for heck 4.0.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 14 Apr 2022 07:35:48 +0000
+
+rust-glib-macros (0.14.1-1) unstable; urgency=medium
+
+  * Package glib-macros 0.14.1 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Fri, 24 Dec 2021 10:04:52 +0000

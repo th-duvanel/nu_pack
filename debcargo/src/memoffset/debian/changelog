@@ -1,0 +1,41 @@
+rust-memoffset (0.6.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package memoffset 0.6.5 from crates.io using debcargo 2.5.0
+    + fixes building the "unstable_const" feature with rustc 1.59
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 27 Jun 2022 17:02:25 +0000
+
+rust-memoffset (0.6.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package memoffset 0.6.4 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 22:07:15 +0100
+
+rust-memoffset (0.5.3-1) unstable; urgency=medium
+
+  * Package memoffset 0.5.3 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 16 Nov 2019 11:02:33 +0100
+
+rust-memoffset (0.5.2-1) unstable; urgency=medium
+
+  * Package memoffset 0.5.2 from crates.io using debcargo 2.4.0
+  * Source-only reupload for transition to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 03 Nov 2019 10:39:20 +0100
+
+rust-memoffset (0.5.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package memoffset 0.5.1 from crates.io using debcargo 2.4.0
+  * Closes: #936025
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 04 Sep 2019 23:32:19 -0700
+
+rust-memoffset (0.2.1-1) unstable; urgency=medium
+
+  * Package memoffset 0.2.1 from crates.io using debcargo 2.2.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 15 Jul 2018 22:29:39 -0700

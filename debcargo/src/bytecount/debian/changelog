@@ -1,0 +1,71 @@
+rust-bytecount (0.6.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytecount 0.6.7 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 18 Nov 2023 12:53:59 +0100
+
+rust-bytecount (0.6.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytecount 0.6.4 from crates.io using debcargo 2.6.0
+  * Bump criterion dev-dependency rather than removing it.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 16 Oct 2023 09:17:09 +0000
+
+rust-bytecount (0.6.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytecount 0.6.4 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 15 Oct 2023 22:35:48 +0200
+
+rust-bytecount (0.6.3-2) unstable; urgency=medium
+
+  * Package bytecount 0.6.3 from crates.io using debcargo 2.5.0
+  * Drop packed-simd feature (Closes: 1012345)
+  * Drop dev-depends on criteion and disable bench that uses it so the rest
+    of the testsuite can run.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 05 Jun 2022 10:25:37 +0000
+
+rust-bytecount (0.6.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytecount 0.6.3 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 04 Jun 2022 12:49:10 +0200
+
+rust-bytecount (0.6.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytecount 0.6.0 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 18 Mar 2020 23:18:49 +0100
+
+rust-bytecount (0.5.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytecount 0.5.1 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 10 Feb 2019 14:34:43 +0100
+
+rust-bytecount (0.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytecount 0.4.0 from crates.io using debcargo 2.2.8
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 03 Nov 2018 23:25:03 +0100
+
+rust-bytecount (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bytecount 0.3.2 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 20 Oct 2018 21:04:28 +0200
+
+rust-bytecount (0.3.1-1) unstable; urgency=medium
+
+  * Package bytecount 0.3.1 from crates.io using debcargo 2.1.1
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Jun 2018 11:34:27 -0700

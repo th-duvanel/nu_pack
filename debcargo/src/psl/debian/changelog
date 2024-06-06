@@ -1,0 +1,5 @@
+rust-psl (2.1.25-1) unstable; urgency=medium
+
+  * Package psl 2.1.25 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 24 Feb 2024 16:12:03 +0100

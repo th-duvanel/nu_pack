@@ -1,0 +1,14 @@
+--- blake2-rfc.orig/src/blake2.rs
++++ blake2-rfc/src/blake2.rs
+@@ -307,3 +307,3 @@
+ #[cold]
+-pub fn selftest_seq(len: usize) -> ArrayVec<[u8; 1024]> {
++pub fn selftest_seq(len: usize) -> ArrayVec::<u8, 1024> {
+     use core::num::Wrapping;
+--- blake2-rfc.orig/Cargo.toml
++++ blake2-rfc/Cargo.toml
+@@ -24,3 +24,3 @@
+ [dependencies.arrayvec]
+-version = "0.4.6"
++version = "0.7"
+ default-features = false

@@ -1,0 +1,20 @@
+rust-exec (0.3.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package exec 0.3.1 from crates.io using debcargo 2.6.0
+  * Bump errno dependency to 0.3.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 15 Jun 2023 23:00:09 +0000
+
+rust-exec (0.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package exec 0.3.1 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:06:27 +0200
+
+rust-exec (0.3.1-1) unstable; urgency=medium
+
+  * Package exec 0.3.1 from crates.io using debcargo 2.4.0
+
+ -- Igor Petruk <ipetruk@google.com>  Fri, 15 Nov 2019 22:16:06 +0100

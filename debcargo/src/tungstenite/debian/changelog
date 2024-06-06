@@ -1,0 +1,29 @@
+rust-tungstenite (0.20.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tungstenite 0.20.1 from crates.io using debcargo 2.6.1
+  * Enable feature 'native-tls', needed for the tokio-tungstenite crate
+
+ -- Reinhard Tartler <siretart@tauware.de>  Wed, 07 Feb 2024 18:29:24 -0500
+
+rust-tungstenite (0.20.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Package tungstenite 0.20.1 from crates.io using debcargo 2.6.0
+  * Add Build-Depends: librust-rustls-dev to ensure Depends are satisfiable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 27 Sep 2023 11:27:47 -0400
+
+rust-tungstenite (0.20.0-1) unstable; urgency=medium
+
+  * Package tungstenite 0.20.0 from crates.io using debcargo 2.6.0
+  * Rebase patch, patch out dependency on unavailable package
+  * Added my new mail address
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 31 Aug 2023 18:08:38 -0400
+
+rust-tungstenite (0.19.0-1) unstable; urgency=medium
+
+  * Package tungstenite 0.19.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 12 Aug 2023 18:22:51 +0300

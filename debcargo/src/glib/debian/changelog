@@ -1,0 +1,175 @@
+rust-glib (0.19.5-1) unstable; urgency=medium
+
+  * Package glib 0.19.5 from crates.io using debcargo 2.6.1
+  * Drop patch for 64-bit time, applied upstream
+  * Depend on libglib2.0 >= 2.80 and gir-rust-code-generator 0.19.1
+  * Stop marking v2.80 feature as broken
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 04 May 2024 15:08:06 +0200
+
+rust-glib (0.19.4-1) experimental; urgency=medium
+
+  * Team upload
+  * Package glib 0.19.4 from crates.io using debcargo 2.6.1
+  * Cherry-pick a patch to fix time_t issue. Thanks: Zixing Liu
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 09:50:47 -0400
+
+rust-glib (0.19.2-1) experimental; urgency=medium
+
+  * Package glib 0.19.2 from crates.io using debcargo 2.6.1
+  * Updated versioned dependency on gir-rust-code-generator
+  * Mark v2-80 feature as broken
+  * Refresh patches
+  * Removed hardcoded dependency on rustc >= 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 19 Feb 2024 00:29:59 +0100
+
+rust-glib (0.18.5-1) unstable; urgency=medium
+
+  * Package glib 0.18.5 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 31 Dec 2023 00:52:08 +0100
+
+rust-glib (0.18.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package glib 0.18.3 from crates.io using debcargo 2.6.1
+  * Stop patching criterion dependency, upstream now depends on the version
+    that is in Debian.
+  * Skip main_context_futures tests on armhf too, after seeing similar
+    sporadic testsuite crashes to the ones I saw on armel.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Dec 2023 13:42:59 +0000
+
+rust-glib (0.18.2-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Matthias Geiger ]
+  * Stop patching gir-format-check dependency
+
+  [ Jeremy Bícha ]
+  * Stop patching trybuild2 dependency
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 24 Oct 2023 09:55:32 -0400
+
+rust-glib (0.18.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Package glib 0.18.2 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:15:53 -0400
+
+rust-glib (0.18.2-2) experimental; urgency=medium
+
+  * Specify dependency on rustc 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 16 Sep 2023 12:56:16 +0200
+
+rust-glib (0.18.2-1) experimental; urgency=medium
+
+  * Package glib 0.18.2 from crates.io using debcargo 2.6.0
+  * Regenerate source code with debian tools before build
+  * Updated patches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 15 Sep 2023 22:53:55 +0200
+
+rust-glib (0.17.10-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package glib 0.17.10 from crates.io using debcargo 2.6.0
+  * Fix typo in breaks.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Aug 2023 02:09:57 +0000
+
+rust-glib (0.17.10-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package glib 0.17.10 from crates.io using debcargo 2.6.0
+  * Disable "main_context_futures" tests on armel.
+  * Add breaks to help britney's autopkgtest scheduler.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 03 Aug 2023 20:23:56 +0000
+
+rust-glib (0.17.10-2) unstable; urgency=medium
+
+  * Package glib 0.17.10 from crates.io using debcargo 2.6.0
+  * Re-enable log feature, this was patched out wrongfully (Closes:
+    #1042921)
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 03 Aug 2023 12:15:26 +0200
+
+rust-glib (0.17.10-1) unstable; urgency=medium
+
+  * Package glib 0.17.10 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+  * Patched Cargo.toml and ignored broken test to pass autopkgtest
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:15:11 +0200
+
+rust-glib (0.16.7-3) unstable; urgency=medium
+
+  * Package glib 0.16.7 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 20:53:44 +0200
+
+rust-glib (0.16.7-2) experimental; urgency=medium
+
+  * Backport an upstream patch to fix an unwinding issue caused by the
+    improper cross-language error handling (LP: #2021531)
+
+ -- Zixing Liu <zixing.liu@canonical.com>  Thu, 22 Jun 2023 17:36:01 -0600
+
+rust-glib (0.16.7-1) experimental; urgency=medium
+
+  * Package glib 0.16.7 from crates.io using debcargo 2.6.0
+  * Added myself to uploaders
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 14:53:34 +0200
+
+rust-glib (0.14.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package glib 0.14.8 from crates.io using debcargo 2.4.4
+  * d/patches: removed patch remove-futures-preview-feature.diff
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Tue, 28 Dec 2021 18:15:57 +0000
+
+rust-glib (0.8.2-1) unstable; urgency=medium
+
+  * Package glib 0.8.2 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 28 Sep 2019 11:03:41 +0200
+
+rust-glib (0.8.1-1) unstable; urgency=medium
+
+  * Package glib 0.8.1 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 23 Jul 2019 05:07:13 +0200
+
+rust-glib (0.8.0-1) unstable; urgency=medium
+
+  * Package glib 0.8.0 from crates.io using debcargo 2.3.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Jul 2019 10:16:01 +0200
+
+rust-glib (0.6.1-1) unstable; urgency=medium
+
+  * Package glib 0.6.1 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 19 Dec 2018 08:44:28 +0100
+
+rust-glib (0.6.0-2) unstable; urgency=medium
+
+  * Package glib 0.6.0 from crates.io using debcargo 2.2.9
+  * Disable futures preview feature
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 05 Dec 2018 16:35:46 +0100
+
+rust-glib (0.6.0-1) unstable; urgency=medium
+
+  * Package glib 0.6.0 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 16 Nov 2018 13:02:29 +0100

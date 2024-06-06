@@ -1,0 +1,13 @@
+Index: pdb2/Cargo.toml
+===================================================================
+--- pdb2.orig/Cargo.toml
++++ pdb2/Cargo.toml
+@@ -33,7 +33,7 @@ tag-message = "Release {{version}}"
+ tag-name = "{{version}}"
+ 
+ [dependencies.fallible-iterator]
+-version = "0.2.0"
++version = "0.3.0"
+ 
+ [dependencies.scroll]
+ version = "0.11.0"

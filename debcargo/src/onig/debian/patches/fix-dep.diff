@@ -1,0 +1,9 @@
+--- onig.orig/Cargo.toml
++++ onig/Cargo.toml
+@@ -32,4 +32,4 @@
+ [features]
+-default = ["generate"]
+-generate = ["onig_sys/generate"]
++#default = ["generate"]
++#generate = ["onig_sys/generate"]
+ posix-api = ["onig_sys/posix-api"]

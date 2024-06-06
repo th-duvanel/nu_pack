@@ -1,0 +1,37 @@
+rust-anstream (0.6.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package anstream 0.6.7 from crates.io using debcargo 2.6.1
+  * Update relax-dep.diff for new upstream.
+  * Relax dev-dependency on owo-colors.
+  * Add feature requirements to examples.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 13 Jan 2024 16:18:07 +0000
+
+rust-anstream (0.6.4-1) unstable; urgency=medium
+
+  * Package anstream 0.6.4 from crates.io using debcargo 2.6.0
+  * Update relax-dep.diff for new upstream.
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package anstream 0.6.4 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 10 Oct 2023 01:28:50 +0000
+
+rust-anstream (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package anstream 0.5.0 from crates.io using debcargo 2.6.0
+  * Relax dev-dependency on proptest.
+  * Disable benches, they require test data which is not included in the
+    crates.io release.
+  * Bump criterion dev-dependency to 0.5
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 24 Sep 2023 11:23:10 +0000
+
+rust-anstream (0.3.2-1) unstable; urgency=medium
+
+  * Package anstream 0.3.2 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Sun, 20 Aug 2023 13:02:36 +0200

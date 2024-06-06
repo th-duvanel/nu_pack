@@ -1,0 +1,5 @@
+rust-libseccomp-sys (0.2.1-1) unstable; urgency=medium
+
+  * Package libseccomp-sys 0.2.1 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Fri, 14 Apr 2023 18:20:57 +0300

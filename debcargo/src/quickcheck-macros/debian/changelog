@@ -1,0 +1,26 @@
+rust-quickcheck-macros (1.0.0-2) unstable; urgency=medium
+
+  * Package quickcheck_macros 1.0.0 from crates.io using debcargo 2.5.0
+  * Ship upstream examples in the standard debian location.
+  * Move from experimental to unstable.
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 05 Feb 2022 20:41:12 -0500
+
+rust-quickcheck-macros (1.0.0-1) experimental; urgency=medium
+
+  * Package quickcheck_macros 1.0.0 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 29 Jan 2022 04:17:14 -0500
+
+rust-quickcheck-macros (0.9.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package quickcheck_macros 0.9.1 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:15:12 +0200
+
+rust-quickcheck-macros (0.9.1-1) unstable; urgency=medium
+
+  * Package quickcheck_macros 0.9.1 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 14 Jan 2020 22:45:48 +0000

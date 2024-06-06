@@ -1,0 +1,18 @@
+Description: Re-add dev dependencies
+ The publishing process of the crate seemingly strips out the dev
+ dependencies. This causes the doctests to fail which would require these
+ dependencies to be present. This patch adds the dev dependencies as found
+ in the project's upstream repository.
+Author: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Author: Peter Michael Green <plugwash@debian.org>
+Forwarded: no
+Last-Update: 2022-08-01
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: pin-project-internal/Cargo.toml
+===================================================================
+--- pin-project-internal.orig/Cargo.toml
++++ pin-project-internal/Cargo.toml
+@@ -36,1 +36,2 @@ version = "1.0.56"
+ [dev-dependencies]
++pin-project = "1.0.10"

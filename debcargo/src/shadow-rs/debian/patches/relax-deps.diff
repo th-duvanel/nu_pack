@@ -1,0 +1,30 @@
+Index: shadow-rs/Cargo.toml
+===================================================================
+--- shadow-rs.orig/Cargo.toml
++++ shadow-rs/Cargo.toml
+@@ -55,23 +55,17 @@ default-features = false
+ version = "1.0.1"
+ 
+ [dependencies.time]
+-version = "0.3.11"
++version = "0.3.9"
+ features = [
+     "formatting",
+     "local-offset",
+     "parsing",
+ ]
+ 
+-[dependencies.tzdb]
+-version = "0.5.0"
+-optional = true
+-default-features = false
+-
+ [dev-dependencies.regex]
+-version = "1.7.0"
++version = "1.10"
+ 
+ [features]
+ default = [
+     "git2",
+-    "tzdb",
+ ]

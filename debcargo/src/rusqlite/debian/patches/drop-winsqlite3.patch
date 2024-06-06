@@ -1,0 +1,10 @@
+Author: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Description: Drop winsqlite3 feature
+
+We are not shipping a winsqlite3 feature with the libsqlite3-sys crate
+in debian, so also remove it here.
+
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -200,1 +200,0 @@
+-winsqlite3 = ["libsqlite3-sys/winsqlite3"]

@@ -1,0 +1,7 @@
+overlay = "."
+uploaders = ["Matthias Geiger <werdahias@riseup.net>"]
+#exclude vendored liblcms
+excludes = ["vendor/*"]
+[packages.lib]
+depends = ["liblcms2-dev"]
+

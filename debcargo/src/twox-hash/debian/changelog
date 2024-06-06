@@ -1,0 +1,9 @@
+rust-twox-hash (1.6.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package twox-hash 1.6.3 from crates.io using debcargo 2.6.0
+
+  [ Sylvestre Ledru ]
+  * Package twox-hash 1.6.0 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 16 Jun 2023 20:27:29 +0200

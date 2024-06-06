@@ -1,0 +1,32 @@
+rust-drt-tools (0.2.22-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package drt-tools 0.2.22 from crates.io using debcargo 2.6.1
+  * Relax dependencies on itertools, reqwest, serde-yaml and stderrlog.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 May 2024 06:12:36 +0000
+
+rust-drt-tools (0.2.22-1) unstable; urgency=medium
+
+  * Package drt-tools 0.2.22 from crates.io using debcargo 2.6.1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 04 May 2024 23:35:13 +0200
+
+rust-drt-tools (0.2.21-1) unstable; urgency=medium
+
+  * Package drt-tools 0.2.21 from crates.io using debcargo 2.6.1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 07 Apr 2024 23:01:07 +0200
+
+rust-drt-tools (0.2.20-2) unstable; urgency=medium
+
+  * Package drt-tools 0.2.20 from crates.io using debcargo 2.6.1
+  * d/debcargo.toml: Fix section (Closes: #1064864)
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 01 Mar 2024 19:51:10 +0100
+
+rust-drt-tools (0.2.20-1) unstable; urgency=medium
+
+  * Package drt-tools 0.2.20 from crates.io using debcargo 2.6.1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 17 Feb 2024 16:19:00 +0100

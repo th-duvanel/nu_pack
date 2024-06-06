@@ -1,0 +1,43 @@
+rust-glutin-glx-sys (0.5.0-1) experimental; urgency=medium
+
+  * Package glutin_glx_sys 0.5.0 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Thu, 11 Jan 2024 17:18:15 -0500
+
+rust-glutin-glx-sys (0.4.0-2) unstable; urgency=medium
+
+  * Package glutin_glx_sys 0.4.0 from crates.io using debcargo 2.6.0
+  * Upload to unstable
+
+ -- James McCoy <jamessan@debian.org>  Thu, 03 Aug 2023 20:49:55 -0400
+
+rust-glutin-glx-sys (0.4.0-1) experimental; urgency=medium
+
+  * Package glutin_glx_sys 0.4.0 from crates.io using debcargo 2.6.0
+
+ -- James McCoy <jamessan@debian.org>  Fri, 07 Jul 2023 06:50:22 -0400
+
+rust-glutin-glx-sys (0.1.8-2) unstable; urgency=medium
+
+  * Package glutin_glx_sys 0.1.8 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Tue, 01 Nov 2022 10:49:40 -0400
+
+rust-glutin-glx-sys (0.1.8-1) experimental; urgency=medium
+
+  * Package glutin_glx_sys 0.1.8 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sat, 29 Oct 2022 10:23:50 -0400
+
+rust-glutin-glx-sys (0.1.7-2) unstable; urgency=medium
+
+  * Package glutin_glx_sys 0.1.7 from crates.io using debcargo 2.5.0
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- James McCoy <jamessan@debian.org>  Wed, 08 Jun 2022 21:17:05 -0400
+
+rust-glutin-glx-sys (0.1.7-1) unstable; urgency=medium
+
+  * Package glutin_glx_sys 0.1.7 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sun, 05 Jun 2022 08:32:57 -0400

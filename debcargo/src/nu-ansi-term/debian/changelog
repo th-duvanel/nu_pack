@@ -1,0 +1,32 @@
+rust-nu-ansi-term (0.50.0-1) unstable; urgency=medium
+
+  * Package nu-ansi-term 0.50.0 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 23 Apr 2024 22:18:38 +0200
+
+rust-nu-ansi-term (0.49.0-1) unstable; urgency=medium
+
+  * Package nu-ansi-term 0.49.0 from crates.io using debcargo 2.6.1
+  * Improve the fix
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 06 Jan 2024 21:34:44 +0100
+
+rust-nu-ansi-term (0.48.0-2) unstable; urgency=medium
+
+  * Package nu-ansi-term 0.48.0 from crates.io using debcargo 2.6.0
+  * unbreak the usage in lscolors. see:
+    https://github.com/nushell/nu-ansi-term/issues/46
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 29 Jun 2023 22:31:11 +0200
+
+rust-nu-ansi-term (0.48.0-1) unstable; urgency=medium
+
+  * Package nu-ansi-term 0.48.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 24 Jun 2023 22:55:50 +0200
+
+rust-nu-ansi-term (0.46.0-1) unstable; urgency=medium
+
+  * Package nu-ansi-term 0.46.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 06 Jan 2023 17:21:55 +0100

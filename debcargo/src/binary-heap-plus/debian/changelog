@@ -1,0 +1,5 @@
+rust-binary-heap-plus (0.4.1-1) unstable; urgency=medium
+
+  * Package binary-heap-plus 0.4.1 from crates.io using debcargo 2.5.0
+
+ -- Dylan Aïssi <daissi@debian.org>  Mon, 07 Feb 2022 22:39:57 +0100

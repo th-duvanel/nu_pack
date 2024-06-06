@@ -1,0 +1,42 @@
+rust-num-bigint (0.4.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-bigint 0.4.3 from crates.io using debcargo 2.5.0
+  * Drop patches - no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 10:03:06 +0000
+
+rust-num-bigint (0.4.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-bigint 0.4.3 from crates.io using debcargo 2.5.0
+  * Add collapse_features = true
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 18 Dec 2021 01:09:58 +0100
+
+rust-num-bigint (0.2.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-bigint 0.2.6 from crates.io using debcargo 2.4.2
+  * Add upstream patch to fix benchmarks under rand 0.7
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 21 Apr 2020 21:37:05 +0100
+
+rust-num-bigint (0.2.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-bigint 0.2.5 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 13 Jan 2020 21:17:13 +0100
+
+rust-num-bigint (0.2.3-1) unstable; urgency=medium
+
+  * Package num-bigint 0.2.3 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Mon, 28 Oct 2019 19:09:08 +0100
+
+rust-num-bigint (0.2.0-1) unstable; urgency=medium
+
+  * Package num-bigint 0.2.0 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Wed, 05 Sep 2018 11:03:51 +0200

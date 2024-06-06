@@ -1,0 +1,44 @@
+rust-unicode-bidi (0.3.13-1) unstable; urgency=medium
+
+  * Package unicode-bidi 0.3.13 from crates.io using debcargo 2.6.0
+  * Remove reference to test that is not included in the crates.io release.
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package unicode-bidi 0.3.13 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 27 Aug 2023 14:26:39 +0000
+
+rust-unicode-bidi (0.3.8-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package unicode-bidi 0.3.8 from crates.io using debcargo 2.6.0
+  * Mark tests for the serde and with_serde features as broken.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 03 Dec 2022 16:58:14 +0000
+
+rust-unicode-bidi (0.3.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unicode-bidi 0.3.8 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Sat, 22 Oct 2022 09:30:52 -0400
+
+rust-unicode-bidi (0.3.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unicode-bidi 0.3.7 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 22:17:19 +0100
+
+rust-unicode-bidi (0.3.4-2) unstable; urgency=medium
+
+  * Package unicode-bidi 0.3.4 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Tue, 18 Sep 2018 19:39:21 +0200
+
+rust-unicode-bidi (0.3.4-1) unstable; urgency=medium
+
+  * Package unicode-bidi 0.3.4 from crates.io using debcargo 2.2.3
+
+ -- Paride Legovini <pl@ninthfloor.org>  Sun, 15 Jul 2018 22:32:32 -0700

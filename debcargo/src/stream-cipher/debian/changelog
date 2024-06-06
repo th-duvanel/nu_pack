@@ -1,0 +1,22 @@
+rust-stream-cipher (0.3.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Manual upload because debcargo does not work with yanked crates.
+  * Bump dependency on blobby to 0.3.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 03 Jun 2022 12:36:06 +0000
+
+rust-stream-cipher (0.3.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package stream-cipher 0.3.2 from crates.io using debcargo 2.4.3
+  * Unbreak the build (Closes: #975757)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 28 Nov 2020 10:58:03 +0100
+
+rust-stream-cipher (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package stream-cipher 0.3.2 from crates.io using debcargo 2.2.10
+
+ -- nicoo <nicoo@debian.org>  Wed, 28 Aug 2019 17:34:44 +0200

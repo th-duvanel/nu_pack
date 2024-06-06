@@ -1,0 +1,40 @@
+rust-ruma-common (0.10.5-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package ruma-common 0.10.5 from crates.io using debcargo 2.6.1
+  * Bump indexmap dependency to 2.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 04:21:45 +0000
+
+rust-ruma-common (0.10.5-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package ruma-common 0.10.5 from crates.io using debcargo 2.6.0
+  * Move base64 changes to a seperate patch as code changesare involved.
+  * Apply upstream patch for compatibility with newer versions of the regex
+    crate.
+  * Disable a "compile_fail" test that is sensitive to the version of the rust
+    compiler.
+  * Bump phf dependency to 0.11.1.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 25 Jul 2023 20:22:01 +0000
+
+rust-ruma-common (0.10.5-3) unstable; urgency=medium
+
+  * Team upload.
+  * Bump base64 to 0.21
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Thu, 15 Jun 2023 14:35:14 +0000
+
+rust-ruma-common (0.10.5-2) unstable; urgency=medium
+
+  * Package ruma-common 0.10.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 08 Feb 2023 21:25:07 +0100
+
+rust-ruma-common (0.10.5-1) unstable; urgency=medium
+
+  * Package ruma-common 0.10.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 28 Dec 2022 16:10:02 +0100
+

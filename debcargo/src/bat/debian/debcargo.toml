@@ -1,0 +1,40 @@
+overlay = "."
+uploaders = ["Paride Legovini <paride@debian.org>", "Helen Koike <helen@koikeco.de>", "Sylvestre ledru <sylvestre@debian.org>"]
+excludes = ["tests/benchmarks/test-src/**", "tests/examples/**", "tests/syntax-tests/highlighted/**", "tests/syntax-tests/source/BatTestCustomAssets/**"]
+
+whitelist = ["tests/*.c"]
+collapse_features = true
+
+[source]
+build_depends = ["dh-sequence-bash-completion", "dh-exec", "librust-term-size-dev"]
+section = "utils"
+
+[packages.lib]
+test_is_broken=true
+
+[packages."lib+@"]
+test_is_broken = false
+
+[packages."lib+application"]
+test_is_broken = false
+
+[packages."lib+default"]
+test_is_broken = false
+
+[packages."lib+minimal-aaplication"]
+test_is_broken = false
+
+[packages.bin]
+summary = "cat(1) clone with syntax highlighting and git integration"
+section = "utils"
+description = """
+bat is a drop-in cat(1) replacement featuring:
+
+ * syntax highlighting for a large number of languages;
+ * git integration;
+ * automatic paging;
+ * a user-friendly command-line interface.
+
+In this package the executable and its manpage have been renamed from ‘bat’ to
+‘batcat’ because of a file name clash with another Debian package.
+"""

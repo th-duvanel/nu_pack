@@ -1,0 +1,104 @@
+rust-gstreamer (0.22.4-2) unstable; urgency=medium
+
+  * Package gstreamer 0.22.4 from crates.io using debcargo 2.6.1
+  * Stop marking v1_24 feature as broken
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 13:40:43 +0200
+
+rust-gstreamer (0.22.4-1) experimental; urgency=medium
+
+  * Team upload
+  * Package gstreamer 0.22.4 from crates.io using debcargo 2.6.1
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 15:24:40 -0400
+
+rust-gstreamer (0.22.1-1) experimental; urgency=medium
+
+  * Package gstreamer 0.22.1 from crates.io using debcargo 2.6.1
+  * Rebase patch for new upstream
+  * Depend on libgstreamer1.0-dev
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 24 Feb 2024 18:44:08 +0100
+
+rust-gstreamer (0.21.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package gstreamer 0.21.0 from crates.io using debcargo 2.6.1
+  * Rename relax-gir-dep.diff to relax-dep.diff, it's current content
+    has nothing to do with gir.
+  * Relax itertools dependency to ">= 0.10, < 1.0"
+  * Relax pretty-hex dependency to ">= 0.3, < 1.0"
+  * Reorder patches for easier testing.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 10 Jan 2024 01:00:01 +0000
+
+rust-gstreamer (0.21.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Package gstreamer 0.21.0 from crates.io using debcargo 2.6.0
+  * Ignore v1_24 autopkgtest failure because it requires
+    unreleased gstreamer version
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 29 Sep 2023 09:00:44 -0400
+
+rust-gstreamer (0.21.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Package gstreamer 0.21.0 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:35:45 -0400
+
+rust-gstreamer (0.21.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package gstreamer 0.21.0 from crates.io using debcargo 2.6.0
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 27 Sep 2023 17:42:26 -0400
+
+rust-gstreamer (0.20.7-1) unstable; urgency=medium
+
+  * Package gstreamer 0.20.7 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+  * Added relax-gir-dep.diff and ignore-broken-test.diff patches to
+    enable tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:31:36 +0200
+
+rust-gstreamer (0.19.3-2) unstable; urgency=medium
+
+  * Package gstreamer 0.19.3 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 21:05:51 +0200
+
+rust-gstreamer (0.19.3-1) experimental; urgency=medium
+
+  * Package gstreamer 0.19.3 from crates.io using debcargo 2.6.0
+
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package gstreamer 0.17.4 from crates.io using debcargo 2.5.0
+  * New upstream version uses non-preview version of futures (Closes: #970104)
+  * Use collapse_features=true
+
+  [ Matthias Geiger ]
+  * Added myself to uploaders
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 15:36:49 +0200
+
+rust-gstreamer (0.14.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gstreamer 0.14.5 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 22 Apr 2020 13:28:47 +0200
+
+rust-gstreamer (0.14.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gstreamer 0.14.5 from crates.io using debcargo 2.4.0
+
+  [ Wolfgang Silbermayr ]
+  * Package gstreamer 0.14.5 from crates.io using debcargo 2.4.0
+
+ -- Sebastian Dröge <slomo@debian.org>  Fri, 18 Oct 2019 09:25:50 +0300

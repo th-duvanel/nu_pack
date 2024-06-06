@@ -1,0 +1,68 @@
+rust-num-traits (0.2.15-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-traits 0.2.15 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 02 Jun 2022 13:56:11 +0200
+
+rust-num-traits (0.2.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-traits 0.2.14 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 18 Nov 2020 13:37:12 +0100
+
+rust-num-traits (0.2.11-5) unstable; urgency=medium
+
+  * Temporarily downgrade rust-libm to Recommends.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 12 Nov 2020 13:24:42 +0100
+
+rust-num-traits (0.2.11-4) unstable; urgency=medium
+
+  * Fix the changelog.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 12 Nov 2020 11:05:59 +0100
+
+rust-num-traits (0.2.11-3) unstable; urgency=medium
+
+  * Fix the missing comma (Closes: #973768).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 12 Nov 2020 11:03:16 +0100
+
+rust-num-traits (0.2.11-2) unstable; urgency=medium
+
+  * Reenable libm.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 13 Jan 2020 12:26:02 +0100
+
+rust-num-traits (0.2.11-1+doctestfix) unstable; urgency=medium
+
+  * Package num-traits 0.2.11 from crates.io using debcargo 2.4.2
+  * Temporarily ignore tests that fail on mipsel and mips64el due to compiler
+    error.
+    Closes: #950337
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 17 Feb 2020 13:10:04 +0100
+
+rust-num-traits (0.2.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-traits 0.2.11 from crates.io using debcargo 2.4.0
+    Closes: #936099
+  * Temporarily disable libm.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 13 Jan 2020 09:05:19 +0100
+
+rust-num-traits (0.2.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-traits 0.2.8 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 08 Jul 2019 09:01:04 +0200
+
+rust-num-traits (0.2.5-1) unstable; urgency=medium
+
+  * Package num-traits 0.2.5 from crates.io using debcargo 2.1.1
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Jun 2018 11:57:50 -0700

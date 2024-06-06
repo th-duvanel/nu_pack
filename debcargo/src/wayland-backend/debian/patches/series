@@ -1,0 +1,3 @@
+restore-missing-dev-depends.diff
+disable-tests-missing-testdata.diff
+fix-test-feature-requirements.diff

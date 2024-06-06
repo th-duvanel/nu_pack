@@ -1,0 +1,61 @@
+rust-indicatif (0.17.7-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package indicatif 0.17.7 from crates.io using debcargo 2.6.1
+  * Skip wide_element_style test, it appears to be flaky.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Nov 2023 15:56:16 +0000
+
+rust-indicatif (0.17.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package indicatif 0.17.7 from crates.io using debcargo 2.6.0 (Closes: #1051073)
+  * Drop drop-vt100.patch, vt100 is now in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 24 Sep 2023 09:05:19 +0000
+
+rust-indicatif (0.17.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package indicatif 0.17.3 from crates.io using debcargo 2.6.0
+  * Drop vt100 dependency and in_memory feature for now, they can be re-enabled
+    when rust-vt100 passes new and migrates to testing.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 22 Jan 2023 13:45:53 +0000
+
+rust-indicatif (0.17.3-1) unstable; urgency=medium
+
+  * Package indicatif 0.17.3 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package indicatif 0.17.0 from crates.io using debcargo 2.5.0
+  * Drop outdated patches
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Jan 2023 23:17:44 +0100
+
+rust-indicatif (0.16.0-1) unstable; urgency=medium
+
+  * Package indicatif 0.16.0 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 20 Oct 2021 22:17:19 +0200
+
+rust-indicatif (0.15.0-3) unstable; urgency=medium
+
+  * Package indicatif 0.15.0 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 22 Dec 2020 17:11:10 +0100
+
+rust-indicatif (0.15.0-2) unstable; urgency=medium
+
+  * Package indicatif 0.15.0 from crates.io using debcargo 2.4.3
+  * Disable some features to make it installable
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 22 Nov 2020 10:45:49 +0100
+
+rust-indicatif (0.15.0-1) unstable; urgency=medium
+
+  * Package indicatif 0.15.0 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Nov 2020 20:40:16 +0100
+

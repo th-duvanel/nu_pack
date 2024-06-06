@@ -1,0 +1,13 @@
+Index: coreutils/Cargo.toml
+===================================================================
+--- coreutils.orig/Cargo.toml
++++ coreutils/Cargo.toml
+@@ -498,7 +498,7 @@ procfs = { version = "0", default-featur
+ 
+ [target.'cfg(unix)'.dev-dependencies]
+ nix = { workspace = true, features = ["process", "signal", "user", "term"] }
+-rlimit = "0.10.1"
++rlimit = "0"
+ rand_pcg = "0.3"
+ xattr = { workspace = true }
+ 

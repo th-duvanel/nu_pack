@@ -1,0 +1,12 @@
+rust-cp-r (0.5.1-2) unstable; urgency=medium
+
+  * Add patch ignore-perm-error: ignore test that
+    tries to access /dev/ and fails with permisison error.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 26 Sep 2023 11:07:38 +0100
+
+rust-cp-r (0.5.1-1) unstable; urgency=medium
+
+  * Package cp_r 0.5.1 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 15 Jul 2023 03:07:57 +0100

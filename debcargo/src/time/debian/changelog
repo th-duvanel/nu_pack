@@ -1,0 +1,105 @@
+rust-time (0.3.31-1) unstable; urgency=medium
+
+  * Package time 0.3.31 from crates.io using debcargo 2.6.1 (Closes: #1054039, #1055097)
+  * Relax dev-dependency on rstest.
+  * Remove dev-dependency on rstest_reuse, it's not in Debian and doesn't
+    seem to actually be needed.
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package time 0.3.29 from crates.io using debcargo 2.6.0
+  * Disable benches (dep on criterion), drop relax-dep.diff
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 18 Feb 2024 06:27:52 +0000
+
+rust-time (0.3.23-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package time 0.3.23 from crates.io using debcargo 2.6.0
+  * Fix running tests with only the "parsing" feature enabled.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 03 Aug 2023 13:42:20 +0000
+
+rust-time (0.3.23-1) unstable; urgency=medium
+
+  * Package time 0.3.23 from crates.io using debcargo 2.6.0
+  * Bump criterion dev-dependency to 0.5.
+  * Remove references to tests/benches that are not included
+    in the crates.io release.
+
+  [ Blair Noctis ]
+  * Package time 0.3.22 from crates.io using debcargo 2.6.0
+
+  [ Sylvestre Ledru ]
+  * Package time 0.3.21 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package time 0.3.20 from crates.io using debcargo 2.6.0
+  * Drop disable-omitted-tests.patch and relax-dep.patch, no longer relevant
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Aug 2023 18:35:47 +0000
+
+rust-time (0.3.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package time 0.3.9 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 05 Jun 2022 18:58:52 +0200
+
+rust-time (0.3.5-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package time 0.3.5 from crates.io using debcargo 2.5.0
+  * Update copyright file to match upstream.
+  * Re-enable quickcheck and time-macros features.
+  * Re-enable tests that depend on macros.
+  * Relax dependency on time-macros.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 02 May 2022 14:55:24 +0000
+
+rust-time (0.3.5-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package time 0.3.5 from crates.io using debcargo 2.5.0
+  * Drop rand 0.7 patch.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 11:43:01 +0000
+
+rust-time (0.3.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package time 0.3.5 from crates.io using debcargo 2.5.0
+  * Add patch for rand 0.7
+  * Drop quickcheck feature for now, we don't have a suitable version of
+    quickcheck in Debian.
+  * Disable tests/benchmarks that are not included in the crates.io release
+  * Remove dev-dependencies on criterion, serde_test and trybuild which are only
+    used by tests/benches that are not included in the crates.io release.
+  * Disable macros and large-dates features, they depend on the
+    time-macros crate which is not currently in debian.
+  * Disable doctests that rely on the macros feature, the feature
+    is currently disabled and even if it wasn't they would limit
+    our ability to test other features given how autopkgtests currently
+    handle features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 22 Dec 2021 16:50:21 +0000
+
+rust-time (0.3.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package time 0.3.5 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 18 Dec 2021 12:15:31 +0100
+
+rust-time (0.1.42-1) unstable; urgency=medium
+
+  * Package time 0.1.42 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 21 Jan 2019 14:24:31 +0100
+
+rust-time (0.1.40-1) unstable; urgency=medium
+
+  * Package time 0.1.40 from crates.io using debcargo 2.2.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 15 Jul 2018 22:35:22 -0700

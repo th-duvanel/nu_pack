@@ -1,0 +1,109 @@
+rust-zip (0.6.6-3) experimental; urgency=medium
+
+  * Team upload.
+  * Package zip 0.6.6 from crates.io using debcargo 2.6.1
+  * Bump zstd dependency to 0.13.
+  * Reduce context in no-benches.patch to avoid fuzz.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 30 Dec 2023 12:02:59 +0000
+
+rust-zip (0.6.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package zip 0.6.6 from crates.io using debcargo 2.6.0
+
+  [ Fabian Grünbichler ]
+  * Team upload
+  * Rebuild with pbkdf2 0.12
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 31 Aug 2023 01:08:09 +0000
+
+rust-zip (0.6.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package zip 0.6.6 from crates.io using debcargo 2.6.0
+  * Replace commenting out benches in disable-bencher.patch with exclusion of
+	`benches/`
+  * Exclude `examples/`
+  * Drop aes-0.6.diff, we have 0.8
+
+ -- Blair Noctis <n@sail.ng>  Tue, 04 Jul 2023 18:58:37 +0000
+
+rust-zip (0.6.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package zip 0.6.3 from crates.io using debcargo 2.6.0
+  * Patch zip to use newer zstd version; move part of disable-benches.patch
+    into separate patch to avoid collision
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Mon, 09 Jan 2023 21:38:06 +0100
+
+rust-zip (0.6.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package zip 0.6.3 from crates.io using debcargo 2.6.0
+  * Upload to unstable (Closes: #1024086)
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 28 Dec 2022 10:12:59 +0000
+
+rust-zip (0.6.3-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package zip 0.6.3 from crates.io using debcargo 2.6.0
+  * Update disable-bencher.patch for new upstream.
+  * Reduce aes dependency to 0.6 and tweak code accordingly.
+  * Set collapse_features = true.
+
+  [ Sylvestre Ledru ]
+  * Package zip 0.6.2 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 23 Dec 2022 04:49:40 +0000
+
+rust-zip (0.5.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package zip 0.5.13 from crates.io using debcargo 2.4.4
+    + New upstream removes upper limit on micro version of flate2
+  * Drop previous patches as they are no longer needed with new upstream.
+  * Drop dev-dependency on bencher and nerf benches/read_entry.rs to
+    allow the rest of the testsuite to run.
+  * Mark test for flate2 feature as broken, selecting the feature
+    (without selecting any other features) enables use of the flate2
+    crate but doesn't enable any backends for flate2 leading to a
+    build failure.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 22 Oct 2021 18:47:32 +0000
+
+rust-zip (0.5.8-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package zip 0.5.8 from crates.io using debcargo 2.4.3
+  * Nudge dependencies on flate2 to work around #967954
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 21 Oct 2020 11:50:26 -0400
+
+rust-zip (0.5.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package zip 0.5.8 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 14 Oct 2020 23:42:21 -0400
+
+rust-zip (0.5.3-2) unstable; urgency=medium
+
+  * Package zip 0.5.3 from crates.io using debcargo 2.2.10
+  * Source upload for rebuild...
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 28 Oct 2019 21:26:11 +0100
+
+rust-zip (0.5.3-1) unstable; urgency=medium
+
+  * Package zip 0.5.3 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 14 Oct 2019 11:15:32 +0200
+
+rust-zip (0.5.0-1) unstable; urgency=medium
+
+  * Package zip 0.5.0 from crates.io using debcargo 2.2.9
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 12 Jan 2019 23:43:48 +0100

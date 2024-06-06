@@ -1,0 +1,11 @@
+rust-crc (3.0.1-1) unstable; urgency=medium
+
+  * Package crc 3.0.1 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Sun, 16 Jul 2023 16:57:19 +0200
+
+rust-crc (1.8.1-1) unstable; urgency=medium
+
+  * Package crc 1.8.1 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Fri, 21 Sep 2018 23:15:13 +0200

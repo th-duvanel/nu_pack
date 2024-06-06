@@ -1,0 +1,22 @@
+rust-time-core (0.1.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package time-core 0.1.2 from crates.io using debcargo 2.6.1
+
+  [ Blair Noctis ]
+  * Package time-core 0.1.2 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 18 Feb 2024 06:03:00 +0000
+
+rust-time-core (0.1.1-1) unstable; urgency=medium
+
+  * Package time-core 0.1.1 from crates.io using debcargo 2.6.0
+
+  [ Sylvestre Ledru ]
+  * Team upload.
+  * Package time-core 0.1.1 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Package time-core 0.1.0 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 28 Jul 2023 03:00:28 +0000

@@ -1,0 +1,6 @@
+rust-sync-wrapper (0.1.2-1) unstable; urgency=medium
+
+  * Package sync_wrapper 0.1.2 from crates.io using debcargo 2.6.0
+  * Initial Release, Closes: #1053590
+
+ -- Reinhard Tartler <siretart@tauware.de>  Tue, 24 Oct 2023 06:04:01 -0400

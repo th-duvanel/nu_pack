@@ -1,0 +1,26 @@
+rust-gix-hash (0.14.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gix-hash 0.14.2 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 16 Apr 2024 09:04:11 +0000
+
+rust-gix-hash (0.14.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gix-hash 0.14.1 from crates.io using debcargo 2.6.1
+
+ -- Federico Ceratto <federico@debian.org>  Wed, 06 Mar 2024 11:56:21 +0100
+
+rust-gix-hash (0.13.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gix-hash 0.13.3 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 15 Dec 2023 00:55:02 +0000
+
+rust-gix-hash (0.13.0-1) unstable; urgency=medium
+
+  * Package gix-hash 0.13.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 30 Sep 2023 12:13:17 +0200

@@ -1,0 +1,53 @@
+rust-vsock (0.4.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package vsock 0.4.0 from crates.io using debcargo 2.6.1
+  * Add workaround for glibc suseconds_t inconsistency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 20:20:55 +0000
+
+rust-vsock (0.4.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package vsock 0.4.0 from crates.io using debcargo 2.6.1
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 13:53:39 +0000
+
+rust-vsock (0.4.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package vsock 0.4.0 from crates.io using debcargo 2.6.1
+  * Drop old nix-0.24.patch, no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 24 Feb 2024 09:32:26 +0000
+
+rust-vsock (0.2.4-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package vsock 0.2.4 from crates.io using debcargo 2.6.1
+  * Tighten dependencies, this version of vsock is not compatible with nix
+    0.27.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 24 Feb 2024 09:27:49 +0000
+
+rust-vsock (0.2.4-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package vsock 0.2.4 from crates.io using debcargo 2.5.0
+  * Apply upstream patch to fix build with nix 0.24
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 09 Jun 2022 23:10:57 +0000
+
+rust-vsock (0.2.4-2) unstable; urgency=medium
+
+  * Source only upload
+  * Package vsock 0.2.4 from crates.io using debcargo 2.4.4
+
+ -- Shengjing Zhu <zhsj@debian.org>  Mon, 29 Nov 2021 01:34:27 +0800
+
+rust-vsock (0.2.4-1) unstable; urgency=medium
+
+  * Package vsock 0.2.4 from crates.io using debcargo 2.4.4
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 20 Nov 2021 21:37:20 +0800

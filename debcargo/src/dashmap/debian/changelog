@@ -1,0 +1,26 @@
+rust-dashmap (5.5.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package dashmap 5.5.3 from crates.io using debcargo 2.6.1
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 03:46:21 +0000
+
+rust-dashmap (5.5.3-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package dashmap 5.5.3 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 11 Feb 2024 02:31:59 +0000
+
+rust-dashmap (5.4.0-1) unstable; urgency=medium
+
+  * Package dashmap 5.4.0 from crates.io using debcargo 2.5.0
+
+ -- Blair Noctis <n@sail.ng>  Thu, 13 Oct 2022 22:10:59 -0400
+
+rust-dashmap (5.3.4-1) unstable; urgency=medium
+
+  * Package dashmap 5.3.4 from crates.io using debcargo 2.5.0
+
+ -- Blair Noctis <n@sail.ng>  Sat, 17 Sep 2022 14:16:39 +0200

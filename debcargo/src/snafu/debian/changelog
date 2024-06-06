@@ -1,0 +1,15 @@
+rust-snafu (0.7.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package snafu 0.7.1 from crates.io using debcargo 2.5.0
+  * Drop fix-test-backtrace-env-var-assumption.diff, merged upstream.
+  * Fix tests with --no-default-features
+  * Establish baseline for tests.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 28 Jun 2022 02:18:22 +0000
+
+rust-snafu (0.6.10-1) unstable; urgency=medium
+
+  * Package snafu 0.6.10 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 19 Sep 2021 20:21:00 +0200

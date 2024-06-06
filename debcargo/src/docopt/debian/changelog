@@ -1,0 +1,27 @@
+rust-docopt (1.1.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Added myself to uploaders (Closes: #1021596)
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 18 Nov 2022 12:15:32 +0100
+
+rust-docopt (1.1.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package docopt 1.1.1 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 08 Oct 2022 18:32:20 -0400
+
+rust-docopt (1.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package docopt 1.1.0 from crates.io using debcargo 2.4.0
+  * Closes: #932938
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 17 Aug 2019 10:48:25 -0700
+
+rust-docopt (1.0.2-1) unstable; urgency=medium
+
+  * Package docopt 1.0.2 from crates.io using debcargo 2.2.9
+
+ -- Matt Kraai <kraai@debian.org>  Sat, 08 Dec 2018 09:09:53 -0800

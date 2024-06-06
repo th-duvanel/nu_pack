@@ -1,0 +1,8 @@
+overlay = "."
+
+XXXX
+
+Please don't package this crate, it's obsolete.
+
+Anything depending on gcc should be patched to depend on cc instead, it
+completely replaces it.

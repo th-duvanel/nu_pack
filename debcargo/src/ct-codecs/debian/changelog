@@ -1,0 +1,5 @@
+rust-ct-codecs (1.1.1-1) unstable; urgency=medium
+
+  * Package ct-codecs 1.1.1 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Sat, 18 Nov 2023 15:18:25 +0100

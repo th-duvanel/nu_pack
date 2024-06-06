@@ -1,0 +1,19 @@
+rust-dns-parser (0.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package dns-parser 0.8.0 from crates.io using debcargo 2.4.4
+  * Add patch for quick-error 2.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 05 Jun 2022 08:45:57 +0000
+
+rust-dns-parser (0.8.0-1) unstable; urgency=medium
+
+  * Package dns-parser 0.8.0 from crates.io using debcargo 2.2.5
+
+ -- kpcyrd <git@rxv.cc>  Sun, 12 Aug 2018 13:37:01 -0700
+
+rust-dns-parser (0.7.1-1) unstable; urgency=medium
+
+  * Package dns-parser 0.7.1 from crates.io using debcargo 2.2.4
+
+ -- kpcyrd <git@rxv.cc>  Sun, 29 Jul 2018 08:24:12 -0700

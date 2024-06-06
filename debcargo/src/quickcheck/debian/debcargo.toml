@@ -1,0 +1,6 @@
+overlay = "."
+uploaders = [
+  "kpcyrd <git@rxv.cc>",
+  "Wolfgang Silbermayr <wolfgang@silbermayr.at>",
+]
+collapse_features = true

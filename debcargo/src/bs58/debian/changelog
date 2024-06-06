@@ -1,0 +1,40 @@
+rust-bs58 (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bs58 0.5.0 from crates.io using debcargo 2.6.0 (Closes: #1041888)
+  * Update patches for new upstream.
+  * Drop sha2-0.10.diff, upstream now uses version 0.10.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 31 Jul 2023 02:52:38 +0000
+
+rust-bs58 (0.4.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bs58 0.4.0 from crates.io using debcargo 2.4.4
+  * Update sha2 dependency to 0.10 and fix code to work with that version.
+  * Eliminate dev-dependencies that are not in Debian so the tests can run.
+    + Remove use of assert_matches in tests, it is not in Debian.
+    + Disable benches, they depend on multiple crates that are not in Debian.
+  * Fix running tests with no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 04 Jun 2022 03:10:37 +0000
+
+rust-bs58 (0.4.0-1) unstable; urgency=medium
+
+  * Package bs58 0.4.0 from crates.io using debcargo 2.4.3
+
+ -- kpcyrd <git@rxv.cc>  Tue, 15 Dec 2020 19:35:17 +0100
+
+rust-bs58 (0.2.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bs58 0.2.2 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:19:37 +0200
+
+rust-bs58 (0.2.2-1) unstable; urgency=medium
+
+  * Package bs58 0.2.2 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Mon, 20 May 2019 23:10:38 +0200

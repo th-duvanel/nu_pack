@@ -1,0 +1,10 @@
+overlay = "."
+uploaders = [
+  "Ximin Luo <infinity0@debian.org>",
+  "Wolfgang Silbermayr <wolfgang@silbermayr.at>",
+]
+
+# The auto-generated summary is too long.
+summary = "Cross-platform symbolication library"
+
+collapse_features = true

@@ -1,0 +1,13 @@
+rust-dlv-list (0.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package dlv-list 0.3.0 from crates.io using debcargo 2.5.0
+  * Drop relax-dep.diff, no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 02 Jan 2022 10:24:27 +0000
+
+rust-dlv-list (0.2.2-1) unstable; urgency=medium
+
+  * Package dlv-list 0.2.2 from crates.io using debcargo 2.4.2
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 10 May 2020 17:33:23 +0200

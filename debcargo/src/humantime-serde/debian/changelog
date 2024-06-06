@@ -1,0 +1,5 @@
+rust-humantime-serde (1.1.1-1) unstable; urgency=medium
+
+  * Package humantime-serde 1.1.1 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Tue, 26 Sep 2023 10:15:54 +0100

@@ -1,0 +1,13 @@
+rust-git-testament (0.2.5-1) unstable; urgency=medium
+
+  * Package git-testament 0.2.5 from crates.io using debcargo 2.6.1
+  * Updated my mail adress in debcargo.toml
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 31 Jan 2024 00:49:56 +0100
+
+rust-git-testament (0.2.2-1) unstable; urgency=medium
+
+  * Package git-testament 0.2.2 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Mon, 09 Jan 2023 21:42:33 +0100
+

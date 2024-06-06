@@ -1,0 +1,50 @@
+rust-gping (1.16.0-1) unstable; urgency=medium
+
+  * Package gping 1.16.0 from crates.io using debcargo 2.6.1
+    + New upstream fixes build error with newer rustc.
+  * Relax itertools dependency to ">= 0.10, < 1.0"
+  * Stop patching clap and pinger dependencies.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 26 Jan 2024 03:07:34 +0000
+
+rust-gping (1.15.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gping 1.15.1 from crates.io using debcargo 2.6.0
+  * Stop patching anyhow and crossterm dependencies.
+  * Increase ratatui dependency to 0.23
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 23 Nov 2023 04:50:17 +0000
+
+rust-gping (1.15.1-1) unstable; urgency=medium
+
+  * Package gping 1.15.1 from crates.io using debcargo 2.6.0
+  * Rebased patches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 12 Nov 2023 22:39:05 +0100
+
+rust-gping (1.14.0-1) unstable; urgency=medium
+
+  * Package gping 1.14.0 from crates.io using debcargo 2.6.0
+  * Updated rules file to remove Cargo.lock before install (Closes:
+    #1045942)
+  * Updated my mail address in d/control and d/copyright
+  * Rebased relax-deps patch
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Sep 2023 17:39:43 +0200
+
+rust-gping (1.12.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gping 1.12.0 from crates.io using debcargo 2.6.0
+  * Cleanup Cargo.lock in debian/rules to ensure it doesn't end up in
+    binary package.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 05 Jul 2023 23:38:20 +0000
+
+rust-gping (1.12.0-1) unstable; urgency=medium
+
+  * Package gping 1.12.0 from crates.io using debcargo 2.6.0
+  * Initial release. (Closes: #975495)
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 24 Jun 2023 21:54:41 -0400

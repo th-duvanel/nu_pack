@@ -1,0 +1,26 @@
+rust-zoneinfo-compiled (0.5.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package zoneinfo_compiled 0.5.1 from crates.io using debcargo 2.4.4
+  * Fix 1970 timestamps.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 22 Aug 2021 09:06:23 +0000
+
+rust-zoneinfo-compiled (0.5.1-1) unstable; urgency=medium
+
+  * Package zoneinfo_compiled 0.5.1 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Aug 2021 15:24:41 +0200
+
+rust-zoneinfo-compiled (0.4.8-1) unstable; urgency=medium
+
+  * Package zoneinfo_compiled 0.4.8 from crates.io using debcargo 2.3.1-alpha.0
+  * relax-deps.diff removed. Applied upstream.
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 25 Aug 2019 15:15:58 +0200
+
+rust-zoneinfo-compiled (0.4.7-1) unstable; urgency=medium
+
+  * Package zoneinfo_compiled 0.4.7 from crates.io using debcargo 2.2.8
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 16 Dec 2018 17:36:53 +0100

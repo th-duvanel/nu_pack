@@ -1,0 +1,9 @@
+rust-is-docker (0.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package is-docker 0.2.0 from crates.io using debcargo 2.6.1
+
+  [ Fab Stz ]
+  * Package is-docker 0.2.0 from crates.io using debcargo 2.6.1
+
+ -- Federico Ceratto <federico@debian.org>  Mon, 04 Mar 2024 22:33:15 +0100

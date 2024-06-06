@@ -1,0 +1,37 @@
+Index: repro-env/Cargo.toml
+===================================================================
+--- repro-env.orig/Cargo.toml
++++ repro-env/Cargo.toml
+@@ -48,6 +48,6 @@
+ [dependencies.env_logger]
+-version = "0.11"
++version = "0.10"
+ 
+ [dependencies.fd-lock]
+-version = "4.0.0"
++version = "3"
+ 
+@@ -60,3 +60,3 @@
+ [dependencies.indexmap]
+-version = "2.1.0"
++version = ">= 1"
+ features = ["serde"]
+@@ -76,3 +76,3 @@
+ [dependencies.nix]
+-version = "0.28"
++version = ">= 0.26, < 1.0"
+ features = ["sched"]
+@@ -93,3 +93,3 @@
+ [dependencies.ruzstd]
+-version = "0.6"
++version = "0.5"
+ 
+@@ -97,8 +97,2 @@
+ version = "1.18"
+-features = [
+-    "crypto-rust",
+-    "allow-experimental-crypto",
+-    "allow-variable-time-crypto",
+-]
+-default-features = false
+ 

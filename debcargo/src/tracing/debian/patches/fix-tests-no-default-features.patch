@@ -1,0 +1,65 @@
+Index: tracing/Cargo.toml
+===================================================================
+--- tracing.orig/Cargo.toml
++++ tracing/Cargo.toml
+@@ -74,32 +74,40 @@ harness = false
+ [[bench]]
+ name = "dispatch_get_clone"
++required-features = ["std"]
+ harness = false
+ 
+ [[bench]]
+ name = "dispatch_get_ref"
++required-features = ["std"]
+ harness = false
+ 
+ [[bench]]
+ name = "empty_span"
++required-features = ["std"]
+ harness = false
+ 
+ [[bench]]
+ name = "enter_span"
++required-features = ["std"]
+ harness = false
+ 
+ [[bench]]
+ name = "event"
++required-features = ["std"]
+ harness = false
+ 
+ [[bench]]
+ name = "span_fields"
++required-features = ["std"]
+ harness = false
+ 
+ [[bench]]
+ name = "span_no_fields"
++required-features = ["std"]
+ harness = false
+ 
+ [[bench]]
+ name = "span_repeated"
++required-features = ["std"]
+ harness = false
+ 
+Index: tracing/benches/shared.rs
+===================================================================
+--- tracing.orig/benches/shared.rs
++++ tracing/benches/shared.rs
+@@ -7,6 +7,7 @@ use std::{
+     sync::{Mutex, MutexGuard},
+ };
+ 
++#[cfg(feature = "std")]
+ pub fn for_all_recording(
+     group: &mut criterion::BenchmarkGroup<'_, WallTime>,
+     mut iter: impl FnMut(&mut Bencher<'_, WallTime>),
+@@ -32,6 +33,7 @@ pub fn for_all_recording(
+     group.bench_function("global", &mut iter);
+ }
+ 
++#[cfg(feature = "std")]
+ pub fn for_all_dispatches(
+     group: &mut criterion::BenchmarkGroup<'_, WallTime>,
+     mut iter: impl FnMut(&mut Bencher<'_, WallTime>),

@@ -1,0 +1,75 @@
+rust-wayland-server (0.31.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package wayland-server 0.31.1 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 07 Apr 2024 04:09:36 +0000
+
+rust-wayland-server (0.31.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package wayland-server 0.31.0 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Thu, 28 Dec 2023 08:42:58 -0500
+
+rust-wayland-server (0.30.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-server 0.30.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 04 Jul 2023 20:54:23 +0200
+
+rust-wayland-server (0.30.0-3) experimental; urgency=medium
+
+  * Team upload
+  * Update relax-deps.diff
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 22 Jun 2023 06:19:20 -0400
+
+rust-wayland-server (0.30.0-2) experimental; urgency=medium
+
+  * Team upload
+  * Update relax-deps.diff
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 21 Jun 2023 22:21:43 -0400
+
+rust-wayland-server (0.30.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package wayland-server 0.30.0 from crates.io using debcargo 2.6.0
+  * Deleted obsolete patches; relaxed dependency on io-lifetimes
+  * Collapsed features in debcargo.toml
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 25 May 2023 10:30:38 +0200
+
+rust-wayland-server (0.29.4-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-server 0.29.4 from crates.io using debcargo 2.5.0
+  * Update update-nix-dependency.patch for new upstream.
+  * Bump parking_lot dependency
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 05 Sep 2022 23:44:10 +0000
+
+rust-wayland-server (0.29.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-server 0.29.4 from crates.io using debcargo 2.5.0
+  * Be less restrictive about versions of the nix crate, this has the potential
+    for future breakage but overall is likely to be less work than continuously
+    bumping the dependencies.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 10 Jun 2022 01:29:33 +0000
+
+rust-wayland-server (0.29.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-server 0.29.4 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sun, 10 Apr 2022 10:44:04 -0400
+
+rust-wayland-server (0.29.1-1) unstable; urgency=medium
+
+  * Package wayland-server 0.29.1 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 26 Feb 2022 14:55:38 -0500

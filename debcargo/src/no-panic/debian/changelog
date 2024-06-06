@@ -1,0 +1,24 @@
+rust-no-panic (0.1.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Package no-panic 0.1.13 from crates.io using debcargo 2.4.0
+  * Do not fail when autopkgtest cannot load a lib
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 11 Apr 2020 15:22:06 +0200
+
+rust-no-panic (0.1.11-1) unstable; urgency=medium
+
+  * Package no-panic 0.1.11 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Mon, 26 Aug 2019 15:28:05 +0200
+
+rust-no-panic (0.1.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package no-panic 0.1.6 from crates.io using debcargo 2.2.9
+
+  [ kpcyrd ]
+  * Package no-panic 0.1.4 from crates.io using debcargo 2.2.6
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 07 Dec 2018 19:24:10 -0800

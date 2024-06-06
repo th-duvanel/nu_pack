@@ -1,0 +1,19 @@
+rust-capnp-futures (0.19.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package capnp-futures 0.19.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Wed, 13 Mar 2024 11:10:26 +0100
+
+rust-capnp-futures (0.18.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package capnp-futures 0.18.1 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 21 Dec 2023 09:58:35 -0500
+
+rust-capnp-futures (0.14.1-1) unstable; urgency=medium
+
+  * Package capnp-futures 0.14.1 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 15 Jul 2022 00:37:48 -0400

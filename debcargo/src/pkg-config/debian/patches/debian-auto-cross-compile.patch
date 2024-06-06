@@ -1,0 +1,11 @@
+Index: pkg-config/src/lib.rs
+===================================================================
+--- pkg-config.orig/src/lib.rs
++++ pkg-config/src/lib.rs
+@@ -457,1 +457,5 @@ impl Config {
+-        let exe = pkg_config_exe.unwrap_or_else(|| OsString::from("pkg-config"));
++        let exe = pkg_config_exe.unwrap_or_else(|| {
++                self.env_var_os("DEB_HOST_GNU_TYPE")
++                    .map(|mut t| { t.push(OsString::from("-pkg-config")); t })
++                    .unwrap_or_else(|| OsString::from("pkg-config"))
++        });

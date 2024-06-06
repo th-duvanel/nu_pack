@@ -1,0 +1,5 @@
+rust-test-log (0.2.15-1) unstable; urgency=medium
+
+  * Package test-log 0.2.15 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 04 Mar 2024 16:30:53 +0100

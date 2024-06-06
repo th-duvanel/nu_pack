@@ -1,0 +1,96 @@
+rust-h2 (0.4.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package h2 0.4.4 from crates.io using debcargo 2.6.1
+  * Fixes RUSTSEC-2024-0332, Degradation of service in h2 servers with CONTINUATION Flood.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 12 Apr 2024 09:17:04 -0400
+
+rust-h2 (0.3.24-1) unstable; urgency=medium
+
+  * Package h2 0.3.24 from crates.io using debcargo 2.6.1
+  * Relax dependency on indexmap.
+
+  [ Alexander Kjäll ]
+  * Team upload.
+  * Package h2 0.3.24 from crates.io using debcargo 2.6.1
+  * fixes RUSTSEC-2024-0003 (Closes: #1062667)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 13 Feb 2024 14:39:39 +0000
+
+rust-h2 (0.3.21-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package h2 0.3.21 from crates.io using debcargo 2.6.0 (Closes: #1043526)
+  * Drop limit-pending-accept-reset-streams.patch and fix-regression.patch
+    since the changes are included in the new upstream release.
+  * Bump env-logger dev-dependency to 0.10
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 29 Oct 2023 08:01:42 +0000
+
+rust-h2 (0.3.13-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package h2 0.3.13 from crates.io using debcargo 2.5.0
+  * Add patch limit-pending-accept-reset-streams.patch cherry picked from
+    upstream to fix denial of service vulnerability. CVE-2023-26964
+    RUSTSEC-2023-0034 (Closes: #1034723)
+  * Add patch fix-regression.patch chrerry picked from upstream to fix a
+    regression introduced by the above patch.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 23 Apr 2023 09:50:43 +0000
+
+rust-h2 (0.3.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package h2 0.3.13 from crates.io using debcargo 2.5.0 (Closes: 1009888)
+  * Disable tests that require test data which is not included
+    in the crates.io release.
+  * Disable example that relies on tokio-rustls.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 21 Jun 2022 15:47:48 +0000
+
+rust-h2 (0.1.26-1) unstable; urgency=medium
+
+  * Package h2 0.1.26 from crates.io using debcargo 2.4.0
+
+  [ Ximin Luo ]
+  * Team upload.
+  * Package h2 0.1.26 from crates.io using debcargo 2.4.0
+  * No need to exclude or clean Cargo.lock with dh-cargo >= 20.
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 09 Nov 2019 11:48:05 +0100
+
+rust-h2 (0.1.25-1) unstable; urgency=medium
+
+  * Package h2 0.1.25 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 15 Jul 2019 06:37:50 +0200
+
+rust-h2 (0.1.16-1) unstable; urgency=medium
+
+  * Package h2 0.1.16 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 05 Feb 2019 17:29:28 +0100
+
+rust-h2 (0.1.15-1) unstable; urgency=medium
+
+  * Package h2 0.1.15 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 20 Jan 2019 22:12:34 +0100
+
+rust-h2 (0.1.14-1) unstable; urgency=medium
+
+  * Package h2 0.1.14 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 11 Dec 2018 13:24:44 +0100
+
+rust-h2 (0.1.13-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package h2 0.1.13 from crates.io using debcargo 2.2.8
+
+  [ Wolfgang Silbermayr ]
+  * Package h2 0.1.12 from crates.io using debcargo 2.2.7
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 20 Oct 2018 16:37:55 +0200

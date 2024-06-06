@@ -1,0 +1,38 @@
+Downgrade prost to the version in Debian 
+
+Index: pprof/Cargo.toml
+===================================================================
+--- pprof.orig/Cargo.toml
++++ pprof/Cargo.toml
+@@ -44,7 +44,7 @@ version = "^0.2.66"
+ version = "0.4"
+ 
+ [dependencies.nix]
+-version = "0.26"
++version = "0.27"
+ features = [
+     "signal",
+     "fs",
+@@ -58,11 +58,11 @@ version = "1.9"
+ version = "0.12"
+ 
+ [dependencies.prost]
+-version = "0.12"
++version = "0.11"
+ optional = true
+ 
+ [dependencies.prost-derive]
+-version = "0.12"
++version = "0.11"
+ optional = true
+ 
+ [dependencies.protobuf]
+@@ -90,7 +90,7 @@ version = "0.5"
+ version = "0.8.0"
+ 
+ [build-dependencies.prost-build]
+-version = "0.12"
++version = "0.11"
+ optional = true
+ 
+ [build-dependencies.protobuf-codegen-pure]

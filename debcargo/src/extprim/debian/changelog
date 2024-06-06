@@ -1,0 +1,44 @@
+rust-extprim (1.7.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Package extprim 1.7.1 from crates.io using debcargo 2.6.0
+  * Update relax-deps patch to drop obsolete rust-semver dependency
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sat, 07 Oct 2023 10:39:35 -0400
+
+rust-extprim (1.7.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package extprim 1.7.1 from crates.io using debcargo 2.5.0
+  * Further relax rand depenency to allow 0.8
+  * Fix autopkgtest so it passess successfully and is no longer skipped.
+    + Disable test that depends on extprim_literals and remove dependency.
+    + Fix the tests in no-default-features builds.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 09:47:13 +0000
+
+rust-extprim (1.7.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * d/patches: added patch relax-deps.patch
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 22:24:00 +0100
+
+rust-extprim (1.7.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package extprim 1.7.0 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 16 Jan 2020 21:07:21 +0000
+
+rust-extprim (1.7.0-1) unstable; urgency=medium
+
+  * Package extprim 1.7.0 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 26 Aug 2019 19:30:24 +0200
+
+rust-extprim (1.6.0-1) unstable; urgency=medium
+
+  * Package extprim 1.6.0 from crates.io using debcargo 2.2.9
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 24 Nov 2018 10:26:51 +0100

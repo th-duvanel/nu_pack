@@ -1,0 +1,5 @@
+rust-eui48 (1.1.0-1) unstable; urgency=medium
+
+  * Package eui48 1.1.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 05 Nov 2022 22:01:50 +0100

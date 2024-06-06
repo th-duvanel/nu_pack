@@ -1,0 +1,31 @@
+rust-async-global-executor (2.4.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package async-global-executor 2.4.1 from crates.io using debcargo 2.6.1
+  * update relax-deps.diff for new upstream and current situation in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 01 Feb 2024 17:35:22 +0000
+
+rust-async-global-executor (2.3.1-1) unstable; urgency=medium
+
+  * Package async-global-executor 2.3.1 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 07 Jan 2023 15:45:13 +0100
+
+rust-async-global-executor (2.3.0-1) unstable; urgency=medium
+
+  * Package async-global-executor 2.3.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 15 Oct 2022 09:15:04 -0400
+
+rust-async-global-executor (2.2.0-2) unstable; urgency=medium
+
+  * Package async-global-executor 2.2.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Mon, 19 Sep 2022 20:38:34 +0200
+
+rust-async-global-executor (2.2.0-1) unstable; urgency=medium
+
+  * Package async-global-executor 2.2.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 Aug 2022 11:34:10 +0200

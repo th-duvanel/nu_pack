@@ -1,0 +1,45 @@
+rust-erbium-net (1.0.5-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package erbium-net 1.0.5 from crates.io using debcargo 2.6.1
+  * Enable "fs" feature in nix dependency, erbium-core (Which uses nix via
+    this crate) needs it.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 03 May 2024 02:15:21 +0000
+
+rust-erbium-net (1.0.5-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package erbium-net 1.0.5 from crates.io using debcargo 2.6.1
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 14:55:05 +0000
+
+rust-erbium-net (1.0.5-3) experimental; urgency=medium
+
+  * Team upload
+  * Package erbium-net 1.0.5 from crates.io using debcargo 2.6.1
+  * Add patch for nix 0.27
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 21 Apr 2024 16:06:41 -0400
+
+rust-erbium-net (1.0.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package erbium-net 1.0.5 from crates.io using debcargo 2.6.0
+  * Update netlink-packet-core to 0.7 and netlink-packet-route to 0.17
+    and fix code to build with the new versions.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 10 Aug 2023 20:43:30 +0000
+
+rust-erbium-net (1.0.5-1) unstable; urgency=medium
+
+  * Package erbium-net 1.0.5 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 03 Jul 2023 09:31:15 +0100
+
+rust-erbium-net (1.0.4-1) unstable; urgency=medium
+
+  * Package erbium-net 1.0.4 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 21 May 2023 15:38:30 +0100

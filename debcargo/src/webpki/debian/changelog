@@ -1,0 +1,50 @@
+rust-webpki (0.22.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package webpki 0.22.4 from crates.io using debcargo 2.6.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Nov 2023 19:09:59 +0000
+
+rust-webpki (0.22.4-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package webpki 0.22.4 from crates.io using debcargo 2.6.0
+    + New upstream uses ring 0.17.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 04 Nov 2023 03:43:25 +0000
+
+rust-webpki (0.22.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package webpki 0.22.1 from crates.io using debcargo 2.6.0
+  * Fix for: RUSTSEC-2023-0052, Closes:  #1050299
+
+ -- Reinhard Tartler <siretart@tauware.de>  Fri, 08 Sep 2023 11:51:40 -0400
+
+rust-webpki (0.22.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump base64 dev-dep to 0.21
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Fri, 16 Jun 2023 19:48:29 +0200
+
+rust-webpki (0.22.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package webpki 0.22.0 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 11 Jun 2022 20:05:07 +0200
+
+rust-webpki (0.21.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package webpki 0.21.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:24:58 +0200
+
+rust-webpki (0.21.0-1) unstable; urgency=medium
+
+  * Package webpki 0.21.0 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Wed, 30 Oct 2019 14:23:38 +0100

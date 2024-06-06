@@ -1,0 +1,29 @@
+rust-generator (0.7.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package generator 0.7.1 from crates.io using debcargo 2.5.0 (Closes: #1022193)
+    + Fixes CVE-2020-36471 (Closes: #992047)
+  * Drop relax-rustc_version.patch, upstream now uses rustversion instead.
+  * Drop dependency on "windows" crate, it's windows specific and not in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Oct 2022 01:10:22 +0000
+
+rust-generator (0.6.20-3) unstable; urgency=medium
+
+  * Team upload.
+  * d/patches: added patch relax-deps.patch
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 22:28:49 +0100
+
+rust-generator (0.6.20-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package generator 0.6.20 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:07:21 +0200
+
+rust-generator (0.6.20-1) unstable; urgency=medium
+
+  * Package generator 0.6.20 from crates.io using debcargo 2.4.2
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Sat, 08 Feb 2020 19:01:53 +0100

@@ -1,0 +1,5 @@
+rust-openssl-probe (0.1.2-1) unstable; urgency=medium
+
+  * Package openssl-probe 0.1.2 from crates.io using debcargo 2.2.1
+
+ -- kpcyrd <git@rxv.cc>  Sun, 08 Jul 2018 13:32:05 -0700

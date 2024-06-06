@@ -1,0 +1,26 @@
+rust-time-macros (0.2.16-1) unstable; urgency=medium
+
+  * Package time-macros 0.2.16 from crates.io using debcargo 2.6.1
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package time-macros 0.2.15 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 18 Feb 2024 06:13:44 +0000
+
+rust-time-macros (0.2.10-1) unstable; urgency=medium
+
+  * Package time-macros 0.2.10 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package time-macros 0.2.9 from crates.io using debcargo 2.6.0
+  * Add copyright entry for src/him.rs
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Aug 2023 18:08:35 +0000
+
+rust-time-macros (0.2.4-1) unstable; urgency=medium
+
+  * Package time-macros 0.2.4 from crates.io using debcargo 2.5.0
+
+ -- Liang Yan <ly@xryan.net>  Fri, 15 Apr 2022 09:12:47 +0200

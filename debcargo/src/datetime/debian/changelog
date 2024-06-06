@@ -1,0 +1,59 @@
+rust-datetime (0.5.2-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package datetime 0.5.2 from crates.io using debcargo 2.6.1
+  * Handle padding in struct timespec introduced by time64 patches (Closes: #1069998).
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 29 Apr 2024 02:28:10 +0000
+
+rust-datetime (0.5.2-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package datetime 0.5.2 from crates.io using debcargo 2.4.4
+  * Fix version in breaks, it needs to be (<< 0.5) not (<< 5)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 28 Aug 2021 06:33:12 +0000
+
+rust-datetime (0.5.2-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package datetime 0.5.2 from crates.io using debcargo 2.4.4
+  * Add breaks on librust-zoneinfo-compiled-dev (<< 5) to work around
+    bug 993079 in britney, this can be dropped again once the packages
+    migrate to testing.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 27 Aug 2021 09:29:22 +0000
+
+rust-datetime (0.5.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package datetime 0.5.2 from crates.io using debcargo 2.4.4
+  * Establish a baseline for autopkgtests
+    (the current version in testing has no autopkgtests)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 22 Aug 2021 14:03:33 +0000
+
+rust-datetime (0.5.2-2) unstable; urgency=medium
+
+  * Package datetime 0.5.2 from crates.io using debcargo 2.4.4-alpha.0
+  * fix the timestamp problem
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Aug 2021 21:09:05 +0200
+
+rust-datetime (0.5.2-1) unstable; urgency=medium
+
+  * Package datetime 0.5.2 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Aug 2021 16:21:22 +0200
+
+rust-datetime (0.4.7-2) unstable; urgency=medium
+
+  * Package datetime 0.4.7 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 05 Feb 2019 11:40:46 +0100
+
+rust-datetime (0.4.7-1) unstable; urgency=medium
+
+  * Package datetime 0.4.7 from crates.io using debcargo 2.2.7
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 16 Nov 2018 09:39:07 +0100

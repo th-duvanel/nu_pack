@@ -1,0 +1,31 @@
+rust-diesel-derives (2.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package diesel_derives 2.0.2 from crates.io using debcargo 2.6.0
+    + New upstream is compatible with versions 1.0.24 and newer of the
+      quote crate.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 22 Jun 2023 18:37:24 +0000
+
+rust-diesel-derives (2.0.1-1) unstable; urgency=medium
+
+  * Package diesel_derives 2.0.1 from crates.io using debcargo 2.6.0
+  * Collapsed features in debcargo.toml
+  * Added myself to Uploaders
+  * Patched out dev-dependencies
+  * Updated copyright
+  * Dropped obsolete patch patch-syn-quote-proc-macro2
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 10 Feb 2023 10:24:40 +0100
+
+rust-diesel-derives (1.4.0-3) unstable; urgency=medium
+
+  * Patch syn, quote and proc-macro2 to 1.0
+
+ -- kpcyrd <git@rxv.cc>  Wed, 28 Aug 2019 16:46:03 +0200
+
+rust-diesel-derives (1.4.0-1) unstable; urgency=medium
+
+  * Package diesel_derives 1.4.0 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Mon, 20 May 2019 22:36:30 +0200

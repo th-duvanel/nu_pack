@@ -1,0 +1,5 @@
+rust-serial-core (0.4.0-1) unstable; urgency=medium
+
+  * Package serial-core 0.4.0 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Fri, 24 Sep 2021 23:54:08 +0200

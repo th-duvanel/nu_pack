@@ -1,0 +1,58 @@
+rust-xdg (2.5.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package xdg 2.5.2 from crates.io using debcargo 2.6.0
+  * Disable a doctest that requires a valid home directory.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 26 Jul 2023 07:29:54 +0000
+
+rust-xdg (2.5.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package xdg 2.5.2 from crates.io using debcargo 2.6.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 26 Jul 2023 02:49:13 +0000
+
+rust-xdg (2.5.2-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package xdg 2.5.2 from crates.io using debcargo 2.6.0
+  * Drop test-use-env-target-path.patch, no longer needed.
+  * Set collapse_features = true.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 26 Jul 2023 01:38:40 +0000
+
+rust-xdg (2.4.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package xdg 2.4.1 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sun, 11 Sep 2022 13:55:13 -0400
+
+rust-xdg (2.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package xdg 2.4.0 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Fri, 05 Aug 2022 06:41:51 -0400
+
+rust-xdg (2.2.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Patch failing tests (Closes: #958398, #961460)
+
+ -- Nikos Tsipinakis <nikos@tsipinakis.com>  Sat, 29 Aug 2020 10:58:22 +0200
+
+rust-xdg (2.2.0-2) unstable; urgency=medium
+
+  * Package xdg 2.2.0 from crates.io using debcargo 2.4.2
+  * Source-only reupload for migration to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 24 Jan 2020 08:28:40 +0100
+
+rust-xdg (2.2.0-1) unstable; urgency=medium
+
+  * Package xdg 2.2.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 14 Nov 2019 09:59:54 +0100

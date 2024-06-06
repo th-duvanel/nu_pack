@@ -1,0 +1,5 @@
+rust-mutate-once (0.1.1-1) unstable; urgency=medium
+
+  * Package mutate_once 0.1.1 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 14 Jul 2023 23:44:33 +0200

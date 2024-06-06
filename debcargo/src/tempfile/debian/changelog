@@ -1,0 +1,121 @@
+rust-tempfile (3.10.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.10.1 from crates.io using debcargo 2.6.1
+  * Update relax-dep.diff for new upstream.
+  * Drop drop-redox.patch, upstream now uses rustix on redox os.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 16 Apr 2024 11:39:05 +0000
+
+rust-tempfile (3.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.9.0 from crates.io using debcargo 2.6.1 (Closes: #1060720)
+
+  [ Blair Noctis ]
+  * Disable dependency on redox_syscall
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 15 Jan 2024 00:01:22 +0000
+
+rust-tempfile (3.8.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.8.1 from crates.io using debcargo 2.6.0
+  * Revert upstream bump of redox-syscall dependency.
+  * Remove upper limit from fastrand dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Nov 2023 16:17:58 +0000
+
+rust-tempfile (3.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.8.0 from crates.io using debcargo 2.6.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 08 Oct 2023 20:28:52 +0000
+
+rust-tempfile (3.8.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.8.0 from crates.io using debcargo 2.6.0
+  * Revert upstream bump of tempfile dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 27 Aug 2023 18:36:43 +0000
+
+rust-tempfile (3.6.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.6.0 from crates.io using debcargo 2.6.0
+  * Adjust relax-dep.diff for new upstream and current situation in Debian.
+  * Drop windows-specific dependency on windows-sys.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 13 Jun 2023 17:10:44 +0000
+
+rust-tempfile (3.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.3.0 from crates.io using debcargo 2.5.0
+  * Bump dependency on remove_dir_all.
+  * Mark tests for "nightly" feature as broken.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 Jun 2022 22:40:05 +0000
+
+rust-tempfile (3.2.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.2.0 from crates.io using debcargo 2.4.4
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 11:27:32 +0000
+
+rust-tempfile (3.2.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.2.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Jan 2022 16:03:29 +0000
+
+rust-tempfile (3.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.1.0 from crates.io using debcargo 2.5.0
+  * Relax dependency on redox-syscall.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 Dec 2021 14:00:16 +0000
+
+rust-tempfile (3.1.0-1) unstable; urgency=medium
+
+  * Package tempfile 3.1.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 08 Sep 2019 18:13:11 -0700
+
+rust-tempfile (3.0.8-1) unstable; urgency=medium
+
+  * Package tempfile 3.0.8 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 10 Jul 2019 20:14:30 +0200
+
+rust-tempfile (3.0.7-1) unstable; urgency=medium
+
+  * Package tempfile 3.0.7 from crates.io using debcargo 2.2.10
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Tue, 19 Feb 2019 10:11:03 +0100
+
+rust-tempfile (3.0.5-1) unstable; urgency=medium
+
+  * Package tempfile 3.0.5 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 22 Jan 2019 10:04:30 +0100
+
+rust-tempfile (3.0.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tempfile 3.0.4 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 06 Oct 2018 23:37:47 +0200
+
+rust-tempfile (3.0.3-1) unstable; urgency=medium
+
+  * Package tempfile 3.0.3 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Jul 2018 01:25:09 -0700

@@ -1,0 +1,5 @@
+rust-option-ext (0.2.0-1) unstable; urgency=medium
+
+  * Package option-ext 0.2.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 06 Jul 2023 00:09:48 +0200

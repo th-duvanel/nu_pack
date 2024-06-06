@@ -1,0 +1,89 @@
+rust-pyo3 (0.20.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package pyo3 0.20.2 from crates.io using debcargo 2.6.1
+  * Add patch to use a Mutex on architectures where AtomicU64 is not available
+  * Mark tests for the "abi3-py312" feature as "broken" since the default
+    python version in Debian is still 3.11.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 21 Jan 2024 20:58:20 +0000
+
+rust-pyo3 (0.20.2-1) unstable; urgency=medium
+
+  * Team upload.
+  [ Antonio Russo ]
+  * Package pyo3 0.20.2 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 20 Jan 2024 22:23:10 +0000
+
+rust-pyo3 (0.19.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pyo3 0.19.2 from crates.io using debcargo 2.6.0
+  * Remove upper limit from indexmap dependency.
+  * Add upstream patch to make tests pass with new chrono. (Closes: #1055120)
+
+  [ Jelmer Vernooĳ ]
+  * Drop obsolete patch newer-indexmap
+  * Update copyright file.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 09 Nov 2023 20:25:29 +0000
+
+rust-pyo3 (0.19.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Add debian/patches/newer-widestring to bump widestring dependency.
+  * Drop debian/patches/older-widestring.
+  * Refresh debian/patches/newer-indexmap.
+
+  [ Peter Michael Green ]
+  * Reduce the number of tests marked as broken.
+
+ -- Emanuele Rocca <ema@debian.org>  Wed, 05 Jul 2023 16:05:47 +0200
+
+rust-pyo3 (0.19.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package pyo3 0.19.0 from crates.io using debcargo 2.6.0
+  * Bump dependencies on unindent and indoc.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 25 Jun 2023 01:54:19 +0000
+
+rust-pyo3 (0.19.0-1) unstable; urgency=medium
+
+  * Package pyo3 0.19.0 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 11 Jun 2023 14:12:18 +0100
+
+rust-pyo3 (0.18.3-1) experimental; urgency=medium
+
+  * Package pyo3 0.18.3 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 30 May 2023 16:40:03 +0100
+
+rust-pyo3 (0.17.3-1) unstable; urgency=medium
+
+  * Package pyo3 0.17.3 from crates.io using debcargo 2.6.0 (Closes: #1025685)
+
+  [ Claudius Heine ]
+  * Team upload.
+  * Source upload
+  * Mark some autopkgtests as broken, because they depend on other features,
+    which are missing. (Closes: #1021637)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 10 Dec 2022 20:54:38 +0000
+
+rust-pyo3 (0.16.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package pyo3 0.16.5 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 21 Nov 2022 10:26:35 +0100
+
+rust-pyo3 (0.16.5-1) unstable; urgency=medium
+
+  * Source upload
+  * Package pyo3 0.16.5 from crates.io using debcargo 2.5.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 06 Sep 2022 20:46:11 +0100

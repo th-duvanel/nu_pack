@@ -1,0 +1,4 @@
+drop-rustc-dep-of-std.diff
+fix-tests-no-default-features.patch
+remove-test-assembler.patch
+relax-dep.diff

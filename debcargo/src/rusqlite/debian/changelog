@@ -1,0 +1,67 @@
+rust-rusqlite (0.29.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusqlite 0.29.0 from crates.io using debcargo 2.6.1
+  * Fix build of test_from_handle on architectures with unsigned char. (Closes: #1058581)
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 14 Dec 2023 11:53:33 +0000
+
+rust-rusqlite (0.29.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusqlite 0.29.0 from crates.io using debcargo 2.6.1
+  * Relax dependency on fallible-iterator to ">= 0.2, < 1.0".
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 12 Dec 2023 16:31:17 +0000
+
+rust-rusqlite (0.29.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package rusqlite 0.29.0 from crates.io using debcargo 2.6.0
+  * Drop libsqlite3-sys-0.25.patch, no longer needed with new upstream.
+  * Reduce context in remaining patches so they apply to new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Nov 2023 16:06:51 +0000
+
+rust-rusqlite (0.28.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package rusqlite 0.28.0 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 03 Sep 2023 17:00:17 +0000
+
+rust-rusqlite (0.28.0-4) unstable; urgency=medium
+
+  * Package rusqlite 0.28.0 from crates.io using debcargo 2.5.0
+  * Mark tests that don't include modern_sqlite feature as flakey
+    (Closes: #1018066)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 19 Oct 2022 13:51:19 -0400
+
+rust-rusqlite (0.28.0-3) unstable; urgency=medium
+
+  * Package rusqlite 0.28.0 from crates.io using debcargo 2.5.0
+  * drop patches/relax-uuid.patch, since uuid has been updated in debian.
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 23 Aug 2022 10:34:43 -0400
+
+rust-rusqlite (0.28.0-2) unstable; urgency=medium
+
+  * Package rusqlite 0.28.0 from crates.io using debcargo 2.5.0
+  * reintroduce "modern_sqlite" feature
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 18 Aug 2022 12:24:45 -0400
+
+rust-rusqlite (0.28.0-1) UNRELEASED; urgency=medium
+
+  [ Jelmer Vernooĳ ]
+  * Package rusqlite 0.26.0 from crates.io using debcargo 2.5.0
+
+  [ Daniel Kahn Gillmor ]
+  * Add myself to uploaders
+  * Package rusqlite 0.28.0 from crates.io using debcargo 2.5.0
+  * collapse_features = true
+  * patch out bundled features
+  * relax uuid dependency to 0.8
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 21 Jul 2022 01:54:54 -0400

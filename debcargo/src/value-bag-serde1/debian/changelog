@@ -1,0 +1,25 @@
+rust-value-bag-serde1 (1.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package value-bag-serde1 1.9.0 from crates.io using debcargo 2.6.1
+  * Revert upstream bump of erased-serde dependency from 0.3 to 0.4.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 05 May 2024 23:54:10 +0000
+
+rust-value-bag-serde1 (1.4.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package value-bag-serde1 1.4.1 from crates.io using debcargo 2.6.0
+  * Disable serde-buf dependency and corresponding "owned" feature, since
+    rust-serde-buf is not in Debian.
+
+  [ Fabian Grünbichler ]
+  *  extend copyright
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 22 Aug 2023 01:49:28 +0000
+
+rust-value-bag-serde1 (1.4.1-1) unstable; urgency=medium
+
+  * Package value-bag-serde1 1.4.1 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 09 Jul 2023 20:19:26 +0200

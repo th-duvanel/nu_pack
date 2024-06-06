@@ -1,0 +1,5 @@
+rust-pwhash (1.0.0-1) unstable; urgency=medium
+
+  * Package pwhash 1.0.0 from crates.io using debcargo 2.6.0
+
+ -- Johannes Schauer Marin Rodrigues <josch@debian.org>  Wed, 20 Mar 2024 21:53:13 +0100

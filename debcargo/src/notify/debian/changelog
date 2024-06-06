@@ -1,0 +1,33 @@
+rust-notify (6.1.1-1) experimental; urgency=medium
+
+  * Package notify 6.1.1 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Sat, 20 Jan 2024 20:39:48 -0500
+
+rust-notify (5.2.0-1) unstable; urgency=medium
+
+  * Package notify 5.2.0 from crates.io using debcargo 2.6.0
+
+ -- James McCoy <jamessan@debian.org>  Thu, 06 Jul 2023 21:28:47 -0400
+
+rust-notify (5.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package notify 5.0.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 16 Sep 2022 17:55:26 +0200
+
+rust-notify (4.0.17-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package notify 4.0.17 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 May 2022 20:10:24 +0200
+
+rust-notify (4.0.17-1) unstable; urgency=medium
+
+  * Source upload
+  * Package notify 4.0.17 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sun, 15 May 2022 00:03:23 -0400

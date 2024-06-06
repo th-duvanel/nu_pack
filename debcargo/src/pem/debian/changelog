@@ -1,0 +1,76 @@
+rust-pem (3.0.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package pem 3.0.3 from crates.io using debcargo 2.6.1
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Mar 2024 01:16:41 +0000
+
+rust-pem (3.0.3-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package pem 3.0.3 from crates.io using debcargo 2.6.1
+  * Drop base64 patch, no longer needed.
+  * Establish baseline for tests with new major version.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 17 Mar 2024 23:10:38 +0000
+
+rust-pem (1.1.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pem 1.1.1 from crates.io using debcargo 2.6.1 (Closes: #1060198)
+  * Tweak base64 0.21 patch for new upstream.
+  * Set collapse_features = true.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 08 Jan 2024 00:40:40 +0000
+
+rust-pem (1.0.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Update to base64 0.21
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Sun, 11 Jun 2023 22:57:41 +0000
+
+rust-pem (1.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pem 1.0.2 from crates.io using debcargo 2.5.0 (Closes: #1013138)
+  * Drop base64 dependency patch, no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 01 Jul 2022 17:13:31 +0000
+
+rust-pem (0.7.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package pem 0.7.0 from crates.io using debcargo 2.4.4
+  * Further relax dependency on base64
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 22 Aug 2021 12:19:38 +0000
+
+rust-pem (0.7.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * relax dependency on base64
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 10 Jun 2020 13:46:37 -0400
+
+rust-pem (0.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pem 0.7.0 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 14 Jan 2020 22:35:56 +0000
+
+rust-pem (0.6.1-1) unstable; urgency=medium
+
+  * Package pem 0.6.1 from crates.io using debcargo 2.2.10
+    + Remove patch merged upstream
+    + Support user-defined line endings
+
+ -- nicoo <nicoo@debian.org>  Sun, 18 Aug 2019 13:27:51 +0200
+
+rust-pem (0.6.0-1) unstable; urgency=medium
+
+  * Package pem 0.6.0 from crates.io using debcargo 2.2.10
+
+ -- nicoo <nicoo@debian.org>  Tue, 06 Aug 2019 20:01:14 +0200

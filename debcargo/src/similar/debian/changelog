@@ -1,0 +1,21 @@
+rust-similar (2.2.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package similar 2.2.1 from crates.io using debcargo 2.6.0
+  * Bump bstr dependency to 1
+  * Make unicode feature depend on std feature of bstr as bstr currently requires
+    std for unicode support.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 13 Jun 2023 00:23:19 +0000
+
+rust-similar (2.2.1-1) unstable; urgency=medium
+
+  * Package similar 2.2.1 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 24 Dec 2022 13:16:17 +0100
+
+rust-similar (2.2.0-1) unstable; urgency=medium
+
+  * Package similar 2.2.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 Aug 2022 11:28:59 +0200

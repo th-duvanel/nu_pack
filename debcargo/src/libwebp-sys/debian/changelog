@@ -1,0 +1,28 @@
+rust-libwebp-sys (0.9.5-1) unstable; urgency=medium
+
+  * Package libwebp-sys 0.9.5 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 20 Mar 2024 19:58:27 +0100
+
+rust-libwebp-sys (0.9.4-1) unstable; urgency=medium
+
+  * Team upload
+  * Package libwebp-sys 0.9.4 from crates.io using debcargo 2.6.0
+  * Drop 32-bit skip test patch: applied in new release
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sun, 08 Oct 2023 18:56:53 -0400
+
+rust-libwebp-sys (0.9.2-2) unstable; urgency=medium
+
+  * Upload to unstable
+  * Include skip-tests-on-32-bit-arches.diff to skip bindgen test on 32-
+    bit arches
+  * Package libwebp-sys 0.9.2 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 10 Sep 2023 14:19:12 +0200
+
+rust-libwebp-sys (0.9.2-1) experimental; urgency=medium
+
+  * Package libwebp-sys 0.9.2 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Sep 2023 13:57:07 -0400

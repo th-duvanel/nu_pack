@@ -1,0 +1,22 @@
+rust-backoff (0.4.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package backoff 0.4.0 from crates.io using debcargo 2.6.0
+  * Mark tests for the all features case as "broken", the "tokio" and
+    "async-std" features are mutually exclusive (Closes: #1030383)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 04 Feb 2023 01:22:35 +0000
+
+rust-backoff (0.4.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package backoff 0.4.0 from crates.io using debcargo 2.6.0
+  * Remove wasm-bindgen feature (Closes: #1029330)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 29 Jan 2023 12:15:17 +0000
+
+rust-backoff (0.4.0-1) unstable; urgency=medium
+
+  * Package backoff 0.4.0 from crates.io using debcargo 2.6.0
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Wed, 28 Dec 2022 16:34:40 +0100

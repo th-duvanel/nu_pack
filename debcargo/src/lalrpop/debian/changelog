@@ -1,0 +1,129 @@
+rust-lalrpop (0.20.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package lalrpop 0.20.2 from crates.io using debcargo 2.6.1
+  * Stop patching regex-syntax dependency, upstream now wants the version
+    Debian has.
+  * Relax itertools dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 03 Mar 2024 11:01:03 +0000
+
+rust-lalrpop (0.20.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package lalrpop 0.20.0 from crates.io using debcargo 2.6.1
+  * Stop patching pico-args, ascii-canvas and term dependencies.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 01 Jan 2024 17:43:50 +0000
+
+rust-lalrpop (0.20.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package lalrpop 0.20.0 from crates.io using debcargo 2.6.0
+  * Bump regex-syntax dependency to 0.8.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 24 Oct 2023 21:06:33 +0000
+
+rust-lalrpop (0.20.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package lalrpop 0.20.0 from crates.io using debcargo 2.6.0
+  * Update patches for new upstream.
+  * Revert upstream bump of pico-args dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 03 Oct 2023 22:37:55 +0000
+
+rust-lalrpop (0.19.8-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package lalrpop 0.19.8 from crates.io using debcargo 2.6.0
+  * Attempt to fix sporadic stack overflow in expr_grammar1 test (Closes: #1025341)
+    + Increase stack size for test to 10 MiB
+    + Replace random number generator with one that has a fixed seed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 03 Dec 2022 19:37:02 +0000
+
+rust-lalrpop (0.19.8-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package lalrpop 0.19.8 from crates.io using debcargo 2.5.0
+  * Stop patching petgraph dependency, debian now has 0.6 (Closes: 1019041)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 03 Sep 2022 23:47:31 +0000
+
+rust-lalrpop (0.19.8-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package lalrpop 0.19.8 from crates.io using debcargo 2.5.0
+  * Mark another file of tests as needing the lexer feature.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Jun 2022 22:41:23 +0000
+
+rust-lalrpop (0.19.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package lalrpop 0.19.8 from crates.io using debcargo 2.5.0
+  * Update patches for new upstream and current situation in Debian.
+  * Add patch to fix tests with no-default-features.
+  * set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 05 Jun 2022 19:14:26 +0000
+
+rust-lalrpop (0.17.2-8) unstable; urgency=medium
+
+  * Team upload.
+  * Package lalrpop 0.17.2 from crates.io using debcargo 2.4.4
+  * Further relax dependency on itertools to allow 0.10
+  * Reduce context in ena-relax-0.14.patch to stop dpkg-source complaining about fuzz
+  * Relax dev-dependency on rand so the autopkgtest can run.
+  * Establish baseline for autopkgtest.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 24 Oct 2021 16:55:04 +0000
+
+rust-lalrpop (0.17.2-7) unstable; urgency=medium
+
+  * Team upload.
+  * Package lalrpop 0.17.2 from crates.io using debcargo 2.4.3
+  * bump sha2 to 0.9
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 25 Nov 2020 23:38:42 +0100
+
+rust-lalrpop (0.17.2-6) unstable; urgency=medium
+
+  * relax dependency on ena to allow 0.14
+  * Package lalrpop 0.17.2 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 14 Oct 2020 11:52:27 -0400
+
+rust-lalrpop (0.17.2-5) unstable; urgency=medium
+
+  * bump dependency on itertools to 0.9
+  * Package lalrpop 0.17.2 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 14 Oct 2020 10:26:33 -0400
+
+rust-lalrpop (0.17.2-4) unstable; urgency=medium
+
+  * bump dependency on rust-petgraph to 0.5
+  * Package lalrpop 0.17.2 from crates.io using debcargo 2.4.2
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 13 Jan 2020 16:32:03 -0500
+
+rust-lalrpop (0.17.2-3) unstable; urgency=medium
+
+  * Package lalrpop 0.17.2 from crates.io using debcargo 2.4.1
+  * (source-only rebuild, aiming for fixes from dh-cargo 23)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 08 Jan 2020 10:52:31 -0500
+
+rust-lalrpop (0.17.2-2) unstable; urgency=medium
+
+  * source-only upload.
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 06 Jan 2020 15:01:15 -0500
+
+rust-lalrpop (0.17.2-1) unstable; urgency=medium
+
+  * Package lalrpop 0.17.2 from crates.io using debcargo 2.4.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 23 Oct 2019 12:13:59 -0400

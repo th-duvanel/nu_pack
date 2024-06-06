@@ -1,0 +1,17 @@
+overlay = "."
+uploaders = [
+  "Sylvestre Ledru <sylvestre@debian.org>",
+  "Wolfgang Silbermayr <wolfgang@silbermayr.at>",
+]
+
+# The auto-generated summary is too long.
+summary = "Compact, efficient std sync primitives"
+
+collapse_features = true
+
+[packages."lib+nightly"]
+test_is_broken = true
+
+# Broken by the removal of backtrace dep from parking-lot-core
+[packages."lib+deadlock_detection"]
+test_is_broken = true

@@ -1,0 +1,31 @@
+rust-tss-esapi-sys (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tss-esapi-sys 0.5.0 from crates.io using debcargo 2.6.0
+  * Drop relax-dep.diff, no longer needed
+  * Update generate-bindings-if-needed.diff for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 26 Oct 2023 02:05:52 +0000
+
+rust-tss-esapi-sys (0.4.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package tss-esapi-sys 0.4.0 from crates.io using debcargo 2.6.0
+  * Bump bindgen dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Sep 2023 22:33:16 +0000
+
+rust-tss-esapi-sys (0.4.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tss-esapi-sys 0.4.0 from crates.io using debcargo 2.6.0
+  * Add patch to automatically generate bindings if needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 15 Aug 2023 01:29:17 +0000
+
+rust-tss-esapi-sys (0.4.0-1) unstable; urgency=medium
+
+  * Package tss-esapi-sys 0.4.0 from crates.io using debcargo 2.6.0
+  * Add debian/patches/relax-dep.diff to relax versioned build dependencies
+
+ -- Emanuele Rocca <ema@debian.org>  Wed, 09 Aug 2023 15:40:03 +0200

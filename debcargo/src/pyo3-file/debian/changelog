@@ -1,0 +1,33 @@
+rust-pyo3-file (0.7.0-2) unstable; urgency=medium
+
+  [ Antonio Russo ]
+  * Team upload.
+  * Package pyo3-file 0.7.0 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 20 Jan 2024 22:34:52 +0000
+
+rust-pyo3-file (0.7.0-1) unstable; urgency=medium
+
+  * Package pyo3-file 0.7.0 from crates.io using debcargo 2.6.0
+  * Add patch drop-broken-test: disable skeptic tests
+    that fail trying to edit source files.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 29 Sep 2023 23:54:07 +0100
+
+rust-pyo3-file (0.5.0-3) unstable; urgency=medium
+
+  * Package pyo3-file 0.5.0 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 12 Jun 2023 21:19:57 +0100
+
+rust-pyo3-file (0.5.0-2) unstable; urgency=medium
+
+  * Build against newer pyo3.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 02 Jun 2023 19:50:15 +0100
+
+rust-pyo3-file (0.5.0-1) experimental; urgency=medium
+
+  * Package pyo3-file 0.5.0 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 30 May 2023 16:40:57 +0100

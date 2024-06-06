@@ -1,0 +1,24 @@
+rust-khronos-egl (4.1.0-4) unstable; urgency=medium
+
+  * Add relax-dep-versions.patch for rust-wayland* dependencies
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Sat, 02 Jul 2022 07:03:06 -0400
+
+rust-khronos-egl (4.1.0-3) unstable; urgency=medium
+
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Fri, 01 Jul 2022 16:19:18 -0400
+
+rust-khronos-egl (4.1.0-2) unstable; urgency=medium
+
+  * Package khronos-egl 4.1.0 from crates.io using debcargo 2.5.0
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 27 Jun 2022 13:01:34 -0400
+
+rust-khronos-egl (4.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package khronos-egl 4.1.0 from crates.io using debcargo 2.5.0
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Fri, 24 Jun 2022 18:35:38 -0400

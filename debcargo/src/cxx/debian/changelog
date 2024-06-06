@@ -1,0 +1,35 @@
+rust-cxx (1.0.87-1) unstable; urgency=medium
+
+  * Package cxx 1.0.87 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 24 Jan 2023 19:01:26 +0100
+
+rust-cxx (1.0.86-1) unstable; urgency=medium
+
+  * Package cxx 1.0.86 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 12 Jan 2023 14:32:01 +0100
+
+rust-cxx (1.0.73-3) unstable; urgency=medium
+
+  * Package cxx 1.0.73 from crates.io using debcargo 2.6.0
+  * Add test_depends = ["g++"] to debcargo.toml to pass autopkgtest
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 22 Dec 2022 17:21:24 +0100
+
+rust-cxx (1.0.73-2) unstable; urgency=medium
+
+  * Package cxx 1.0.73 from crates.io using debcargo 2.6.0
+  * Fixed autopkgtest on buildd
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 21 Dec 2022 16:13:59 +0100
+
+rust-cxx (1.0.73-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cxx 1.0.73 from crates.io using debcargo 2.6.0
+
+  [ Nikos Tsipinakis ]
+  * Package cxx 1.0.62 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 17 Dec 2022 14:15:06 +0100

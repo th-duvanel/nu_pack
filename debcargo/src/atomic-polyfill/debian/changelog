@@ -1,0 +1,9 @@
+rust-atomic-polyfill (1.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package atomic-polyfill 1.0.2 from crates.io using debcargo 2.6.0
+
+  [ Sylvestre Ledru ]
+  * Package atomic-polyfill 0.1.5 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 02 Jul 2023 22:37:47 +0200

@@ -1,0 +1,47 @@
+rust-bzip2-sys (0.1.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bzip2-sys 0.1.11+1.0.8 from crates.io using debcargo 2.6.0
+  * Update debian-build-rs.patch for new upstream and try to make it
+    less likely to break in future.
+  * Update overridden debian/tests/control
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 23 Dec 2022 00:26:12 +0000
+
+rust-bzip2-sys (0.1.9-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bzip2-sys 0.1.9+1.0.8 from crates.io using debcargo 2.4.3
+  * Replace too-long summary with a trimmed version
+  * Clean up debian/copyright
+  * Ensure patches have clear Description fields
+  * Work around debcargo 2.4.3 test generation flakiness
+    (Closes: #975480)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 21 Dec 2020 16:33:54 -0500
+
+rust-bzip2-sys (0.1.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bzip2-sys 0.1.9+1.0.8 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 14 Oct 2020 23:18:56 -0400
+
+rust-bzip2-sys (0.1.7-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bzip2-sys 0.1.7 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 20 Jan 2019 18:00:28 -0800
+
+rust-bzip2-sys (0.1.7-1) unstable; urgency=medium
+
+  * Package bzip2-sys 0.1.7 from crates.io using debcargo 2.2.9
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 15 Dec 2018 11:32:43 +0100
+
+rust-bzip2-sys (0.1.6-1) unstable; urgency=medium
+
+  * Package bzip2-sys 0.1.6 from crates.io using debcargo 2.2.7
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 14 Oct 2018 12:42:11 +0200

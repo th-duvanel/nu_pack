@@ -1,0 +1,21 @@
+rust-quick-error (2.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-error 2.0.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 01 Jun 2022 18:05:00 +0200
+
+rust-quick-error (1.2.3-1) unstable; urgency=medium
+
+  * Package quick-error 1.2.3 from crates.io using debcargo 2.4.2
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Sat, 28 Mar 2020 21:32:49 +0100
+
+rust-quick-error (1.2.2-1) unstable; urgency=medium
+
+  * Package quick-error 1.2.2 from crates.io using debcargo 2.2.1
+
+  [ kpcyrd <git@rxv.cc> ]
+  * Package quick-error 1.2.2 from crates.io using debcargo 2.1.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 07 Jul 2018 13:59:16 -0700

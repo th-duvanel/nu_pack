@@ -1,0 +1,17 @@
+Index: fd-find/Cargo.toml
+===================================================================
+--- fd-find.orig/Cargo.toml
++++ fd-find/Cargo.toml
+@@ -138,10 +138,10 @@ default = [
+ # optional = true
+ 
+ [target."cfg(all(unix, not(target_os = \"redox\")))".dependencies.libc]
+-version = "0.2"
++version = "0"
+ 
+ [target."cfg(unix)".dependencies.nix]
+-version = "0.27.1"
++version = "0"
+ features = [
+     "signal",
+     "user",

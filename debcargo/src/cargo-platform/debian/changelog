@@ -1,0 +1,17 @@
+rust-cargo-platform (0.1.2-1) unstable; urgency=medium
+
+  * Package cargo-platform 0.1.2 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 19:38:23 +0100
+
+rust-cargo-platform (0.1.1-1) unstable; urgency=medium
+
+  * Package cargo-platform 0.1.1 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 18 Apr 2020 16:14:10 +0100
+
+rust-cargo-platform (0.1.0-1) unstable; urgency=medium
+
+  * Package cargo-platform 0.1.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 28 Dec 2019 08:01:26 +0000

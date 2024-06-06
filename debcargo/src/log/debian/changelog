@@ -1,0 +1,163 @@
+rust-log (0.4.21-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package log 0.4.21 from crates.io using debcargo 2.6.1
+  * Remove patch relaxing value-bag dependency
+  * Stop marking kv* features as broken.
+  * Disable bench, it fails to build.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 06 May 2024 12:53:18 +0000
+
+rust-log (0.4.21-2) unstable; urgency=medium
+
+  * Package log 0.4.21 from crates.io using debcargo 2.6.1
+
+  [ Matthias Geiger ]
+  * Team upload.
+  * Package log 0.4.21 from crates.io using debcargo 2.6.1
+  * Add patch to relax valuebag to 1.4
+  * Mark all kv* features as broken in debcargo.toml
+
+ -- Federico Ceratto <federico@debian.org>  Sat, 04 May 2024 21:53:13 +0200
+
+rust-log (0.4.21-1) unstable; urgency=medium
+
+  * Package log 0.4.21 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 04 May 2024 10:02:52 +0200
+
+rust-log (0.4.20-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package log 0.4.20 from crates.io using debcargo 2.6.0
+  * Re-enable kv_unstable_serde feature. (Closes: #1040835, #1040837, #1040995)
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 30 Aug 2023 23:29:21 +0000
+
+rust-log (0.4.20-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package log 0.4.20 from crates.io using debcargo 2.6.0
+  * Revert disabling of "kv_unstable_std" and "kv_unstable_sval" features
+    and associated dependencies, the relavent packages are now installable
+    again. (Downgrades: #1040837)
+  * Disable kv_unstable_serde feature it was previously left in a broken state,
+    and can't yet be enabled in a non-broken state.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 22 Aug 2023 02:45:09 +0000
+
+rust-log (0.4.19-2) unstable; urgency=medium
+
+  * Package log 0.4.19 from crates.io using debcargo 2.6.0
+  * Unbreak the package by disable sval & value-bag until the new packages
+    have been accepted (they are in NEW)
+    (Closes: #1040702)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 10 Jul 2023 10:34:22 +0200
+
+rust-log (0.4.19-1) unstable; urgency=medium
+
+  * Package log 0.4.19 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 09 Jul 2023 09:29:04 +0200
+
+rust-log (0.4.17-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package log 0.4.17 from crates.io using debcargo 2.5.0
+  * Drop ignore-sval.diff (Closes: 1020726)
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 20 Oct 2022 16:11:05 +0000
+
+rust-log (0.4.17-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package log 0.4.17 from crates.io using debcargo 2.5.0
+  * Remove ignore-value-bag.diff - value-bag is now in Debian. (Closes: 1019504)
+  * Make ignore-sval.diff strip the kv_unstable_serde feature, it needs the
+    serde feature in value-bag which in turn needs sval.
+  * Set collapse_features = true
+  * Stop ignoring tests.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 25 Sep 2022 17:25:20 +0000
+
+rust-log (0.4.17-1) unstable; urgency=medium
+
+  * Package log 0.4.17 from crates.io using debcargo 2.5.0
+  * Update patches for new upstream.
+  * Patch-out dependency on value-bag
+
+  [ Ximin Luo ]
+  * Team upload.
+  * Package log 0.4.14 from crates.io using debcargo 2.4.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 Jun 2022 21:42:31 +0000
+
+rust-log (0.4.11-2) unstable; urgency=medium
+
+  * Package log 0.4.11 from crates.io using debcargo 2.4.3
+    (Closes: #970463, #973493)
+  * Mark the testsuite as failing:
+    sval isn't available in Debian yet.
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 10 Dec 2020 12:31:03 +0100
+
+rust-log (0.4.11-1) unstable; urgency=medium
+
+  * Package log 0.4.11 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 30 Aug 2020 17:07:29 +0200
+
+rust-log (0.4.8-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package log 0.4.8 from crates.io using debcargo 2.4.2
+  * mark --all-features test as flakey (see
+    https://github.com/rust-lang/log/issues/381)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 21 Feb 2020 17:35:39 -0500
+
+rust-log (0.4.8-3) unstable; urgency=medium
+
+  * Team upload.
+  * drop sval-related features (Closes: #948639)
+  * Package log 0.4.8 from crates.io using debcargo 2.4.2
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 21 Feb 2020 15:42:22 -0500
+
+rust-log (0.4.8-2) unstable; urgency=medium
+
+  * Package log 0.4.8 from crates.io using debcargo 2.2.10
+  * Source upload for rebuild...
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 28 Oct 2019 21:06:10 +0100
+
+rust-log (0.4.8-1) unstable; urgency=medium
+
+  * Package log 0.4.8 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 14 Oct 2019 14:24:49 +0200
+
+rust-log (0.4.6-1) unstable; urgency=medium
+
+  * Package log 0.4.6 from crates.io using debcargo 2.2.9
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 18 Dec 2018 22:43:24 +0100
+
+rust-log (0.4.5-1) unstable; urgency=medium
+
+  * Package log 0.4.5 from crates.io using debcargo 2.2.6
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 08 Sep 2018 12:09:34 +0200
+
+rust-log (0.4.4-1) unstable; urgency=medium
+
+  * Package log 0.4.4 from crates.io using debcargo 2.2.6
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 26 Aug 2018 13:37:09 +0200
+
+rust-log (0.4.3-1) unstable; urgency=medium
+
+  * Package log 0.4.3 from crates.io using debcargo 2.1.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 06 Jul 2018 10:09:42 +0200

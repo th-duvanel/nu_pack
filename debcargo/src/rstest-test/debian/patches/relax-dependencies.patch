@@ -1,0 +1,20 @@
+Index: rstest-test/Cargo.toml
+===================================================================
+--- rstest-test.orig/Cargo.toml
++++ rstest-test/Cargo.toml
+@@ -28,13 +28,13 @@ repository = "https://github.com/la10736
+ version = "1.5.6"
+ 
+ [dependencies.toml_edit]
+-version = "0.19.0"
++version = "0.21.0"
+ 
+ [dev-dependencies.lazy_static]
+ version = "1.4.0"
+ 
+ [dev-dependencies.rstest]
+-version = "0.16.0"
++version = "0.17"
+ default-features = false
+ 
+ [dev-dependencies.temp_testdir]

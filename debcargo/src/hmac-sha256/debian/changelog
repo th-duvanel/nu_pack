@@ -1,0 +1,11 @@
+rust-hmac-sha256 (1.1.7-2) unstable; urgency=medium
+
+  * Disable support for digest 0.9, which is no longer in Debian
+
+ -- Noah Meyerhans <noahm@debian.org>  Tue, 07 May 2024 15:29:01 -0700
+
+rust-hmac-sha256 (1.1.7-1) unstable; urgency=medium
+
+  * Package hmac-sha256 1.1.7 from crates.io using debcargo 2.6.0
+
+ -- Noah Meyerhans <noahm@debian.org>  Mon, 06 May 2024 15:00:54 -0700

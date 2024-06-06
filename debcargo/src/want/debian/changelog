@@ -1,0 +1,25 @@
+rust-want (0.3.0-1) unstable; urgency=medium
+
+  * Package want 0.3.0 from crates.io using debcargo 2.4.4
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package want 0.3.0 from crates.io using debcargo 2.4.2
+  * Update tokio dev-dependencies to 0.2.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 21 Oct 2021 10:46:55 +0000
+
+rust-want (0.2.0-1) unstable; urgency=medium
+
+  * Package want 0.2.0 from crates.io using debcargo 2.2.10
+
+  [ Robin Krahl ]
+  * Package want 0.2.0 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Fri, 12 Jul 2019 12:33:06 +0000
+
+rust-want (0.0.6-1) unstable; urgency=medium
+
+  * Package want 0.0.6 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Sun, 26 Aug 2018 11:11:43 +0200

@@ -1,0 +1,9 @@
+rust-handlebars (5.1.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package handlebars 5.1.2 from crates.io using debcargo 2.6.1
+
+  [ Sylvestre Ledru ]
+  * Package handlebars 1.1.0 from crates.io using debcargo 2.2.9
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 25 Mar 2024 18:26:49 +0100

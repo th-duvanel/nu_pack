@@ -1,0 +1,24 @@
+rust-pest-derive (2.7.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pest_derive 2.7.4 from crates.io using debcargo 2.6.0
+  * Remove not-bootstrap-in-src feature.
+  * Add extern crate alloc; to another example so it will build with
+    --no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 05 Oct 2023 15:48:55 +0000
+
+rust-pest-derive (2.5.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pest_derive 2.5.2 from crates.io using debcargo 2.6.0
+  * Add "extern crate alloc;" to an example so it will build with
+    --no-default-features
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 28 Dec 2022 16:44:59 +0000
+
+rust-pest-derive (2.1.0-1) unstable; urgency=medium
+
+  * Package pest_derive 2.1.0 from crates.io using debcargo 2.4.2
+
+ -- Arnaud Ferraris <arnaud.ferraris@gmail.com>  Sun, 10 May 2020 17:23:01 +0200

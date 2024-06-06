@@ -1,0 +1,102 @@
+From: Sebastian Ramacher <sramacher@debian.org>
+Date: Thu, 29 Dec 2022 11:11:43 +0100
+Subject: Remove some unused features
+
+The unstable, channel-api, quick_test and check_asm features are unused. The features
+desync_finder, dump_ivf and dump_lookahead_data are only useful for internal development.
+---
+ Cargo.toml | 30 ------------------------------
+ 1 file changed, 30 deletions(-)
+
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -63,15 +63,6 @@
+ bench = false
+ required-features = ["binaries"]
+ 
+-[[bin]]
+-name = "rav1e-ch"
+-bench = false
+-required-features = [
+-    "binaries",
+-    "channel-api",
+-    "unstable",
+-]
+-
+ [dependencies.aom-sys]
+ version = "0.3.3"
+ optional = true
+@@ -90,17 +81,9 @@
+ [dependencies.av1-grain]
+ version = "0.2.2"
+ 
+-[dependencies.backtrace]
+-version = "0.3"
+-optional = true
+-
+ [dependencies.bitstream-io]
+ version = "2"
+ 
+-[dependencies.byteorder]
+-version = "1.5.0"
+-optional = true
+-
+ [dependencies.cfg-if]
+ version = "1.0"
+ 
+@@ -123,10 +106,6 @@
+ version = "0.15"
+ optional = true
+ 
+-[dependencies.crossbeam]
+-version = "0.8"
+-optional = true
+-
+ [dependencies.dav1d-sys]
+ version = "0.6.0"
+ optional = true
+@@ -136,12 +115,6 @@
+ version = "0.6"
+ optional = true
+ 
+-[dependencies.image]
+-version = "0.24.7"
+-features = ["png"]
+-optional = true
+-default-features = false
+-
+ [dependencies.itertools]
+ version = "0.12"
+ 
+@@ -284,8 +257,6 @@
+     "nom",
+ ]
+ capi = ["scan_fmt"]
+-channel-api = ["crossbeam"]
+-check_asm = []
+ decode_test = ["aom-sys"]
+ decode_test_dav1d = ["dav1d-sys"]
+ default = [
+@@ -295,14 +266,7 @@
+     "signal_support",
+     "git_version",
+ ]
+-desync_finder = ["backtrace"]
+-dump_ivf = ["ivf"]
+-dump_lookahead_data = [
+-    "byteorder",
+-    "image",
+-]
+ git_version = ["built/git2"]
+-quick_test = []
+ scenechange = []
+ serialize = [
+     "serde",
+@@ -319,7 +283,6 @@
+     "tracing-chrome",
+     "dep:tracing",
+ ]
+-unstable = []
+ 
+ [target."cfg(any(decode_test, decode_test_dav1d))".dependencies.system-deps]
+ version = "6"

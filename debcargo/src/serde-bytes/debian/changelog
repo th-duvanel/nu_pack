@@ -1,0 +1,42 @@
+rust-serde-bytes (0.11.12-1) unstable; urgency=medium
+
+  * Package serde_bytes 0.11.12 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package serde_bytes 0.11.9 from crates.io using debcargo 2.6.0
+  * Collapse features
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 14:49:14 +0000
+
+rust-serde-bytes (0.11.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_bytes 0.11.5 from crates.io using debcargo 2.5.0
+
+ -- Carlos F. Sanz <carlos@sanz.dev>  Thu, 02 Jun 2022 21:47:40 -0400
+
+rust-serde-bytes (0.11.5-1) unstable; urgency=medium
+
+  * Package serde_bytes 0.11.5 from crates.io using debcargo 2.4.3
+  * Add ignore-no-default-features-tests patch which ignores tests without
+    either the `alloc` or `std` feature enabled.
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 12 Jun 2020 09:57:48 +0200
+
+rust-serde-bytes (0.11.3-2) unstable; urgency=medium
+
+  * Package serde_bytes 0.11.3 from crates.io using debcargo 2.4.2
+  * Source-only reupload for transition to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 23 Jan 2020 18:33:41 +0100
+
+rust-serde-bytes (0.11.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_bytes 0.11.3 from crates.io using debcargo 2.4.0
+
+  [ Wolfgang Silbermayr ]
+  * Package serde_bytes 0.11.2 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 06 Dec 2019 15:38:14 +0100

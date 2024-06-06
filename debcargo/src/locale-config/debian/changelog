@@ -1,0 +1,20 @@
+rust-locale-config (0.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package locale_config 0.3.0 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Wed, 14 Dec 2022 17:08:58 +0000
+
+rust-locale-config (0.2.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package locale_config 0.2.2 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:18:20 +0200
+
+rust-locale-config (0.2.2-1) unstable; urgency=medium
+
+  * Package locale_config 0.2.2 from crates.io using debcargo 2.2.10
+
+ -- Nikos Tsipinakis <nikos@tsipinakis.com>  Sun, 07 Jul 2019 10:25:42 +0200

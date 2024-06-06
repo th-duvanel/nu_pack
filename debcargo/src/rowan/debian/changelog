@@ -1,0 +1,25 @@
+rust-rowan (0.15.15-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rowan 0.15.15 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 04:20:19 +0000
+
+rust-rowan (0.15.13-1) unstable; urgency=medium
+
+  * Package rowan 0.15.13 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 30 Sep 2023 11:49:54 +0100
+
+rust-rowan (0.15.11-2) unstable; urgency=medium
+
+  * Disable formatting test, as it fails and shipping a patch
+    to fix formatting is not worth it.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 26 Sep 2023 11:12:34 +0100
+
+rust-rowan (0.15.11-1) unstable; urgency=medium
+
+  * Package rowan 0.15.11 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 26 Aug 2023 11:38:50 +0100

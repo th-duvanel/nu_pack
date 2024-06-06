@@ -1,0 +1,5 @@
+rust-ff-derive (0.13.0-1) unstable; urgency=medium
+
+  * Package ff_derive 0.13.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Tue, 07 Nov 2023 17:19:40 +0100

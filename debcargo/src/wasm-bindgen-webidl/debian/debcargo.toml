@@ -1,0 +1,7 @@
+overlay = "."
+uploaders = [
+  "kpcyrd <git@rxv.cc>",
+  "nicoo <nicoo@debian.org>",
+  "Wolfgang Silbermayr <wolfgang@silbermayr.at>"
+]
+bin = false

@@ -1,0 +1,43 @@
+rust-ttf-parser (0.19.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package ttf-parser 0.19.1 from crates.io using debcargo 2.6.0
+  * Temporarily restrict font_collection_num_fonts_overflow test to 64-bit
+    architectures until upstream decides how they want to fix it on 32-bit
+    architectures.
+
+ -- James McCoy <jamessan@debian.org>  Mon, 24 Jul 2023 07:09:55 -0400
+
+rust-ttf-parser (0.19.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ttf-parser 0.19.1 from crates.io using debcargo 2.6.0
+
+ -- James McCoy <jamessan@debian.org>  Sun, 16 Jul 2023 09:40:50 -0400
+
+rust-ttf-parser (0.15.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump base64 dev-dep to 0.21
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Sat, 17 Jun 2023 09:52:38 +0200
+
+rust-ttf-parser (0.15.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ttf-parser 0.15.2 from crates.io using debcargo 2.5.0
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Mon, 19 Sep 2022 01:32:42 +0900
+
+rust-ttf-parser (0.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package ttf-parser 0.3.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:22:44 +0200
+
+rust-ttf-parser (0.3.0-1) unstable; urgency=medium
+
+  * Package ttf-parser 0.3.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 28 Dec 2019 15:11:30 +0100

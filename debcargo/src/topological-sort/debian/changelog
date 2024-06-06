@@ -1,0 +1,5 @@
+rust-topological-sort (0.2.2-1) unstable; urgency=medium
+
+  * Package topological-sort 0.2.2 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Wed, 05 Jul 2023 20:07:07 +0300

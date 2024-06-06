@@ -1,0 +1,13 @@
+rust-terminal-clipboard (0.4.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package terminal-clipboard 0.4.1 from crates.io using debcargo 2.6.1
+  * Bump x11-clipboard dependency to 0.9
+
+ -- James McCoy <jamessan@debian.org>  Fri, 31 May 2024 22:05:17 -0400
+
+rust-terminal-clipboard (0.4.1-1) unstable; urgency=medium
+
+  * Package terminal-clipboard 0.4.1 from crates.io using debcargo 2.6.1
+
+ -- Ananthu C V <weepingclown@disroot.org>  Mon, 29 Apr 2024 20:54:46 -0400

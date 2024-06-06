@@ -1,0 +1,5 @@
+rust-histo (1.0.0-1) unstable; urgency=medium
+
+  * Package histo 1.0.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 11 Apr 2024 20:30:19 +0200

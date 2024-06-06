@@ -1,0 +1,142 @@
+rust-gtk4-macros (0.8.2-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package gtk4-macros 0.8.2 from crates.io using debcargo 2.6.1
+  * Relax dependency on quick-xml.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 25 May 2024 14:27:16 +0000
+
+rust-gtk4-macros (0.8.2-3) unstable; urgency=medium
+
+  * Really mark features as flaky
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 07 May 2024 14:25:26 +0200
+
+rust-gtk4-macros (0.8.2-2) unstable; urgency=medium
+
+  * Mark blueprint feature as flaky
+  * Set LIBGL_ALWAYS_SOFTWARE=true and GTK_A11Y=none for xml-validation
+    feature (thanks jbicha)
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 06 May 2024 12:16:47 +0200
+
+rust-gtk4-macros (0.8.2-1) unstable; urgency=medium
+
+  * Package gtk4-macros 0.8.2 from crates.io using debcargo 2.6.1
+  * Updated d/t/control for new upstream
+  * Upload to unstable
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 11:17:38 +0200
+
+rust-gtk4-macros (0.8.1-1) experimental; urgency=medium
+
+  * Team upload
+  * Package gtk4-macros 0.8.1 from crates.io using debcargo 2.6.1
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 15:16:14 -0400
+
+rust-gtk4-macros (0.8.0-1) experimental; urgency=medium
+
+  * Package gtk4-macros 0.8.0 from crates.io using debcargo 2.6.1
+  * Updated d/t/control for new upstream
+  * Rebased patch for new upstream
+  * Dropped hard dependency on rustc >= 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 20 Feb 2024 20:27:52 +0100
+
+rust-gtk4-macros (0.7.2-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package gtk4-macros 0.7.2 from crates.io using debcargo 2.6.0
+  * Stop marking tests as broken.
+  * Add patch to disable tests that require trybuild2 to the rest of
+    the testsuite can run.
+  * Run autopkgtests with xvfb-run.
+  * Don't run the all-features or blueprint autopkgtests, they fail to build.
+  * Add breaks on old version of librust-gtk4-dev to help britney's
+    autopkgtest scheduler.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 05 Oct 2023 02:36:59 +0000
+
+rust-gtk4-macros (0.7.2-5) unstable; urgency=medium
+
+  * Re-enable patch for quickxml 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 02 Oct 2023 23:30:18 +0200
+
+rust-gtk4-macros (0.7.2-4) unstable; urgency=medium
+
+  * Drop patches and mark all tests as flaky instead until trybuild2 gets
+    accepted from NEW 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 01 Oct 2023 17:18:30 +0200
+
+rust-gtk4-macros (0.7.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Package gtk4-macros 0.7.2 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 14:36:30 -0400
+
+rust-gtk4-macros (0.7.2-2) experimental; urgency=medium
+
+  * Specify dependency on rustc 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 16 Sep 2023 12:54:52 +0200
+
+rust-gtk4-macros (0.7.2-1) experimental; urgency=medium
+
+  * Package gtk4-macros 0.7.2 from crates.io using debcargo 2.6.0
+  * Add patch for enablement of tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 15 Sep 2023 22:53:18 +0200
+
+rust-gtk4-macros (0.6.6-1) unstable; urgency=medium
+
+  * Package gtk4-macros 0.6.6 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:13:53 +0200
+
+rust-gtk4-macros (0.5.5-3) unstable; urgency=medium
+
+  * Package gtk4-macros 0.5.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 20:52:26 +0200
+
+rust-gtk4-macros (0.5.5-2) experimental; urgency=medium
+
+  * Team upload
+  * Drop obsolete relax-deps.diff
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 21 Jun 2023 18:21:55 -0400
+
+rust-gtk4-macros (0.5.5-1) experimental; urgency=medium
+
+  * Package gtk4-macros 0.5.5 from crates.io using debcargo 2.6.0
+  * Added myself to uploaders
+  * Dropped obsolete patches
+  * Collapsed features in debcargo.toml
+  * Relaxed dependency on quickxml
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 21 May 2023 13:59:24 +0200
+
+rust-gtk4-macros (0.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gtk4-macros 0.3.1 from crates.io using debcargo 2.5.0
+  * Remove unused depdency on heck.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 14 Apr 2022 08:03:09 +0000
+
+rust-gtk4-macros (0.3.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gtk4-macros 0.3.1 from crates.io using debcargo 2.5.0
+  * Disable failing doctest.
+
+  [ Henry-Nicolas Tourneur ]
+  * Package gtk4-macros 0.3.1 from crates.io using debcargo 2.4.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 24 Dec 2021 10:28:26 +0000

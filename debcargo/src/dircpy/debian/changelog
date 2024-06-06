@@ -1,0 +1,5 @@
+rust-dircpy (0.3.16-1) unstable; urgency=medium
+
+  * Package dircpy 0.3.16 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 24 Feb 2024 18:23:40 +0100

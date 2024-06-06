@@ -1,0 +1,76 @@
+rust-tar (0.4.40-1) unstable; urgency=medium
+
+  * Package tar 0.4.40 from crates.io using debcargo 2.6.1 (Closes: #1060871)
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package tar 0.4.40 from crates.io using debcargo 2.6.0
+  * Drop outdated bump-xattr.diff, update disable-tests.diff for new affected
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 16 Jan 2024 09:06:03 +0000
+
+rust-tar (0.4.38-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tar 0.4.38 from crates.io using debcargo 2.6.0
+  * Unbreak xattr dep
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 09 Jul 2023 10:20:29 +0200
+
+rust-tar (0.4.38-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tar 0.4.38 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Thu, 20 Oct 2022 20:51:02 -0400
+
+rust-tar (0.4.37-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package tar 0.4.37 from crates.io using debcargo 2.4.4
+  * Skip adding loop0 to tarball in test if it doesn't exist
+    (apparently it doesn't on Debian CI).
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 09 Nov 2021 21:24:12 +0000
+
+rust-tar (0.4.37-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tar 0.4.37 from crates.io using debcargo 2.4.4
+  * Disable tests that rely on test data which is not included on crates.io
+    and hence not included in the Debian package. The prior version in
+    Debian testing skipped all tests due to dependency issues so this
+    represents an improvement of test coverage.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 09 Nov 2021 11:23:25 +0000
+
+rust-tar (0.4.37-1) unstable; urgency=medium
+
+  * Package tar 0.4.37 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 19:30:39 +0100
+
+rust-tar (0.4.26-1) unstable; urgency=medium
+
+  * Package tar 0.4.26 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 09:23:46 +0200
+
+rust-tar (0.4.20-1) unstable; urgency=medium
+
+  * Package tar 0.4.20 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 15 Dec 2018 22:41:51 +0100
+
+rust-tar (0.4.17-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tar 0.4.17 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 07 Oct 2018 11:21:23 +0200
+
+rust-tar (0.4.16-1) unstable; urgency=medium
+
+  * Package tar 0.4.16 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Jul 2018 00:37:43 -0700

@@ -1,0 +1,124 @@
+rust-futures (0.3.30-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures 0.3.30 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 13 Jan 2024 12:50:45 +0000
+
+rust-futures (0.3.29-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures 0.3.29 from crates.io using debcargo 2.6.1 (Closes: #1056265)
+  * Drop disable-futures-test.patch, futures-test is now in Debian.
+  * Add back dev-dependency removed by the Cargo publish process.
+  * Fix feature requirements for tests.
+  * Stop marking tests as broken.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Nov 2023 21:41:35 +0000
+
+rust-futures (0.3.28-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures 0.3.28 from crates.io using debcargo 2.6.0 (Closes: #1042385)
+  * Update patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Aug 2023 12:00:40 +0000
+
+rust-futures (0.3.21-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures 0.3.21 from crates.io using debcargo 2.5.0 (Closes: #1014404)
+  * Update patches for new upstream.
+  * Stop relaxing dev-dependency on pin-project.
+  * Drop disable-io-buf-read-cursor.patch, no longer needed now we have an
+    up to date pin-project.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Jul 2022 21:50:29 +0000
+
+rust-futures (0.3.17-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures 0.3.17 from crates.io using debcargo 2.5.0
+  * Source only upload for testing migration.
+  * Make tweaks so the autopkgtest can run
+    + Disable tests that rely on assert_matches, the seperate assert_matches
+      crate is not in Debian and the implementation of assert_matches in the
+      standard library is still nightly only at present.
+    + Relax dev-dependency on pin-project
+    + Remove dev-dependency on tokio 0.1, it's only used to test the compat
+      feature which we already removed.
+    + Disable tests that depend on futures_test which is not in Debian
+    + Disable "bilock" feature which can't be used without the already-disabled
+      "unstable" feature.
+    + Disable the Cursor type and tests which depend on it in
+      tests/io_buf_reader.rs, it seems to be incompatible with the version
+      of rust-pin-project currently in Debian.
+    + Allow the testsuite to run without the compat and io_compat features
+      which are removed in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 14 Dec 2021 12:23:30 +0000
+
+rust-futures (0.3.17-1) unstable; urgency=medium
+
+  * Package futures 0.3.17 from crates.io using debcargo 2.4.4
+
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package futures 0.1.29 from crates.io using debcargo 2.4.2
+  * Don't run the testsuite on mipsel either (another hang).
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Fri, 15 Oct 2021 14:29:48 +0200
+
+rust-futures (0.1.29-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures 0.1.29 from crates.io using debcargo 2.4.2
+  * Don't run the testsuite on mips64el, it seems to cause a build
+    hang.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 13 Apr 2020 13:09:13 +0000
+
+rust-futures (0.1.29-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures 0.1.29 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 12 Apr 2020 00:19:41 +0200
+
+rust-futures (0.1.29-1) unstable; urgency=medium
+
+  * Package futures 0.1.29 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 18 Oct 2019 17:29:21 +0200
+
+rust-futures (0.1.28-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package futures 0.1.28 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Wed, 14 Aug 2019 23:59:13 +0200
+
+rust-futures (0.1.28-1) unstable; urgency=medium
+
+  * Package futures 0.1.28 from crates.io using debcargo 2.3.1-alpha.0
+  * Patch out the nightly feature
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 12:03:13 +0200
+
+rust-futures (0.1.25-1) unstable; urgency=medium
+
+  * Package futures 0.1.25 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 02 Dec 2018 11:30:08 +0100
+
+rust-futures (0.1.24-1) unstable; urgency=medium
+
+  * Package futures 0.1.24 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 07 Oct 2018 11:32:14 +0200
+
+rust-futures (0.1.23-1) unstable; urgency=medium
+
+  * Package futures 0.1.23 from crates.io using debcargo 2.2.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 15 Jul 2018 22:41:45 -0700

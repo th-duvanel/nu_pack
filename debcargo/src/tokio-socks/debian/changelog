@@ -1,0 +1,5 @@
+rust-tokio-socks (0.5.1-1) unstable; urgency=medium
+
+  * Package tokio-socks 0.5.1 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Tue, 19 Sep 2023 20:50:32 +0200

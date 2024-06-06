@@ -1,0 +1,5 @@
+rust-beef (0.5.2-1) unstable; urgency=medium
+
+  * Package beef 0.5.2 from crates.io using debcargo 2.6.0
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Wed, 21 Dec 2022 09:52:59 +0100

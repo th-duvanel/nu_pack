@@ -1,0 +1,32 @@
+rust-cpuid-bool (0.1.2-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package cpuid-bool 0.1.2 from crates.io using debcargo 2.4.3
+  * Use test_is_broken rather than manually disabling tests in rules,
+    so it applies to autopkgtests as well as build-time tests.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 23 Dec 2020 07:06:40 +0000
+
+rust-cpuid-bool (0.1.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Disable tests (doesn't contain real test cases, and still
+    fails on non x86/amd64 targets due to explicit compile_error!
+    call).
+
+ -- Jan Niehusmann <jan@debian.org>  Fri, 04 Dec 2020 20:42:55 +0100
+
+rust-cpuid-bool (0.1.2-2) unstable; urgency=medium
+
+  * Source upload
+  * Package cpuid-bool 0.1.2 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 28 Nov 2020 15:21:52 +0100
+
+rust-cpuid-bool (0.1.2-1) unstable; urgency=medium
+
+  * Source upload
+  * Package cpuid-bool 0.1.2 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 25 Nov 2020 16:57:13 +0100
+

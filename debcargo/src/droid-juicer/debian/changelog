@@ -1,0 +1,50 @@
+rust-droid-juicer (0.2.1-2) unstable; urgency=medium
+
+  * Package droid-juicer 0.2.1 from crates.io using debcargo 2.6.1
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Wed, 07 Feb 2024 15:02:28 +0100
+
+rust-droid-juicer (0.2.1-1) unstable; urgency=medium
+
+  * Package droid-juicer 0.2.1 from crates.io using debcargo 2.6.1
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Thu, 11 Jan 2024 19:38:40 +0100
+
+rust-droid-juicer (0.2.0-4) unstable; urgency=medium
+
+  * Release to unstable
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Wed, 23 Aug 2023 13:38:41 +0200
+
+rust-droid-juicer (0.2.0-3) experimental; urgency=medium
+
+  * Team upload.
+  * Package droid-juicer 0.2.0 from crates.io using debcargo 2.6.0
+  * Bump goblin dependency to 0.7 (closes: #1042156)
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 26 Jul 2023 23:17:44 +0000
+
+rust-droid-juicer (0.2.0-2) unstable; urgency=medium
+
+  * droid-juicer: backport upstream patch improving UX
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Wed, 22 Feb 2023 20:25:49 +0100
+
+rust-droid-juicer (0.2.0-1) unstable; urgency=medium
+
+  * Package droid-juicer 0.2.0 from crates.io using debcargo 2.6.0
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Thu, 09 Feb 2023 17:17:28 +0100
+
+rust-droid-juicer (0.1.2-1) unstable; urgency=medium
+
+  * Package droid-juicer 0.1.2 from crates.io using debcargo 2.6.0
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Thu, 12 Jan 2023 14:18:02 +0100
+
+rust-droid-juicer (0.1.0-1) unstable; urgency=medium
+
+  * Package droid-juicer 0.1.0 from crates.io using debcargo 2.6.0
+    (Closes: #1026758)
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Tue, 20 Dec 2022 23:43:04 +0100

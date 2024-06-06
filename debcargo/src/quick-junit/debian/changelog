@@ -1,0 +1,31 @@
+rust-quick-junit (0.3.3-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-junit 0.3.3 from crates.io using debcargo 2.6.1
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 27 May 2024 06:03:28 +0000
+
+rust-quick-junit (0.3.3-3) experimental; urgency=medium
+
+  * Team upload.
+  * Package quick-junit 0.3.3 from crates.io using debcargo 2.6.1
+  * Bump quick-xml to 0.31.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 25 May 2024 12:23:21 +0000
+
+rust-quick-junit (0.3.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package quick-junit 0.3.3 from crates.io using debcargo 2.6.1
+  * Drop patches older-thiserror and older-indexmap
+  * Remove unnessacery context in drop-nextest-workspace-hack and
+    older-quick-xml to avoid fuzz.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 04:16:43 +0000
+
+rust-quick-junit (0.3.3-1) unstable; urgency=medium
+
+  * Package quick-junit 0.3.3 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 14 Sep 2023 14:36:43 +0100

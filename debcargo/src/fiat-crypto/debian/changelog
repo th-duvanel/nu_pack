@@ -1,0 +1,9 @@
+rust-fiat-crypto (0.2.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package fiat-crypto 0.2.2 from crates.io using debcargo 2.6.0
+
+  [ Fabian Grünbichler ]
+  * Package fiat-crypto 0.1.20 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 29 Oct 2023 22:17:48 +0100

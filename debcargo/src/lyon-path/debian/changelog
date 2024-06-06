@@ -1,0 +1,17 @@
+rust-lyon-path (0.15.1-1) unstable; urgency=medium
+
+  * Package lyon_path 0.15.1 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 28 Dec 2019 11:58:20 +0100
+
+rust-lyon-path (0.13.2-2) unstable; urgency=medium
+
+  * Patch lyon_path to use a newer lyon_geom.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 21 Jul 2019 11:29:54 -0300
+
+rust-lyon-path (0.13.2-1) unstable; urgency=medium
+
+  * Package lyon_path 0.13.2 from crates.io using debcargo 2.2.10
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 19 Jul 2019 21:44:40 -0300

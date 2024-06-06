@@ -1,0 +1,51 @@
+rust-wayland-backend (0.3.3-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package wayland-backend 0.3.3 from crates.io using debcargo 2.6.1
+  * Drop relax-deps.diff and use-rustix-instead-of-nix.diff, no longer needed
+    with new upstream.
+  * Drop breaks, no longer relevant now there has been a semver bump.
+  * Update remaining patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 07 Apr 2024 03:35:01 +0000
+
+rust-wayland-backend (0.1.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-backend 0.1.2 from crates.io using debcargo 2.6.1
+  * Add breaks on old versions of wayland-client and wayland-server,
+    they use features from nix without properly enabling them.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 09 Mar 2024 01:12:59 +0000
+
+rust-wayland-backend (0.1.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-backend 0.1.2 from crates.io using debcargo 2.6.1
+  * Fix autopkgtest
+    + Add back dev-depends that were removed by the cargo publish process.
+    + Disable tests that rely on test data that is not included in the crates.io
+      release.
+    + Fix test feature requirements.
+  * Add upstream patch to switch from nix to rustix.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Mar 2024 11:38:53 +0000
+
+rust-wayland-backend (0.1.2-1) unstable; urgency=medium
+
+  * Package wayland-backend 0.1.2 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 04 Jul 2023 20:57:47 +0200
+
+rust-wayland-backend (0.1.1-2) experimental; urgency=medium
+
+  * Team upload
+  * Update relax-deps.diff
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 21 Jun 2023 18:36:37 -0400
+
+rust-wayland-backend (0.1.1-1) experimental; urgency=medium
+
+  * Package wayland-backend 0.1.1 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 25 May 2023 11:40:26 -0400

@@ -1,0 +1,170 @@
+rust-chrono (0.4.38-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono 0.4.38 from crates.io using debcargo 2.6.1
+  * Re-enable tests for the rustc-serialize and arbitrary features, they
+    seem to pass now.
+  * Disable tests for the rkyv-validation feature, it fails to build
+    if no other rkyv features are enabled.
+  * Disable tests for the rkyv-64 feature, it fails to build on 32-bit
+    architectures.
+  * Add breaks on old version of librust-fundu-dev
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 03 May 2024 08:57:37 +0000
+
+rust-chrono (0.4.38-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono 0.4.38 from crates.io using debcargo 2.6.1
+
+ -- Nikos Tsipinakis <nikos@tsipinakis.com>  Thu, 02 May 2024 11:15:51 +0200
+
+rust-chrono (0.4.31-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono 0.4.31 from crates.io using debcargo 2.6.1
+  * Drop remove-unstable-locales.patch
+  * Reduce context in remove-time.patch to avoid fuzz.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 12 Dec 2023 17:56:23 +0000
+
+rust-chrono (0.4.31-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono 0.4.31 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 15 Oct 2023 22:42:53 +0200
+
+rust-chrono (0.4.28-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono 0.4.28 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 25 Sep 2023 22:28:22 +0200
+
+rust-chrono (0.4.26-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono 0.4.26 from crates.io using debcargo 2.6.0
+  * Update patches for new upstream.
+  * Drop android-specific dependency which is not in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 02 Aug 2023 09:44:16 +0000
+
+rust-chrono (0.4.23-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono 0.4.23 from crates.io using debcargo 2.6.0
+  * Mark tests for the arbitrary feature (newly introduced in chrono 0.4.23) as
+    broken, the arbitrary feature fails to build if the std feature is not also
+    enabled.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 22 Nov 2022 16:37:01 +0000
+
+rust-chrono (0.4.23-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono 0.4.23 from crates.io using debcargo 2.6.0 (Closes: #1024454)
+  * Update patches for new upstream.
+  * Fix tests with --no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 20 Nov 2022 09:30:44 +0000
+
+rust-chrono (0.4.22-1) unstable; urgency=medium
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package chrono 0.4.22 from crates.io using debcargo 2.5.0
+  * Drop strip-wasm.patch, js-sys and wasm-bindgen are packaged, but keep
+    wasm-bindgen-test off
+  * Patch out Windows dep
+
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package chrono 0.4.21 from crates.io using debcargo 2.5.0
+    (Closes: #996913, #1017084, #1022029)
+  * Drop relax-dep.diff, Debian now has the required version of time 0.1
+    (though we currently disable time 0.1 in a later patch anyway)
+  * Drop update-bincode-to-1.0.patch, upstream now depends on bincode 1.3
+  * Update remaining patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 06 Nov 2022 01:41:43 +0000
+
+rust-chrono (0.4.19-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono 0.4.19 from crates.io using debcargo 2.5.0
+  * Get rid of "time"/"oldtime" feature which depends on an obsolete version
+    of the time crate. This does represent a potential API break for crates
+    that use the "default" feature, but I think it's managable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 Dec 2021 12:59:31 +0000
+
+rust-chrono (0.4.19-2) unstable; urgency=medium
+
+  * Package chrono 0.4.19 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 04 Sep 2021 16:39:41 +0200
+
+rust-chrono (0.4.19-1) unstable; urgency=medium
+
+  * Package chrono 0.4.19 from crates.io using debcargo 2.4.3
+  * Should fix the js-sys issue
+
+ -- kpcyrd <git@rxv.cc>  Sat, 28 Nov 2020 19:01:55 +0100
+
+rust-chrono (0.4.11-1) unstable; urgency=medium
+
+  * Package chrono 0.4.11 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 21 May 2020 09:02:03 +0200
+
+rust-chrono (0.4.10-2) unstable; urgency=medium
+
+  * Package chrono 0.4.10 from crates.io using debcargo 2.4.2
+  * Source-only reupload for transition to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 11 Feb 2020 15:29:08 +0100
+
+rust-chrono (0.4.10-1) unstable; urgency=medium
+
+  * Package chrono 0.4.10 from crates.io using debcargo 2.4.2
+  * Add patch to relax dev-dependency version ranges
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 02 Feb 2020 22:37:42 +0100
+
+rust-chrono (0.4.9-2) unstable; urgency=medium
+
+  * Package chrono 0.4.9 from crates.io using debcargo 2.4.0
+
+  [kpcyrd]
+  * Fix issues in debian/copyright (closes: #943868)
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 01 Nov 2019 10:32:20 +0100
+
+rust-chrono (0.4.9-1) unstable; urgency=medium
+
+  * Package chrono 0.4.9 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 16 Oct 2019 15:34:06 +0200
+
+rust-chrono (0.4.7-1) unstable; urgency=medium
+
+  * Package chrono 0.4.7 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 10 Jul 2019 19:15:38 +0200
+
+rust-chrono (0.4.6-1) unstable; urgency=medium
+
+  * Package chrono 0.4.6 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 11 Dec 2018 06:51:27 +0100
+
+rust-chrono (0.4.5-1) unstable; urgency=medium
+
+  * Package chrono 0.4.5 from crates.io using debcargo 2.2.5
+
+  [ Wolfgang Silbermayr ]
+  * Package chrono 0.4.4 from crates.io using debcargo 2.2.3
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 31 Jul 2018 01:20:26 -0700

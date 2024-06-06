@@ -1,0 +1,99 @@
+rust-nettle-sys (2.2.0-2) unstable; urgency=medium
+
+  * Package nettle-sys 2.2.0 from crates.io using debcargo 2.6.0
+
+  [ Matthias Geiger ]
+  * Team upload.
+  * Package nettle-sys 2.2.0 from crates.io using debcargo 2.6.0
+  * Updated patch for newer bindgen
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Sep 2023 21:53:54 +0000
+
+rust-nettle-sys (2.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package nettle-sys 2.2.0 from crates.io using debcargo 2.6.0
+  * Adjust patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 15 Jun 2023 16:02:40 +0000
+
+rust-nettle-sys (2.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package nettle-sys 2.1.0 from crates.io using debcargo 2.5.0
+  * Bump bindgen dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Jun 2022 22:59:11 +0000
+
+rust-nettle-sys (2.1.0-1) unstable; urgency=medium
+
+  * Package nettle-sys 2.1.0 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 05 Feb 2022 19:59:33 -0500
+
+rust-nettle-sys (2.0.8-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package nettle-sys 2.0.8 from crates.io using debcargo 2.4.4
+  * Relax dependency on bindgen.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 24 Aug 2021 19:08:13 +0000
+
+rust-nettle-sys (2.0.8-2) unstable; urgency=medium
+
+  * Package nettle-sys 2.0.8 from crates.io using debcargo 2.4.4
+  * tweak bindgen dependency to work around #967954
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 19 Aug 2021 12:22:14 -0400
+
+rust-nettle-sys (2.0.8-1) unstable; urgency=medium
+
+  * Package nettle-sys 2.0.8 from crates.io using debcargo 2.4.4
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 17 Aug 2021 18:59:23 -0400
+
+rust-nettle-sys (2.0.5-1) unstable; urgency=medium
+
+  * Package nettle-sys 2.0.5 from crates.io using debcargo 2.4.4
+  * drop patches already upstream
+  * work around #984627
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 05 Mar 2021 19:11:40 -0500
+
+rust-nettle-sys (2.0.4-5) unstable; urgency=medium
+
+  * Package nettle-sys 2.0.4 from crates.io using debcargo 2.4.3
+  * relax dependency on bindgen to enable working with bindgen 0.55.x
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 16 Oct 2020 12:27:25 -0400
+
+rust-nettle-sys (2.0.4-4) unstable; urgency=medium
+
+  * Package nettle-sys 2.0.4 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 14 Oct 2020 18:48:57 -0400
+
+rust-nettle-sys (2.0.4-3) unstable; urgency=medium
+
+  * Package nettle-sys 2.0.4 from crates.io using debcargo 2.4.2
+  * Add llvm to build-deps
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 07 Mar 2020 03:34:11 -0500
+
+rust-nettle-sys (2.0.4-2) unstable; urgency=medium
+
+  * clean up "vendored" fake feature to avoid autopkgtest failures
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 26 Nov 2019 00:05:55 -0500
+
+rust-nettle-sys (2.0.4-1) unstable; urgency=medium
+
+  * Package nettle-sys 2.0.4 from crates.io using debcargo 2.4.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 23 Oct 2019 14:12:45 -0400
+
+rust-nettle-sys (1.0.2-1) unstable; urgency=medium
+
+  * Package nettle-sys 1.0.2 from crates.io using debcargo 2.2.10
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 22 May 2019 10:47:34 -0400

@@ -1,0 +1,32 @@
+Index: serde-with/Cargo.toml
+===================================================================
+--- serde-with.orig/Cargo.toml
++++ serde-with/Cargo.toml
+@@ -132,7 +132,7 @@ required-features = [
+ [[test]]
+ name = "serde_as"
+ path = "tests/serde_as/lib.rs"
+-required-features = ["macros"]
++required-features = ["std","macros"]
+ 
+ [[test]]
+ name = "time_0_3"
+@@ -151,15 +151,15 @@
+ name = "with_prefix"
+ path = "tests/with_prefix.rs"
+-required-features = ["macros"]
++required-features = ["std","macros"]
+ 
+ [[test]]
+ name = "rust"
+ path = "tests/rust.rs"
+-required-features = ["alloc"]
++required-features = ["std"]
+ 
+ [[test]]
+ name = "schemars_0_8"
+ path = "tests/schemars_0_8.rs"
+-required-features = ["schemars_0_8"]
++required-features = ["macros", "schemars_0_8"]
+ 
+ [dependencies.base64]

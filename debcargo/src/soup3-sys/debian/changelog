@@ -1,0 +1,42 @@
+rust-soup3-sys (0.6.0-4) unstable; urgency=medium
+
+  * Upload to unstable
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 23:42:08 +0200
+
+rust-soup3-sys (0.6.0-3) experimental; urgency=medium
+
+  * Team upload
+  * Package soup3-sys 0.6.0 from crates.io using debcargo 2.6.1
+  * Mark v3_6 as broken since libsoup3 3.6 does not exist yet
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sat, 20 Apr 2024 10:23:40 -0400
+
+rust-soup3-sys (0.6.0-2) experimental; urgency=medium
+
+  * Team upload
+  * Package soup3-sys 0.6.0 from crates.io using debcargo 2.6.1
+  * debian/rules: Include GModule-2.0.gir to fix build with glib 2.80
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 19 Apr 2024 15:01:10 -0400
+
+rust-soup3-sys (0.6.0-1) experimental; urgency=medium
+
+  * Package soup3-sys 0.6.0 from crates.io using debcargo 2.6.1
+  * Updated build-dependencies for new upstream
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 09 Mar 2024 20:40:34 +0100
+
+rust-soup3-sys (0.5.0-2) unstable; urgency=medium
+
+  * Upload to unstable 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 10 Jan 2024 22:54:20 +0100
+
+rust-soup3-sys (0.5.0-1) experimental; urgency=medium
+
+  [ Matthias Geiger ]
+  * Package soup3-sys 0.5.0 from crates.io using debcargo 2.6.1
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Sun, 10 Dec 2023 13:07:12 +0100

@@ -1,0 +1,228 @@
+rust-sniffglue (0.16.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.16.0 from crates.io using debcargo 2.6.1
+  * Relax dependency on nix.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Mar 2024 10:27:52 +0000
+
+rust-sniffglue (0.16.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.16.0 from crates.io using debcargo 2.6.1
+  * Stop patching toml dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 30 Jan 2024 17:58:06 +0000
+
+rust-sniffglue (0.16.0-1) unstable; urgency=medium
+
+  * Package sniffglue 0.16.0 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Sun, 07 Jan 2024 18:55:51 +0100
+
+rust-sniffglue (0.15.0-7) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.15.0 from crates.io using debcargo 2.6.1
+  * Bump syscallz dependency to 0.17
+  * Use rust-uzers instead of rust-users.
+  * Tighten nix dependency to only allow 0.26, the code is not compatible
+    with nix 0.27.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 12 Dec 2023 22:01:09 +0000
+
+rust-sniffglue (0.15.0-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.15.0 from crates.io using debcargo 2.6.0
+  * Updated relax-deps.diff for env-logger update
+  * Fix typo in d/rules
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 10 Aug 2023 17:50:28 +0200
+
+rust-sniffglue (0.15.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.15.0 from crates.io using debcargo 2.6.0
+  * Stop patching syscallz dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 13 Jul 2023 01:39:29 +0000
+
+rust-sniffglue (0.15.0-4) unstable; urgency=medium
+
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package sniffglue 0.15.0 from crates.io using debcargo 2.6.0
+  * Bump bstr dependency to 1
+
+  [ Fabian Grünbichler ]
+  * Bump base64 dependency to 0.21
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 12 Jun 2023 22:58:42 +0000
+
+rust-sniffglue (0.15.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.15.0 from crates.io using debcargo 2.5.0
+  * Relax the nix dep
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 22 Aug 2022 17:22:56 +0200
+
+rust-sniffglue (0.15.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.15.0 from crates.io using debcargo 2.5.0
+  * Stop patching dependency versions of bstr and sha2.
+  * Patch nix dependency to 0.24
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 05 Jun 2022 09:14:24 +0000
+
+rust-sniffglue (0.15.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.15.0 from crates.io using debcargo 2.5.0
+  * Drop ihl-test-fix.patch - applied upstream
+  * Add ihl-bench-fix.patch to make bench compatible with pktparse 0.7.1
+  * Revert upstream bump of sha2 dependency.
+  * Add build-dependencies and logic to build manpage with scdoc
+  * Remove timestamp fixing code from debian/rules, the issue has now
+    been dealt with in dh-cargo.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 06 Mar 2022 23:43:13 +0000
+
+rust-sniffglue (0.14.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.14.0 from crates.io using debcargo 2.5.0
+  * Upload to unstable
+
+ -- James McCoy <jamessan@debian.org>  Sat, 05 Mar 2022 16:12:51 -0500
+
+rust-sniffglue (0.14.0-3) experimental; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.14.0 from crates.io using debcargo 2.5.0
+  * Drop patches reverting nom, tls-parser, and pktparse to lower versions
+  * Add patch to fix tests when building against pktparse >= 0.7.1
+
+ -- James McCoy <jamessan@debian.org>  Thu, 03 Mar 2022 18:34:08 -0500
+
+rust-sniffglue (0.14.0-2) unstable; urgency=medium
+
+  * Package sniffglue 0.14.0 from crates.io using debcargo 2.5.0
+  * Remove nix 0.19 downgrade, debian has 0.23 now
+
+ -- kpcyrd <git@rxv.cc>  Mon, 06 Dec 2021 20:51:56 +0100
+
+rust-sniffglue (0.14.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.14.0 from crates.io using debcargo 2.4.4
+  * adjust patches for new upstream and current state in Debian.
+    + upstream now declares a dependency on nix 0.23, Debian still has 0.19
+      continue patching dependency to 0.19
+    + no need to adjust env_logger dependency anymore, upstream now matches
+      Debian. (Closes: 997687)
+    + add patch to revert switch to nom 7 and associated depedency changes.
+    + relax dependency on bstr.
+    + add patch reverting addition of icmp support, it requires a new version
+      of pktparse which in turn requires a new version of nom.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 28 Oct 2021 15:30:06 +0000
+
+rust-sniffglue (0.12.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.12.1 from crates.io using debcargo 2.4.4
+  * Fix 1970 timestamps (Closes: 992718)
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 23 Aug 2021 09:30:36 +0000
+
+rust-sniffglue (0.12.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.12.1 from crates.io using debcargo 2.4.4
+  * Revert nom 6 / tls-parser 0.10 related changes as we don't have those in Debian yet.
+  * Adjust relax-deps.patch for new upstream.
+  * Remove fix-dep.diff (no longer needed)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 22 Aug 2021 13:39:57 +0000
+
+rust-sniffglue (0.11.1-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.11.1 from crates.io using debcargo 2.4.0
+  * Drop dev-dependency on boxxy and remove examples/boxxy.rs
+    to allow the rest of the tests to run.
+  * Fix a couple of compile errors in benches/bench.rs
+
+  [ kpcyrd ]
+  * Add missing syscalls to seccomp filter (Closes: #985858)
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 26 Mar 2021 20:47:45 +0000
+
+rust-sniffglue (0.11.1-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.11.1 from crates.io using debcargo 2.4.0
+  * Fix deps (Closes: #975755)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 25 Nov 2020 23:07:21 +0100
+
+rust-sniffglue (0.11.1-4) unstable; urgency=medium
+
+  * Package sniffglue 0.11.1 from crates.io using debcargo 2.4.3
+  * Change nix dependency to 0.19
+
+ -- kpcyrd <git@rxv.cc>  Thu, 05 Nov 2020 16:21:13 +0100
+
+rust-sniffglue (0.11.1-2) unstable; urgency=medium
+
+  * Package sniffglue 0.11.1 from crates.io using debcargo 2.4.3
+  * Change syscallz dependency from 0.14 to 0.15
+
+ -- kpcyrd <git@rxv.cc>  Tue, 06 Oct 2020 14:17:05 +0200
+
+rust-sniffglue (0.11.1-1) unstable; urgency=medium
+
+  * Package sniffglue 0.11.1 from crates.io using debcargo 2.4.3
+    (Closes: #963919)
+
+ -- kpcyrd <git@rxv.cc>  Mon, 05 Oct 2020 13:56:43 +0200
+
+rust-sniffglue (0.10.1-1) unstable; urgency=medium
+
+  * Package sniffglue 0.10.1 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Tue, 31 Dec 2019 19:34:05 +0100
+
+rust-sniffglue (0.9.0-1) unstable; urgency=medium
+
+  * Package sniffglue 0.9.0 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Wed, 11 Sep 2019 23:09:37 +0200
+
+rust-sniffglue (0.8.2-4) unstable; urgency=medium
+
+  * Package sniffglue 0.8.2 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Fri, 08 Feb 2019 09:31:56 +0100
+
+rust-sniffglue (0.8.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package sniffglue 0.8.2 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 18 Dec 2018 17:32:55 -0800
+
+rust-sniffglue (0.8.2-2) unstable; urgency=medium
+
+  * Package sniffglue 0.8.2 from crates.io using debcargo 2.2.9
+
+ -- kpcyrd <git@rxv.cc>  Sat, 15 Dec 2018 10:33:33 +0100
+
+rust-sniffglue (0.8.2-1) unstable; urgency=medium
+
+  * Package sniffglue 0.8.2 from crates.io using debcargo 2.2.8
+
+ -- kpcyrd <git@rxv.cc>  Tue, 20 Nov 2018 14:04:58 +0100

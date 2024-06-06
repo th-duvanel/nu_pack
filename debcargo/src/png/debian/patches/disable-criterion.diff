@@ -1,0 +1,16 @@
+--- png.orig/Cargo.toml
++++ png/Cargo.toml
+@@ -30,7 +30,4 @@
+ repository = "https://github.com/image-rs/image-png.git"
++autobenches = false
+ 
+-[[bench]]
+-name = "decoder"
+-path = "benches/decoder.rs"
+-harness = false
+ 
+@@ -48,4 +45,2 @@
+ 
+-[dev-dependencies.criterion]
+-version = "0.3.1"
+ 

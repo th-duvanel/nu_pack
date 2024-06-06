@@ -1,0 +1,46 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: regex-automata
+Upstream-Contact:
+ The Rust Project Developers
+ Andrew Gallant <jamslam@gmail.com>
+Source: https://github.com/rust-lang/regex/tree/master/regex-automata
+
+Files: *
+Copyright:
+ 2018-2023 Andrew Gallant <jamslam@gmail.com>
+ 2023 The Rust Project Developers
+License: MIT or Apache-2.0
+Comment:
+ regex-automata is merged into the rust-lang/regex project in commit
+ c79c40a39ebc4ffdc9b886e34806b9085583b769, on 5 July 2023, which changed its
+ dual licensing to the same with the parent. The old project was archived at
+ https://github.com/BurntSushi/regex-automata
+
+Files: debian/*
+Copyright:
+ 2019-2023 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2019 Sylvestre Ledru <sylvestre@debian.org>
+License: MIT or Apache-2.0
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: Apache-2.0
+ Debian systems provide the Apache-2.0 license in
+ /usr/share/common-licenses/Apache-2.0

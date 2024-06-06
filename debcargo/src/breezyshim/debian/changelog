@@ -1,0 +1,59 @@
+rust-breezyshim (0.1.92-1) unstable; urgency=medium
+
+  * Package breezyshim 0.1.92 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 04 Jun 2024 19:57:25 +0100
+
+rust-breezyshim (0.1.86-1) unstable; urgency=medium
+
+  * Package breezyshim 0.1.86 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 09 Mar 2024 15:44:48 +0000
+
+rust-breezyshim (0.1.78-1) unstable; urgency=medium
+
+  * Package breezyshim 0.1.78 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 04 Feb 2024 17:27:57 +0000
+
+rust-breezyshim (0.1.77-1) unstable; urgency=medium
+
+  * Package breezyshim 0.1.77 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 24 Jan 2024 23:50:02 +0000
+
+rust-breezyshim (0.1.50-1) unstable; urgency=medium
+
+  * Package breezyshim 0.1.50 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 31 Oct 2023 17:57:00 +0000
+
+rust-breezyshim (0.1.33-1) unstable; urgency=medium
+
+  * Package breezyshim 0.1.33 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 23 Sep 2023 14:33:25 +0100
+
+rust-breezyshim (0.1.23-1) unstable; urgency=medium
+
+  * Package breezyshim 0.1.23 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 07 Sep 2023 21:00:16 +0100
+
+rust-breezyshim (0.1.22-1) unstable; urgency=medium
+
+  * Package breezyshim 0.1.22 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 06 Sep 2023 00:13:53 +0100
+
+rust-breezyshim (0.1.19-1) unstable; urgency=medium
+
+  * Package breezyshim 0.1.19 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 21 Jul 2023 08:33:08 +0100
+
+rust-breezyshim (0.1.1-1) unstable; urgency=medium
+
+  * Package breezyshim 0.1.1 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 14 Jul 2023 16:48:24 +0100

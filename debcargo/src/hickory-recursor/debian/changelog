@@ -1,0 +1,5 @@
+rust-hickory-recursor (0.24.1-1) unstable; urgency=medium
+
+  * Package hickory-recursor 0.24.1 from crates.io using debcargo 2.6.1
+
+ -- Reinhard Tartler <siretart@tauware.de>  Tue, 07 May 2024 17:56:49 -0400

@@ -1,0 +1,10 @@
+Index: sha1-asm/build.rs
+===================================================================
+--- sha1-asm.orig/build.rs
++++ sha1-asm/build.rs
+@@ -18,4 +18,5 @@ fn main() {
+         build.flag("-march=armv8-a+crypto");
+     }
+     build.flag("-c").file(asm_path).compile("libsha1.a");
++    println!("dh-cargo:deb-built-using=sha1=0={}", std::env::var("CARGO_MANIFEST_DIR").unwrap());
+ }

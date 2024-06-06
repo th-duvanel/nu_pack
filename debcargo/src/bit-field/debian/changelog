@@ -1,0 +1,5 @@
+rust-bit-field (0.10.2-1) unstable; urgency=medium
+
+  * Package bit_field 0.10.2 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 27 Mar 2024 15:54:49 +0100

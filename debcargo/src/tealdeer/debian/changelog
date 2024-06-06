@@ -1,0 +1,48 @@
+rust-tealdeer (1.6.1-4) unstable; urgency=medium
+
+  * Patch to disable rustls to build on other architectures
+
+ -- Blair Noctis <n@sail.ng>  Wed, 06 Sep 2023 19:49:17 +0000
+
+rust-tealdeer (1.6.1-3) unstable; urgency=medium
+
+  * Properly handle completions in d/rules (Closes: #1045807, #1049536)
+
+ -- Blair Noctis <n@sail.ng>  Tue, 05 Sep 2023 17:46:52 +0000
+
+rust-tealdeer (1.6.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tealdeer 1.6.1 from crates.io using debcargo 2.6.0
+  * Bump dependency on reqwest to force rebuild with rustls 0.21.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 20 Aug 2023 14:20:05 +0000
+
+rust-tealdeer (1.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tealdeer 1.6.1 from crates.io using debcargo 2.6.0
+  * Apply workaround for dh_dwz crash (Closes: #1042261)
+
+  [ Blair Noctis ]
+  * Package tealdeer 1.6.1 from crates.io using debcargo 2.6.0
+  * Drop clap 3 rc relaxing patch and allow_prerelease_deps option
+  * Patch to add back shell completions removed in crates.io release
+  * Use upstream zsh completion
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 27 Jul 2023 03:22:35 +0000
+
+rust-tealdeer (1.5.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tealdeer 1.5.0 from crates.io using debcargo 2.6.0
+  * Patch zip dependency for zip 0.6.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 28 Dec 2022 17:22:36 +0000
+
+rust-tealdeer (1.5.0-1) unstable; urgency=medium
+
+  * Package tealdeer 1.5.0 from crates.io using debcargo 2.5.0
+    (Closes: #1018761)
+
+ -- Blair Noctis <n@sail.ng>  Mon, 19 Dec 2022 19:24:58 -0500

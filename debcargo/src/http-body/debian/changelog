@@ -1,0 +1,23 @@
+rust-http-body (0.4.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package http-body 0.4.5 from crates.io using debcargo 2.5.0
+
+  [ Fabian Gruenbichler ]
+  * Package http-body 0.4.4 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 21 May 2022 20:26:34 -0400
+
+rust-http-body (0.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package http-body 0.1.0 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:10:37 +0200
+
+rust-http-body (0.1.0-1) unstable; urgency=medium
+
+  * Package http-body 0.1.0 from crates.io using debcargo 2.2.10
+
+ -- Robin Krahl <robin.krahl@ireas.org>  Sat, 13 Jul 2019 22:14:15 +0200

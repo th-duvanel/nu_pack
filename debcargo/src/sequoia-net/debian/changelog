@@ -1,0 +1,66 @@
+rust-sequoia-net (0.28.0-1) unstable; urgency=medium
+
+  [ Holger Levsen ]
+  * Add myself to uploaders.
+
+  [ Alexander Kjäll ]
+  * Team upload.
+  * Package sequoia-net 0.28.0 from crates.io using debcargo 2.6.1
+
+ -- Holger Levsen <holger@debian.org>  Sat, 27 Jan 2024 11:15:55 +0100
+
+rust-sequoia-net (0.27.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sequoia-net 0.27.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 20 Aug 2023 13:00:56 +0200
+
+rust-sequoia-net (0.26.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Re-upload to unstable (Closes: #1042228)
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Wed, 26 Jul 2023 21:33:33 -0400
+
+rust-sequoia-net (0.26.0-3) experimental; urgency=medium
+
+  * Team upload.
+  * Update base64 to 0.21 (unreleased upstream commit)
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Sat, 24 Jun 2023 21:07:39 +0000
+
+rust-sequoia-net (0.26.0-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package sequoia-net 0.26.0 from crates.io using debcargo 2.6.0
+  * Upload to experimental (the package in unstable is currently BD-Uninstallable)
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 14 Apr 2023 01:12:33 +0000
+
+rust-sequoia-net (0.26.0-1) unstable; urgency=medium
+
+  * Package sequoia-net 0.26.0 from crates.io using debcargo 2.6.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 14 Mar 2023 21:21:36 -0400
+
+rust-sequoia-net (0.25.0-2) unstable; urgency=medium
+
+  * Package sequoia-net 0.25.0 from crates.io using debcargo 2.5.0
+  * debci: drop no-default-features test, ensure crypto-nettle feature
+    is present in all other tests, since upstream requires a crypto
+    backend.
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 15 Jul 2022 01:47:08 -0400
+
+rust-sequoia-net (0.25.0-1) unstable; urgency=medium
+
+  * Package sequoia-net 0.25.0 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 14 Jul 2022 09:57:10 -0400
+
+rust-sequoia-net (0.24.0-1) unstable; urgency=medium
+
+  * Package sequoia-net 0.24.0 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 27 Jun 2022 22:01:12 -0400

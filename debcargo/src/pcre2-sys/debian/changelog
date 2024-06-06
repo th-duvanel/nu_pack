@@ -1,0 +1,31 @@
+rust-pcre2-sys (0.2.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pcre2-sys 0.2.7 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Dec 2023 01:41:23 +0000
+
+rust-pcre2-sys (0.2.5-1) unstable; urgency=medium
+
+  * Package pcre2-sys 0.2.5 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 03 Sep 2021 16:47:42 +0200
+
+rust-pcre2-sys (0.2.2-1) unstable; urgency=medium
+
+  * Package pcre2-sys 0.2.2 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 10 Jul 2019 19:27:43 +0200
+
+rust-pcre2-sys (0.2.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package pcre2-sys 0.2.1 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 13 May 2019 13:49:00 +0200
+
+rust-pcre2-sys (0.1.1-1) unstable; urgency=medium
+
+  * Package pcre2-sys 0.1.1 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 07 Dec 2018 19:34:28 -0800

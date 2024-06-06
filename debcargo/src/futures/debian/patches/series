@@ -1,0 +1,5 @@
+reduce-features.patch
+disable-assert-matches.patch
+tests-dont-require-compat.patch
+add-missing-dev-depends.patch
+fix-test-feature-requirements.patch

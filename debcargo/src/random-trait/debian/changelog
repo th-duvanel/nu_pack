@@ -1,0 +1,5 @@
+rust-random-trait (0.1.1-1) unstable; urgency=medium
+
+  * Package random-trait 0.1.1 from crates.io using debcargo 2.4.2
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 06 Feb 2022 20:54:14 +0100

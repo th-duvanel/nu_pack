@@ -1,0 +1,5 @@
+rust-num-enum-derive (0.5.7-1) unstable; urgency=medium
+
+  * Package num_enum_derive 0.5.7 from crates.io using debcargo 2.5.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 03 May 2022 23:04:42 +0100

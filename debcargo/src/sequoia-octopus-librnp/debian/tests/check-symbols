@@ -1,0 +1,11 @@
+#!/bin/sh
+
+liboctopus="$1"
+
+if [ -z "$liboctopus" ]; then
+    liboctopus=/usr/lib/sequoia/libsequoia_octopus_librnp.so
+fi
+
+objdump -TC "$liboctopus" | awk '/ rnp_/ { print $7 }'  | sort > symbols
+
+diff -u debian/tests/rnp_symbols symbols

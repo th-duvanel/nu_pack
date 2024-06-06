@@ -1,0 +1,11 @@
+rust-discard (1.0.4-1) unstable; urgency=medium
+
+  * Package discard 1.0.4 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 15 Dec 2018 22:04:43 +0100
+
+rust-discard (1.0.3-1) unstable; urgency=medium
+
+  * Package discard 1.0.3 from crates.io using debcargo 2.2.6
+
+ -- kpcyrd <git@rxv.cc>  Wed, 05 Sep 2018 10:55:17 +0200

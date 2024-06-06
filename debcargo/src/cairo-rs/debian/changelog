@@ -1,0 +1,118 @@
+rust-cairo-rs (0.19.4-3) unstable; urgency=medium
+
+  * Add patch to skip failing test on s390x
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 10 May 2024 21:26:03 +0200
+
+rust-cairo-rs (0.19.4-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 04 May 2024 19:47:44 +0200
+
+rust-cairo-rs (0.19.4-1) experimental; urgency=medium
+
+  * Team upload
+  * Package cairo-rs 0.19.4 from crates.io using debcargo 2.6.1
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 16:41:14 -0400
+
+rust-cairo-rs (0.19.2-1) experimental; urgency=medium
+
+  * Package cairo-rs 0.19.2 from crates.io using debcargo 2.6.1
+  * Updated copyright years and Source: url in d/copyright
+  * Refreshed patch for new upstream
+  * Removed hard dependency on rustc >= 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 20 Feb 2024 15:45:24 +0100
+
+rust-cairo-rs (0.18.5-1) unstable; urgency=medium
+
+  * Package cairo-rs 0.18.5 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 06 Jan 2024 22:16:54 +0100
+
+rust-cairo-rs (0.18.3-1) unstable; urgency=medium
+
+  * Package cairo-rs 0.18.3 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Dec 2023 04:45:38 +0100
+
+rust-cairo-rs (0.18.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package cairo-rs 0.18.2 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:35:56 -0400
+
+rust-cairo-rs (0.18.2-2) experimental; urgency=medium
+
+  * Specify dependency on rustc 1.70
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 16 Sep 2023 12:58:20 +0200
+
+rust-cairo-rs (0.18.2-1) experimental; urgency=medium
+
+  * Package cairo-rs 0.18.2 from crates.io using debcargo 2.6.0
+  * Rebased patches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 15 Sep 2023 22:56:23 +0200
+
+rust-cairo-rs (0.17.10-1) unstable; urgency=medium
+
+  * Package cairo-rs 0.17.10 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+  * Rebased patch
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:18:41 +0200
+
+rust-cairo-rs (0.16.7-2) unstable; urgency=medium
+
+  * Package cairo-rs 0.16.7 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 20:56:32 +0200
+
+rust-cairo-rs (0.16.7-1) experimental; urgency=medium
+
+  * Package cairo-rs 0.16.7 from crates.io using debcargo 2.6.0
+  * Added myself to uploaders
+  * Relaxed dependency on freetype-rs
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 14:59:59 +0200
+
+rust-cairo-rs (0.14.9-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cairo-rs 0.14.9 from crates.io using debcargo 2.5.0
+  * Mark the test for the "ps" feature as broken, it crashes on i386,
+    and I suspect it's an issue in cairo itself rather than in
+    this rust package.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Dec 2021 11:34:51 +0000
+
+rust-cairo-rs (0.14.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cairo-rs 0.14.9 from crates.io using debcargo 2.5.0 (Closes: 1002159)
+  * Establish baseline for tests.
+
+  [ Henry-Nicolas Tourneur ]
+  * Package cairo-rs 0.14.9 from crates.io using debcargo 2.4.4
+
+  [ Sylvestre Ledru ]
+  * Package cairo-rs 0.9.1 from crates.io using debcargo 2.4.3
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 28 Dec 2021 20:03:49 +0000
+
+rust-cairo-rs (0.7.1-1) unstable; urgency=medium
+
+  * Package cairo-rs 0.7.1 from crates.io using debcargo 2.3.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 19 Jul 2019 11:31:59 -0300
+
+rust-cairo-rs (0.5.0-1) unstable; urgency=medium
+
+  * Package cairo-rs 0.5.0 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 24 Nov 2018 10:50:16 +0100

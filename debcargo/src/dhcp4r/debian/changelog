@@ -1,0 +1,37 @@
+rust-dhcp4r (0.2.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package dhcp4r 0.2.3 from crates.io using debcargo 2.5.0
+  * Relax dependency on nom to allow both versions 0.5 and 0.7 and hence
+    decouple enum-primitive-derive transition from nom transition.
+  * Bump dev-dependency on time to 0.3 and adjust examples/monitor.rs
+    for the new version of time so the autopkgtest can run.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 10 Mar 2022 18:01:16 +0000
+
+rust-dhcp4r (0.2.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package dhcp4r 0.2.3 from crates.io using debcargo 2.5.0
+  * Upload to unstable
+
+ -- James McCoy <jamessan@debian.org>  Sat, 05 Mar 2022 16:10:14 -0500
+
+rust-dhcp4r (0.2.3-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package dhcp4r 0.2.3 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Wed, 23 Feb 2022 19:15:53 -0500
+
+rust-dhcp4r (0.2.0-1) unstable; urgency=medium
+
+  * Package dhcp4r 0.2.0 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Tue, 31 Dec 2019 01:19:30 +0100
+
+rust-dhcp4r (0.1.0-1) unstable; urgency=medium
+
+  * Package dhcp4r 0.1.0 from crates.io using debcargo 2.2.5
+
+ -- kpcyrd <git@rxv.cc>  Fri, 10 Aug 2018 10:11:45 -0700

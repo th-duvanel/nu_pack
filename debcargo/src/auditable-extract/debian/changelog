@@ -1,0 +1,5 @@
+rust-auditable-extract (0.3.2-1) unstable; urgency=medium
+
+  * Package auditable-extract 0.3.2 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 15 Jul 2023 15:54:36 +0200

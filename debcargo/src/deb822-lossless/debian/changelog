@@ -1,0 +1,23 @@
+rust-deb822-lossless (0.1.9-1) unstable; urgency=medium
+
+  * Package deb822-lossless 0.1.9 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 04 Jun 2024 20:42:22 +0100
+
+rust-deb822-lossless (0.1.8-1) unstable; urgency=medium
+
+  * Package deb822-lossless 0.1.8 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 09 Mar 2024 14:40:27 +0000
+
+rust-deb822-lossless (0.1.6-1) unstable; urgency=medium
+
+  * Package deb822-lossless 0.1.6 from crates.io using debcargo 2.6.1
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 28 Nov 2023 20:54:18 +0000
+
+rust-deb822-lossless (0.1.4-1) unstable; urgency=medium
+
+  * Package deb822-lossless 0.1.4 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 08 Nov 2023 11:28:16 +0000

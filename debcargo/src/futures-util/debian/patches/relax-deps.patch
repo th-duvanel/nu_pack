@@ -1,0 +1,33 @@
+--- futures-util.orig/Cargo.toml
++++ futures-util/Cargo.toml
+@@ -61,5 +60,0 @@
+-[dependencies.futures_01]
+-version = "0.1.25"
+-optional = true
+-package = "futures"
+-
+@@ -80,6 +74,0 @@
+-[dependencies.tokio-io]
+-version = "0.1.9"
+-optional = true
+-
+-[dev-dependencies.tokio]
+-version = "0.1.11"
+@@ -98 +86,0 @@
+-cfg-target-has-atomic = []
+@@ -103,4 +90,0 @@
+-compat = [
+-    "std",
+-    "futures_01",
+-]
+@@ -117,5 +100,0 @@
+-io-compat = [
+-    "io",
+-    "compat",
+-    "tokio-io",
+-]
+@@ -128,4 +106,0 @@
+-unstable = [
+-    "futures-core/unstable",
+-    "futures-task/unstable",
+-]

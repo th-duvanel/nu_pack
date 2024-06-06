@@ -1,0 +1,38 @@
+rust-chrono-tz (0.8.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono-tz 0.8.3 from crates.io using debcargo 2.6.0
+  * Set test_is_broken for the arbitrary feature, it fails to build if the
+    std feature is not also enabled.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 05 Oct 2023 16:28:58 +0000
+
+rust-chrono-tz (0.6.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono-tz 0.6.3 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 25 Jul 2023 07:50:41 +0000
+
+rust-chrono-tz (0.6.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package chrono-tz 0.6.1 from crates.io using debcargo 2.6.0
+  * fix tests with --no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 28 Dec 2022 14:11:22 +0000
+
+rust-chrono-tz (0.6.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package chrono-tz 0.6.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 25 Jun 2022 14:58:05 +0200
+
+rust-chrono-tz (0.6.1-1) unstable; urgency=medium
+
+  * Source upload
+  * Package chrono-tz 0.6.1 from crates.io using debcargo 2.5.0
+
+ -- Carlos F. Sanz <carlos@sanz.dev>  Sat, 11 Jun 2022 20:12:46 +0200

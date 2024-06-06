@@ -1,0 +1,92 @@
+rust-http (0.2.11-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package http 0.2.11 from crates.io using debcargo 2.6.1
+
+ -- Reinhard Tartler <siretart@tauware.de>  Tue, 23 Apr 2024 07:46:41 -0400
+
+rust-http (0.2.9-1) unstable; urgency=medium
+
+  * Package http 0.2.9 from crates.io using debcargo 2.6.0 (Closes: #1043515)
+  * Update patches for new upstream.
+  * Relax dev-dependency on indexmap.
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package http 0.2.8 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 29 Oct 2023 07:30:45 +0000
+
+rust-http (0.2.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package http 0.2.7 from crates.io using debcargo 2.4.2
+  * Modify avoid_seahash.patch and avoid_quickcheck.patch to work with
+    tarballs from crates.io.
+  * Modify avoid_seahash.patch and avoid_quickcheck.patch for new
+    upstream version.
+  * Drop patches for bytes 1.x, upstream now depends on that version.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 02 May 2022 12:17:53 +0000
+
+rust-http (0.1.21-0.1) unstable; urgency=medium
+
+  * non-maintainer upload
+  * upgrade to new upstream release 0.2.21;
+    closes: bug#988945, thanks to Moritz Muehlenhoff;
+    CVE-2019-25009
+  * drop patch cherry-picked upstream now applied
+  * fix unsatisfiable dependencies and failure to build from source:
+    + add patches to use newer release of crate bytes
+    + build-depend and autopkgtest-depend
+      on librust-block-bytes-1+default-dev
+      (not older version gone since 2021-11-28)
+    + add patch to avoid crates quickcheck rand:
+      same-API quickcheck not in Debian;
+      see <https://github.com/BurntSushi/quickcheck/pull/271#issue-784946462=>
+    + add patch to avoid crate seahash:
+      used only for benchmark
+    + drop autopkgtest dependencies on
+      librust-quickcheck-1+default-dev
+      librust-rand-0.8+default-dev
+      librust-seahash-4+default-dev
+      (some of which were never in Debian)
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 10 Apr 2022 21:36:10 +0200
+
+rust-http (0.1.19-2) unstable; urgency=medium
+
+  * Package http 0.1.19 from crates.io using debcargo 2.4.3
+  * Resolve RUSTSEC-2019-0033 (Closes: #969896)
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 08 Mar 2021 07:19:34 +0100
+
+rust-http (0.1.19-1) unstable; urgency=medium
+
+  * Package http 0.1.19 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 10 Nov 2019 14:23:33 +0100
+
+rust-http (0.1.17-1) unstable; urgency=medium
+
+  * Package http 0.1.17 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 08:35:17 +0200
+
+rust-http (0.1.15-1) unstable; urgency=medium
+
+  * Package http 0.1.15 from crates.io using debcargo 2.2.10
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 04 Feb 2019 15:33:23 +0100
+
+rust-http (0.1.14-1) unstable; urgency=medium
+
+  * Package http 0.1.14 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 03 Dec 2018 07:46:02 +0100
+
+rust-http (0.1.13-1) unstable; urgency=medium
+
+  * Package http 0.1.13 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Oct 2018 09:36:58 +0200

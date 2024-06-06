@@ -1,0 +1,18 @@
+Index: petgraph/Cargo.toml
+===================================================================
+--- petgraph.orig/Cargo.toml
++++ petgraph/Cargo.toml
+@@ -58,5 +58,0 @@ default-features = false
+-[dependencies.quickcheck]
+-version = "0.8"
+-optional = true
+-default-features = false
+-
+@@ -82,7 +77,6 @@ version = "0.5.5"
+ [features]
+ all = [
+     "unstable",
+-    "quickcheck",
+     "matrix_graph",
+     "stable_graph",
+     "graphmap",

@@ -1,0 +1,4 @@
+remove-windows-deps.patch
+delete-broken-tests.patch
+python-is-python3.patch
+disable-test-requiring-bin.patch

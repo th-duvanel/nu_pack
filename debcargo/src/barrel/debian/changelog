@@ -1,0 +1,44 @@
+rust-barrel (0.7.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Really fix typo in debcargo.toml 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 06 Nov 2023 21:27:30 +0100
+
+rust-barrel (0.7.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fix typo in debcargo.toml
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 12 Sep 2023 13:44:00 +0200
+
+rust-barrel (0.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package barrel 0.7.0 from crates.io using debcargo 2.6.0
+  * Collapsed features in debcargo.toml
+  * New upstream release (Closes: #1035422)
+  * Exclude examples and mark pq, mysql features as flaky to enable
+    tests
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 11 Sep 2023 19:00:40 +0200
+
+rust-barrel (0.6.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package barrel 0.6.5 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 13:33:25 +0200
+
+rust-barrel (0.6.5-1) unstable; urgency=medium
+
+  * Package barrel 0.6.5 from crates.io using debcargo 2.4.2
+  * Mark failing autopkgtests as broken
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 02 Feb 2020 22:55:16 +0100
+
+rust-barrel (0.6.2-1) unstable; urgency=medium
+
+  * Package barrel 0.6.2 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Sat, 02 Nov 2019 10:14:55 +0100

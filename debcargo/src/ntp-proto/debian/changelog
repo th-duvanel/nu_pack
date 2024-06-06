@@ -1,0 +1,29 @@
+rust-ntp-proto (1.1.2-1) unstable; urgency=medium
+
+  * Package ntp-proto 1.1.2 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 01 Feb 2024 13:07:31 +0100
+
+rust-ntp-proto (1.1.1-1) unstable; urgency=medium
+
+  * Package ntp-proto 1.1.1 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 24 Jan 2024 20:39:04 +0100
+
+rust-ntp-proto (1.1.0-1) unstable; urgency=medium
+
+  * Package ntp-proto 1.1.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 15 Dec 2023 11:29:48 +0100
+
+rust-ntp-proto (1.0.0-1) unstable; urgency=medium
+
+  * Package ntp-proto 1.0.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 10 Oct 2023 22:36:03 +0200
+
+rust-ntp-proto (0.3.6-1) unstable; urgency=medium
+
+  * Package ntp-proto 0.3.6 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 20 Aug 2023 08:48:09 +0200

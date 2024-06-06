@@ -1,0 +1,49 @@
+rust-serial-test (2.0.0-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package serial_test 2.0.0 from crates.io using debcargo 2.6.1
+  * Upgrade itertools to 0.12.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 31 Mar 2024 17:52:05 -0400
+
+rust-serial-test (2.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serial_test 2.0.0 from crates.io using debcargo 2.6.0 (Closes: #1026808, #1030797)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 06 Aug 2023 01:13:28 +0000
+
+rust-serial-test (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serial_test 0.9.0 from crates.io using debcargo 2.6.0 (Closes: #1024087)
+  * Drop relax-dep.diff, no longer needed.
+  * Set collapse_features = true
+  * Remove optional (in the cargo sense) dependencies on document-features and
+    fs-lock as they are not currently in debian.
+  * Disable test_hammer_check_new_key it seems prone to timeouts, and is newly
+    added in this version (so this doesn't represent a regression).
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 17 Nov 2022 19:55:24 +0000
+
+rust-serial-test (0.5.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package serial_test 0.5.1 from crates.io using debcargo 2.5.0
+  * Relax dependency on parking-lot.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 04 Sep 2022 23:58:55 +0000
+
+rust-serial-test (0.5.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package serial_test 0.5.1 from crates.io using debcargo 2.5.0
+  * Drop lower-parking-lot-dep.diff, no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Dec 2021 13:30:31 +0000
+
+rust-serial-test (0.5.1-1) unstable; urgency=medium
+
+  * Package serial_test 0.5.1 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 26 Dec 2020 00:36:34 +0100

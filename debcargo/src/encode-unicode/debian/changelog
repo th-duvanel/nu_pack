@@ -1,0 +1,28 @@
+rust-encode-unicode (0.3.6-1) unstable; urgency=medium
+
+  * Package encode_unicode 0.3.6 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 28 Sep 2019 11:55:30 +0200
+
+rust-encode-unicode (0.3.5-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package encode_unicode 0.3.5 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:43:02 +0200
+
+rust-encode-unicode (0.3.5-2) unstable; urgency=medium
+
+  * Package encode_unicode 0.3.5 from crates.io using debcargo 2.2.9
+
+  [ Matt Kraai ]
+  * Remove clippy dependency.
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 26 Dec 2018 08:31:31 +0100
+
+rust-encode-unicode (0.3.5-1) unstable; urgency=medium
+
+  * Package encode_unicode 0.3.5 from crates.io using debcargo 2.2.8
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 04 Nov 2018 18:29:28 +0100

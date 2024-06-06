@@ -1,0 +1,13 @@
+rust-rustpython-common (0.2.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustpython-common 0.2.0 from crates.io using debcargo 2.6.1
+  * Relax itertools dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 25 May 2024 12:34:28 +0000
+
+rust-rustpython-common (0.2.0-1) unstable; urgency=medium
+
+  * Package rustpython-common 0.2.0 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 14 Sep 2023 09:57:46 +0100

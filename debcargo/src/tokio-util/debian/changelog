@@ -1,0 +1,35 @@
+rust-tokio-util (0.7.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio-util 0.7.10 from crates.io using debcargo 2.6.1 (Closes: #1055934)
+  * Drop old patches, no longer needed.
+  * Add patch to relax hasbrown dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Nov 2023 15:45:01 +0000
+
+rust-tokio-util (0.7.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio-util 0.7.3 from crates.io using debcargo 2.5.0
+  * rely directly on hashbrown 0.12.0 (now in debian)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 27 Jun 2022 17:23:33 -0400
+
+rust-tokio-util (0.7.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio-util 0.7.3 from crates.io using debcargo 2.5.0 (Closes: 1013108)
+  * Remove dev-dependency on async-stream and disable the one example that
+    depends on it so the rest of the testsuite can run.
+  * Lower hashbrown dependency to match the version in Debian.
+  * Remove dev-dependencies on futures-test and tokio-test and disable tests
+    that depend on them so the rest of the tests can run.
+  * Establish baseline for tests.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 19 Jun 2022 19:27:53 +0000
+
+rust-tokio-util (0.6.9-1) unstable; urgency=medium
+
+  * Package tokio-util 0.6.9 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 23:59:33 +0100

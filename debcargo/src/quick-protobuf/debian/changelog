@@ -1,0 +1,19 @@
+rust-quick-protobuf (0.8.1-1) unstable; urgency=medium
+
+  * Package quick-protobuf 0.8.1 from crates.io using debcargo 2.6.0
+    (Closes: #1041879)
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Thu, 31 Aug 2023 11:12:19 +0200
+
+rust-quick-protobuf (0.7.0-2) unstable; urgency=medium
+
+  * Package quick-protobuf 0.7.0 from crates.io using debcargo 2.5.0
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Wed, 17 Aug 2022 16:35:16 +0200
+
+rust-quick-protobuf (0.7.0-1) unstable; urgency=medium
+
+  * Package quick-protobuf 0.7.0 from crates.io using debcargo 2.5.0
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Thu, 11 Aug 2022 16:01:19 +0200

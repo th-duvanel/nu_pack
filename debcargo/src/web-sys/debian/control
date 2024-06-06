@@ -1,0 +1,50 @@
+Source: rust-web-sys
+Section: rust
+Priority: optional
+Build-Depends: debhelper (>= 12),
+ dh-cargo (>= 25),
+ cargo:native <!nocheck>,
+ rustc:native <!nocheck>,
+ libstd-rust-dev <!nocheck>,
+ librust-js-sys-0.3+default-dev (>= 0.3.64-~~) <!nocheck>,
+ librust-wasm-bindgen-0.2+default-dev (>= 0.2.87-~~) <!nocheck>,
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders:
+ kpcyrd <git@rxv.cc>,
+ Nicolas Braud-Santoni <nicoo@debian.org>,
+ Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Standards-Version: 4.6.1
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/web-sys]
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/web-sys
+Homepage: https://rustwasm.github.io/wasm-bindgen/web-sys/index.html
+X-Cargo-Crate: web-sys
+Rules-Requires-Root: no
+
+Package: librust-web-sys-dev
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${misc:Depends},
+ librust-js-sys-0.3+default-dev (>= 0.3.64-~~),
+ librust-wasm-bindgen-0.2+default-dev (>= 0.2.87-~~),
+Provides:
+ librust-web-sys-0.3-dev (= ${binary:Version}),
+ librust-web-sys-0.3+audiobuffer-dev (= ${binary:Version}),
+ librust-web-sys-0.3+audiobuffersourcenode-dev (= ${binary:Version}),
+ librust-web-sys-0.3+audiocontext-dev (= ${binary:Version}),
+ librust-web-sys-0.3+audiocontextoptions-dev (= ${binary:Version}),
+ librust-web-sys-0.3+audiocontextstate-dev (= ${binary:Version}),
+ librust-web-sys-0.3+audiodestinationnode-dev (= ${binary:Version}),
+ librust-web-sys-0.3+audionode-dev (= ${binary:Version}),
+ librust-web-sys-0.3+crypto-dev (= ${binary:Version}),
+ librust-web-sys-0.3+navigator-dev (= ${binary:Version}),
+ librust-web-sys-0.3+window-dev (= ${binary:Version}),
+ librust-web-sys-0.3+console-dev (= ${binary:Version}),
+ librust-web-sys-0.3+document-dev (= ${binary:Version}),
+ librust-web-sys-0.3+location-dev (= ${binary:Version}),
+ librust-web-sys-0.3+navigator-dev (= ${binary:Version}),
+ librust-web-sys-0.3+messageevent-dev (= ${binary:Version}),
+ librust-web-sys-0.3+worker-dev (= ${binary:Version}),
+ librust-web-sys-0.3+default-dev (= ${binary:Version}),
+Description: Bindings for all Web APIs - Rust source code
+ Rust crate web-sys

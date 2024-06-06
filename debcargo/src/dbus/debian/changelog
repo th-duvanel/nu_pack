@@ -1,0 +1,76 @@
+rust-dbus (0.9.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package dbus 0.9.6 from crates.io using debcargo 2.5.0
+  * Removed patches as futures crates are in debian
+  * Added collapse_features = true to debcargo.toml
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 28 Dec 2022 10:30:13 +0100
+
+rust-dbus (0.9.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Mark tests as flaky.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 02 Dec 2020 15:43:49 +0100
+
+rust-dbus (0.9.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Remove future features since the version of futures it requires is not
+    yet in Debian (neither are futures-channel or futures-util).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 26 Oct 2020 08:36:07 +0100
+
+rust-dbus (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild with futures feature.
+  * Package dbus 0.9.0 from crates.io using debcargo 2.4.2
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 25 Oct 2020 14:56:19 +0100
+
+rust-dbus (0.8.2-2.2) unstable; urgency=medium
+
+  * Autopkgtests need to depend on at-spi2-core since they talk
+    to org.a11y.Bus.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 24 Apr 2020 16:43:54 +0200
+
+rust-dbus (0.8.2-2.1) unstable; urgency=medium
+
+  * Unbreak autopkgtest.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 24 Apr 2020 09:32:49 +0200
+
+rust-dbus (0.8.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Run tests in a D-Bus session.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 21 Apr 2020 15:29:19 +0200
+
+rust-dbus (0.8.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package dbus 0.8.2 from crates.io using debcargo 2.4.2
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 06 Apr 2020 18:18:35 +0200
+
+rust-dbus (0.6.5-1) unstable; urgency=medium
+
+  * Package dbus 0.6.5 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 22 Jul 2019 18:51:24 +0200
+
+rust-dbus (0.6.4-1) unstable; urgency=medium
+
+  * Package dbus 0.6.4 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 22 Jan 2019 06:25:30 +0100
+
+rust-dbus (0.6.3-1) unstable; urgency=medium
+
+  * Package dbus 0.6.3 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 26 Dec 2018 14:59:16 -0800

@@ -1,0 +1,5 @@
+rust-ntest-timeout (0.8.1-1) unstable; urgency=medium
+
+  * Package ntest_timeout 0.8.1 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 05 Nov 2022 22:27:15 +0100

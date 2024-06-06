@@ -1,0 +1,16 @@
+rust-nitrokey-test (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package nitrokey-test 0.3.2 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Tue, 24 Dec 2019 21:28:36 +0000
+
+rust-nitrokey-test (0.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package nitrokey-test 0.2.0 from crates.io using debcargo 2.2.9
+
+  [ Robin Krahl ]
+  * Package nitrokey-test 0.1.1 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 19 Jan 2019 16:15:38 -0800

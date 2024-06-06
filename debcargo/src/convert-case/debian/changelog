@@ -1,0 +1,12 @@
+rust-convert-case (0.6.0-2) unstable; urgency=medium
+
+  * Package convert_case 0.6.0 from crates.io using debcargo 2.6.0
+  * Release to Unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Mon, 16 Oct 2023 17:55:29 -0400
+
+rust-convert-case (0.6.0-1) experimental; urgency=medium
+
+  * Package convert_case 0.6.0 from crates.io using debcargo 2.6.0
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 27 Sep 2023 15:46:28 -0400

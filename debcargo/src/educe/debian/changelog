@@ -1,0 +1,12 @@
+rust-educe (0.4.19-2) unstable; urgency=medium
+
+  * Mark --no-default-features test flaky, when the library `compiler_error`s
+    for nothing to test
+
+ -- Blair Noctis <n@sail.ng>  Fri, 21 Oct 2022 12:33:47 -0400
+
+rust-educe (0.4.19-1) unstable; urgency=medium
+
+  * Package educe 0.4.19 from crates.io using debcargo 2.5.0
+
+ -- Blair Noctis <n@sail.ng>  Mon, 05 Sep 2022 18:08:41 +0200

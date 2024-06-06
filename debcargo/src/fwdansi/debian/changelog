@@ -1,0 +1,12 @@
+rust-fwdansi (1.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package fwdansi 1.1.0 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 19:37:30 +0100
+
+rust-fwdansi (1.0.1-1) unstable; urgency=medium
+
+  * Package fwdansi 1.0.1 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Fri, 21 Sep 2018 23:11:45 +0200

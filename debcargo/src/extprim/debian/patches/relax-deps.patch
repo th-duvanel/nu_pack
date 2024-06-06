@@ -1,0 +1,49 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -26,7 +26,7 @@
+ version = "0.2"
+ 
+ [dependencies.rand]
+-version = "0.6"
++version = ">= 0.6, < 0.9"
+ optional = true
+ 
+ [dependencies.serde]
+@@ -37,12 +37,9 @@
+ version = "2.0"
+ 
+ [dev-dependencies.serde_derive]
+-version = ">=1.0.0,<=1.0.98"
++version = "1"
+ [build-dependencies.rustc_version]
+-version = "0.2"
+-
+-[build-dependencies.semver]
+-version = "0.9"
++version = "0.4"
+ 
+ [features]
+ default = ["use-std", "rand", "serde"]
+--- a/build.rs
++++ b/build.rs
+@@ -1,16 +1,14 @@
+ extern crate rustc_version;
+-extern crate semver;
+-use rustc_version::{version_meta, Channel};
+-use semver::Version;
++use rustc_version::{version, version_meta, Channel, Version};
+ 
+ pub fn main() {
+-    let version = version_meta().unwrap();
+-    let channel = match version.channel {
++    let channel = match version_meta().unwrap().channel {
+         Channel::Dev | Channel::Nightly => "unstable",
+         Channel::Beta | Channel::Stable => "stable",
+     };
++
+     println!("cargo:rustc-cfg=extprim_channel=\"{}\"", channel);
+-    if version.semver >= Version::new(1, 26, 0) {
++    if version().unwrap() >= Version::parse("1.26.0").unwrap() {
+         println!("cargo:rustc-cfg=extprim_has_stable_i128");
+     }
+ }

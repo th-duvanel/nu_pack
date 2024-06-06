@@ -1,0 +1,5 @@
+rust-parking (2.0.0-1) unstable; urgency=medium
+
+  * Package parking 2.0.0 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 19 Dec 2021 19:52:38 +0100

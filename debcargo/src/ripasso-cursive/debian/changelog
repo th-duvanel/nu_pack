@@ -1,0 +1,29 @@
+rust-ripasso-cursive (0.6.5-2) experimental; urgency=medium
+
+  * Team upload
+  * Package ripasso-cursive 0.6.5 from crates.io using debcargo 2.6.1
+  * Build against wl-clipboard-rs 0.8
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sat, 20 Apr 2024 12:35:57 -0400
+
+rust-ripasso-cursive (0.6.5-1) unstable; urgency=medium
+
+  * Package ripasso-cursive 0.6.5 from crates.io using debcargo 2.6.1
+  * closes: #1056253
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 10 Mar 2024 09:54:27 +0100
+
+rust-ripasso-cursive (0.6.1-2) unstable; urgency=medium
+
+  * Package ripasso-cursive 0.6.1 from crates.io using debcargo 2.6.0
+  * Add translation files from upstream
+  * Fix the new user wizard
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 11 Feb 2023 09:01:46 +0000
+
+rust-ripasso-cursive (0.6.1-1) unstable; urgency=medium
+
+  * Package ripasso-cursive 0.6.1 from crates.io using debcargo 2.6.0
+  * closes: #946112
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Tue, 17 Jan 2023 09:44:20 +0100

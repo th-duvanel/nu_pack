@@ -1,0 +1,11 @@
+rust-term-size (0.3.1-2) unstable; urgency=medium
+
+  * Package term_size 0.3.1 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Sun, 14 Oct 2018 09:45:20 +0200
+
+rust-term-size (0.3.1-1) unstable; urgency=medium
+
+  * Package term_size 0.3.1 from crates.io using debcargo 2.2.6
+
+ -- Paride Legovini <pl@ninthfloor.org>  Fri, 07 Sep 2018 20:08:30 -0700

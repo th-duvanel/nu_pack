@@ -1,0 +1,12 @@
+rust-cpp-build (0.5.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cpp_build 0.5.9 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 03 Oct 2023 18:51:59 +0000
+
+rust-cpp-build (0.5.6-1) unstable; urgency=medium
+
+  * Package cpp_build 0.5.6 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 14 Jan 2021 22:13:18 +0100

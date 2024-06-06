@@ -1,0 +1,30 @@
+rust-gif (0.11.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gif 0.11.3 from crates.io using debcargo 2.5.0
+  * Disable bench and remove dev-dependency on criterion so the rest of the
+    testsuite can run.
+  * Disable tests that depend on test data which is not included in the
+    Debian package.
+  * Add feature requirements for examples.
+  * Use collapse_features=true
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Apr 2022 09:45:35 +0000
+
+rust-gif (0.10.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gif 0.10.2 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:14:47 +0200
+
+rust-gif (0.10.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gif 0.10.2 from crates.io using debcargo 2.2.10
+
+  [ kpcyrd ]
+  * Package gif 0.10.1 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 20 Jun 2019 16:56:22 -0700

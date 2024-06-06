@@ -1,0 +1,11 @@
+rust-simba (0.8.1-2) unstable; urgency=medium
+
+  * Upload to unstable 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 18 Feb 2024 17:28:12 +0100
+
+rust-simba (0.8.1-1) experimental; urgency=medium
+
+  * Package simba 0.8.1 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 16 Feb 2024 18:49:46 -0500

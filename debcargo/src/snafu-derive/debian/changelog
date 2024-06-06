@@ -1,0 +1,12 @@
+rust-snafu-derive (0.7.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package snafu-derive 0.7.1 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 27 Jun 2022 23:14:30 +0000
+
+rust-snafu-derive (0.6.10-1) unstable; urgency=medium
+
+  * Package snafu-derive 0.6.10 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 19 Sep 2021 19:48:04 +0200

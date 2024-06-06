@@ -1,0 +1,13 @@
+Index: libmount/Cargo.toml
+===================================================================
+--- libmount.orig/Cargo.toml
++++ libmount/Cargo.toml
+@@ -36,7 +36,7 @@ version = "1.2.0"
+ version = "0.2.1"
+ 
+ [dev-dependencies.env_logger]
+-version = "0.5.10"
++version = "0.10"
+ 
+ [dev-dependencies.log]
+ version = "0.4.1"

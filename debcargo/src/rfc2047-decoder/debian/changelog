@@ -1,0 +1,5 @@
+rust-rfc2047-decoder (0.2.2-1) unstable; urgency=medium
+
+  * Package rfc2047-decoder 0.2.2 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 21 Jun 2023 21:41:06 +0100

@@ -1,0 +1,6 @@
+overlay = "."
+uploaders = ["Matthias Geiger <werdahias@riseup.net>"]
+collapse_features = true
+[packages.lib]
+depends = ["libjxl-dev"]
+test_is_broken = true

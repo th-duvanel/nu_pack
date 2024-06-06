@@ -1,0 +1,22 @@
+rust-wasmer-enumset-derive (0.5.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package wasmer_enumset_derive 0.5.0 from crates.io using debcargo 2.6.0
+  * Add patch to update darling and syn (the two need to be updated together)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 20 Aug 2023 19:35:13 +0000
+
+rust-wasmer-enumset-derive (0.5.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package wasmer_enumset_derive 0.5.0 from crates.io using debcargo 2.5.0
+  * Make debian/copyright reflect the fact this is a fork.
+  * Bump darling dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 25 Oct 2022 19:53:12 +0000
+
+rust-wasmer-enumset-derive (0.5.0-1) unstable; urgency=medium
+
+  * Package wasmer_enumset_derive 0.5.0 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 15 Oct 2021 00:02:07 +0200

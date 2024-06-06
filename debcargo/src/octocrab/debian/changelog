@@ -1,0 +1,13 @@
+rust-octocrab (0.31.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Patch out rustls-webpki-tokio feature.
+  * Package octocrab 0.31.2 from crates.io using debcargo 2.6.1
+
+ -- Maytham Alsudany <maytha8thedev@gmail.com>  Tue, 21 May 2024 16:54:07 -0400
+
+rust-octocrab (0.31.2-1) unstable; urgency=medium
+
+  * Package octocrab 0.31.2 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 23 Oct 2023 13:21:44 +0100

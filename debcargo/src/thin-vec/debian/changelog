@@ -1,0 +1,14 @@
+rust-thin-vec (0.2.13-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package thin-vec 0.2.13 from crates.io using debcargo 2.6.1
+  * Fix overly strict alignment test on i386. It was expecting
+    an alignment of 8 but the max alignment on i386 is 4.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 06 May 2024 02:43:01 +0000
+
+rust-thin-vec (0.2.13-1) unstable; urgency=medium
+
+  * Package thin-vec 0.2.13 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 10 Feb 2024 16:24:04 -0500

@@ -1,0 +1,4 @@
+overlay = "."
+uploaders = ["Matthias Geiger <werdahias@riseup.net>"]
+whitelist = ["tests/constant.c", "tests/layout.c"]
+collapse_features = true

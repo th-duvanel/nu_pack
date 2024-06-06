@@ -1,0 +1,26 @@
+rust-protobuf-codegen (2.27.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package protobuf-codegen 2.27.1 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 24 Jul 2022 10:57:46 +0200
+
+rust-protobuf-codegen (2.25.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package protobuf-codegen 2.25.2 from crates.io using debcargo 2.5.0
+
+ -- Shengjing Zhu <zhsj@debian.org>  Mon, 13 Dec 2021 23:24:09 +0800
+
+rust-protobuf-codegen (2.8.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package protobuf-codegen 2.8.1 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 22 Apr 2020 13:18:49 +0200
+
+rust-protobuf-codegen (2.8.1-1) unstable; urgency=medium
+
+  * Package protobuf-codegen 2.8.1 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 28 Dec 2019 08:19:27 +0000

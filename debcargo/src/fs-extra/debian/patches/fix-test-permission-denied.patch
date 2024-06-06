@@ -1,0 +1,39 @@
+Index: fs-extra/tests/dir.rs
+===================================================================
+--- fs-extra.orig/tests/dir.rs
++++ fs-extra/tests/dir.rs
+@@ -86,7 +86,7 @@ fn create_file_symlink<P: AsRef<Path>, Q
+     std::os::windows::fs::symlink_file(original.as_ref(), link.as_ref())
+ }
+ 
+-const TEST_FOLDER: &'static str = "./tests/temp/dir";
++const TEST_FOLDER: &'static str = env!("CARGO_TARGET_TMPDIR");
+ 
+ #[test]
+ fn it_create_all_work() {
+Index: fs-extra/tests/file.rs
+===================================================================
+--- fs-extra.orig/tests/file.rs
++++ fs-extra/tests/file.rs
+@@ -7,7 +7,7 @@ extern crate fs_extra;
+ use fs_extra::error::*;
+ use fs_extra::file::*;
+ 
+-const TEST_FOLDER: &'static str = "./tests/temp/file";
++const TEST_FOLDER: &'static str = env!("CARGO_TARGET_TMPDIR");
+ 
+ fn files_eq<P, Q>(file1: P, file2: Q) -> Result<bool>
+ where
+Index: fs-extra/tests/lib.rs
+===================================================================
+--- fs-extra.orig/tests/lib.rs
++++ fs-extra/tests/lib.rs
+@@ -59,7 +59,7 @@ where
+     true
+ }
+ 
+-const TEST_FOLDER: &'static str = "./tests/temp/lib";
++const TEST_FOLDER: &str = env!("CARGO_TARGET_TMPDIR");
+ 
+ #[test]
+ fn it_copy_work() {

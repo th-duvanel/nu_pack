@@ -1,0 +1,5 @@
+rust-enclose (1.1.8-1) unstable; urgency=medium
+
+  * Package enclose 1.1.8 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 21 May 2022 10:49:36 +0200

@@ -1,0 +1,5 @@
+rust-wildmatch (2.1.1-1) unstable; urgency=medium
+
+  * Package wildmatch 2.1.1 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 Aug 2022 11:41:31 +0200

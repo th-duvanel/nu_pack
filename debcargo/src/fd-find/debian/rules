@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --buildsystem cargo
+
+override_dh_auto_install:
+	# /usr/bin/fd already used, install into /usr/lib/cargo/bin
+	DEB_CARGO_INSTALL_PREFIX=/usr/lib/cargo dh_auto_install
+	debian/fd-find/usr/lib/cargo/bin/fd --gen-completions bash > fd.bash
+	debian/fd-find/usr/lib/cargo/bin/fd --gen-completions fish > fd.fish
+
+override_dh_dwz:
+	# Don't do anything. fails because of the
+	# https://github.com/rust-lang/rust/issues/66118
+
+# Disable because the test still using tempdir (instead of tempfile)
+# override_dh_auto_test:
+# 	dh_auto_test -- test --all

@@ -1,0 +1,24 @@
+rust-num-iter (0.1.42-1) unstable; urgency=medium
+
+  * Package num-iter 0.1.42 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 19 Dec 2021 17:29:14 +0100
+
+rust-num-iter (0.1.40-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-iter 0.1.40 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 13 Jan 2020 12:33:39 +0100
+
+rust-num-iter (0.1.39-1) unstable; urgency=medium
+
+  * Package num-iter 0.1.39 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 11 Oct 2019 14:34:42 +0200
+
+rust-num-iter (0.1.37-1) unstable; urgency=medium
+
+  * Package num-iter 0.1.37 from crates.io using debcargo 2.2.7
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 13 Sep 2018 22:35:19 +0200

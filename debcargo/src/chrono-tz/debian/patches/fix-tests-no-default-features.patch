@@ -1,0 +1,35 @@
+Index: chrono-tz/src/lib.rs
+===================================================================
+--- chrono-tz.orig/src/lib.rs
++++ chrono-tz/src/lib.rs
+@@ -145,6 +145,10 @@ pub use crate::timezones::Tz;
+ pub use crate::timezones::TZ_VARIANTS;
+ 
+ #[cfg(test)]
++#[macro_use]
++extern crate alloc;
++
++#[cfg(test)]
+ mod tests {
+     use super::America::Danmarkshavn;
+     use super::Asia::Dhaka;
+@@ -160,6 +164,7 @@ mod tests {
+     use super::Tz;
+     use super::US::Eastern;
+     use super::UTC;
++    use alloc::string::ToString;
+     use chrono::{Duration, TimeZone};
+ 
+     #[test]
+Index: chrono-tz/src/serde.rs
+===================================================================
+--- chrono-tz.orig/src/serde.rs
++++ chrono-tz/src/serde.rs
+@@ -44,6 +44,7 @@ mod tests {
+     }
+ 
+     #[test]
++    #[cfg(feature = "std")]
+     fn serde_de_error() {
+         assert_de_tokens_error::<Tz>(
+             &[Token::Str("Europe/L")],

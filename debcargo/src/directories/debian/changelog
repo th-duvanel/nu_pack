@@ -1,0 +1,19 @@
+rust-directories (5.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package directories 5.0.1 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Tue, 25 Jul 2023 23:01:34 +0000
+
+rust-directories (4.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package directories 4.0.1 from crates.io using debcargo 2.5.0 (Closes: 1014245)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 02 Jul 2022 20:49:51 +0000
+
+rust-directories (2.0.1-1) unstable; urgency=medium
+
+  * Package directories 2.0.1 from crates.io using debcargo 2.2.10
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 12 Aug 2019 16:58:39 +0200

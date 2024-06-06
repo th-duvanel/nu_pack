@@ -1,0 +1,26 @@
+rust-apple-nvram (0.2.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package apple-nvram 0.2.0 from crates.io using debcargo 2.6.1
+  * Support nix 0.27 and 0.28 (Closes: #1070836)
+    + Relax depedency on nix.
+    + Explicitly enable ioctl feature in nix, which is no longer enabled by
+      default.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 11 May 2024 00:37:42 +0000
+
+rust-apple-nvram (0.2.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Package apple-nvram 0.2.0 from crates.io using debcargo 2.6.1
+  * No-op source-only re-upload for Debian Testing Migration
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 10 May 2024 05:18:27 -0400
+
+rust-apple-nvram (0.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package apple-nvram 0.2.0 from crates.io using debcargo 2.6.0
+    (See #1055634)
+
+ -- Andreas Henriksson <andreas@fatal.se>  Wed, 01 May 2024 16:40:51 +0200

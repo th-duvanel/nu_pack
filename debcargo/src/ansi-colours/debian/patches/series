@@ -1,0 +1,3 @@
+disable-crc64.patch
+disable-empfindung.patch
+relax-deps.patch

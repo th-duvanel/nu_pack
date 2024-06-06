@@ -1,0 +1,18 @@
+rust-svgdom (0.18.0-2) unstable; urgency=medium
+
+  * Package svgdom 0.18.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 27 Dec 2019 19:23:29 +0100
+
+rust-svgdom (0.18.0-1) unstable; urgency=medium
+
+  * Package svgdom 0.18.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 22 Dec 2019 15:47:32 +0100
+
+rust-svgdom (0.16.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package svgdom 0.16.0 from crates.io using debcargo 2.2.9
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 19 Jan 2019 22:15:05 +0100

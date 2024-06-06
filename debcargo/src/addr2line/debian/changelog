@@ -1,0 +1,104 @@
+rust-addr2line (0.21.0-2) unstable; urgency=medium
+
+  * Package addr2line 0.21.0 from crates.io using debcargo 2.6.1
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Update remove-rustc-test.diff & add remove-examples.patch, removing a few
+    dependencies and removing circular dependency on backtrace
+  * Drop outdated *-non-optional.diff, there's collapse_features
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 05 Jan 2024 23:05:24 +0000
+
+rust-addr2line (0.21.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package addr2line 0.21.0 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 24 Nov 2023 14:09:22 +0000
+
+rust-addr2line (0.20.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package addr2line 0.20.0 from crates.io using debcargo 2.6.1
+  * Relax memmap2 dependency to ">=0.5, <1.0".
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 24 Nov 2023 13:53:05 +0000
+
+rust-addr2line (0.20.0-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package addr2line 0.20.0 from crates.io using debcargo 2.6.0
+  * Bump memmap2 dependency to 0.9.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 22 Nov 2023 15:51:33 +0000
+
+rust-addr2line (0.20.0-1) unstable; urgency=medium
+
+  * Package addr2line 0.20.0 from crates.io using debcargo 2.6.0
+  * Relax dev-dependency on libtest-mimic.
+  * Set collapse_features = true.
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package addr2line 0.20.0 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 28 Aug 2023 17:48:34 +0000
+
+rust-addr2line (0.19.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package addr2line 0.19.0 from crates.io using debcargo 2.6.0
+  * Update disable-tests-missing-testdata.patch for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 02 Jan 2023 17:21:38 +0000
+
+rust-addr2line (0.18.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package addr2line 0.18.0 from crates.io using debcargo 2.5.0
+  * Remove dev-dependency on rustc-test and disable test that depends on is so
+    the rest of the tests can run.
+  * Disable test that depends on a private subcrate, private subcrates
+    don't work in a crates.io or debcargo environment.
+  * Disable test that fails with missing test data.
+  * Mark example as needing "default" feature enabled.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 21 Aug 2022 03:20:58 +0000
+
+rust-addr2line (0.13.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package addr2line 0.13.0 from crates.io using debcargo 2.4.4
+  * Drop patches that are no longer needed.
+  * Add patch to drop rustc-dep-of-std feature and associated dependencies
+  * Make smallvec and fallible-iterator dependencies non-optional to avoid
+    generating new feature packages.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 02 Nov 2021 04:46:23 +0000
+
+rust-addr2line (0.10.0-3) unstable; urgency=medium
+
+  * Package addr2line 0.10.0 from crates.io using debcargo 2.4.2
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 08 Jan 2020 22:56:32 +0000
+
+rust-addr2line (0.10.0-2) unstable; urgency=medium
+
+  * Package addr2line 0.10.0 from crates.io using debcargo 2.4.0
+  * Source-only reupload for migration
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 08 Jan 2020 22:55:42 +0100
+
+rust-addr2line (0.10.0-1) unstable; urgency=medium
+
+  * Package addr2line 0.10.0 from crates.io using debcargo 2.4.0
+  * Closes: #946734
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 24 Dec 2019 21:18:07 +0000
+
+rust-addr2line (0.7.0-1) unstable; urgency=medium
+
+  * Package addr2line 0.7.0 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 26 Dec 2018 11:42:17 -0800

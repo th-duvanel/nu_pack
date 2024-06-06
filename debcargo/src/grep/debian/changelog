@@ -1,0 +1,81 @@
+rust-grep (0.3.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package grep 0.3.1 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 05 Dec 2023 01:27:13 +0000
+
+rust-grep (0.2.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package grep 0.2.10 from crates.io using debcargo 2.6.0
+  * Remove simd-accel feature (see: #1026635)
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 28 Dec 2022 19:12:45 +0000
+
+rust-grep (0.2.8-3) unstable; urgency=medium
+
+  * Package grep 0.2.8 from crates.io using debcargo 2.5.0
+  * Enable pcre for real
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 15 Jun 2022 18:59:42 +0200
+
+rust-grep (0.2.8-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package grep 0.2.8 from crates.io using debcargo 2.4.4
+  * Fix 1973 timestamps (Closes: 992911).
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 24 Aug 2021 21:24:51 +0000
+
+rust-grep (0.2.8-1) unstable; urgency=medium
+
+  * Package grep 0.2.8 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Aug 2021 19:26:58 +0200
+
+rust-grep (0.2.7-1) unstable; urgency=medium
+
+  * Package grep 0.2.7 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 20 Jun 2020 10:54:19 +0200
+
+rust-grep (0.2.6-1) unstable; urgency=medium
+
+  * Package grep 0.2.6 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 10 May 2020 16:26:18 +0200
+
+rust-grep (0.2.5-1) unstable; urgency=medium
+
+  * Package grep 0.2.5 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 28 Mar 2020 12:14:40 +0100
+
+rust-grep (0.2.4-1) unstable; urgency=medium
+
+  * Package grep 0.2.4 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 26 Aug 2019 09:05:20 +0200
+
+rust-grep (0.2.3-2) experimental; urgency=medium
+
+  * Package grep 0.2.3 from crates.io using debcargo 2.2.10
+  * Enable pcre. See #926333. will be closed in ripgrep
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 07 Apr 2019 14:52:02 +0200
+
+rust-grep (0.2.3-1) unstable; urgency=medium
+
+  * Package grep 0.2.3 from crates.io using debcargo 2.2.9
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 25 Nov 2018 23:14:17 +0100
+
+rust-grep (0.1.9-1) unstable; urgency=medium
+
+  * Package grep 0.1.9 from crates.io using debcargo 2.2.5
+
+  [ Sylvestre Ledru ]
+  * Package grep 0.1.8 from crates.io using debcargo 2.1.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 04 Aug 2018 10:11:49 -0700

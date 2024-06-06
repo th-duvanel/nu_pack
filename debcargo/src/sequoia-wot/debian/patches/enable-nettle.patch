@@ -1,0 +1,12 @@
+Index: sequoia-wot/Cargo.toml
+===================================================================
+--- sequoia-wot.orig/Cargo.toml
++++ sequoia-wot/Cargo.toml
+@@ -79,6 +79,7 @@ version = "0.4"
+ [dependencies.sequoia-openpgp]
+ version = "1.17"
+ default-features = false
++features = ["crypto-nettle"]
+ 
+ [dependencies.sequoia-policy-config]
+ version = "0.6"

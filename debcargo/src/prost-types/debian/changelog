@@ -1,0 +1,28 @@
+rust-prost-types (0.12.4-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package prost-types 0.12.4 from crates.io using debcargo 2.6.1
+
+ -- Reinhard Tartler <siretart@tauware.de>  Wed, 17 Apr 2024 06:50:16 -0400
+
+rust-prost-types (0.11.9-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #1042784)
+  * Package prost-types 0.11.9 from crates.io using debcargo 2.6.0
+  * Add d/patches/fix-tests-no-std.diff to fix tests with
+    --no-default-features. Stop marking them as flaky.
+
+ -- Emanuele Rocca <ema@debian.org>  Tue, 01 Aug 2023 16:08:00 +0200
+
+rust-prost-types (0.11.6-2) unstable; urgency=medium
+
+  * Package prost-types 0.11.6 from crates.io using debcargo 2.6.0
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Emanuele Rocca <ema@debian.org>  Mon, 23 Jan 2023 17:51:53 +0100
+
+rust-prost-types (0.11.6-1) unstable; urgency=medium
+
+  * Package prost-types 0.11.6 from crates.io using debcargo 2.6.0
+
+ -- Emanuele Rocca <ema@debian.org>  Fri, 20 Jan 2023 11:44:21 +0100

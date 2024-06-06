@@ -1,0 +1,5 @@
+rust-backslash (0.2.0-1) unstable; urgency=medium
+
+  * Package backslash 0.2.0 from crates.io using debcargo 2.6.0
+
+ -- Clay Stan <claystan97@gmail.com>  Fri, 14 Jul 2023 23:51:30 +0200

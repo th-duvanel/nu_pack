@@ -1,0 +1,16 @@
+rust-anstyle (1.0.4-1) unstable; urgency=medium
+
+  * Package anstyle 1.0.4 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package anstyle 1.0.4 from crates.io using debcargo 2.6.0
+  * Drop gate-test-on-relevant-feature.patch, outdated
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 19 Nov 2023 17:46:34 +0000
+
+rust-anstyle (1.0.1-1) unstable; urgency=medium
+
+  * Package anstyle 1.0.1 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 09 Jul 2023 12:05:40 +0200

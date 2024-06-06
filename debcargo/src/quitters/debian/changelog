@@ -1,0 +1,5 @@
+rust-quitters (0.1.0-1) unstable; urgency=medium
+
+  * Package quitters 0.1.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 05 Oct 2023 23:27:30 +0200

@@ -1,0 +1,7 @@
+nix-0.24.patch
+uuid-1.patch
+skip-test_journal_print_large_buffer.patch
+disable-integration-tests.patch
+stop-using-SockAddr-enum.patch
+use-memfd_create-syscall.patch
+nix-0.27.patch

@@ -1,0 +1,13 @@
+only in patch2:
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -75,3 +75,3 @@
+ [dependencies.libloading]
+-version = "0.8.0"
++version = "0"
+ optional = true
+@@ -216,4 +216,1 @@
+ ]
+-
+-[target."cfg(not(unix))".dependencies.gethostname]
+-version = "0.4"

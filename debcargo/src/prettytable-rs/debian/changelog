@@ -1,0 +1,31 @@
+rust-prettytable-rs (0.10.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package prettytable-rs 0.10.0 from crates.io using debcargo 2.6.1
+  * Switch to using the IsTerminal trait from the Standard library to detect
+    terminals.
+  * Stop patching term dependency. 
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 01 Jan 2024 18:17:49 +0000
+
+rust-prettytable-rs (0.10.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package prettytable-rs 0.10.0 from crates.io using debcargo 2.6.0
+    + New upstream fixes RUSTSEC-2022-0074 (Closes: #1027282)
+  * Revert upstream dependency bumps of term and encode-unicode.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 Mar 2023 13:50:03 +0000
+
+rust-prettytable-rs (0.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package prettytable-rs 0.8.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:14:17 +0200
+
+rust-prettytable-rs (0.8.0-1) unstable; urgency=medium
+
+  * Package prettytable-rs 0.8.0 from crates.io using debcargo 2.2.10
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 15 Aug 2019 18:17:48 +0200

@@ -1,0 +1,26 @@
+rust-cookie-factory (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cookie-factory 0.3.2 from crates.io using debcargo 2.5.0 (Closes: 1020408)
+  * Remove references to tests/examples that are not included in the crates.io release.
+  * Remove test_is_broken - no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 22 Sep 2022 23:12:14 +0000
+
+rust-cookie-factory (0.3.1-1) unstable; urgency=medium
+
+  * Package cookie-factory 0.3.1 from crates.io using debcargo 2.4.2
+
+ -- kpcyrd <git@rxv.cc>  Fri, 01 May 2020 14:52:45 +0200
+
+rust-cookie-factory (0.3.0-1) unstable; urgency=medium
+
+  * Package cookie-factory 0.3.0 from crates.io using debcargo 2.4.2
+
+ -- kpcyrd <git@rxv.cc>  Thu, 09 Jan 2020 15:47:37 +0100
+
+rust-cookie-factory (0.2.4-1) unstable; urgency=medium
+
+  * Package cookie-factory 0.2.4 from crates.io using debcargo 2.2.3
+
+ -- kpcyrd <git@rxv.cc>  Sun, 15 Jul 2018 23:22:15 -0700

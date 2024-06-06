@@ -1,0 +1,134 @@
+rust-buffered-reader (1.3.1-1) unstable; urgency=medium
+
+  * Package buffered-reader 1.3.1 from crates.io using debcargo 2.6.1
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 17 Apr 2024 19:25:49 -0400
+
+rust-buffered-reader (1.3.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 1.3.0 from crates.io using debcargo 2.6.0
+  * Add myself to uploaders.
+
+ -- Holger Levsen <holger@debian.org>  Thu, 26 Oct 2023 19:10:11 +0200
+
+rust-buffered-reader (1.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package buffered-reader 1.2.0 from crates.io using debcargo 2.6.0
+    + New upstream fixes RUSTSEC-2023-0039 (Closes: #1037018)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 04 Jun 2023 03:21:45 +0000
+
+rust-buffered-reader (1.1.4-1) unstable; urgency=medium
+
+  * Package buffered-reader 1.1.4 from crates.io using debcargo 2.6.0
+  * collapse_features = true
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 07 Feb 2023 23:39:43 -0500
+
+rust-buffered-reader (1.1.3-1) unstable; urgency=medium
+
+  * Package buffered-reader 1.1.3 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 07 Jul 2022 16:41:21 -0400
+
+rust-buffered-reader (1.1.2-1) unstable; urgency=medium
+
+  * Package buffered-reader 1.1.2 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 28 Jan 2022 11:15:43 -0500
+
+rust-buffered-reader (1.1.1-1) unstable; urgency=medium
+
+  * Package buffered-reader 1.1.1 from crates.io using debcargo 2.5.0
+  * stabilize feature package names (work around #1001251)
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 07 Dec 2021 01:55:31 +0200
+
+rust-buffered-reader (1.0.1-1) unstable; urgency=medium
+
+  * Package buffered-reader 1.0.1 from crates.io using debcargo 2.4.4
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 05 Mar 2021 17:30:47 -0500
+
+rust-buffered-reader (1.0.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 1.0.0 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 16 Dec 2020 10:21:44 -0500
+
+rust-buffered-reader (0.21.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 0.21.0 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 14 Dec 2020 19:14:52 -0500
+
+rust-buffered-reader (0.20.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 0.20.0 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 14 Oct 2020 23:32:32 -0400
+
+rust-buffered-reader (0.18.0-2) unstable; urgency=medium
+
+  * Package buffered-reader 0.18.0 from crates.io using debcargo 2.4.2
+  * relax upstream MSRV-related dependency on flate2
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 05 Aug 2020 15:46:13 -0400
+
+rust-buffered-reader (0.18.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 0.18.0 from crates.io using debcargo 2.4.2
+  * Dropped upstream pin on miniz_oxide targeting MSRV 1.34
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 03 Aug 2020 22:03:18 -0400
+
+rust-buffered-reader (0.17.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 0.17.0 from crates.io using debcargo 2.4.2
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 17 Jun 2020 16:41:20 -0400
+
+rust-buffered-reader (0.16.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 0.16.0 from crates.io using debcargo 2.4.2
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 21 Apr 2020 15:36:32 -0400
+
+rust-buffered-reader (0.14.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 0.14.0 from crates.io using debcargo 2.4.2
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 12 Feb 2020 14:09:13 -0500
+
+rust-buffered-reader (0.13.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 0.13.0 from crates.io using debcargo 2.4.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Fri, 20 Dec 2019 14:41:18 -0500
+
+rust-buffered-reader (0.12.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 0.12.0 from crates.io using debcargo 2.4.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 25 Nov 2019 18:47:03 -0500
+
+rust-buffered-reader (0.11.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 0.11.0 from crates.io using debcargo 2.4.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sat, 09 Nov 2019 11:45:15 -0500
+
+rust-buffered-reader (0.7.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package buffered-reader 0.7.0 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:13:35 +0200
+
+rust-buffered-reader (0.7.0-1) unstable; urgency=medium
+
+  * Package buffered-reader 0.7.0 from crates.io using debcargo 2.2.10
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 22 May 2019 12:28:14 -0400

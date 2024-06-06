@@ -1,0 +1,56 @@
+rust-alacritty-config-derive (0.2.3-1) experimental; urgency=medium
+
+  * Package alacritty_config_derive 0.2.3 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Sun, 07 Apr 2024 21:43:38 -0400
+
+rust-alacritty-config-derive (0.2.2-2) experimental; urgency=medium
+
+  * Package alacritty_config_derive 0.2.2 from crates.io using debcargo 2.6.1
+  * Bump version of alacritty_config dev-dependency
+
+ -- James McCoy <jamessan@debian.org>  Fri, 12 Jan 2024 16:52:23 -0500
+
+rust-alacritty-config-derive (0.2.2-1) experimental; urgency=medium
+
+  * Package alacritty_config_derive 0.2.2 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Thu, 28 Dec 2023 09:17:33 -0500
+
+rust-alacritty-config-derive (0.2.2~rc2-1) experimental; urgency=medium
+
+  * Package alacritty_config_derive 0.2.2-rc2 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Wed, 27 Dec 2023 11:50:48 -0500
+
+rust-alacritty-config-derive (0.2.1-2) unstable; urgency=medium
+
+  * Package alacritty_config_derive 0.2.1 from crates.io using debcargo 2.6.0
+  * Upload to unstable
+
+ -- James McCoy <jamessan@debian.org>  Thu, 03 Aug 2023 20:51:55 -0400
+
+rust-alacritty-config-derive (0.2.1-1) experimental; urgency=medium
+
+  * Package alacritty_config_derive 0.2.1 from crates.io using debcargo 2.6.0
+
+ -- James McCoy <jamessan@debian.org>  Tue, 04 Jul 2023 00:29:45 -0400
+
+rust-alacritty-config-derive (0.2.0-1) unstable; urgency=medium
+
+  * Package alacritty_config_derive 0.2.0 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Wed, 26 Oct 2022 21:20:44 -0400
+
+rust-alacritty-config-derive (0.1.0-2) unstable; urgency=medium
+
+  * Set mtime to $SOURCE_DATE_EPOCH on files flagging
+    package-contains-ancient-file
+
+ -- James McCoy <jamessan@debian.org>  Sat, 21 Aug 2021 19:57:43 -0400
+
+rust-alacritty-config-derive (0.1.0-1) unstable; urgency=medium
+
+  * Package alacritty_config_derive 0.1.0 from crates.io using debcargo 2.4.4
+
+ -- James McCoy <jamessan@debian.org>  Sun, 15 Aug 2021 15:41:11 -0400

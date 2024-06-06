@@ -1,0 +1,23 @@
+rust-sys-mount (3.0.1-1) unstable; urgency=medium
+
+  * Package sys-mount 3.0.1 from crates.io using debcargo 2.6.1
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Wed, 07 Feb 2024 15:01:03 +0100
+
+rust-sys-mount (2.0.2-2) unstable; urgency=medium
+
+  * d/patches: remove unstable features from examples as well.
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Thu, 09 Feb 2023 10:07:28 +0100
+
+rust-sys-mount (2.0.2-1) unstable; urgency=medium
+
+  * Package sys-mount 2.0.2 from crates.io using debcargo 2.6.0
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Wed, 08 Feb 2023 15:34:39 +0100
+
+rust-sys-mount (1.5.1-1) unstable; urgency=medium
+
+  * Package sys-mount 1.5.1 from crates.io using debcargo 2.5.0
+
+ -- Arnaud Ferraris <aferraris@debian.org>  Wed, 02 Nov 2022 15:03:37 +0100

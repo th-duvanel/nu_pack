@@ -1,0 +1,24 @@
+Index: erbium-core/Cargo.toml
+===================================================================
+--- erbium-core.orig/Cargo.toml
++++ erbium-core/Cargo.toml
+@@ -35,11 +35,6 @@ required-features = ["dhcp"]
+ [[bin]]
+ name = "erbium-lldp"
+ 
+-[dependencies.arbitrary]
+-version = "1.1"
+-features = ["derive"]
+-optional = true
+-
+ [dependencies.async-trait]
+ version = "0.1.42"
+ 
+@@ -123,7 +118,6 @@ full = [
+     "http",
+     "dns",
+ ]
+-fuzzing = ["dep:arbitrary"]
+ http = [
+     "hyper",
+     "dhcp",

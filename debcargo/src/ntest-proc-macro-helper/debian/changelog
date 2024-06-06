@@ -1,0 +1,5 @@
+rust-ntest-proc-macro-helper (0.8.0-1) unstable; urgency=medium
+
+  * Package ntest_proc_macro_helper 0.8.0 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 30 Oct 2022 09:42:41 +0100

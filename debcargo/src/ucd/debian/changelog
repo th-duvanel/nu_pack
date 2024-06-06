@@ -1,0 +1,5 @@
+rust-ucd (0.1.1-1) unstable; urgency=medium
+
+  * Package ucd 0.1.1 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 31 Oct 2023 18:02:39 +0000

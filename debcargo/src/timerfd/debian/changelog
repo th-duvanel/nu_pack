@@ -1,0 +1,48 @@
+rust-timerfd (1.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package timerfd 1.5.0 from crates.io using debcargo 2.6.1
+  * Bump rustix to 0.38.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 01 Feb 2024 16:13:27 +0000
+
+rust-timerfd (1.1.1-1) unstable; urgency=medium
+
+  * Package timerfd 1.1.1 from crates.io using debcargo 2.4.3
+  * Drop upstreamed fix-mips-archs-tests.diff
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 06 Jun 2020 18:27:52 +0200
+
+rust-timerfd (1.0.0-5) unstable; urgency=medium
+
+  * Package timerfd 1.0.0 from crates.io using debcargo 2.4.2
+  * Source-only reupload for migration to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 25 Jan 2020 12:04:41 +0100
+
+rust-timerfd (1.0.0-4) unstable; urgency=medium
+
+  * Package timerfd 1.0.0 from crates.io using debcargo 2.4.2
+  * Patch: Use libc constants for flags where available
+    (attempt to mipsel and mips64el test failures)
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 25 Jan 2020 06:26:45 +0100
+
+rust-timerfd (1.0.0-3) unstable; urgency=medium
+
+  * Package timerfd 1.0.0 from crates.io using debcargo 2.4.2
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 24 Jan 2020 08:31:23 +0100
+
+rust-timerfd (1.0.0-2) unstable; urgency=medium
+
+  * Package timerfd 1.0.0 from crates.io using debcargo 2.4.0
+  * Add autopkgtest
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 10 Nov 2019 14:19:25 +0100
+
+rust-timerfd (1.0.0-1) unstable; urgency=medium
+
+  * Package timerfd 1.0.0 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 16 Dec 2018 17:12:39 +0100

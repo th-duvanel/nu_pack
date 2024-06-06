@@ -1,0 +1,10 @@
+Index: uuid/Cargo.toml
+===================================================================
+--- uuid.orig/Cargo.toml
++++ uuid/Cargo.toml
+@@ -132,5 +132,0 @@ fast-rng = [
+-js = [
+-    "wasm-bindgen",
+-    "getrandom",
+-    "getrandom/js",
+-]

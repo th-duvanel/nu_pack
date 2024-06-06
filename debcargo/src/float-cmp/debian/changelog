@@ -1,0 +1,32 @@
+rust-float-cmp (0.9.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package float-cmp 0.9.0 from crates.io using debcargo 2.5.0 (Closes: 1013144)
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 27 Jun 2022 01:23:22 +0000
+
+rust-float-cmp (0.6.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package float-cmp 0.6.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:07:03 +0200
+
+rust-float-cmp (0.6.0-2) unstable; urgency=medium
+
+  * Rebuild float-cmp with "default" feature.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 20 Dec 2019 22:22:58 +0100
+
+rust-float-cmp (0.6.0-1) unstable; urgency=medium
+
+  * Package float-cmp 0.6.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 20 Dec 2019 21:15:30 +0100
+
+rust-float-cmp (0.4.0-1) unstable; urgency=medium
+
+  * Package float-cmp 0.4.0 from crates.io using debcargo 2.2.9
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 19 Jan 2019 20:45:55 +0100

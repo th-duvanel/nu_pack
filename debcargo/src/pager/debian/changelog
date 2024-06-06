@@ -1,0 +1,20 @@
+rust-pager (0.16.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package pager 0.16.1 from crates.io using debcargo 2.6.0
+  * Bump errno dependency to 0.3
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 15 Jun 2023 23:22:08 +0000
+
+rust-pager (0.16.1-1) unstable; urgency=medium
+
+  * Package pager 0.16.1 from crates.io using debcargo 2.5.0
+  * Mark tests broken with oddity in one test, see d/debcargo.toml
+
+ -- Blair Noctis <n@sail.ng>  Sat, 15 Oct 2022 09:31:18 -0400
+
+rust-pager (0.16.0-1) unstable; urgency=medium
+
+  * Package pager 0.16.0 from crates.io using debcargo 2.5.0
+
+ -- Blair Noctis <n@sail.ng>  Thu, 01 Sep 2022 08:34:53 +0200

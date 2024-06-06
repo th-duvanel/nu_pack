@@ -1,0 +1,62 @@
+rust-tre-command (0.4.0-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package tre-command 0.4.0 from crates.io using debcargo 2.6.1
+  * Bump indexmap dependency to 2.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 05:17:16 +0000
+
+rust-tre-command (0.4.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package tre-command 0.4.0 from crates.io using debcargo 2.6.1
+  * Bump lscolors dependency to 0.16
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 07 Jan 2024 11:26:12 +0000
+
+rust-tre-command (0.4.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package tre-command 0.4.0 from crates.io using debcargo 2.6.0
+  * Bump lscolors dependency to 0.14
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 08 Jul 2023 13:49:57 +0000
+
+rust-tre-command (0.4.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package tre-command 0.4.0 from crates.io using debcargo 2.6.0
+  * Bump lscolors dependency to 0.13
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 14 Jan 2023 01:13:45 +0000
+
+rust-tre-command (0.4.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tre-command 0.4.0 from crates.io using debcargo 2.5.0
+  * Bump lscolors dependency to 0.12.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 25 Aug 2022 02:21:51 +0000
+
+rust-tre-command (0.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tre-command 0.4.0 from crates.io using debcargo 2.5.0
+  * Relax dependency on indexmap to 1.7.
+  * Fix bulid with lscolors 0.10 (Closes: #1013542)
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 24 Jun 2022 19:50:33 +0000
+
+rust-tre-command (0.3.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tre-command 0.3.6 from crates.io using debcargo 2.5.0
+  * Bump lscolors dependency to 0.8
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Dec 2021 21:49:56 +0000
+
+rust-tre-command (0.3.6-1) unstable; urgency=medium
+
+  * Package tre-command 0.3.6 from crates.io using debcargo 2.4.4
+
+ -- Daniel Duan <daniel@duan.ca>  Sun, 19 Sep 2021 21:06:57 +0200

@@ -1,0 +1,12 @@
+overlay = "."
+uploaders = [
+  "kpcyrd <git@rxv.cc>",
+  "Wolfgang Silbermayr <wolfgang@silbermayr.at>",
+]
+bin = false
+
+[packages."lib+core"]
+test_is_broken = true
+
+[packages."lib+rustc-dep-of-std"]
+test_is_broken = true

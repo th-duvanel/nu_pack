@@ -1,0 +1,30 @@
+rust-mime-guess (2.0.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package mime_guess 2.0.4 from crates.io using debcargo 2.5.0
+  * Fix tests with --no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 27 Jun 2022 21:24:13 +0000
+
+rust-mime-guess (2.0.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package mime_guess 2.0.4 from crates.io using debcargo 2.5.0 (Closes: 1013456)
+
+  [ Ximin Luo ]
+  * No need to exclude or clean Cargo.lock with dh-cargo >= 20.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 27 Jun 2022 18:05:51 +0000
+
+rust-mime-guess (2.0.1-1) unstable; urgency=medium
+
+  * Package mime_guess 2.0.1 from crates.io using debcargo 2.2.10
+
+  [ Sylvestre Ledru ]
+  * Team upload.
+  * Package mime_guess 2.0.1 from crates.io using debcargo 2.3.1-alpha.0
+
+  [ kpcyrd ]
+  * Package mime_guess 2.0.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 13 Aug 2019 13:01:09 +0200

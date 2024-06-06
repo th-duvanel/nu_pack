@@ -1,0 +1,23 @@
+rust-html2text (0.4.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package html2text 0.4.4 from crates.io using debcargo 2.5.0 (Closes: #985264)
+  * Disable a couple of tests when the html_trace feature is enabled to avoid
+    stack overflows.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 16 Nov 2022 01:15:16 +0000
+
+rust-html2text (0.2.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package html2text 0.2.1 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 14 Jan 2021 10:38:07 +0100
+
+rust-html2text (0.2.1-1) unstable; urgency=medium
+
+  * Source upload
+  * Package html2text 0.2.1 from crates.io using debcargo 2.4.3
+
+ -- Marco Villegas <marco@marvil07.net>  Mon, 30 Nov 2020 14:39:31 +0100

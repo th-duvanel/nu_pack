@@ -1,0 +1,73 @@
+rust-mio (0.8.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package mio 0.8.11 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 01 Apr 2024 09:30:56 -0400
+
+rust-mio (0.8.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package mio 0.8.10 from crates.io using debcargo 2.6.1
+  * Bump dev-dependency on env_logger to 0.10.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 16 Jan 2024 08:22:57 +0000
+
+rust-mio (0.8.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package mio 0.8.8 from crates.io using debcargo 2.6.0
+  * Update remove-non-linux-deps.diff for new upstream.
+  * Drop relax-deps.diff, no longer needed.
+  * Set collapse_features = true.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 06 Aug 2023 04:26:44 +0000
+
+rust-mio (0.8.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package mio 0.8.5 from crates.io using debcargo 2.6.0
+
+ -- Blair Noctis <n@sail.ng>  Sat, 15 Jul 2023 13:21:04 +0200
+
+rust-mio (0.8.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package mio 0.8.4 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 04 Sep 2022 20:27:53 +0000
+
+rust-mio (0.8.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+  * Package mio 0.8.3 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sat, 04 Jun 2022 15:56:46 -0400
+
+rust-mio (0.8.3-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package mio 0.8.3 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Mon, 30 May 2022 09:24:37 -0400
+
+rust-mio (0.7.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package mio 0.7.14 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 23:45:20 +0100
+
+rust-mio (0.6.23-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package mio 0.6.23 from crates.io using debcargo 2.4.3
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 06 Feb 2021 18:10:36 +0000
+
+rust-mio (0.6.16-1) unstable; urgency=medium
+
+  * Package mio 0.6.16 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Thu, 11 Oct 2018 22:31:45 -0700

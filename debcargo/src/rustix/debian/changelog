@@ -1,0 +1,104 @@
+rust-rustix (0.38.32-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustix 0.38.32 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 16 Apr 2024 11:40:36 +0000
+
+rust-rustix (0.38.30-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustix 0.38.30 from crates.io using debcargo 2.6.1
+  * Update no-windows.diff for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 14 Jan 2024 21:38:27 +0000
+
+rust-rustix (0.38.25-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustix 0.38.25 from crates.io using debcargo 2.6.0
+
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 27 Nov 2023 22:13:45 +0100
+
+rust-rustix (0.38.21-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustix 0.38.21 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Nov 2023 16:22:43 +0000
+
+rust-rustix (0.38.17-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustix 0.38.17 from crates.io using debcargo 2.6.0
+  * Update drop-alloc.diff for new upstream.
+  * Reduce context in relax-dep.diff to avoid fuzz with new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 08 Oct 2023 17:42:09 +0000
+
+rust-rustix (0.38.9-1) experimental; urgency=medium
+
+  * Package rustix 0.38.9 from crates.io using debcargo 2.6.0
+  * Drop always-enable-cc.diff, upstream no longer depends on cc.
+  * Drop built-using.diff, upstream no longer uses outline asm.
+  * Bump dev-dependencies on criterion and serial-test.
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package rustix 0.38.3 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 27 Aug 2023 18:41:05 +0000
+
+rust-rustix (0.37.20-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustix 0.37.20 from crates.io using debcargo 2.6.0
+  * Adjust io-lifetimes dependency to support io-lifetimes 2.0
+  * Backport upstream patch for linux-raw-sys 0.4
+  * Reduce dev-dependency on memoffset so they autopkgtests can run.
+  * Bump serial-test dev-dependency to 0.9.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 13 Jun 2023 17:25:22 +0000
+
+rust-rustix (0.37.20-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustix 0.37.20 from crates.io using debcargo 2.6.0
+  * Update copyright years
+  * Refresh patches (update context)
+  * Remove drop-deps.patch: async-std is not used anymore, fs-err is packaged
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Tue, 13 Jun 2023 10:33:03 +0300
+
+rust-rustix (0.35.12-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rustix 0.35.12 from crates.io using debcargo 2.5.0
+  * Enable cc unconditionally, some Debian architectures requires "outline"
+    assembler and the Debian package does not ship pre-assembled outline
+    assembler
+  * Add built-using metadata for outline assembler.
+  * Fix autopkgtests
+    + Disable benches, they fail to build
+    + Relax dev-dependency on serial_test.
+    + Establish baseline for tests.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 29 Oct 2022 10:55:49 +0000
+
+rust-rustix (0.35.6-3) unstable; urgency=medium
+
+  * Source-only upload.
+
+ -- John Goerzen <jgoerzen@complete.org>  Thu, 27 Oct 2022 06:24:41 +0000
+
+rust-rustix (0.35.6-2) unstable; urgency=medium
+
+  * Drop features for async-std and fs-err, which aren't packaged.
+
+ -- John Goerzen <jgoerzen@complete.org>  Thu, 27 Oct 2022 06:13:52 +0000
+
+rust-rustix (0.35.6-1) unstable; urgency=medium
+
+  * Package rustix 0.35.6 from crates.io using debcargo 2.5.0
+
+ -- John Goerzen <jgoerzen@complete.org>  Mon, 03 Oct 2022 18:56:37 +0000

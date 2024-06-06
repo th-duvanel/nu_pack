@@ -1,0 +1,2 @@
+switch-to-tempfile.diff
+fix-tests-under-cargo-auto-test.diff

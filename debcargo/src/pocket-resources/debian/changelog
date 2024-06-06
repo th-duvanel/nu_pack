@@ -1,0 +1,5 @@
+rust-pocket-resources (0.3.2-1) unstable; urgency=medium
+
+  * Package pocket-resources 0.3.2 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Tue, 09 Oct 2018 09:37:13 +0200

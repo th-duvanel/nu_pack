@@ -1,0 +1,5 @@
+rust-pulldown-cmark-escape (0.10.0-1) unstable; urgency=medium
+
+  * Package pulldown-cmark-escape 0.10.0 from crates.io using debcargo 2.6.1
+
+ -- Zixing Liu <zixing.liu@canonical.com>  Tue, 02 Apr 2024 11:35:03 -0400

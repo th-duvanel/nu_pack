@@ -1,0 +1,13 @@
+rust-noise-protocol (0.2.0-1) unstable; urgency=medium
+
+  * Updated my mail address in d/copyright and debcargo.toml
+  * d/copyright: Updated copyright years
+  * Package noise-protocol 0.2.0 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 25 Mar 2024 17:23:46 +0100
+
+rust-noise-protocol (0.1.4-1) unstable; urgency=medium
+
+  * Package noise-protocol 0.1.4 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 30 Sep 2023 12:15:40 +0200

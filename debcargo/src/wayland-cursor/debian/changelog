@@ -1,0 +1,43 @@
+rust-wayland-cursor (0.31.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package wayland-cursor 0.31.1 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 07 Apr 2024 04:19:25 +0000
+
+rust-wayland-cursor (0.31.0-1) experimental; urgency=medium
+
+  * Package wayland-cursor 0.31.0 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Thu, 28 Dec 2023 08:43:31 -0500
+
+rust-wayland-cursor (0.30.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-cursor 0.30.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 04 Jul 2023 20:51:55 +0200
+
+rust-wayland-cursor (0.30.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package wayland-cursor 0.30.0 from crates.io using debcargo 2.6.0
+  * Dropped obsolete patches
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Thu, 25 May 2023 10:20:47 +0200
+
+rust-wayland-cursor (0.29.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package wayland-cursor 0.29.4 from crates.io using debcargo 2.5.0
+  * Be less restrictive about versions of the nix crate, this has the potential
+    for future breakage but overall is likely to be less work than continuously
+    bumping the dependencies.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 10 Jun 2022 01:26:00 +0000
+
+rust-wayland-cursor (0.29.4-1) unstable; urgency=medium
+
+  * Package wayland-cursor 0.29.4 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sun, 10 Apr 2022 17:07:12 -0400

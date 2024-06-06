@@ -1,0 +1,5 @@
+overlay = "."
+uploaders = [
+  "Paride Legovini <paride@debian.org>",
+  "Wolfgang Silbermayr <wolfgang@silbermayr.at>",
+]

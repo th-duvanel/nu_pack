@@ -1,0 +1,27 @@
+rust-hex (0.4.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package hex 0.4.3 from crates.io using debcargo 2.6.1
+  * Update dev-dependency on faster-hex to 0.9 and fix bench to work with it.
+  * Update dev-dependency on pretty-assertions to 1.0
+  * Fix tests with --no-default-features.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 23 Jan 2024 19:45:21 +0000
+
+rust-hex (0.4.3-1) unstable; urgency=medium
+
+  * Package hex 0.4.3 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 18:48:28 +0100
+
+rust-hex (0.4.0-1) unstable; urgency=medium
+
+  * Package hex 0.4.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 28 Nov 2019 00:48:12 +0000
+
+rust-hex (0.3.2-1) unstable; urgency=medium
+
+  * Package hex 0.3.2 from crates.io using debcargo 2.1.1
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Jun 2018 11:57:05 -0700

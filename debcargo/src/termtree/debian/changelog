@@ -1,0 +1,12 @@
+rust-termtree (0.4.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package termtree 0.4.1 from crates.io using debcargo 2.6.0
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 16 Jun 2023 00:37:53 +0200
+
+rust-termtree (0.2.4-1) unstable; urgency=medium
+
+  * Package termtree 0.2.4 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 09 Mar 2022 17:20:27 -0500

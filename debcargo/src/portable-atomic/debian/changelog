@@ -1,0 +1,39 @@
+rust-portable-atomic (1.4.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package portable-atomic 1.4.3 from crates.io using debcargo 2.6.0
+  * Remove unused patch resulting from typo.
+  * Extend gate-tests.patch to support armel.
+  * Extend eliminate-test-helper.patch to support arm64.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 28 Sep 2023 07:57:38 +0000
+
+rust-portable-atomic (1.4.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package portable-atomic 1.4.3 from crates.io using debcargo 2.6.0
+  * Update gate-tests.patch for new upstream.
+  * Add patch to eliminate test_helper subcrate, which is not included in the
+    crates.io release.
+  * Set test_is_broken for the unsafe-assume-single-core, disable-fiq, s-mode
+    and critical-section features, they only make sense on "bare-metal" targets.
+  * Eliminate dev-dependency on build-context crate, this makes the testsuite
+    slightly less general, but it's still fine for our purposes.
+  * Relax dev-dependency on fastrand to allow 1.8.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 24 Sep 2023 09:04:13 +0000
+
+rust-portable-atomic (0.3.19-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package portable-atomic 0.3.19 from crates.io using debcargo 2.6.0
+  * Update gate-tests.patch to support armel.
+  * Update gate-tests.patch for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 28 Jan 2023 01:16:45 +0000
+
+rust-portable-atomic (0.3.15-1) unstable; urgency=medium
+
+  * Package portable-atomic 0.3.15 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 30 Oct 2022 11:05:16 +0100

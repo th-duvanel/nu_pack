@@ -1,0 +1,22 @@
+rust-termsize (0.1.6-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package termsize 0.1.6 from crates.io using debcargo 2.6.0
+  * Use "pipetty" command to run the tests under a pty. Otherwise
+    they fail if there is no terminal.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 19 Jan 2023 14:29:39 +0000
+
+rust-termsize (0.1.6-2) unstable; urgency=medium
+
+  * Source upload
+  * Package termsize 0.1.6 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 26 Nov 2020 00:10:47 +0100
+
+rust-termsize (0.1.6-1) unstable; urgency=medium
+
+  * Source upload
+  * Package termsize 0.1.6 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 20 Nov 2020 23:43:08 +0100

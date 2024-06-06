@@ -1,0 +1,5 @@
+rust-bencher (0.1.5-1) unstable; urgency=medium
+
+  * Package bencher 0.1.5 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 15 Apr 2022 09:30:51 +0200

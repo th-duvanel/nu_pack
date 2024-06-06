@@ -1,0 +1,19 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index 83f76c7..5526c2d 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -123,14 +123,6 @@ features = [
+ ]
+ default-features = false
+ 
+-[target."cfg(windows)".dev-dependencies.sequoia-openpgp]
+-version = "1"
+-features = [
+-    "crypto-cng",
+-    "__implicit-crypto-backend-for-tests",
+-]
+-default-features = false
+-
+ [badges.gitlab]
+ repository = "sequoia-pgp/sequoia"
+ 

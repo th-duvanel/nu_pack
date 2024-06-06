@@ -1,0 +1,26 @@
+rust-unicase (2.6.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package unicase 2.6.0 from crates.io using debcargo 2.4.4-alpha.0
+  * Remove patches (applied upstream)
+  * Update needed by rust-ini
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 22 Dec 2020 17:31:14 +0100
+
+rust-unicase (2.5.1-1) unstable; urgency=medium
+
+  * Package unicase 2.5.1 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Mon, 28 Oct 2019 15:20:54 +0100
+
+rust-unicase (2.4.0-1) unstable; urgency=medium
+
+  * Package unicase 2.4.0 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Sun, 14 Jul 2019 05:00:59 +0000
+
+rust-unicase (2.1.0-1) unstable; urgency=medium
+
+  * Package unicase 2.1.0 from crates.io using debcargo 2.2.4
+
+ -- kpcyrd <git@rxv.cc>  Tue, 31 Jul 2018 09:51:44 -0700

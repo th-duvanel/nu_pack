@@ -1,0 +1,10 @@
+Index: vergen/src/lib.rs
+===================================================================
+--- vergen.orig/src/lib.rs
++++ vergen/src/lib.rs
+@@ -202,5 +202,2 @@
+         dead_code,
+-        deprecated,
+-        deprecated_in_future,
+-        deprecated_where_clause_location,
+         deref_into_dyn_supertrait,

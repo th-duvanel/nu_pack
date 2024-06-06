@@ -1,0 +1,17 @@
+overlay = "."
+uploaders = ["Ben Westover <me@benthetechguy.net>", "Alexander Kjäll <alexander.kjall@gmail.com>"]
+collapse_features = true
+
+[source]
+build_depends = ["help2man"]
+
+[packages.bin]
+section = "misc"
+summary = "Subprocess caching utility written in Rust"
+description = """
+This is a subprocess caching utility written in Rust,
+inspired by bash-cache. Wrapping expensive process invocations with bkt allows
+callers to reuse recent invocations without complicating their application
+logic. This can be useful in shell prompts, interactive applications such as
+fzf, and long-running programs that poll other processes.
+"""

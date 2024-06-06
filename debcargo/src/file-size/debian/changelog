@@ -1,0 +1,5 @@
+rust-file-size (1.0.3-1) unstable; urgency=medium
+
+  * Package file-size 1.0.3 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Tue, 02 Apr 2024 12:02:51 -0400

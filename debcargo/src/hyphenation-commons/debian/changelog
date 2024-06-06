@@ -1,0 +1,5 @@
+rust-hyphenation-commons (0.7.1-1) unstable; urgency=medium
+
+  * Package hyphenation_commons 0.7.1 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Thu, 11 Oct 2018 22:32:33 -0700

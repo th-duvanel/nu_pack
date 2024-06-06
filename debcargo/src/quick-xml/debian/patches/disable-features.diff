@@ -1,0 +1,9 @@
+Index: quick-xml/Cargo.toml
+===================================================================
+--- quick-xml.orig/Cargo.toml
++++ quick-xml/Cargo.toml
+@@ -91,4 +91,0 @@ name = "macrobenches"
+-[dependencies.document-features]
+-version = "0.2"
+-optional = true
+-

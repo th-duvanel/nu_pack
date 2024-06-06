@@ -1,0 +1,35 @@
+rust-libshumate (0.5.0-3) unstable; urgency=medium
+
+  * Upload to unstable
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 21:09:31 +0200
+
+rust-libshumate (0.5.0-2) experimental; urgency=medium
+
+  * Team upload
+  * Package libshumate 0.5.0 from crates.io using debcargo 2.6.1
+  * Restore accidentally dropped Depends: libshumate-dev
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Fri, 19 Apr 2024 18:08:34 -0400
+
+rust-libshumate (0.5.0-1) experimental; urgency=medium
+
+  * Package libshumate 0.5.0 from crates.io using debcargo 2.6.1
+  * Updated copyright years
+  * Properly depend on packages needed for code regeneration
+  * Version git-rust-code-generator dependency
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 22 Feb 2024 18:41:23 +0100
+
+rust-libshumate (0.4.1-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 22 Oct 2023 21:36:31 +0200
+
+rust-libshumate (0.4.1-1) experimental; urgency=medium
+
+  * Package libshumate 0.4.1 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 13 Oct 2023 10:49:22 -0400

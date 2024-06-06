@@ -1,0 +1,37 @@
+rust-sequoia-cert-store (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sequoia-cert-store 0.5.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 03 Mar 2024 17:37:44 +0100
+
+rust-sequoia-cert-store (0.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package sequoia-cert-store 0.4.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 27 Jan 2024 16:51:15 +0100
+
+rust-sequoia-cert-store (0.3.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package sequoia-cert-store 0.3.2 from crates.io using debcargo 2.6.1
+  * Stop patcing rusqlite dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 12 Dec 2023 17:05:27 +0000
+
+rust-sequoia-cert-store (0.3.2-1) unstable; urgency=medium
+
+  [ Alexander Kjäll ]
+  * Package sequoia-cert-store 0.3.2 from crates.io using debcargo 2.6.0
+
+  [ Holger Levsen ]
+  * Add myself to uploaders.
+
+ -- Holger Levsen <holger@debian.org>  Thu, 26 Oct 2023 23:00:53 +0200
+
+rust-sequoia-cert-store (0.2.0-1) experimental; urgency=medium
+
+  * Package sequoia-cert-store 0.2.0 from crates.io using debcargo 2.6.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 14 Mar 2023 22:49:24 -0400

@@ -1,0 +1,60 @@
+rust-rust-decimal (1.23.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rust_decimal 1.23.1 from crates.io using debcargo 2.6.1
+  * Reenable the rust-fuzz feature as that is needed by rhai.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 29 Apr 2024 13:46:35 -0400
+
+rust-rust-decimal (1.23.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rust_decimal 1.23.1 from crates.io using debcargo 2.5.0
+  * Update fix-dep.diff for new upstream
+  * Fix testsuite
+  * Drop arrayvec patch, fixed upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 21 May 2022 18:23:58 +0000
+
+rust-rust-decimal (1.17.0-1) unstable; urgency=medium
+
+  * Package rust_decimal 1.17.0 from crates.io using debcargo 2.5.0
+  * Unbreak the build to use arrayvec 0.7
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 18 Dec 2021 13:46:54 +0100
+
+rust-rust-decimal (1.16.0-3) unstable; urgency=medium
+
+  * Team upload
+  * d/patches/fix-deps.diff: Reverted dependency relaxing on the bytes crate
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Mon, 29 Nov 2021 00:07:09 +0100
+
+rust-rust-decimal (1.16.0-2) unstable; urgency=medium
+
+  * Package rust_decimal 1.16.0 from crates.io using debcargo 2.4.4-alpha.0
+  * Remove the arbitrary dep
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 20 Oct 2021 22:52:21 +0200
+
+rust-rust-decimal (1.16.0-1) unstable; urgency=medium
+
+  * Package rust_decimal 1.16.0 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 20 Oct 2021 22:34:41 +0200
+
+rust-rust-decimal (1.8.1-2) unstable; urgency=medium
+
+  * Package rust_decimal 1.8.1 from crates.io using debcargo 2.4.3
+  * Source upload
+  * Fix the install issue with bytes
+  * Add missing "collapse_features = true"
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 23 Nov 2020 09:39:40 +0100
+
+rust-rust-decimal (1.8.1-1) unstable; urgency=medium
+
+  * Package rust_decimal 1.8.1 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 18 Oct 2020 01:02:29 +0200
+

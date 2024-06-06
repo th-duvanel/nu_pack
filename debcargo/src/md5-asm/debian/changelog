@@ -1,0 +1,29 @@
+rust-md5-asm (0.5.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package md5-asm 0.5.0 from crates.io using debcargo 2.5.0
+  * Adjust upstream files to not fail build on unsupported architectures.
+  * Remove overridden debian/rules.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 17 Aug 2022 01:39:17 +0000
+
+rust-md5-asm (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package md5-asm 0.5.0 from crates.io using debcargo 2.5.0
+  * Update built-using patch for new upstream
+  * Add patch to fix bench.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 Jun 2022 19:13:50 +0000
+
+rust-md5-asm (0.4.3-2) unstable; urgency=medium
+
+  * Restrict build to supported architectures
+
+ -- kpcyrd <git@rxv.cc>  Sun, 11 Aug 2019 12:20:49 +0200
+
+rust-md5-asm (0.4.3-1) unstable; urgency=medium
+
+  * Package md5-asm 0.4.3 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Sat, 13 Jul 2019 19:39:15 +0200

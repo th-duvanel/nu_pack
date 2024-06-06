@@ -1,0 +1,44 @@
+rust-tokio-postgres (0.7.10-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio-postgres 0.7.10 from crates.io using debcargo 2.6.1
+  * Bump fallible-iterator to 0.3.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 06 Jan 2024 00:23:42 +0000
+
+rust-tokio-postgres (0.7.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio-postgres 0.7.10 from crates.io using debcargo 2.6.0
+  * Bump tokio dependency to help britney's autopkgtest scheduler with the
+    socket2 transition.
+  * Disable js feature (newly added upstream, dependencies not satisfiable
+    in Debian).
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 31 Oct 2023 21:20:23 +0000
+
+rust-tokio-postgres (0.7.7-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package tokio-postgres 0.7.7 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 25 Jul 2023 09:02:49 +0000
+
+rust-tokio-postgres (0.7.7-2) unstable; urgency=medium
+
+  * Package tokio-postgres 0.7.7 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 10 Jan 2023 11:49:33 +0100
+
+rust-tokio-postgres (0.7.7-1) unstable; urgency=medium
+
+  * Package tokio-postgres 0.7.7 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package tokio-postgres 0.7.7 from crates.io using debcargo 2.5.0
+
+  [ Matthias Geiger ]
+  * Package tokio-postgres 0.7.6 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 21 Dec 2022 11:47:10 +0100

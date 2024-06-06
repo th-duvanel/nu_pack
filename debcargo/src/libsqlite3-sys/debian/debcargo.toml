@@ -1,0 +1,24 @@
+overlay = "."
+uploaders = [
+ "kpcyrd <git@rxv.cc>",
+ "Daniel Kahn Gillmor <dkg@fifthhorseman.net>",
+]
+excludes = [
+  "upgrade.sh",
+  "sqlite3/**",
+  "sqlcipher/**",
+]
+collapse_features = true
+
+[packages.lib]
+depends = ["libsqlite3-dev"]
+# see https://github.com/rusqlite/rusqlite/issues/1205
+test_is_broken = true
+
+[packages."lib+sqlcipher"]
+depends = ["libsqlcipher-dev"]
+
+[packages."lib+default"]
+test_is_broken = false
+[packages."lib+@"]
+test_is_broken = false

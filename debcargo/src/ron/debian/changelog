@@ -1,0 +1,73 @@
+rust-ron (0.7.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package ron 0.7.1 from crates.io using debcargo 2.6.1
+  * Bump indexmap dependency to 2 and adjust feature name for new version.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 May 2024 04:19:16 +0000
+
+rust-ron (0.7.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package ron 0.7.1 from crates.io using debcargo 2.6.0
+  * Apply upstream patch to fix tests with serde 1.0.181 and above
+  * Bump serde dependency because I'm pretty sure the above patch will break
+    tests with older serde.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 11 Nov 2023 06:52:22 +0000
+
+rust-ron (0.7.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump base64 to 0.21
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Tue, 13 Jun 2023 00:37:04 +0000
+
+rust-ron (0.7.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ron 0.7.1 from crates.io using debcargo 2.5.0
+  * Drop relax-deps.patch - no longer needed.
+  * Add patch to remove option-set dev dependency which is not in debian and
+    disable test 152_bitflags which requires it.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 18 Oct 2022 02:40:15 +0000
+
+rust-ron (0.6.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package ron 0.6.4 from crates.io using debcargo 2.4.4
+  * Allow both 0.12 and 0.13 for base64.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 22 Aug 2021 12:39:19 +0000
+
+rust-ron (0.6.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ron 0.6.4 from crates.io using debcargo 2.4.3
+  * d/patches: add collapse_features to avoid creation of empty bin pkg
+    (+indexmap).
+  * d/patches: add relax-deps for base64 version lowering (0.13 to 0.12)
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Fri, 25 Dec 2020 12:40:30 +0100
+
+rust-ron (0.5.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * enable use with base64 0.12.*
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 10 Jun 2020 14:26:37 -0400
+
+rust-ron (0.5.1-2) unstable; urgency=medium
+
+  * Package ron 0.5.1 from crates.io using debcargo 2.4.2
+  * Source-only reupload for transition to testing
+  * Relax dependency versions
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 23 Jan 2020 10:24:37 +0100
+
+rust-ron (0.5.1-1) unstable; urgency=medium
+
+  * Package ron 0.5.1 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 01 Dec 2019 10:02:15 +0100

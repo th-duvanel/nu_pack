@@ -1,0 +1,28 @@
+rust-gstreamer-play (0.22.0-2) unstable; urgency=medium
+
+  * Package gstreamer-play 0.22.0 from crates.io using debcargo 2.6.1
+  * Stop marking v1_24 feature as broken
+  * Drop obsoleted dependencies
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 14:21:39 +0200
+
+rust-gstreamer-play (0.22.0-1) experimental; urgency=medium
+
+  * Package gstreamer-play 0.22.0 from crates.io using debcargo 2.6.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 25 Feb 2024 01:01:11 +0100
+
+rust-gstreamer-play (0.21.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Package gstreamer-play 0.21.0 from crates.io using debcargo 2.6.0
+  * Don't regenerate source code: requires unreleased gstreamer
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 24 Oct 2023 15:42:59 -0400
+
+rust-gstreamer-play (0.21.0-1) experimental; urgency=medium
+
+  * Package gstreamer-play 0.21.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 29 Sep 2023 08:10:42 -0400

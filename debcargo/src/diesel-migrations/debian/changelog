@@ -1,0 +1,22 @@
+rust-diesel-migrations (2.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package diesel_migrations 2.0.0 from crates.io using debcargo 2.6.0
+  * Mark tests as broken as they require a database
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 12 Nov 2023 19:07:00 +0100
+
+rust-diesel-migrations (2.0.0-1) unstable; urgency=medium
+
+  * Package diesel_migrations 2.0.0 from crates.io using debcargo 2.6.0
+  * Added myself to uploaders
+  * Collapsed features in debcargo.toml
+  * Updated copyright
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 10 Feb 2023 12:52:05 +0100
+
+rust-diesel-migrations (1.4.0-1) unstable; urgency=medium
+
+  * Package diesel_migrations 1.4.0 from crates.io using debcargo 2.4.3
+
+ -- Marco Villegas <marco@marvil07.net>  Sun, 01 Nov 2020 12:34:24 +0100

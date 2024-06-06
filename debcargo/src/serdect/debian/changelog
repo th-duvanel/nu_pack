@@ -1,0 +1,5 @@
+rust-serdect (0.2.0-1) unstable; urgency=medium
+
+  * Package serdect 0.2.0 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Tue, 07 Nov 2023 17:58:29 +0100

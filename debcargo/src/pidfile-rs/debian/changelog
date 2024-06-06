@@ -1,0 +1,11 @@
+rust-pidfile-rs (0.1.0-2) unstable; urgency=medium
+
+  * Package pidfile-rs 0.1.0 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 04 Nov 2020 09:55:07 +0100
+
+rust-pidfile-rs (0.1.0-1) unstable; urgency=medium
+
+  * Package pidfile-rs 0.1.0 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 03 Nov 2020 12:15:19 +0100

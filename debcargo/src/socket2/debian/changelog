@@ -1,0 +1,62 @@
+rust-socket2 (0.5.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package socket2 0.5.6 from crates.io using debcargo 2.6.1
+  * Update disable-windows.patch for new upstream.
+  * Workaround glibc time64 suseconds_t issue. (Closes: #1069992)
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 29 Apr 2024 00:56:32 +0000
+
+rust-socket2 (0.5.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package socket2 0.5.5 from crates.io using debcargo 2.6.0
+  * Disable windows support.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 29 Oct 2023 19:38:05 +0000
+
+rust-socket2 (0.4.9-1) unstable; urgency=medium
+
+  * Package socket2 0.4.9 from crates.io using debcargo 2.6.0
+
+ -- kpcyrd <git@rxv.cc>  Thu, 27 Jul 2023 16:09:09 +0200
+
+rust-socket2 (0.4.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package socket2 0.4.4 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Tue, 31 May 2022 08:44:51 -0400
+
+rust-socket2 (0.4.2-1) unstable; urgency=medium
+
+  * Package socket2 0.4.2 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 19:02:15 +0100
+
+rust-socket2 (0.3.19-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package socket2 0.3.19 from crates.io using debcargo 2.4.3
+  * Fix files with very old timestamps.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 31 Dec 2020 15:18:32 +0000
+
+rust-socket2 (0.3.19-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package socket2 0.3.19 from crates.io using debcargo 2.4.3
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 30 Dec 2020 17:00:36 +0000
+
+rust-socket2 (0.3.11-1) unstable; urgency=medium
+
+  * Package socket2 0.3.11 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Sun, 11 Aug 2019 13:41:14 +0200
+
+rust-socket2 (0.3.7-1) unstable; urgency=medium
+
+  * Package socket2 0.3.7 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 03 Aug 2018 01:56:19 -0700

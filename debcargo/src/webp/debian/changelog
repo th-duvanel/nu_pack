@@ -1,0 +1,17 @@
+rust-webp (0.2.6-1) unstable; urgency=medium
+
+  * Package webp 0.2.6 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 09 Oct 2023 19:20:59 +0200
+
+rust-webp (0.2.5-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 10 Sep 2023 14:25:39 +0200
+
+rust-webp (0.2.5-1) experimental; urgency=medium
+
+  * Package webp 0.2.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Sep 2023 13:54:11 -0400

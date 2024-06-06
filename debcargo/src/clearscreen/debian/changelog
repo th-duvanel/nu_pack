@@ -1,0 +1,13 @@
+rust-clearscreen (2.0.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package clearscreen 2.0.1 from crates.io using debcargo 2.6.1
+  * Add patch for nix 0.27
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 14:47:03 +0000
+
+rust-clearscreen (2.0.1-1) unstable; urgency=medium
+
+  * Package clearscreen 2.0.1 from crates.io using debcargo 2.6.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 23 Sep 2023 04:24:06 +0100

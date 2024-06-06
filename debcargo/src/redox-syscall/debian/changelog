@@ -1,0 +1,51 @@
+rust-redox-syscall (0.2.16-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package redox_syscall 0.2.16 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Sat, 22 Oct 2022 09:19:46 -0400
+
+rust-redox-syscall (0.2.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package redox_syscall 0.2.10 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 18 Dec 2021 11:30:20 +0100
+
+rust-redox-syscall (0.1.57-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package redox_syscall 0.1.57 from crates.io using debcargo 2.4.3
+  * Set the test_is_broken marker to ignore tests, both at build
+    time and during autopkgtests. The functions in the package always
+    return ENOSYS on operating systems other than redox OS.
+    (closes: #971209) (thanks to Stephen Lachnit for the intial
+    determination that tests should be disabled)
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 30 Dec 2020 14:46:36 +0000
+
+rust-redox-syscall (0.1.57-1) unstable; urgency=medium
+
+  * Package redox_syscall 0.1.57 from crates.io using debcargo 2.4.3
+
+  [ Niklas Claesson ]
+  * Team upload.
+  * Package redox_syscall 0.1.56 from crates.io using debcargo 2.2.10
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 01 Oct 2020 23:03:21 +0100
+
+rust-redox-syscall (0.1.40-2) unstable; urgency=medium
+
+  * Package redox_syscall 0.1.40 from crates.io using debcargo 2.2.5
+  * Ignore test failures on unsupported architectures.
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 05 Aug 2018 01:11:38 -0700
+
+rust-redox-syscall (0.1.40-1) unstable; urgency=medium
+
+  * Package redox_syscall 0.1.40 from crates.io using debcargo 2.2.1
+
+  [ kpcyrd <git@rxv.cc> ]
+  * Package redox_syscall 0.1.40 from crates.io using debcargo 2.1.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 07 Jul 2018 14:00:16 -0700

@@ -1,0 +1,5 @@
+rust-slug (0.1.4-1) unstable; urgency=medium
+
+  * Package slug 0.1.4 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 14 Aug 2022 18:10:27 +0200

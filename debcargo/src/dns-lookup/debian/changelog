@@ -1,0 +1,31 @@
+rust-dns-lookup (1.0.8-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package dns-lookup 1.0.8 from crates.io using debcargo 2.6.0
+  * Apply upstream patch for socket2 0.5
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 31 Oct 2023 03:46:10 +0000
+
+rust-dns-lookup (1.0.8-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package dns-lookup 1.0.8 from crates.io using debcargo 2.6.0
+  * Drop clippy feature (Closes: #1028914)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 14 Jan 2023 22:27:56 +0000
+
+rust-dns-lookup (1.0.8-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package dns-lookup 1.0.8 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 May 2022 20:20:42 +0200
+
+rust-dns-lookup (1.0.8-1) unstable; urgency=medium
+
+  * Source upload
+  * Package dns-lookup 1.0.8 from crates.io using debcargo 2.5.0
+  * Improve d/copyright according to the ftpmasters' comments.
+
+ -- Dylan Aïssi <daissi@debian.org>  Mon, 07 Feb 2022 21:54:56 +0100

@@ -1,0 +1,37 @@
+rust-hmac (0.12.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package hmac 0.12.1 from crates.io using debcargo 2.5.0
+  * Adjust dependencies to match what is available in Debian.
+  * Remove dev-dependency on streebog and disable tests that use it
+    so the rest of the tests can run.
+  * Set collapse_features=true.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 Jun 2022 19:53:50 +0000
+
+rust-hmac (0.10.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package hmac 0.10.1 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 02 Dec 2020 13:05:41 +0100
+
+rust-hmac (0.10.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package hmac 0.10.1 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 02 Dec 2020 12:39:14 +0100
+
+rust-hmac (0.7.1-2) unstable; urgency=medium
+
+  * Package hmac 0.7.1 from crates.io using debcargo 2.4.2
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Ximin Luo <infinity0@debian.org>  Mon, 27 Jan 2020 22:11:49 +0000
+
+rust-hmac (0.7.1-1) unstable; urgency=medium
+
+  * Package hmac 0.7.1 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 24 Dec 2019 16:35:20 +0000

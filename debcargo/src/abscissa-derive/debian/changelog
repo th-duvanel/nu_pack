@@ -1,0 +1,5 @@
+rust-abscissa-derive (0.7.0-1) unstable; urgency=medium
+
+  * Package abscissa_derive 0.7.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 10 Sep 2023 18:23:27 +0200

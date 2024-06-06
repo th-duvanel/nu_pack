@@ -1,0 +1,5 @@
+rust-pathfinder-geometry (0.5.1-1) unstable; urgency=medium
+
+  * Package pathfinder_geometry 0.5.1 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 15 Apr 2022 12:02:14 +0200

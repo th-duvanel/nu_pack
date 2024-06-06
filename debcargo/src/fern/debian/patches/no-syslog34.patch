@@ -1,0 +1,36 @@
+Description: only syslog 6 is available
+Author: Ed Neville <ed-debian@s5h.net>
+Author: Peter Michael Green <plugwash@debian.org>
+Origin: other
+Forwarded: not-needed
+Last-Update: 2023-11-28
+
+--- fern/Cargo.toml	2022-05-21 19:24:30.757412548 +0000
++++ fern.new/Cargo.toml	2022-05-21 19:26:25.592211372 +0000
+@@ -24,2 +25,3 @@
+ repository = "https://github.com/daboross/fern"
++autoexamples = false
+ 
+@@ -48,8 +48,0 @@
+-[[example]]
+-name = "syslog4"
+-required-features = ["syslog-4"]
+-
+-[[example]]
+-name = "syslog3"
+-required-features = ["syslog-3"]
+-
+@@ -87,2 +77,0 @@
+-syslog-3 = ["syslog3"]
+-syslog-4 = ["syslog4"]
+@@ -105,10 +82,0 @@
+-[target."cfg(not(windows))".dependencies.syslog3]
+-version = "3"
+-optional = true
+-package = "syslog"
+-
+-[target."cfg(not(windows))".dependencies.syslog4]
+-version = "4"
+-optional = true
+-package = "syslog"
+-

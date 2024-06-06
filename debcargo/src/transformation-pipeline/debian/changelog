@@ -1,0 +1,5 @@
+rust-transformation-pipeline (0.1.0-1) unstable; urgency=medium
+
+  * Package transformation-pipeline 0.1.0 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 24 Feb 2024 18:04:39 +0100

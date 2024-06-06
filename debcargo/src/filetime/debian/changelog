@@ -1,0 +1,84 @@
+rust-filetime (0.2.23-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package filetime 0.2.23 from crates.io using debcargo 2.6.1
+  * Update patches for new upstream.
+  * Workaround glibc time64 suseconds_t issue (Closes: #1069993)
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 29 Apr 2024 01:38:37 +0000
+
+rust-filetime (0.2.22-1) unstable; urgency=medium
+
+  * Package filetime 0.2.22 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package filetime 0.2.22 from crates.io using debcargo 2.6.0
+  * Drop dep on redox_syscall for now
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 10 Oct 2023 17:44:20 +0000
+
+rust-filetime (0.2.19-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package filetime 0.2.19 from crates.io using debcargo 2.6.0 (Closes: #1030790)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Feb 2023 15:43:02 +0000
+
+rust-filetime (0.2.18-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package filetime 0.2.18 from crates.io using debcargo 2.5.0
+
+ -- Blair Noctis <n@sail.ng>  Sat, 05 Nov 2022 22:50:25 +0100
+
+rust-filetime (0.2.17-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package filetime 0.2.17 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 23 Aug 2022 22:04:54 +0200
+
+rust-filetime (0.2.15-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package filetime 0.2.15 from crates.io using debcargo 2.5.0
+    + New version fixed radox-syscall dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 18 Dec 2021 13:49:30 +0000
+
+rust-filetime (0.2.9-1) unstable; urgency=medium
+
+  * Package filetime 0.2.9 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 04 May 2020 10:39:24 +0200
+
+rust-filetime (0.2.8-1) unstable; urgency=medium
+
+  * Package filetime 0.2.8 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 16 Nov 2019 10:53:16 +0100
+
+rust-filetime (0.2.7-1) unstable; urgency=medium
+
+  * Package filetime 0.2.7 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 18 Aug 2019 07:27:48 +0200
+
+rust-filetime (0.2.6-1) unstable; urgency=medium
+
+  * Package filetime 0.2.6 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 10 Jul 2019 20:21:12 +0200
+
+rust-filetime (0.2.4-1) unstable; urgency=medium
+
+  * Package filetime 0.2.4 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 15 Dec 2018 22:52:59 +0100
+
+rust-filetime (0.2.1-1) unstable; urgency=medium
+
+  * Package filetime 0.2.1 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Mon, 30 Jul 2018 04:18:22 -0700

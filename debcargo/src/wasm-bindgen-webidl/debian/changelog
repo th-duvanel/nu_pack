@@ -1,0 +1,32 @@
+rust-wasm-bindgen-webidl (0.2.75-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package wasm-bindgen-webidl 0.2.75 from crates.io using debcargo 2.5.0
+  * Relax dependencies on wasm-bindgen-backend and env-logger.
+  * Disable build of binary to avoid trip through NEW.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 08 Jan 2022 14:50:00 +0000
+
+rust-wasm-bindgen-webidl (0.2.58-1) unstable; urgency=medium
+
+  * Package wasm-bindgen-webidl 0.2.58 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 08 Jan 2020 15:08:03 +0100
+
+rust-wasm-bindgen-webidl (0.2.56-1) unstable; urgency=medium
+
+  * Package wasm-bindgen-webidl 0.2.56 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 02 Jan 2020 01:10:22 +0100
+
+rust-wasm-bindgen-webidl (0.2.51-1) unstable; urgency=medium
+
+  * Package wasm-bindgen-webidl 0.2.51 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 05 Oct 2019 11:21:40 +0200
+
+rust-wasm-bindgen-webidl (0.2.50-1) unstable; urgency=medium
+
+  * Package wasm-bindgen-webidl 0.2.50 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Mon, 09 Sep 2019 16:23:28 -0700

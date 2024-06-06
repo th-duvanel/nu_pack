@@ -1,0 +1,26 @@
+rust-predicates-core (1.0.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package predicates-core 1.0.6 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 29 Oct 2023 06:21:34 +0000
+
+rust-predicates-core (1.0.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package predicates-core 1.0.5 from crates.io using debcargo 2.6.0
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 16 Jun 2023 00:33:13 +0200
+
+rust-predicates-core (1.0.3-1) unstable; urgency=medium
+
+  * Add myself to uploaders.
+  * Package predicates-core 1.0.3 from crates.io using debcargo 2.5.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 09 Mar 2022 16:57:20 -0500
+
+rust-predicates-core (1.0.1-1) unstable; urgency=medium
+
+  * Package predicates-core 1.0.1 from crates.io using debcargo 2.4.4
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 06 Feb 2022 20:50:43 +0100

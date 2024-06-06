@@ -1,0 +1,51 @@
+rust-ttrpc (0.8.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package ttrpc 0.8.1 from crates.io using debcargo 2.6.1
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 May 2024 14:07:13 +0000
+
+rust-ttrpc (0.8.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package ttrpc 0.8.1 from crates.io using debcargo 2.6.1
+  * Drop old patches, no longer needed
+  * Set collapse_features = true
+  * Add patch for nix 0.27 and tokio-vsock 0.5
+  * Disable a test which depends on examples that do not appear to be included in the
+    crates.io release.
+  * Add patch to use protobuf 2.
+  * Remove windows-specific dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 24 Feb 2024 12:42:16 +0000
+
+rust-ttrpc (0.5.2-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package ttrpc 0.5.2 from crates.io using debcargo 2.6.1
+  * Tighten nix dependency, the package is not currently compatible with nix
+    0.27.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 24 Feb 2024 10:00:04 +0000
+
+rust-ttrpc (0.5.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package ttrpc 0.5.2 from crates.io using debcargo 2.6.0
+  * Apply upstream patch to support nix 0.26, and adjust depdencies accordingly.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 10 Dec 2022 14:18:48 +0000
+
+rust-ttrpc (0.5.2-2) unstable; urgency=medium
+
+  * Package ttrpc 0.5.2 from crates.io using debcargo 2.5.0
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 18 Dec 2021 17:37:01 +0800
+
+rust-ttrpc (0.5.2-1) unstable; urgency=medium
+
+  * Package ttrpc 0.5.2 from crates.io using debcargo 2.5.0
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 14 Dec 2021 00:02:50 +0800

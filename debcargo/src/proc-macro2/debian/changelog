@@ -1,0 +1,161 @@
+rust-proc-macro2 (1.0.85-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 1.0.85 from crates.io using debcargo 2.6.1
+
+ -- Blair Noctis <n@sail.ng>  Sun, 02 Jun 2024 06:00:40 +0000
+
+rust-proc-macro2 (1.0.81-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 1.0.81 from crates.io using debcargo 2.6.1
+
+ -- James McCoy <jamessan@debian.org>  Tue, 30 Apr 2024 10:04:11 -0400
+
+rust-proc-macro2 (1.0.76-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 1.0.76 from crates.io using debcargo 2.6.1
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 09 Jan 2024 22:14:18 +0000
+
+rust-proc-macro2 (1.0.69-1) unstable; urgency=medium
+
+  * Package proc-macro2 1.0.69 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package proc-macro2 1.0.67 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 09 Nov 2023 19:03:25 +0000
+
+rust-proc-macro2 (1.0.65-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 1.0.65 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 13:25:44 +0000
+
+rust-proc-macro2 (1.0.60-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 1.0.60 from crates.io using debcargo 2.6.0
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Tue, 13 Jun 2023 12:33:08 +0300
+
+rust-proc-macro2 (1.0.58-1) experimental; urgency=medium
+
+  * Package proc-macro2 1.0.58 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package proc-macro2 1.0.51 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 May 2023 13:40:34 +0200
+
+rust-proc-macro2 (1.0.47-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 1.0.47 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Nov 2022 03:03:31 +0000
+
+rust-proc-macro2 (1.0.40-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 1.0.40 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 02 Jul 2022 16:49:33 +0000
+
+rust-proc-macro2 (1.0.28-1) unstable; urgency=medium
+
+  * Package proc-macro2 1.0.28 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 29 Aug 2021 09:23:47 +0200
+
+rust-proc-macro2 (1.0.18-1) unstable; urgency=medium
+
+  * Package proc-macro2 1.0.18 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Jun 2020 17:04:44 +0200
+
+rust-proc-macro2 (1.0.12-1) unstable; urgency=medium
+
+  * Package proc-macro2 1.0.12 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 04 May 2020 12:04:38 +0200
+
+rust-proc-macro2 (1.0.7-1) unstable; urgency=medium
+
+  * Package proc-macro2 1.0.7 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 03 Jan 2020 12:59:40 +0100
+
+rust-proc-macro2 (1.0.6-1) unstable; urgency=medium
+
+  * Package proc-macro2 1.0.6 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 09 Nov 2019 09:32:08 +0100
+
+rust-proc-macro2 (1.0.5-1) unstable; urgency=medium
+
+  * Package proc-macro2 1.0.5 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 15 Oct 2019 12:11:32 +0200
+
+rust-proc-macro2 (1.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 1.0.1 from crates.io using debcargo 2.2.10
+
+ -- nicoo <nicoo@debian.org>  Sun, 18 Aug 2019 13:34:04 +0200
+
+rust-proc-macro2 (1.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 1.0.0 from crates.io using debcargo 2.2.10
+
+ -- nicoo <nicoo@debian.org>  Wed, 14 Aug 2019 19:01:07 +0200
+
+rust-proc-macro2 (0.4.30-1) unstable; urgency=medium
+
+  * Package proc-macro2 0.4.30 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 11 Jul 2019 07:49:00 +0200
+
+rust-proc-macro2 (0.4.27-1) unstable; urgency=medium
+
+  * Package proc-macro2 0.4.27 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 05 Feb 2019 17:35:03 +0100
+
+rust-proc-macro2 (0.4.26-1) unstable; urgency=medium
+
+  * Package proc-macro2 0.4.26 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 21 Jan 2019 19:04:32 +0100
+
+rust-proc-macro2 (0.4.24-1) unstable; urgency=medium
+
+  * Package proc-macro2 0.4.24 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 06 Dec 2018 09:56:24 +0100
+
+rust-proc-macro2 (0.4.19-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro2 0.4.19 from crates.io using debcargo 2.2.7
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 06 Oct 2018 23:27:37 +0200
+
+rust-proc-macro2 (0.4.9-1) unstable; urgency=medium
+
+  * Package proc-macro2 0.4.9 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 04 Aug 2018 01:18:25 -0700
+
+rust-proc-macro2 (0.4.6-1) unstable; urgency=medium
+
+  * Package proc-macro2 0.4.6 from crates.io using debcargo 2.2.1
+
+ -- Ximin Luo <infinity0@debian.org>  Sun, 08 Jul 2018 13:00:20 -0700

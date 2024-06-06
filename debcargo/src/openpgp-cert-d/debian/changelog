@@ -1,0 +1,41 @@
+rust-openpgp-cert-d (0.3.1-1) unstable; urgency=medium
+
+  [ Holger Levsen ]
+  * Add myself to uploaders.
+
+  [ Alexander Kjäll ]
+  * Team upload.
+  * Package openpgp-cert-d 0.3.1 from crates.io using debcargo 2.6.1
+
+ -- Holger Levsen <holger@debian.org>  Sat, 27 Jan 2024 10:14:39 +0100
+
+rust-openpgp-cert-d (0.1.2-1) unstable; urgency=medium
+
+  * Package openpgp-cert-d 0.1.2 from crates.io using debcargo 2.6.1
+
+  [ Alexander Kjäll ]
+  * Team upload.
+  * Package openpgp-cert-d 0.1.2 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 26 Nov 2023 20:28:49 +0000
+
+rust-openpgp-cert-d (0.1.0-3) unstable; urgency=medium
+
+  [ Alexander Kjäll ]
+  * Team upload.
+  * Package openpgp-cert-d 0.1.0 from crates.io using debcargo 2.6.0
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Wed, 06 Sep 2023 10:22:04 +0300
+
+rust-openpgp-cert-d (0.1.0-2) experimental; urgency=medium
+
+  * Package openpgp-cert-d 0.1.0 from crates.io using debcargo 2.6.0
+  * Source-only re-upload
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 14 Mar 2023 23:31:32 -0400
+
+rust-openpgp-cert-d (0.1.0-1) experimental; urgency=medium
+
+  * Package openpgp-cert-d 0.1.0 from crates.io using debcargo 2.6.0
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 14 Mar 2023 12:28:07 -0400

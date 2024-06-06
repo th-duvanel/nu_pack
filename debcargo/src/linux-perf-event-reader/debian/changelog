@@ -1,0 +1,11 @@
+rust-linux-perf-event-reader (0.10.0-1) unstable; urgency=medium
+
+  * Package linux-perf-event-reader 0.10.0 from crates.io using debcargo 2.6.1
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 01 May 2024 16:50:53 +0200
+
+rust-linux-perf-event-reader (0.8.0-1) unstable; urgency=medium
+
+  * Package linux-perf-event-reader 0.8.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 07 Oct 2022 11:54:12 +0200

@@ -1,0 +1,36 @@
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -31,33 +31,6 @@
+ [lib]
+ doctest = true
+ 
+-[[example]]
+-name = "dashboard"
+-path = "examples/dashboard.rs"
+-required-features = [
+-    "render-tui",
+-    "render-tui-crossterm",
+-    "render-line",
+-    "render-line-crossterm",
+-    "signal-hook",
+-    "render-line-autoconfigure",
+-    "progress-tree",
+-]
+-
+-[[example]]
+-name = "units"
+-path = "examples/units.rs"
+-required-features = [
+-    "unit-bytes",
+-    "unit-duration",
+-    "unit-human",
+-    "render-tui",
+-    "render-tui-crossterm",
+-    "render-line",
+-    "render-line-crossterm",
+-    "signal-hook",
+-]
+-
+ [[bench]]
+ name = "usage"
+ path = "benches/usage.rs"

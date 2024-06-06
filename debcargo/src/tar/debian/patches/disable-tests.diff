@@ -1,0 +1,190 @@
+Description: Disable tests that rely on test tarballs
+ The test tarballs are not included in the crate on crates.io and hence are not
+ included in the Debian package. I figure that it is better to run some of the
+ tests than none of the tests.
+Author: Peter Michael Green <plugwash@debian.org>
+
+--- a/tests/all.rs
++++ b/tests/all.rs
+@@ -23,17 +23,17 @@
+     };
+ }
+ 
+-macro_rules! tar {
++/*macro_rules! tar {
+     ($e:expr) => {
+         &include_bytes!(concat!("archives/", $e))[..]
+     };
+-}
++}*/
+ 
+ mod header;
+ 
+ /// test that we can concatenate the simple.tar archive and extract the same entries twice when we
+ /// use the ignore_zeros option.
+-#[test]
++/*#[test]
+ fn simple_concat() {
+     let bytes = tar!("simple.tar");
+     let mut archive_bytes = Vec::new();
+@@ -76,9 +76,9 @@
+ 
+         names
+     }
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ fn header_impls() {
+     let mut ar = Archive::new(Cursor::new(tar!("simple.tar")));
+     let hn = Header::new_old();
+@@ -91,9 +91,9 @@
+         let h2b = h2.as_bytes();
+         assert!(h1b[..] == h2b[..] && h2b[..] != hnb[..])
+     }
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ fn header_impls_missing_last_header() {
+     let mut ar = Archive::new(Cursor::new(tar!("simple_missing_last_header.tar")));
+     let hn = Header::new_old();
+@@ -106,9 +106,9 @@
+         let h2b = h2.as_bytes();
+         assert!(h1b[..] == h2b[..] && h2b[..] != hnb[..])
+     }
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ fn reading_files() {
+     let rdr = Cursor::new(tar!("reading_files.tar"));
+     let mut ar = Archive::new(rdr);
+@@ -127,7 +127,7 @@
+     assert_eq!(s, "b\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\n");
+ 
+     assert!(entries.next().is_none());
+-}
++}*/
+ 
+ #[test]
+ fn writing_files() {
+@@ -221,7 +221,7 @@
+     assert!(entries.next().is_none());
+ }
+ 
+-#[test]
++/*#[test]
+ fn reading_entries() {
+     let rdr = Cursor::new(tar!("reading_files.tar"));
+     let mut ar = Archive::new(rdr);
+@@ -234,6 +234,7 @@
+     let mut ar = Archive::new(rdr);
+     reading_entries_common(t!(ar.entries_with_seek()));
+ }
++*/
+ 
+ struct LoggingReader<R> {
+     inner: R,
+@@ -264,6 +265,7 @@
+     }
+ }
+ 
++/*
+ #[test]
+ fn skipping_entries_with_seek() {
+     let mut reader = LoggingReader::new(Cursor::new(tar!("reading_files.tar")));
+@@ -281,6 +283,7 @@
+     assert!(files == files_seekable);
+     assert!(seekable_reader.read_bytes < reader.read_bytes);
+ }
++*/
+ 
+ fn check_dirtree(td: &TempDir) {
+     let dir_a = td.path().join("a");
+@@ -291,6 +294,7 @@
+     assert!(fs::metadata(&file_c).map(|m| m.is_file()).unwrap_or(false));
+ }
+ 
++/*
+ #[test]
+ fn extracting_directories() {
+     let td = t!(TempBuilder::new().prefix("tar-rs").tempdir());
+@@ -1077,8 +1081,9 @@
+     assert!(s[0x2fa0 + 6..0x4000].chars().all(|x| x == '\u{0}'));
+ 
+     assert!(entries.next().is_none());
+-}
++}*/
+ 
++/*
+ #[test]
+ fn extract_sparse() {
+     let rdr = Cursor::new(tar!("sparse.tar"));
+@@ -1118,9 +1123,9 @@
+     assert!(s[0x1000 + 6..0x2fa0].chars().all(|x| x == '\u{0}'));
+     assert_eq!(&s[0x2fa0..0x2fa0 + 6], "world\n");
+     assert!(s[0x2fa0 + 6..0x4000].chars().all(|x| x == '\u{0}'));
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ fn sparse_with_trailing() {
+     let rdr = Cursor::new(tar!("sparse-1.tar"));
+     let mut ar = Archive::new(rdr);
+@@ -1132,7 +1137,7 @@
+     assert_eq!(&s[..0xc], "0MB through\n");
+     assert!(s[0xc..0x100_000].chars().all(|x| x == '\u{0}'));
+     assert_eq!(&s[0x100_000..], "1MB through\n");
+-}
++}*/
+ 
+ #[test]
+ fn path_separators() {
+@@ -1302,15 +1307,15 @@
+     ar.finish().unwrap();
+ }
+ 
+-#[test]
++/*#[test]
+ fn long_path() {
+     let td = t!(TempBuilder::new().prefix("tar-rs").tempdir());
+     let rdr = Cursor::new(tar!("7z_long_path.tar"));
+     let mut ar = Archive::new(rdr);
+     assert!(ar.unpack(td.path()).is_ok());
+-}
++}*/
+ 
+-#[test]
++/*#[test]
+ fn unpack_path_larger_than_windows_max_path() {
+     let dir_name = "iamaprettylongnameandtobepreciseiam91characterslongwhichsomethinkisreallylongandothersdonot";
+     // 183 character directory name
+@@ -1321,7 +1326,7 @@
+     let mut ar = Archive::new(rdr);
+     // should unpack path greater than windows MAX_PATH length of 260 characters
+     assert!(ar.unpack(td.path()).is_ok());
+-}
++}*/
+ 
+ #[test]
+ fn append_long_multibyte() {
+@@ -1489,7 +1494,7 @@
+     }
+ }
+ 
+-#[test]
++/*#[test]
+ #[cfg(unix)]
+ fn pax_and_gnu_uid_gid() {
+     let tarlist = [tar!("biguid_gnu.tar"), tar!("biguid_pax.tar")];
+@@ -1514,4 +1519,4 @@
+             assert!(ar.unpack(td.path()).is_err());
+         }
+     }
+-}
++}*/

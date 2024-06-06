@@ -1,0 +1,96 @@
+rust-gsk4-sys (0.8.2-1) unstable; urgency=medium
+
+  * Upload to unstable
+  * Depend on gir-rust-code-generator 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 4 May 2024 22:18:29 +0200
+
+rust-gsk4-sys (0.8.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package gsk4-sys 0.8.1 from crates.io using debcargo 2.6.1
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 15:03:46 -0400
+
+rust-gsk4-sys (0.8.0-3) experimental; urgency=medium
+
+  * Fix dependency on libgtk-4-dev
+
+ -- Matthias Geiger <werdahias@riseup.net>  Tue, 27 Feb 2024 11:44:19 +0100
+
+rust-gsk4-sys (0.8.0-2) experimental; urgency=medium
+
+  * Really build-depend on packages needed for regeneration 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 12 Feb 2024 14:17:52 +0100
+
+rust-gsk4-sys (0.8.0-1) experimental; urgency=medium
+
+  * Package gsk4-sys 0.8.0 from crates.io using debcargo 2.6.1
+  * Updated copyright years
+  * Properly depend on packages needed for code regeneration
+  * Test-depend on libgtk-4-dev
+  * Updated versioned dependency on gir-rust-code-generator
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 11 Feb 2024 18:46:36 +0100
+
+rust-gsk4-sys (0.7.3-1) unstable; urgency=medium
+
+  * Package gsk4-sys 0.7.3 from crates.io using debcargo 2.6.0
+  * Specify version for gir-rust-code-generator dependency
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 08 Oct 2023 14:55:36 +0200
+
+rust-gsk4-sys (0.7.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Drop obsolete MSRV patch
+  * Package gsk4-sys 0.7.2 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:32:04 -0400
+
+rust-gsk4-sys (0.7.2-1) experimental; urgency=medium
+
+  * Package gsk4-sys 0.7.2 from crates.io using debcargo 2.6.0
+  * Included patch for MSRV downgrade
+  * Regenerate source code with debian tools before build
+  * Mark v4_14 feature as flaky for now
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Sep 2023 20:40:25 +0200
+
+rust-gsk4-sys (0.6.3-1) unstable; urgency=medium
+
+  * Package gsk4-sys 0.6.3 from crates.io using debcargo 2.6.0
+  * Enabled tests as they pass now
+  * Removed inactive uploader, added my new mail address
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:07:38 +0200
+
+rust-gsk4-sys (0.5.5-2) unstable; urgency=medium
+
+  * Package gsk4-sys 0.5.5 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 20:47:34 +0200
+
+rust-gsk4-sys (0.5.5-1) experimental; urgency=medium
+
+  * Package gsk4-sys 0.5.5 from crates.io using debcargo 2.6.0
+  * Added myself to Uploaders
+  * Collapsed features in debcargo.toml
+  * Dropped obsolete patches
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 13:50:16 +0200
+
+rust-gsk4-sys (0.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * debian/patches: Update to system-deps 6
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 05 Oct 2022 10:06:28 +0200
+
+rust-gsk4-sys (0.3.1-1) unstable; urgency=medium
+
+  * Package gsk4-sys 0.3.1 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 06 Feb 2022 17:41:28 +0100

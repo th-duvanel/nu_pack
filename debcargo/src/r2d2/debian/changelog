@@ -1,0 +1,42 @@
+rust-r2d2 (0.8.10-6) unstable; urgency=medium
+
+  * Package r2d2 0.8.10 from crates.io using debcargo 2.6.0
+  * Amended patch o skip test_max_lifetimes on arm(el,hf)
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 12 Feb 2023 15:45:53 +0100
+
+rust-r2d2 (0.8.10-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package r2d2 0.8.10 from crates.io using debcargo 2.6.0
+  * Add mipsel to the list of architectures on which to skip idle_timeout.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 11 Feb 2023 06:00:09 +0000
+
+rust-r2d2 (0.8.10-4) unstable; urgency=medium
+
+  * Package r2d2 0.8.10 from crates.io using debcargo 2.6.0
+  * Fix test properly on affected arches
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 11 Feb 2023 00:44:13 +0100
+
+rust-r2d2 (0.8.10-3) unstable; urgency=medium
+
+  * Package r2d2 0.8.10 from crates.io using debcargo 2.6.0
+  * Dropped fix-test.diff; skipped idle_timeout on arm(el,hf), i386 and
+    ppc64el
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 10 Feb 2023 10:12:58 +0100
+
+rust-r2d2 (0.8.10-2) unstable; urgency=medium
+
+  * Package r2d2 0.8.10 from crates.io using debcargo 2.6.0
+  * Added patch to allow build on arm(64,el), i386 and ppc64el
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Wed, 08 Feb 2023 13:24:41 +0100
+
+rust-r2d2 (0.8.10-1) unstable; urgency=medium
+
+  * Package r2d2 0.8.10 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 31 Jan 2023 11:18:25 +0100

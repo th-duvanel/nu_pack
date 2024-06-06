@@ -1,0 +1,22 @@
+rust-pq-sys (0.4.8-2) unstable; urgency=medium
+
+  * Team upload.
+  * Skip additional failing test on i386
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 11 Sep 2023 19:14:58 +0200
+
+rust-pq-sys (0.4.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pq-sys 0.4.8 from crates.io using debcargo 2.6.0
+  * Collapsed features in debcargo.toml
+  * Included skip-bindgen-tests-32-bit-arches patch to allow building on
+    32-bit arches
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 11 Sep 2023 17:08:22 +0200
+
+rust-pq-sys (0.4.6-1) unstable; urgency=medium
+
+  * Package pq-sys 0.4.6 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Sun, 11 Aug 2019 12:46:50 +0200

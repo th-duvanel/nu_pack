@@ -1,0 +1,32 @@
+rust-tracing-attributes (0.1.27-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-attributes 0.1.27 from crates.io using debcargo 2.6.1
+  * Update disable-tests-tracing-mock.patch for new upstream.
+  * Remove env-filter feature from tracing-subscriber dev-dependency and
+    adjust test code to build in that configuration.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 13 Jan 2024 14:43:19 +0000
+
+rust-tracing-attributes (0.1.26-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-attributes 0.1.26 from crates.io using debcargo 2.6.0
+  * Disable tests which depend on tracing-mock which is not in Debian or even
+    on crates.io.
+  * Disable a "compile-fail" test whose output varies between compiler versions.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 01 Aug 2023 15:14:02 +0000
+
+rust-tracing-attributes (0.1.23-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package tracing-attributes 0.1.23 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 26 Dec 2022 03:38:05 +0000
+
+rust-tracing-attributes (0.1.20-1) unstable; urgency=medium
+
+  * Package tracing-attributes 0.1.20 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Fri, 15 Apr 2022 09:02:42 +0200

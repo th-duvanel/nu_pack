@@ -1,0 +1,34 @@
+rust-gettext-rs (0.7.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package gettext-rs 0.7.0 from crates.io using debcargo 2.6.0
+  * Update copryright file.
+  * Update dep.patch to allow both 0.2 and 0.3 versions of locale-config.
+
+  [ Alexander Kjäll ]
+  * Add 'collapse_features = true' to reduce unnecessary packages
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 17 Dec 2022 09:30:56 +0000
+
+rust-gettext-rs (0.7.0-2) unstable; urgency=medium
+
+  * And yet again, I miss the runtime dependencies.
+
+ -- Simon Quigley <tsimonq2@debian.org>  Wed, 25 May 2022 03:40:08 -0500
+
+rust-gettext-rs (0.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gettext-rs 0.7.0 from crates.io using debcargo 2.5.0
+
+ -- Simon Quigley <tsimonq2@debian.org>  Wed, 25 May 2022 02:09:44 -0500
+
+rust-gettext-rs (0.4.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gettext-rs 0.4.1 from crates.io using debcargo 2.2.10
+
+  [ Nikos Tsipinakis ]
+  * Package gettext-rs 0.4.1 from crates.io using debcargo 2.2.10
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 13 Jul 2019 19:37:26 +0200

@@ -1,0 +1,10 @@
+Index: reqwest/Cargo.toml
+===================================================================
+--- reqwest.orig/Cargo.toml
++++ reqwest/Cargo.toml
+@@ -393,5 +393,3 @@ default-features = false
+ [target."cfg(target_os = \"macos\")".dependencies.system-configuration]
+ version = "0.5.1"
+ 
+-[target."cfg(windows)".dependencies.winreg]
+-version = "0.50.0"

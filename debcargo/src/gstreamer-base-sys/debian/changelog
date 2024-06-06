@@ -1,0 +1,93 @@
+rust-gstreamer-base-sys (0.22.0-2) unstable; urgency=medium
+
+  * Upload to unstable 
+  * Stop marking v1_24 feature as broken
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 05 May 2024 21:35:40 +0200
+
+rust-gstreamer-base-sys (0.22.0-1) experimental; urgency=medium
+
+  * Package gstreamer-base-sys 0.22.0 from crates.io using debcargo 2.6.1
+  * Updated copyright years
+  * Stop regenerating code since upstream uses snapshots for gir files
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 24 Feb 2024 02:25:55 +0100
+
+rust-gstreamer-base-sys (0.21.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Package gstreamer-base-sys 0.21.0 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:15:12 -0400
+
+rust-gstreamer-base-sys (0.21.0-2) experimental; urgency=medium
+
+  * Team upload
+  * Drop patch downgrading required Rust version
+  * Don't re-generate source code: requires unreleased gstreamer
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 27 Sep 2023 14:55:57 -0400
+
+rust-gstreamer-base-sys (0.21.0-1) experimental; urgency=medium
+
+  * Package gstreamer-base-sys 0.21.0 from crates.io using debcargo 2.6.0
+  * Included patch for MSRV downgrade
+  * Regenerate source code with debian tools before build
+  * Mark v1_24 feature as flaky for now
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Sep 2023 20:42:40 +0200
+
+rust-gstreamer-base-sys (0.20.0-1) unstable; urgency=medium
+
+  * Package gstreamer-base-sys 0.20.0 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:10:32 +0200
+
+rust-gstreamer-base-sys (0.19.3-2) unstable; urgency=medium
+
+  * Package gstreamer-base-sys 0.19.3 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 20:49:36 +0200
+
+rust-gstreamer-base-sys (0.19.3-1) experimental; urgency=medium
+
+  * Package gstreamer-base-sys 0.19.3 from crates.io using debcargo 2.6.0
+
+  [ Sebastian Ramacher ]
+  * Team upload.
+  * debian/patches: Update to system-deps 6
+
+  [ Matthias Geiger ]
+  * Added myself to Uploaders
+  * Dropped obsolete patches
+  * Collapsed features in debcargo.toml
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 21 May 2023 14:01:34 +0200
+
+rust-gstreamer-base-sys (0.17.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gstreamer-base-sys 0.17.0 from crates.io using debcargo 2.5.0 (Closes: 1002123)
+  * Mark test for the v1_20 feature as broken, that feature requires a version
+    of gstreamer that is newer than Debian currently has.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 30 Dec 2021 11:10:51 +0000
+
+rust-gstreamer-base-sys (0.8.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package gstreamer-base-sys 0.8.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 20 Apr 2020 14:08:36 +0200
+
+rust-gstreamer-base-sys (0.8.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package gstreamer-base-sys 0.8.0 from crates.io using debcargo 2.4.0
+
+  [ Wolfgang Silbermayr ]
+  * Package gstreamer-base-sys 0.8.0 from crates.io using debcargo 2.4.0
+
+ -- Sebastian Dröge <slomo@debian.org>  Fri, 18 Oct 2019 09:14:06 +0300

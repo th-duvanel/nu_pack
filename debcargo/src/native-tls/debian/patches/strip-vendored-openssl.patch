@@ -1,0 +1,4 @@
+--- native-tls.orig/Cargo.toml
++++ native-tls/Cargo.toml
+@@ -32 +31,0 @@
+-vendored = ["openssl/vendored"]

@@ -1,0 +1,12 @@
+rust-xml5ever (0.17.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package xml5ever 0.17.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 15 Nov 2022 19:21:11 +0000
+
+rust-xml5ever (0.16.1-1) unstable; urgency=medium
+
+  * Package xml5ever 0.16.1 from crates.io using debcargo 2.4.2
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sat, 29 Aug 2020 15:43:40 +0200

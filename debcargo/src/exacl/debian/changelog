@@ -1,0 +1,41 @@
+rust-exacl (0.10.0-1) unstable; urgency=medium
+
+  * Package exacl 0.10.0 from crates.io using debcargo 2.6.0
+
+  [ Matthias Geiger ]
+  * Team upload.
+  * Package exacl 0.10.0 from crates.io using debcargo 2.6.0
+  * Collapsed features in debcargo.toml
+  * Added patch for newer bindgen
+  * Add patch to skip broken test
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Sep 2023 23:49:58 +0000
+
+rust-exacl (0.9.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package exacl 0.9.0 from crates.io using debcargo 2.6.0
+  * Add depends and build-depends on libacl1-dev.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 11 Feb 2023 18:29:22 +0000
+
+rust-exacl (0.9.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package exacl 0.9.0 from crates.io using debcargo 2.5.0
+  * Drop lower-uuid.diff - Debian now has uuid 1.x.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 14 Aug 2022 23:56:32 +0000
+
+rust-exacl (0.9.0-1) unstable; urgency=medium
+
+  * Package exacl 0.9.0 from crates.io using debcargo 2.5.0
+  * New upstream release to fix https://github.com/byllyfish/exacl/issues/107
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 09 Jun 2022 22:54:09 +0200
+
+rust-exacl (0.8.0-1) unstable; urgency=medium
+
+  * Package exacl 0.8.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 10 Mar 2022 13:53:50 +0100

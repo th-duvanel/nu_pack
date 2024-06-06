@@ -1,0 +1,37 @@
+rust-unicode-script (0.5.2-4) unstable; urgency=medium
+
+  * Package unicode-script 0.5.2 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 26 Nov 2020 12:47:44 +0100
+
+rust-unicode-script (0.5.2-3) unstable; urgency=medium
+
+  * Disable extra features.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 21 Nov 2020 18:48:16 +0100
+
+rust-unicode-script (0.5.2-2) unstable; urgency=medium
+
+  * Downgrade rustc-std-workspace etc to Recommends.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 21 Nov 2020 18:42:26 +0100
+
+rust-unicode-script (0.5.2-1) unstable; urgency=medium
+
+  * Package unicode-script 0.5.2 from crates.io using debcargo 2.4.3
+    (Closes: #969615).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 18 Nov 2020 16:22:20 +0100
+
+rust-unicode-script (0.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package unicode-script 0.3.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 22 Apr 2020 13:25:24 +0200
+
+rust-unicode-script (0.3.0-1) unstable; urgency=medium
+
+  * Package unicode-script 0.3.0 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 28 Dec 2019 14:32:20 +0100

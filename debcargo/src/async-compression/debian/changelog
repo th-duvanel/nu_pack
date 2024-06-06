@@ -1,0 +1,20 @@
+rust-async-compression (0.4.5-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package async-compression 0.4.5 from crates.io using debcargo 2.6.1
+  * Disable deflate64, unpackaged
+  * Remove zstdmt feature, removed in zstd-safe crate
+
+ -- Blair Noctis <n@sail.ng>  Fri, 01 Dec 2023 02:18:32 +0000
+
+rust-async-compression (0.4.0-2) unstable; urgency=medium
+
+  * Enable brotli feature.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 23 Oct 2023 13:10:21 +0100
+
+rust-async-compression (0.4.0-1) unstable; urgency=medium
+
+  * Package async-compression 0.4.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 12 Sep 2023 21:44:02 +0200

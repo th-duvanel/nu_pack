@@ -1,0 +1,89 @@
+rust-pangocairo-sys (0.19.5-1) unstable; urgency=medium
+
+  * Package pangocairo-sys 0.19.5 from crates.io using debcargo 2.6.1
+  * Bump gir-rust-code-generator depenedency to 0.19.1
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sat, 04 May 2024 14:40:30 +0200
+
+rust-pangocairo-sys (0.19.0-2) experimental; urgency=medium
+
+  * Team upload
+  * Package pangocairo-sys 0.19.0 from crates.io using debcargo 2.6.1
+  * debian/rules: Include GModule-2.0.gir to fix build with glib 2.80
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Wed, 17 Apr 2024 08:53:30 -0400
+
+rust-pangocairo-sys (0.19.0-1) experimental; urgency=medium
+
+  * Package pangocairo-sys 0.19.0 from crates.io using debcargo 2.6.1
+  * Properly depend on packages needed for regeneration
+  * Test-depend on libpango
+  * Updated copyright years and Source: url in d/copyright
+
+ -- Matthias Geiger <werdahias@riseup.net>  Sun, 11 Feb 2024 14:06:08 +0100
+
+rust-pangocairo-sys (0.18.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Drop obsolete MSRV patch
+  * Package pangocairo-sys 0.18.0 from crates.io using debcargo 2.6.0
+  * Release to unstable
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 28 Sep 2023 15:15:25 -0400
+
+rust-pangocairo-sys (0.18.0-1) experimental; urgency=medium
+
+  * Package pangocairo-sys 0.18.0 from crates.io using debcargo 2.6.0
+  * Included patch for MSRV downgrade
+  * Regenerate source code with debian tools before build
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Sep 2023 20:34:22 +0200
+
+rust-pangocairo-sys (0.17.10-1) unstable; urgency=medium
+
+  * Package pangocairo-sys 0.17.10 from crates.io using debcargo 2.6.0
+  * Removed inactive uploader, added my new mail address
+
+ -- Matthias Geiger <werdahias@riseup.net>  Wed, 02 Aug 2023 00:01:32 +0200
+
+rust-pangocairo-sys (0.16.3-2) unstable; urgency=medium
+
+  * Package pangocairo-sys 0.16.3 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sun, 25 Jun 2023 20:41:15 +0200
+
+rust-pangocairo-sys (0.16.3-1) experimental; urgency=medium
+
+  * Package pangocairo-sys 0.16.3 from crates.io using debcargo 2.6.0
+  * Collapsed features in debcargo.toml
+  * Dropped obsolete patches
+  * Added myself to Uploaders
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 20 May 2023 13:36:04 +0200
+
+rust-pangocairo-sys (0.14.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * debian/patches: Update to system-deps 6
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 05 Oct 2022 09:41:38 +0200
+
+rust-pangocairo-sys (0.14.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package pangocairo-sys 0.14.0 from crates.io using debcargo 2.4.4
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 19 Dec 2021 18:57:31 +0100
+
+rust-pangocairo-sys (0.10.0-1) unstable; urgency=medium
+
+  * Package pangocairo-sys 0.10.0 from crates.io using debcargo 2.2.10
+    (Closes: #938984).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 02 Sep 2019 14:42:08 +0200
+
+rust-pangocairo-sys (0.8.0-1) unstable; urgency=medium
+
+  * Package pangocairo-sys 0.8.0 from crates.io using debcargo 2.2.9
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 20 Jan 2019 11:17:18 +0100

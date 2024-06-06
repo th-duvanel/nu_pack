@@ -1,0 +1,5 @@
+rust-sptr (0.3.2-1) unstable; urgency=medium
+
+  * Package sptr 0.3.2 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Wed, 28 Dec 2022 12:40:44 +0100

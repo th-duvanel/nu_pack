@@ -1,0 +1,12 @@
+rust-num-bigint-dig (0.8.2-2) unstable; urgency=medium
+
+  * Package num-bigint-dig 0.8.2 from crates.io using debcargo 2.6.0
+  * Fix compilation errors on 32-bit platforms
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Tue, 27 Jun 2023 22:43:38 +0300
+
+rust-num-bigint-dig (0.8.2-1) unstable; urgency=medium
+
+  * Package num-bigint-dig 0.8.2 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 17 Jun 2023 10:02:06 +0200

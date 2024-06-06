@@ -1,0 +1,63 @@
+rust-rcgen (0.11.3-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package rcgen 0.11.3 from crates.io using debcargo 2.6.1
+  * Remove patches for older pem versions, use pem 3.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Mar 2024 01:36:41 +0000
+
+rust-rcgen (0.11.3-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package rcgen 0.11.3 from crates.io using debcargo 2.6.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Nov 2023 18:21:44 +0000
+
+rust-rcgen (0.11.3-3) experimental; urgency=medium
+
+  * Team upload.
+  * Package rcgen 0.11.3 from crates.io using debcargo 2.6.0
+  * apply upstream patches for ring 0.17 (Closes: #1055148)
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 Nov 2023 01:06:59 +0000
+
+rust-rcgen (0.11.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rcgen 0.11.3 from crates.io using debcargo 2.6.0
+  * Fix tests on 32-bit architectures.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 Nov 2023 00:21:04 +0000
+
+rust-rcgen (0.11.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rcgen 0.11.3 from crates.io using debcargo 2.6.0 (Closes: #1055132)
+  * Drop lift-write-extension-fn.patch, lift-aki-extension-fn.patch and
+    add-support-for-creating-crls.patch, included in new upstream release.
+  * Add patch to revert upstream switch from pem 2.0 to pem 3.0.
+  * Update remaining patches for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 01 Nov 2023 02:45:53 +0000
+
+rust-rcgen (0.11.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rcgen 0.11.1 from crates.io using debcargo 2.6.0
+  * Rearrange patches to group together corresponding dependency
+    and code changes.
+  * Fix tests with --no-default-features.
+  * Apply upstream patches to add CRL support (Closes: #1043054)
+  * Expand pem-1.0-api.patch to cover code added in upstream patch.
+  * Disable test code that depends on crates no in Debian so the rest of the
+    test can run.
+  * Stop marking tests as broken.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Aug 2023 18:02:57 +0000
+
+rust-rcgen (0.11.1-1) unstable; urgency=medium
+
+  * Package rcgen 0.11.1 from crates.io using debcargo 2.6.0
+
+ -- Emanuele Rocca <ema@debian.org>  Fri, 07 Jul 2023 11:29:20 +0200

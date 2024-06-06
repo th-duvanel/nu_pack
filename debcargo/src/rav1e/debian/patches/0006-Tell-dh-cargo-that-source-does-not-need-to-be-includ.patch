@@ -1,0 +1,21 @@
+From: Sebastian Ramacher <sramacher@debian.org>
+Date: Thu, 29 Dec 2022 11:11:43 +0100
+Subject: Tell dh-cargo that source does not need to be included
+
+---
+ build.rs | 2 ++
+ 1 file changed, 2 insertions(+)
+
+--- a/build.rs
++++ b/build.rs
+@@ -261,8 +261,10 @@
+     }
+     if arch == "aarch64" {
+       println!("cargo:rustc-cfg={}", "asm_neon");
++      println!("dh-cargo:deb-built-using=rav1e-aarch64=0={}", env::var("CARGO_MANIFEST_DIR").unwrap());
+       build_asm_files()
+     }
++    println!("dh-cargo:deb-built-using=rav1easm=0={}", env::var("CARGO_MANIFEST_DIR").unwrap());
+   }
+ 
+   if os == "windows" && cfg!(feature = "decode_test") {

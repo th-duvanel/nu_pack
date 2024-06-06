@@ -1,0 +1,8 @@
+--- a/tests/manual.h
++++ b/tests/manual.h
+@@ -2,3 +2,4 @@
+ 
+ #include <gtk/gtk.h>
+ #include <gtk/gtkimmodule.h>
++#include <gtk/gtkunixprint.h>
+

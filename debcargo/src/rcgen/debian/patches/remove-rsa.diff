@@ -1,0 +1,20 @@
+Index: rcgen/Cargo.toml
+===================================================================
+--- rcgen.orig/Cargo.toml
++++ rcgen/Cargo.toml
+@@ -24,6 +24,7 @@ keywords = [
+ ]
+ license = "MIT OR Apache-2.0"
+ repository = "https://github.com/est31/rcgen"
++autoexamples = false
+ 
+ [package.metadata.docs.rs]
+ features = ["x509-parser"]
+@@ -40,3 +40,0 @@
+-[[example]]
+-name = "rsa-irc"
+-required-features = ["pem"]
+@@ -76,3 +80,0 @@ version = "0.10"
+-[dev-dependencies.rsa]
+-version = "0.9"
+-

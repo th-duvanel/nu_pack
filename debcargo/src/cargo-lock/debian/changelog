@@ -1,0 +1,35 @@
+rust-cargo-lock (9.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo-lock 9.0.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 12 Aug 2023 17:36:16 +0300
+
+rust-cargo-lock (8.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo-lock 8.0.2 from crates.io using debcargo 2.5.0 (Closes: #1019040)
+  * Drop old patches and overridden rules file.
+  * Set collapse_features = true
+  * Add new overridden rules file, to supply feature arguments needed to build
+    binary
+  * Add build-dependencies needed for building binary.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 03 Sep 2022 23:25:53 +0000
+
+rust-cargo-lock (4.0.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package cargo-lock 4.0.1 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 18 Oct 2020 11:28:51 +0200
+
+rust-cargo-lock (4.0.1-1) unstable; urgency=medium
+
+  * Source upload
+  * Package cargo-lock 4.0.1 from crates.io using debcargo 2.4.2
+
+  * Closes: #951278
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Mon, 17 Feb 2020 11:36:59 +0100

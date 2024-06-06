@@ -1,0 +1,22 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index f2f73b9..b1cde33 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -81,7 +81,7 @@ version = "1.0"
+ default-features = false
+ 
+ [dev-dependencies.criterion]
+-version = "0.4.0"
++version = "0.5"
+ 
+ [dev-dependencies.paste]
+ version = "1.0.0"
+@@ -94,7 +94,7 @@ version = "1"
+ default_features = false
+ 
+ [dev-dependencies.rand]
+-version = "0.7"
++version = "0.8"
+ 
+ [features]
+ default = ["use_std"]

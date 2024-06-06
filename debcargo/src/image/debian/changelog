@@ -1,0 +1,63 @@
+rust-image (0.24.7-2) unstable; urgency=medium
+
+  * Team upload.
+  * Re-enabled qoi and webp features as those crates are in debian now
+
+ -- Matthias Geiger <werdahias@riseup.net>  Mon, 11 Sep 2023 23:09:33 +0200
+
+rust-image (0.24.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package image 0.24.7 from crates.io using debcargo 2.6.0
+  * Merge disable-features.diff and disable-criterion.diff into relax-
+    deps.diff
+  * Updated disable-missing-testdata.diff
+  * Mark bmp, default, ico and png features as flaky in debcargo.toml
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 08 Sep 2023 20:46:03 +0200
+
+rust-image (0.24.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package image 0.24.3 from crates.io using debcargo 2.5.0 (Closes: #1021880, #1021883)
+    + Not updaing to 0.24.4 because it depends on webp crate which is not in
+      Debian.
+
+  [ Fabian Gruenbichler ]
+  * Package image 0.24.3 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 18 Oct 2022 18:13:07 +0000
+
+rust-image (0.23.14-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package image 0.23.14 from crates.io using debcargo 2.4.2
+  * Skip huge_files_return_error on 32-bit to avoid integer overflow.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 29 Apr 2022 00:31:47 +0000
+
+rust-image (0.23.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package image 0.23.14 from crates.io using debcargo 2.4.2
+  * Adjust dependencies to match packages available in Debian (Closes: 974117)
+  * Apply upstream patch to fix tests with rust-quickcheck 1.x
+  * Disable benches that rely on rust-criterion and remove it from
+    dev-dependencies since it is not in Debian.
+  * Reduce the number of optional dependencies to avoid introducing new
+    binary packages.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Apr 2022 02:42:11 +0000
+
+rust-image (0.22.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package image 0.22.1 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 22 Apr 2020 13:29:09 +0200
+
+rust-image (0.22.1-1) unstable; urgency=medium
+
+  * Package image 0.22.1 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Sun, 11 Aug 2019 12:14:11 +0200

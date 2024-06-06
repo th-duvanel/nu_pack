@@ -1,0 +1,44 @@
+rust-io-uring (0.6.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package io-uring 0.6.1 from crates.io using debcargo 2.6.0
+  * Adjust bindgen dependency to allow a range of versions from what is current
+    in Debian to what is current upstream.
+  * Re-enable tests for bindgen feature, upstream has fixed the failure with
+    recent kernel headers.
+  * Update align_of_i386.patch for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 12 Aug 2023 16:35:51 +0000
+
+rust-io-uring (0.6.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package io-uring 0.6.0 from crates.io using debcargo 2.6.0
+  * Disable tests for the bindgen feature for now, they fail with recent kernel
+    headers.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 12 Aug 2023 02:58:14 +0000
+
+rust-io-uring (0.6.0-3) unstable; urgency=medium
+
+  * Package io-uring 0.6.0 from crates.io using debcargo 2.6.0
+  * fix alignment errors on i386
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Tue, 27 Jun 2023 19:28:27 +0300
+
+rust-io-uring (0.6.0-2) unstable; urgency=medium
+
+  [ Alexander Kjäll ]
+  * add description to disable-overwrite-feature patch
+
+  [ Michael Tokarev ]
+  * io-uring: disable sc (system call) dependency
+    and direct-syscall feature since sc is not portable
+
+ -- Michael Tokarev <mjt@tls.msk.ru>  Thu, 22 Jun 2023 14:26:22 +0300
+
+rust-io-uring (0.6.0-1) unstable; urgency=medium
+
+  * Package io-uring 0.6.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Tue, 25 Apr 2023 20:47:13 +0300

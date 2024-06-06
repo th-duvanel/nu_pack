@@ -1,0 +1,62 @@
+rust-hexyl (0.8.0-2) unstable; urgency=medium
+
+  * Package hexyl 0.8.0 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 24 Jul 2020 19:38:57 +0200
+
+rust-hexyl (0.8.0-1) unstable; urgency=medium
+
+  * Package hexyl 0.8.0 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 14 Jun 2020 15:23:57 +0200
+
+rust-hexyl (0.7.0-1) unstable; urgency=medium
+
+  * Package hexyl 0.7.0 from crates.io using debcargo 2.4.2
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 07 Apr 2020 12:33:58 +0200
+
+rust-hexyl (0.6.0-2) unstable; urgency=medium
+
+  * Package hexyl 0.6.0 from crates.io using debcargo 2.4.0
+  * Source-only reupload for transition to testing
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 10 Nov 2019 14:39:57 +0100
+
+rust-hexyl (0.6.0-1) unstable; urgency=medium
+
+  * Package hexyl 0.6.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 23 Oct 2019 10:32:44 +0200
+
+rust-hexyl (0.5.1-1) unstable; urgency=medium
+
+  * Package hexyl 0.5.1 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 13 Jul 2019 07:08:43 +0200
+
+rust-hexyl (0.4.0-1) unstable; urgency=medium
+
+  * Package hexyl 0.4.0 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 29 Jan 2019 21:05:21 +0100
+
+rust-hexyl (0.3.1-1) unstable; urgency=medium
+
+  * Package hexyl 0.3.1 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 10 Jan 2019 10:38:51 +0100
+
+rust-hexyl (0.2.0-2) unstable; urgency=medium
+
+  * Run tests at build
+  * Package hexyl 0.2.0 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 20 Nov 2018 13:58:52 +0100
+
+rust-hexyl (0.2.0-1) unstable; urgency=medium
+
+  * Package hexyl 0.2.0 from crates.io using debcargo 2.2.9
+    Closes: #913783
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 16 Nov 2018 13:05:36 +0100

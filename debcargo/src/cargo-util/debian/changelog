@@ -1,0 +1,45 @@
+rust-cargo-util (0.2.6-1) unstable; urgency=medium
+
+  * Package cargo-util 0.2.6 from crates.io using debcargo 2.6.0
+  * Drop non-linux dependencies.
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package cargo-util 0.2.5 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 10 Oct 2023 17:35:46 +0000
+
+rust-cargo-util (0.2.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo-util 0.2.2 from crates.io using debcargo 2.6.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Tue, 10 Jan 2023 15:23:33 +0100
+
+rust-cargo-util (0.2.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo-util 0.2.0 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Wed, 16 Nov 2022 09:26:50 +0100
+
+rust-cargo-util (0.2.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package cargo-util 0.2.0 from crates.io using debcargo 2.5.0
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Tue, 27 Sep 2022 20:57:53 -0400
+
+rust-cargo-util (0.1.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package cargo-util 0.1.1 from crates.io using debcargo 2.5.0
+  * Source only upload for testing migration.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 29 Nov 2021 12:34:30 +0000
+
+rust-cargo-util (0.1.1-1) unstable; urgency=medium
+
+  * Package cargo-util 0.1.1 from crates.io using debcargo 2.4.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 23 Oct 2021 18:50:06 +0100

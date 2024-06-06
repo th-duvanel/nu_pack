@@ -1,0 +1,24 @@
+rust-stdweb (0.4.20-2) unstable; urgency=medium
+
+  * Team upload
+  * d/patches: added patch relax-deps.patch
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sun, 28 Nov 2021 23:04:08 +0100
+
+rust-stdweb (0.4.20-1) unstable; urgency=medium
+
+  * Package stdweb 0.4.20 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Wed, 08 Jan 2020 23:16:59 +0000
+
+rust-stdweb (0.4.13-1) unstable; urgency=medium
+
+  * Package stdweb 0.4.13 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 22 Jan 2019 16:34:29 +0100
+
+rust-stdweb (0.4.10-1) unstable; urgency=medium
+
+  * Package stdweb 0.4.10 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 29 Nov 2018 19:07:11 -0800

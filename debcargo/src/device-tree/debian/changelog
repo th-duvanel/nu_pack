@@ -1,0 +1,5 @@
+rust-device-tree (1.1.0-1) unstable; urgency=medium
+
+  * Package device_tree 1.1.0 from crates.io using debcargo 2.5.0
+
+ -- Liang Yan <ly@xryan.net>  Fri, 15 Apr 2022 09:15:24 +0200

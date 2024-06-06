@@ -1,0 +1,4 @@
+testres_position.patch
+relax-deps.patch
+disable-criterion.patch
+ease-test-check.patch

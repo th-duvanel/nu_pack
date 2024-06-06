@@ -1,0 +1,22 @@
+rust-ncurses (5.99.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package ncurses 5.99.0 from crates.io using debcargo 2.4.2
+
+  [ Alexander Kjäll ]
+  * Fix the arm64 compliation
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 10 May 2020 17:14:21 +0200
+
+rust-ncurses (5.99.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package ncurses 5.99.0 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 22 Apr 2020 13:17:21 +0200
+
+rust-ncurses (5.99.0-1) unstable; urgency=medium
+
+  * Package ncurses 5.99.0 from crates.io using debcargo 2.4.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 23 Dec 2019 02:04:34 +0000

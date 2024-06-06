@@ -1,0 +1,5 @@
+rust-core-affinity (0.8.1-1) unstable; urgency=medium
+
+  * Package core_affinity 0.8.1 from crates.io using debcargo 2.6.1
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Wed, 27 Mar 2024 12:40:09 +0100

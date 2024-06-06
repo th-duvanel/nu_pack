@@ -1,0 +1,16 @@
+rust-camino (1.1.6-1) unstable; urgency=medium
+
+  * Package camino 1.1.6 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package camino 1.1.4 from crates.io using debcargo 2.6.0
+  * Drop relax-deps.diff
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 17 Jul 2023 13:02:33 +0100
+
+rust-camino (1.0.5-1) unstable; urgency=medium
+
+  * Package camino 1.0.5 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 19 Sep 2021 20:21:18 +0200

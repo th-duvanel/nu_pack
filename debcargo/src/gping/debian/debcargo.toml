@@ -1,0 +1,14 @@
+overlay = "."
+uploaders = ["Matthias Geiger <werdahias@riseup.net>"]
+
+[packages.bin]
+section="utils"
+summary = "ping, but with a graph"
+description = """
+gping is a graphical tui interface for the ping(1) command. It's completely written in rust.
+It comes with the following features:
+- Graph the ping time for multiple hosts
+- Graph the execution time for commands via the --cmd flag
+- Custom colours
+
+"""

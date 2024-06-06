@@ -1,0 +1,40 @@
+rust-plotters-bitmap (0.3.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package plotters-bitmap 0.3.3 from crates.io using debcargo 2.6.0
+  * Fix tests failing with permission denied error.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 12 Sep 2023 15:59:15 +0000
+
+rust-plotters-bitmap (0.3.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package plotters-bitmap 0.3.3 from crates.io using debcargo 2.6.0
+  * Fix dependency issues in tests.
+    + Add back dev-dependency on plotters, which was removed during the Cargo
+      publish process because it lacked a version number.
+    + Add a "patch crates.io" section so that when building tests only one
+      copy of the plotters-bitmap crate is included in the build.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 12 Sep 2023 01:02:48 +0000
+
+rust-plotters-bitmap (0.3.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package plotters-bitmap 0.3.3 from crates.io using debcargo 2.6.0
+  * Bump criterion dev-dependency to 0.5
+
+ -- James McCoy <jamessan@debian.org>  Sun, 16 Jul 2023 09:44:49 -0400
+
+rust-plotters-bitmap (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package plotters-bitmap 0.3.2 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 18 Oct 2022 18:56:34 +0000
+
+rust-plotters-bitmap (0.3.1-1) unstable; urgency=medium
+
+  * Package plotters-bitmap 0.3.1 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 21 May 2022 10:09:25 +0200

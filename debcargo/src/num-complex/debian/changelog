@@ -1,0 +1,39 @@
+rust-num-complex (0.4.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-complex 0.4.0 from crates.io using debcargo 2.5.0
+  * Drop patch reducing rand version.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 10:05:24 +0000
+
+rust-num-complex (0.4.0-1) unstable; urgency=medium
+
+  * Package num-complex 0.4.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 19 Dec 2021 12:29:07 +0100
+
+rust-num-complex (0.2.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package num-complex 0.2.4 from crates.io using debcargo 2.4.0
+  * Upgrade rand to 0.7.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 13 Jan 2020 21:29:37 +0100
+
+rust-num-complex (0.2.3-1) unstable; urgency=medium
+
+  * Package num-complex 0.2.3 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 01 Dec 2019 10:59:28 +0100
+
+rust-num-complex (0.2.1-1) unstable; urgency=medium
+
+  * Package num-complex 0.2.1 from crates.io using debcargo 2.2.7
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 20 Oct 2018 16:02:28 +0200
+
+rust-num-complex (0.2.0-1) unstable; urgency=medium
+
+  * Package num-complex 0.2.0 from crates.io using debcargo 2.2.7
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 13 Sep 2018 22:29:46 +0200

@@ -1,0 +1,30 @@
+rust-selectors (0.25.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package selectors 0.25.0 from crates.io using debcargo 2.6.0
+  * Bump phf dependency to 0.11.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 25 Jul 2023 08:22:41 +0000
+
+rust-selectors (0.25.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package selectors 0.25.0 from crates.io using debcargo 2.6.0
+  * Remove relax-dep.diff, no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 18 Jul 2023 16:21:30 +0000
+
+rust-selectors (0.23.0-1) unstable; urgency=medium
+
+  * Package selectors 0.23.0 from crates.io using debcargo 2.5.0
+  * Bump cssparser dependency to 0.29 (Closes: #951683)
+  * Disable a bench that fails in debug mode.
+  * Bump phf and phf_codegen dependencies to 0.10.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 10 Sep 2022 16:02:46 +0000
+
+rust-selectors (0.21.0-1) unstable; urgency=medium
+
+  * Package selectors 0.21.0 from crates.io using debcargo 2.4.0
+
+ -- kpcyrd <git@rxv.cc>  Mon, 28 Oct 2019 18:47:23 +0100

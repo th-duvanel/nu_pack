@@ -1,0 +1,45 @@
+rust-prost-build (0.12.4-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package prost-build 0.12.4 from crates.io using debcargo 2.6.1
+
+ -- Reinhard Tartler <siretart@tauware.de>  Wed, 17 Apr 2024 06:51:32 -0400
+
+rust-prost-build (0.11.9-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package prost-build 0.11.9 from crates.io using debcargo 2.6.1
+  * Upgrade itertools to 0.12.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 30 Mar 2024 23:16:46 -0400
+
+rust-prost-build (0.11.9-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #1042783)
+  * Package prost-build 0.11.9 from crates.io using debcargo 2.6.0
+
+ -- Emanuele Rocca <ema@debian.org>  Tue, 01 Aug 2023 16:30:06 +0200
+
+rust-prost-build (0.11.6-3) unstable; urgency=medium
+
+  * Drop cleanup-markdown feature to avoid a runtime dependency on
+    pulldown-cmark-to-cmark, not available in Debian.
+  * Drop the format feature too as it depends on
+    prettyplease, also not in Debian.
+  * Depend on protobuf-compiler, needed by tests::smoke_test and others.
+  * Package prost-build 0.11.6 from crates.io using debcargo 2.6.0
+
+ -- Emanuele Rocca <ema@debian.org>  Thu, 26 Jan 2023 20:58:42 +0100
+
+rust-prost-build (0.11.6-2) unstable; urgency=medium
+
+  * Package prost-build 0.11.6 from crates.io using debcargo 2.6.0
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Emanuele Rocca <ema@debian.org>  Mon, 23 Jan 2023 17:50:10 +0100
+
+rust-prost-build (0.11.6-1) unstable; urgency=medium
+
+  * Package prost-build 0.11.6 from crates.io using debcargo 2.6.0
+
+ -- Emanuele Rocca <ema@debian.org>  Fri, 20 Jan 2023 12:03:14 +0100

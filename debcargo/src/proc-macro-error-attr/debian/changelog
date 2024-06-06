@@ -1,0 +1,18 @@
+rust-proc-macro-error-attr (1.0.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package proc-macro-error-attr 1.0.4 from crates.io using debcargo 2.6.0
+
+ -- Blair Noctis <n@sail.ng>  Sat, 15 Jul 2023 13:20:04 +0200
+
+rust-proc-macro-error-attr (1.0.3-1) unstable; urgency=medium
+
+  * Package proc-macro-error-attr 1.0.3 from crates.io using debcargo 2.4.2
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Thu, 09 Jul 2020 16:33:35 -0400
+
+rust-proc-macro-error-attr (1.0.2-1) unstable; urgency=medium
+
+  * Package proc-macro-error-attr 1.0.2 from crates.io using debcargo 2.4.2
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 23 Jun 2020 00:19:40 -0400

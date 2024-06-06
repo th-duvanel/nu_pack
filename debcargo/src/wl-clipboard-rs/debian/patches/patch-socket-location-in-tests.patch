@@ -1,0 +1,12 @@
+diff --git a/src/tests/mod.rs b/src/tests/mod.rs
+index 67e46cd..9fcbabf 100644
+--- a/src/tests/mod.rs
++++ b/src/tests/mod.rs
+@@ -33,6 +33,7 @@ impl ClientData for ClientCounter {
+ 
+ impl<S: Send + 'static> TestServer<S> {
+     pub fn new() -> Self {
++        std::env::set_var("XDG_RUNTIME_DIR", "/tmp/");
+         let mut display = Display::new().unwrap();
+         let socket = ListeningSocket::bind_auto("wl-clipboard-rs-test", 0..).unwrap();
+ 

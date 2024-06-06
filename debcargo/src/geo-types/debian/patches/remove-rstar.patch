@@ -1,0 +1,62 @@
+Description: Remove rstar to simplify packaging
+Last-Update: 2022-10-17
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: geo-types/Cargo.toml
+===================================================================
+--- geo-types.orig/Cargo.toml
++++ geo-types/Cargo.toml
+@@ -41,26 +41,6 @@ version = "0.2"
+ features = ["libm"]
+ default-features = false
+ 
+-[dependencies.rstar_0_10]
+-version = "0.10"
+-optional = true
+-package = "rstar"
+-
+-[dependencies.rstar_0_11]
+-version = "0.11"
+-optional = true
+-package = "rstar"
+-
+-[dependencies.rstar_0_8]
+-version = "0.8"
+-optional = true
+-package = "rstar"
+-
+-[dependencies.rstar_0_9]
+-version = "0.9"
+-optional = true
+-package = "rstar"
+-
+ [dependencies.serde]
+ version = "1"
+ features = [
+@@ -75,26 +55,8 @@ version = ">= 0.4.0, < 0.6.0"
+ 
+ [features]
+ default = ["std"]
+-rstar = ["rstar_0_8"]
+ std = [
+     "approx?/std",
+     "num-traits/std",
+     "serde?/std",
+ ]
+-use-rstar = ["use-rstar_0_8"]
+-use-rstar_0_10 = [
+-    "rstar_0_10",
+-    "approx",
+-]
+-use-rstar_0_11 = [
+-    "rstar_0_11",
+-    "approx",
+-]
+-use-rstar_0_8 = [
+-    "rstar_0_8",
+-    "approx",
+-]
+-use-rstar_0_9 = [
+-    "rstar_0_9",
+-    "approx",
+-]

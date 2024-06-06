@@ -1,0 +1,61 @@
+rust-rpassword (7.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rpassword 7.2.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Wed, 22 Nov 2023 16:08:08 -0500
+
+rust-rpassword (6.0.1-1) unstable; urgency=medium
+
+  * Package rpassword 6.0.1 from crates.io using debcargo 2.6.0
+  * Drop unnecessary patch
+  * Drop examples no longer shipped upstream
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 07 Feb 2023 13:53:02 -0500
+
+rust-rpassword (5.0.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rpassword 5.0.1 from crates.io using debcargo 2.5.0
+  * Ignore piped_password test, since it runs "cargo run ..." and therefore
+    tries to generate a Cargo.lock file in a readonly directory.
+
+ -- James McCoy <jamessan@debian.org>  Fri, 03 Jun 2022 00:13:39 -0400
+
+rust-rpassword (5.0.1-1) unstable; urgency=medium
+
+  * Package rpassword 5.0.1 from crates.io using debcargo 2.5.0
+  * ship examples in /usr/share/doc
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 09 Mar 2022 12:53:01 -0500
+
+rust-rpassword (5.0.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rpassword 5.0.0 from crates.io using debcargo 2.4.3
+  * Removing tests/piped.rs content, ticket open upstream
+
+ -- Ed Neville <ed-debian@s5h.net>  Mon, 14 Dec 2020 13:57:34 -0500
+
+rust-rpassword (5.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rpassword 5.0.0 from crates.io using debcargo 2.4.3
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 14 Oct 2020 23:33:43 -0400
+
+rust-rpassword (4.0.5-1) unstable; urgency=medium
+
+  * Package rpassword 4.0.5 from crates.io using debcargo 2.4.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 23 Feb 2020 19:05:40 +0100
+
+rust-rpassword (4.0.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rpassword 4.0.3 from crates.io using debcargo 2.4.0
+
+  [ Sylvestre Ledru ]
+  * Package rpassword 3.0.2 from crates.io using debcargo 2.3.1-alpha.0
+
+ -- Ximin Luo <infinity0@debian.org>  Tue, 24 Dec 2019 16:33:40 +0000

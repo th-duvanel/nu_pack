@@ -1,0 +1,27 @@
+Index: crossterm/Cargo.toml
+===================================================================
+--- crossterm.orig/Cargo.toml
++++ crossterm/Cargo.toml
+@@ -60,5 +60,4 @@
+ default = [
+     "bracketed-paste",
+-    "windows",
+     "events",
+ ]
+@@ -80,4 +80,0 @@
+-windows = [
+-    "dep:winapi",
+-    "dep:crossterm_winapi",
+-]
+@@ -105,11 +105,0 @@ version = "0.3.13"
+-[target."cfg(windows)".dependencies.crossterm_winapi]
+-version = "0.9.1"
+-optional = true
+-
+-[target."cfg(windows)".dependencies.winapi]
+-version = "0.3.9"
+-features = [
+-    "winuser",
+-    "winerror",
+-]
+-optional = true

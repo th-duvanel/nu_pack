@@ -1,0 +1,5 @@
+rust-lliw (0.2.0-1) unstable; urgency=medium
+
+  * Package lliw 0.2.0 from crates.io using debcargo 2.4.4
+
+ -- Ben Westover <kwestover.kw@gmail.com>  Sun, 05 Dec 2021 22:31:42 +0100

@@ -1,0 +1,11 @@
+rust-commoncrypto (0.2.0-2) unstable; urgency=medium
+
+  * Package commoncrypto 0.2.0 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Tue, 18 Sep 2018 19:37:09 +0200
+
+rust-commoncrypto (0.2.0-1) unstable; urgency=medium
+
+  * Package commoncrypto 0.2.0 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 03 Aug 2018 05:07:58 -0700

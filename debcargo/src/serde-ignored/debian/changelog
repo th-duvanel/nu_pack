@@ -1,0 +1,18 @@
+rust-serde-ignored (0.1.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package serde_ignored 0.1.2 from crates.io using debcargo 2.5.0
+
+ -- Carlos F. Sanz <carlos@sanz.dev>  Wed, 25 May 2022 00:44:12 -0400
+
+rust-serde-ignored (0.1.0-1) unstable; urgency=medium
+
+  * Package serde_ignored 0.1.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 28 Nov 2019 00:43:23 +0000
+
+rust-serde-ignored (0.0.4-1) unstable; urgency=medium
+
+  * Package serde_ignored 0.0.4 from crates.io using debcargo 2.2.5
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 03 Aug 2018 05:12:33 -0700

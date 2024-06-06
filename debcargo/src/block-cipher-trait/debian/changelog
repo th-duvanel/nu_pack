@@ -1,0 +1,29 @@
+rust-block-cipher-trait (0.6.2-4) unstable; urgency=medium
+
+  * Team upload
+  * Manual upload because debcargo will not operate on yanked crates.
+  * Bump blobby dependency to 0.3
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 03 Jun 2022 11:10:43 +0000
+
+rust-block-cipher-trait (0.6.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package block-cipher-trait 0.6.2 from crates.io using debcargo 2.4.3
+  * Fix the dependencies (Closes: #975763)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 25 Nov 2020 22:41:07 +0100
+
+rust-block-cipher-trait (0.6.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package block-cipher-trait 0.6.2 from crates.io using debcargo 2.4.2
+  * No-op source-only re-upload for Debian Testing Migration.
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 18 Apr 2020 17:18:08 +0100
+
+rust-block-cipher-trait (0.6.2-1) unstable; urgency=medium
+
+  * Package block-cipher-trait 0.6.2 from crates.io using debcargo 2.4.0
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 04 Nov 2019 21:22:01 +0100

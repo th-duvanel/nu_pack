@@ -1,0 +1,61 @@
+rust-zvariant-derive (4.0.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package zvariant_derive 4.0.0 from crates.io using debcargo 2.6.1
+  * Included patch to downgrade MSRV
+
+ -- Matthias Geiger <werdahias@riseup.net>  Thu, 22 Feb 2024 21:52:09 +0100
+
+rust-zvariant-derive (3.15.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package zvariant_derive 3.15.0 from crates.io using debcargo 2.6.0
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sun, 08 Oct 2023 08:38:29 -0400
+
+rust-zvariant-derive (3.14.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package zvariant_derive 3.14.0 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 26 Jun 2023 23:38:58 +0000
+
+rust-zvariant-derive (3.14.0-1) experimental; urgency=medium
+
+  * Package zvariant_derive 3.14.0 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Team upload.
+  * Package zvariant_derive 3.10.0 from crates.io using debcargo 2.6.0
+  * Mark tests flaky, back depends on zvariant to run
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 May 2023 14:42:48 +0200
+
+rust-zvariant-derive (3.9.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package zvariant_derive 3.9.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 27 Jan 2023 09:42:40 +0100
+
+rust-zvariant-derive (2.10.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package zvariant_derive 2.10.0 from crates.io using debcargo 2.5.0
+
+  [ Henry-Nicolas Tourneur ]
+  * Package zvariant_derive 2.8.0 from crates.io using debcargo 2.4.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 19 Dec 2021 21:22:01 +0100
+
+rust-zvariant-derive (2.0.0-2) unstable; urgency=medium
+
+  * Rebuild.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 22 Dec 2020 11:06:11 +0100
+
+rust-zvariant-derive (2.0.0-1) unstable; urgency=medium
+
+  * Package zvariant_derive 2.0.0 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 10 Dec 2020 12:53:25 +0100

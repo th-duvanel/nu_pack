@@ -1,0 +1,5 @@
+rust-streebog (0.10.2-1) unstable; urgency=medium
+
+  * Package streebog 0.10.2 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 10 Sep 2023 19:37:41 +0200

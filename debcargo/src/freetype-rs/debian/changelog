@@ -1,0 +1,5 @@
+rust-freetype-rs (0.26.0-1) unstable; urgency=medium
+
+  * Package freetype-rs 0.26.0 from crates.io using debcargo 2.4.3
+
+ -- Fabio Rafael da Rosa <fdr@fabiodarosa.org>  Fri, 06 Nov 2020 17:50:35 +0100

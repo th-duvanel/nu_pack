@@ -1,0 +1,22 @@
+rust-xattr (1.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package xattr 1.0.0 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 08 Jul 2023 20:15:07 +0200
+
+rust-xattr (0.2.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package xattr 0.2.3 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 01 Jun 2022 18:50:02 +0200
+
+rust-xattr (0.2.2-1) unstable; urgency=medium
+
+  * Package xattr 0.2.2 from crates.io using debcargo 2.2.1
+
+  [ kpcyrd <git@rxv.cc> ]
+  * Package xattr 0.2.2 from crates.io using debcargo 2.1.4
+
+ -- Ximin Luo <infinity0@debian.org>  Sat, 07 Jul 2018 14:03:26 -0700

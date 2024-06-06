@@ -1,0 +1,5 @@
+rust-varint (0.9.0-1) unstable; urgency=medium
+
+  * Package varint 0.9.0 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Tue, 19 Sep 2023 20:48:59 +0200

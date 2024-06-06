@@ -1,0 +1,23 @@
+rust-tree-magic-mini (3.0.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package tree_magic_mini 3.0.3 from crates.io using debcargo 2.6.0
+  * Drop relax-deps.patch, it's no longer needed and it's causing false
+    positives in the cruft report dependency checks (Closes: #1030366)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 04 Feb 2023 00:09:42 +0000
+
+rust-tree-magic-mini (3.0.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package tree_magic_mini 3.0.3 from crates.io using debcargo 2.5.0
+  * Disable benches ehich fail due to mising test data.
+    (thanks to Alexander Kjäll for the initial patch)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 06 Sep 2022 23:57:34 +0000
+
+rust-tree-magic-mini (3.0.3-1) unstable; urgency=medium
+
+  * Package tree_magic_mini 3.0.3 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 25 Jun 2022 10:40:17 +0200

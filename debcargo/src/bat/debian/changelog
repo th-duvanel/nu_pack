@@ -1,0 +1,243 @@
+rust-bat (0.24.0-1) unstable; urgency=medium
+
+  * Package bat 0.24.0 from crates.io using debcargo 2.6.1
+  * Relax dependency on serde-yaml crate.
+  * Relax dependency on os-str-bytes crate.
+  * Remove dependency on run-script crate which is not in Debian and
+    disable the feature that depends on it.
+
+  [ Sylvestre Ledru ]
+  * Team upload.
+  * Package bat 0.24.0 from crates.io using debcargo 2.6.0
+
+  [ James McCoy ]
+  * Remove generated man page during clean (Closes: #1048211)
+  * Set PROJECT_EXECUTABLE=batcat so man page and shell completions use the
+    correct binary name.
+  * Install completion files for bash, fish, and zsh
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 03 Dec 2023 15:37:02 +0000
+
+rust-bat (0.23.0-5) unstable; urgency=medium
+
+  * Package bat 0.23.0 from crates.io using debcargo 2.6.0
+  * Also install the notice file (#Closes: 1053170)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 29 Oct 2023 08:59:59 +0100
+
+rust-bat (0.23.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.23.0 from crates.io using debcargo 2.6.0
+  * Add patch for serde-yaml 0.9, retaining compatibility with serde-yaml 0.8.
+  * Adjust dependency on serde-yaml to allow any 0.x version greater than 0.8,
+    this does carry some risk, but I think it's better than the alternatives.
+  * Adjust dependency on dirs to allow 4.x and 5.x.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 26 Jul 2023 02:30:51 +0000
+
+rust-bat (0.23.0-3) unstable; urgency=medium
+
+  * Package bat 0.23.0 from crates.io using debcargo 2.6.0
+  * Bring back the manpage (Closes: #1036752)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 09 Jul 2023 13:01:10 +0200
+
+rust-bat (0.23.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.23.0 from crates.io using debcargo 2.6.0
+  * Bump nu-ansi-term dependency to 0.48 and fix code to build with it.
+  * Remove dev-depends on expect-test, it's not in Debian and none of
+    the tests included in the crates.io release seem to use it.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 03 Jul 2023 23:25:17 +0000
+
+rust-bat (0.23.0-1) unstable; urgency=medium
+
+  * Package bat 0.23.0 from crates.io using debcargo 2.6.0
+
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package bat 0.22.1 from crates.io using debcargo 2.6.0
+  * Relax dev-dependency on nix.
+  * Disable integration tests, they depend on files not in the
+    crates.io release.
+  * Establish baseline for tests.
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 21 Jun 2023 00:20:25 +0200
+
+rust-bat (0.22.1-4) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * revert the renaming (closes: #1029504)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 17 Apr 2023 22:26:25 +0200
+
+rust-bat (0.22.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.22.1 from crates.io using debcargo 2.6.0
+  * Ship bat as bat (instead of batcat) (Closes: #1029096)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 Jan 2023 11:47:18 +0100
+
+rust-bat (0.22.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.22.1 from crates.io using debcargo 2.6.0
+  * Bump git2 dependency to 0.16
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 12 Jan 2023 14:14:45 +0000
+
+rust-bat (0.22.1-1) unstable; urgency=medium
+
+  * Package bat 0.22.1 from crates.io using debcargo 2.5.0
+  * Update dependency patches for new upstream and current situation in Debian.
+  * Bump some old dependencies so -Z minimal-versions can be used for debugging.
+
+  [ Sylvestre Ledru ]
+  * Team upload.
+  * Package bat 0.22.1 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 08 Oct 2022 09:17:18 +0000
+
+rust-bat (0.21.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.21.0 from crates.io using debcargo 2.5.0
+
+  [ kpcyrd ]
+  * Drop bump-dep.diff
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 09 Jul 2022 22:57:28 +0000
+
+rust-bat (0.21.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.21.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 12 Jun 2022 09:55:59 +0200
+
+rust-bat (0.20.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.20.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 05 Mar 2022 18:12:43 +0100
+
+rust-bat (0.19.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.19.0 from crates.io using debcargo 2.5.0
+
+  [ Sylvestre Ledru ]
+  * Package bat 0.19.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 12 Feb 2022 10:18:12 +0100
+
+rust-bat (0.18.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.18.3 from crates.io using debcargo 2.5.0
+  * Drop patch lowering syntect dep.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 15 Jan 2022 23:38:50 +0000
+
+rust-bat (0.18.3-2) unstable; urgency=medium
+
+  * Fix the sections
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 14 Jan 2022 19:10:15 +0100
+
+rust-bat (0.18.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.18.3 from crates.io using debcargo 2.5.0
+    Disable the manpage for now
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 01 Jan 2022 12:59:12 +0100
+
+rust-bat (0.12.1-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.12.1 from crates.io using debcargo 2.4.3
+  * Bump dependency on rust-git2, the old version seems to be
+    broken with the new libgit2.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 07 Dec 2020 05:23:43 +0000
+
+rust-bat (0.12.1-5) unstable; urgency=medium
+
+  * Add myself to the uploaders
+  * try to unbreak it afer some recent changes (Closes: #973950)
+  * Package bat 0.12.1 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 19 Nov 2020 22:00:22 +0100
+
+rust-bat (0.12.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.12.1 from crates.io using debcargo 2.4.3
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 18 Oct 2020 00:17:46 +0200
+
+rust-bat (0.12.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.12.1 from crates.io using debcargo 2.4.3
+  * Other uploads + update the unbreak it
+    (Closes: #956514, #970488)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 04 Oct 2020 17:23:46 +0200
+
+rust-bat (0.12.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * plist dep updated (Closes: #956514)
+  * Decrease git2 version from 0.13 to 0.11
+  * Package bat 0.12.1 from crates.io using debcargo 2.4.2
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 10 May 2020 13:41:45 +0200
+
+rust-bat (0.12.1-1) unstable; urgency=medium
+
+  [ Paride Legovini ]
+  * Rename the binary and its manpage from 'bat' to 'batcat'.
+    (closes: #934850, #935578)
+  * Build-Depend on dh-exec.
+  * Update the package description to warn about the rename.
+  * Add a README.Debian warning about the rename.
+  * Exclude the benchmarks and examples code from the source package.
+
+  [ Sylvestre Ledru ]
+  * Package bat 0.12.1 from crates.io using debcargo 2.4.0
+  * Remove relax-dep-versions.patch as it is applied upstream
+
+ -- Paride Legovini <pl@ninthfloor.org>  Thu, 12 Dec 2019 00:50:32 +0000
+
+rust-bat (0.11.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bat 0.11.0 from crates.io using debcargo 2.3.1-alpha.0
+  * Add the tests as part of the whitelist
+  * Source upload for transition
+  * Ship the manpage (#935076)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 21 Aug 2019 22:27:14 +0200
+
+rust-bat (0.11.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Helen Koike ]
+  * Package bat 0.11.0 from crates.io using debcargo 2.2.10
+    Closes: #907080
+
+  [ Sylvestre Ledru ]
+  * Package bat 0.10.0 from crates.io using debcargo 2.2.10
+
+  [ Paride Legovini ]
+  * Package bat 0.4.1 from crates.io using debcargo 2.2.3
+
+ -- Helen Koike <helen@koikeco.de>  Fri, 26 Jul 2019 11:28:35 -0300

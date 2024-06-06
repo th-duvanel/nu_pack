@@ -1,0 +1,5 @@
+rust-clru (0.6.1-1) unstable; urgency=medium
+
+  * Package clru 0.6.1 from crates.io using debcargo 2.6.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 21 Sep 2023 23:01:10 +0200

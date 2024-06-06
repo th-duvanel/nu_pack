@@ -1,0 +1,12 @@
+rust-globwalk (0.8.1-2) unstable; urgency=medium
+
+  * d/patches: add relax-devdeps.patch replace-tempdir.patch
+    Enables autopkgtest to complete successfully.
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Wed, 13 Jan 2021 19:30:35 +0100
+
+rust-globwalk (0.8.1-1) unstable; urgency=medium
+
+  * Package globwalk 0.8.1 from crates.io using debcargo 2.4.3
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Mon, 21 Dec 2020 09:31:42 +0100

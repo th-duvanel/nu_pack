@@ -1,0 +1,24 @@
+rust-cryptoki-sys (0.1.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package cryptoki-sys 0.1.7 from crates.io using debcargo 2.6.0
+  * Drop relax-deps.diff, no longer needed.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Nov 2023 11:24:55 +0000
+
+rust-cryptoki-sys (0.1.6-1) unstable; urgency=medium
+
+  * Package cryptoki-sys 0.1.6 from crates.io using debcargo 2.6.0
+
+  [ Matthias Geiger ]
+  * Team upload.
+  * Package cryptoki-sys 0.1.6 from crates.io using debcargo 2.6.0
+  * Updated patch for newer bindgen.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 19 Sep 2023 23:43:42 +0000
+
+rust-cryptoki-sys (0.1.4-1) unstable; urgency=medium
+
+  * Package cryptoki-sys 0.1.4 from crates.io using debcargo 2.6.0
+
+ -- Emanuele Rocca <ema@debian.org>  Tue, 31 Jan 2023 10:45:23 +0100

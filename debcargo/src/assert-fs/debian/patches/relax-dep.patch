@@ -1,0 +1,13 @@
+Index: assert-fs/Cargo.toml
+===================================================================
+--- assert-fs.orig/Cargo.toml
++++ assert-fs/Cargo.toml
+@@ -81,7 +81,7 @@ replace = """
+ exactly = 1
+ 
+ [dependencies.anstream]
+-version = "0.3.0"
++version = "0.6"
+ optional = true
+ 
+ [dependencies.anstyle]

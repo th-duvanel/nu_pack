@@ -1,0 +1,83 @@
+rust-libsystemd (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package libsystemd 0.5.0 from crates.io using debcargo 2.6.1
+  * Drop old patch relax-deps.patch, non-nix related patches are no
+    longer needed with new version. nix related dependency patches
+    have been moved into patches alongside the code changes.
+  * Drop new-hmac-api.patch and bump-sha2.patch, no longer needed with
+    new upstream.
+  * Disable "integration" tests since they seem to rely on being able
+    to access a journal, which may not be available in test environments
+  * Add upstream patch to stop using SockAddr enum which was deprecated
+    in nix 0.24 and removed in nix 0.27.
+  * Add upstream patch to use memfd syscall directly instead of calling
+    memfd through nix. Upstream did this for compatibility with older
+    glibc, but it also avoids an annoying API change in nix.
+  * Explicitly enable required features in nix crate since in nix 0.27
+    they are no longer enabled by default.
+
+ -- Peter Michael Green <plugwash@debian.org>  Wed, 28 Feb 2024 09:18:32 +0000
+
+rust-libsystemd (0.2.1-6) unstable; urgency=medium
+
+  * Team upload.
+  * Package libsystemd 0.2.1 from crates.io using debcargo 2.6.1
+  * Skip test test_journal_print_large_buffer
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 11 Jan 2024 16:12:29 +0000
+
+rust-libsystemd (0.2.1-5) unstable; urgency=medium
+
+  * Team upload.
+  * Package libsystemd 0.2.1 from crates.io using debcargo 2.5.0
+  * Apply upstream patch for uuid 1.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 15 Aug 2022 01:01:34 +0000
+
+rust-libsystemd (0.2.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package libsystemd 0.2.1 from crates.io using debcargo 2.5.0
+  * Apply upstream patch to fix build with nix 0.24 by using mq_getattr from
+    rust-libc directly rather than the wrapper from rust-nix. (Closes: 1012702)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 12 Jun 2022 15:52:00 +0000
+
+rust-libsystemd (0.2.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package libsystemd 0.2.1 from crates.io using debcargo 2.5.0
+  * Update sha2 and hmac dependencies and update hmac patch to suit
+    new version.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 02 Jun 2022 21:07:29 +0000
+
+rust-libsystemd (0.2.1-2) unstable; urgency=medium
+
+  * Bump sha2 dependency.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 13 Dec 2020 10:17:14 +0100
+
+rust-libsystemd (0.2.1-1) unstable; urgency=medium
+
+  [ Christopher Obbard ]
+  * Team upload.
+  * Package libsystemd 0.2.1 from crates.io using debcargo 2.4.3
+
+  [ Andrej Shadura ]
+  * Port to hmac 0.10.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sat, 12 Dec 2020 19:52:22 +0100
+
+rust-libsystemd (0.1.0-2) unstable; urgency=medium
+
+  * Relax nix dependency (Closes: #975180).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 29 Nov 2020 08:59:16 +0100
+
+rust-libsystemd (0.1.0-1) unstable; urgency=medium
+
+  * Package libsystemd 0.1.0 from crates.io using debcargo 2.4.2
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 07 Apr 2020 11:07:14 +0200

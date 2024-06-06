@@ -1,0 +1,25 @@
+Index: tracing/Cargo.toml
+===================================================================
+--- tracing.orig/Cargo.toml
++++ tracing/Cargo.toml
+@@ -37,6 +37,20 @@ categories = [
+ ]
+ license = "MIT"
+ repository = "https://github.com/tokio-rs/tracing"
++autotests = false
++
++[[test]]
++name = "macros"
++
++[[test]]
++name = "future_send"
++
++[[test]]
++name = "macros_incompatible_concat"
++
++[[test]]
++name = "macro_imports"
++
+ 
+ [package.metadata.docs.rs]
+ all-features = true

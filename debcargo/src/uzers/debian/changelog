@@ -1,0 +1,13 @@
+rust-uzers (0.11.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package uzers 0.11.3 from crates.io using debcargo 2.6.0
+  * Add feature requirements for examples.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 16 Nov 2023 08:21:01 +0000
+
+rust-uzers (0.11.2-1) unstable; urgency=medium
+
+  * Package uzers 0.11.2 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Fri, 08 Sep 2023 22:25:00 +0200

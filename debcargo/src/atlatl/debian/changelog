@@ -1,0 +1,5 @@
+rust-atlatl (0.1.2-1) unstable; urgency=medium
+
+  * Package atlatl 0.1.2 from crates.io using debcargo 2.2.7
+
+ -- kpcyrd <git@rxv.cc>  Wed, 26 Sep 2018 15:54:14 +0100

@@ -1,0 +1,5 @@
+rust-mdl (1.0.4-1) unstable; urgency=medium
+
+  * Package mdl 1.0.4 from crates.io using debcargo 2.4.2
+
+ -- Henry-Nicolas Tourneur <debian@nilux.be>  Sat, 29 Aug 2020 16:13:48 +0200

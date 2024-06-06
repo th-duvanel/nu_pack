@@ -1,0 +1,38 @@
+rust-fastrand (2.0.1-1) experimental; urgency=medium
+
+  * Package fastrand 2.0.1 from crates.io using debcargo 2.6.0
+  * Remove dev-dependency on wyhash and disable bench that depends on it
+    so the rest of the tests can run.
+  * Fix tests with --no-default-features
+
+  [ Sylvestre Ledru ]
+  * Team upload.
+  * Package fastrand 2.0.0 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Nov 2023 10:43:17 +0000
+
+rust-fastrand (1.8.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package fastrand 1.8.0 from crates.io using debcargo 2.5.0
+
+ -- Fabian Gruenbichler <debian@fabian.gruenbichler.email>  Thu, 20 Oct 2022 20:49:11 -0400
+
+rust-fastrand (1.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package fastrand 1.7.0 from crates.io using debcargo 2.5.0
+
+ -- Simon Quigley <tsimonq2@debian.org>  Wed, 25 May 2022 01:38:03 -0500
+
+rust-fastrand (1.4.0-2) unstable; urgency=high
+
+  * Rebuild.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 10 Jan 2021 10:26:55 +0100
+
+rust-fastrand (1.4.0-1) unstable; urgency=medium
+
+  * Package fastrand 1.4.0 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 22 Dec 2020 14:53:51 +0100

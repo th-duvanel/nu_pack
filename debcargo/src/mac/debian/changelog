@@ -1,0 +1,5 @@
+rust-mac (0.1.1-1) unstable; urgency=medium
+
+  * Package mac 0.1.1 from crates.io using debcargo 2.2.5
+
+ -- kpcyrd <git@rxv.cc>  Tue, 14 Aug 2018 23:36:00 +0200

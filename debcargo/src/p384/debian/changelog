@@ -1,0 +1,5 @@
+rust-p384 (0.13.0-1) unstable; urgency=medium
+
+  * Package p384 0.13.0 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <f.gruenbichler@proxmox.com>  Wed, 29 Nov 2023 09:18:41 -0500

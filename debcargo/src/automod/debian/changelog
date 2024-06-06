@@ -1,0 +1,31 @@
+rust-automod (1.0.14-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package automod 1.0.14 from crates.io using debcargo 2.6.1
+
+ -- Federico Ceratto <federico@debian.org>  Sat, 11 May 2024 18:42:11 +0200
+
+rust-automod (1.0.11-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package automod 1.0.11 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 16 Jul 2023 13:50:55 +0000
+
+rust-automod (1.0.3-1) unstable; urgency=medium
+
+  * Package automod 1.0.3 from crates.io using debcargo 2.5.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 24 May 2022 05:10:48 +0200
+
+rust-automod (1.0.2-1) unstable; urgency=medium
+
+  * Package automod 1.0.2 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Fri, 03 Sep 2021 18:37:03 +0200
+
+rust-automod (0.2.0-1) unstable; urgency=medium
+
+  * Package automod 0.2.0 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 10 May 2020 17:32:12 +0200

@@ -1,0 +1,103 @@
+rust-object (0.32.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package object 0.32.2 from crates.io using debcargo 2.6.1
+  * Update patch for new upstream.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 05 Jan 2024 23:17:21 +0000
+
+rust-object (0.32.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package object 0.32.1 from crates.io using debcargo 2.6.1
+  * Update patches for new upstream and current situation in Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Fri, 24 Nov 2023 16:08:18 +0000
+
+rust-object (0.31.1-1) unstable; urgency=medium
+
+  * Package object 0.31.1 from crates.io using debcargo 2.6.0
+  * Bump dependency on ruzstd.
+
+  [ Fabian Grünbichler ]
+  * Team upload.
+  * Package object 0.31.1 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 28 Aug 2023 12:27:12 +0000
+
+rust-object (0.30.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package object 0.30.0 from crates.io using debcargo 2.6.0
+  * Update remove-wasm-feature.patch for new upstream.
+  * Drop use-endianness-for-extended-section-indexes.patch and
+    use-endianness-for-resource-names.patch as they are now incorporated
+    upstream
+  * Set test_is_broken = false for the unstable-all feature.
+  * Revert upstream bump of hashbrown dependency.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 02 Jan 2023 09:31:33 +0000
+
+rust-object (0.29.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package object 0.29.0 from crates.io using debcargo 2.5.0
+  * Add upstream patches to fix endian issues (Closes: 1021678)
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 15 Oct 2022 16:12:57 +0000
+
+rust-object (0.29.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package object 0.29.0 from crates.io using debcargo 2.5.0
+  * Disable a test which requires test data that is not included in
+    the crates.io release.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 20 Aug 2022 17:48:18 +0000
+
+rust-object (0.20.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package object 0.20.0 from crates.io using debcargo 2.4.4
+  * Drop wasm/wasmparser feature.
+  * Drop rustc-dep-of-std feature.
+  * Use collapse_features = true, the extra dependencies are relatively
+    minimal.
+  * Mark as broken tests that do not enable the "read" feature.
+    (debcargo now runs most tests with no-default-features)
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 02 Nov 2021 04:42:39 +0000
+
+rust-object (0.12.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Package object 0.12.0 from crates.io using debcargo 2.4.2
+  * Bump dependency on flate2 to ease buster->bullseye upgrades
+    (Closes: #990317).
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 29 Jun 2021 17:31:12 +0000
+
+rust-object (0.12.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package object 0.12.0 from crates.io using debcargo 2.4.2
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 13 Apr 2020 01:15:56 +0000
+
+rust-object (0.12.0-2) unstable; urgency=medium
+
+  * Package object 0.12.0 from crates.io using debcargo 2.4.2
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 20 Feb 2020 10:22:37 +0100
+
+rust-object (0.12.0-1) unstable; urgency=medium
+
+  * Package object 0.12.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Thu, 14 Nov 2019 20:50:35 +0100
+
+rust-object (0.11.0-1) unstable; urgency=medium
+
+  * Package object 0.11.0 from crates.io using debcargo 2.2.9
+
+ -- Ximin Luo <infinity0@debian.org>  Wed, 26 Dec 2018 11:34:10 -0800

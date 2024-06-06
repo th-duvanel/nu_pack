@@ -1,0 +1,25 @@
+rust-dtoa (1.0.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package dtoa 1.0.9 from crates.io using debcargo 2.6.0 (Closes: #1042382)
+  * Mark tests for the no-panic feature as "broken", no-panic only works in
+    release mode.
+  * Set collapse_features = true
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 07 Aug 2023 02:57:04 +0000
+
+rust-dtoa (0.4.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package dtoa 0.4.3 from crates.io using debcargo 2.2.7
+
+  [ Ximin Luo ]
+  * Update copyright information.
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 07 Oct 2018 11:28:39 +0200
+
+rust-dtoa (0.4.2-1) unstable; urgency=medium
+
+  * Package dtoa 0.4.2 from crates.io using debcargo 2.1.1
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 22 Jun 2018 00:17:31 -0700

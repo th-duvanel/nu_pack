@@ -1,0 +1,27 @@
+rust-criterion-plot (0.4.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package criterion-plot 0.4.5 from crates.io using debcargo 2.6.1
+  * Relax dependency on itertools.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 10 Feb 2024 04:08:14 +0000
+
+rust-criterion-plot (0.4.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package criterion-plot 0.4.5 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 10 Nov 2022 20:16:53 +0000
+
+rust-criterion-plot (0.4.4-1) unstable; urgency=medium
+
+  * Package criterion-plot 0.4.4 from crates.io using debcargo 2.5.0
+
+  [ Andrej Shadura ]
+  * Team upload.
+  * Package criterion-plot 0.4.0 from crates.io using debcargo 2.2.10
+
+  [ Sylvestre Ledru ]
+  * Package criterion-plot 0.3.1 from crates.io using debcargo 2.2.10
+
+ -- Liang Yan <ly@xryan.net>  Sat, 21 May 2022 09:47:10 +0200

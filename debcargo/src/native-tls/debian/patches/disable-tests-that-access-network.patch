@@ -1,0 +1,14 @@
+--- native-tls.orig/src/test.rs
++++ native-tls/src/test.rs
+@@ -21,3 +21,2 @@
+ 
+-#[test]
+ fn connect_google() {
+@@ -36,3 +35,2 @@
+ 
+-#[test]
+ fn connect_bad_hostname() {
+@@ -43,3 +41,2 @@
+ 
+-#[test]
+ fn connect_bad_hostname_ignored() {

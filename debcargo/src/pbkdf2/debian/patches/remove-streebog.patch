@@ -1,0 +1,42 @@
+Index: pbkdf2/Cargo.toml
+===================================================================
+--- pbkdf2.orig/Cargo.toml
++++ pbkdf2/Cargo.toml
+@@ -80,9 +80,6 @@ version = "0.10"
+ [dev-dependencies.sha2]
+ version = "0.10"
+ 
+-[dev-dependencies.streebog]
+-version = "0.10"
+-
+ [features]
+ default = ["hmac"]
+ parallel = [
+Index: pbkdf2/tests/mod.rs
+===================================================================
+--- pbkdf2.orig/tests/mod.rs
++++ pbkdf2/tests/mod.rs
+@@ -2,7 +2,7 @@
+ use hex_literal::hex;
+ use pbkdf2::pbkdf2_hmac_array as f;
+ use sha1::Sha1;
+-use streebog::Streebog512;
++//use streebog::Streebog512;
+ 
+ /// Tests from RFC 6070:
+ /// https://www.rfc-editor.org/rfc/rfc6070
+@@ -41,7 +41,7 @@ fn rfc6070() {
+     );
+ }
+ 
+-/// Test vectors from R 50.1.111-2016:
++/* /// Test vectors from R 50.1.111-2016:
+ /// https://tc26.ru/standard/rs/Р 50.1.111-2016.pdf
+ #[test]
+ fn gost() {
+@@ -114,4 +114,4 @@ fn gost() {
+             "78ccb879f67068cdac1910740844e830"
+         ),
+     );
+-}
++}*/

@@ -1,0 +1,59 @@
+rust-crossterm (0.27.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossterm 0.27.0 from crates.io using debcargo 2.6.0
+  * Skip a couple of tests that seem to be flaky on debci.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 23 Nov 2023 13:54:44 +0000
+
+rust-crossterm (0.27.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossterm 0.27.0 from crates.io using debcargo 2.6.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 23 Nov 2023 04:37:44 +0000
+
+rust-crossterm (0.27.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package crossterm 0.27.0 from crates.io using debcargo 2.6.0
+  * Update disable-winapi.diff for new upstream.
+  * Set collapse_features = true.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 19 Nov 2023 16:27:05 +0000
+
+rust-crossterm (0.25.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package crossterm 0.25.0 from crates.io using debcargo 2.5.0
+  * Stop patching parking-lot dependency, debian now has 0.12.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 04 Sep 2022 23:21:57 +0000
+
+rust-crossterm (0.25.0-1) unstable; urgency=medium
+
+  * Package crossterm 0.25.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Wed, 24 Aug 2022 11:36:04 +0200
+
+rust-crossterm (0.23.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+  * Package crossterm 0.23.2 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Sat, 04 Jun 2022 16:02:15 -0400
+
+rust-crossterm (0.23.2-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package crossterm 0.23.2 from crates.io using debcargo 2.5.0
+
+ -- James McCoy <jamessan@debian.org>  Thu, 02 Jun 2022 22:50:09 -0400
+
+rust-crossterm (0.22.1-1) unstable; urgency=medium
+
+  * Package crossterm 0.22.1 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 30 Dec 2021 11:15:31 +0100

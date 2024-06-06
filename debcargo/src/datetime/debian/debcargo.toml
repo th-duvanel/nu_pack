@@ -1,0 +1,17 @@
+overlay = "."
+uploaders = ["Sylvestre Ledru <sylvestre@debian.org>"]
+collapse_features = true
+
+[packages.lib]
+test_is_broken = true
+extra_lines = ["Breaks: librust-zoneinfo-compiled-dev (<< 0.5)"]
+
+[packages."lib+parse"]
+test_is_broken = false
+
+[packages."lib+default"]
+test_is_broken = false
+
+[packages."lib+@"]
+test_is_broken = false
+

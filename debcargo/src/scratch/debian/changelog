@@ -1,0 +1,11 @@
+rust-scratch (1.0.3-1) unstable; urgency=medium
+
+  * Package scratch 1.0.3 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 17 Jan 2023 15:13:59 +0100
+
+rust-scratch (1.0.2-1) unstable; urgency=medium
+
+  * Package scratch 1.0.2 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 27 Aug 2022 12:03:27 +0200

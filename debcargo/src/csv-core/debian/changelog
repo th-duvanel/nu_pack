@@ -1,0 +1,26 @@
+rust-csv-core (0.1.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package csv-core 0.1.10 from crates.io using debcargo 2.6.0
+  * Disable benches that rely on test data which is not included in the
+    crates.io release.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 12 Jun 2023 22:12:34 +0000
+
+rust-csv-core (0.1.6-1) unstable; urgency=medium
+
+  * Package csv-core 0.1.6 from crates.io using debcargo 2.2.10
+
+ -- Paride Legovini <pl@ninthfloor.org>  Sat, 13 Jul 2019 18:10:09 +0000
+
+rust-csv-core (0.1.5-1) unstable; urgency=medium
+
+  * Package csv-core 0.1.5 from crates.io using debcargo 2.2.9
+
+ -- Paride Legovini <pl@ninthfloor.org>  Thu, 03 Jan 2019 15:24:52 +0000
+
+rust-csv-core (0.1.4-1) unstable; urgency=medium
+
+  * Package csv-core 0.1.4 from crates.io using debcargo 2.2.4
+
+ -- Paride Legovini <pl@ninthfloor.org>  Mon, 23 Jul 2018 10:12:47 +0200

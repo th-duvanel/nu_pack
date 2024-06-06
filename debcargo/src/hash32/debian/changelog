@@ -1,0 +1,11 @@
+rust-hash32 (0.3.1-1) unstable; urgency=medium
+
+  * Package hash32 0.3.1 from crates.io using debcargo 2.5.0
+
+ -- Philip Rinn <rinni@debian.org>  Tue, 16 Aug 2022 22:26:21 +0200
+
+rust-hash32 (0.3.0-1) unstable; urgency=medium
+
+  * Package hash32 0.3.0 from crates.io using debcargo 2.5.0
+
+ -- Philip Rinn <rinni@inventati.org>  Sat, 11 Jun 2022 20:13:58 +0200

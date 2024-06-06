@@ -1,0 +1,16 @@
+rust-clap-mangen (0.2.20-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package clap_mangen 0.2.20 from crates.io using debcargo 2.6.1
+
+ -- Maytham Alsudany <maytha8thedev@gmail.com>  Tue, 21 May 2024 16:44:18 -0400
+
+rust-clap-mangen (0.2.12-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package clap_mangen 0.2.12 from crates.io using debcargo 2.6.0
+
+  [ Blair Noctis ]
+  * Package clap_mangen 0.2.6 from crates.io using debcargo 2.6.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 08 Jul 2023 14:49:17 +0200

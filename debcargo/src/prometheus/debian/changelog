@@ -1,0 +1,33 @@
+rust-prometheus (0.13.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package prometheus 0.13.3 from crates.io using debcargo 2.6.0
+  * Skip test test_default_registry which seems to be flaky.
+
+  [ Jelmer Vernooĳ ]
+  * Drop feature "gen", which needs write access to the source tree.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 14 Oct 2023 14:31:18 +0000
+
+rust-prometheus (0.13.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package prometheus 0.13.3 from crates.io using debcargo 2.6.0
+  * Relax dev-dependency on criterion.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 29 Nov 2022 12:16:05 +0000
+
+rust-prometheus (0.13.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source upload
+  * Package prometheus 0.13.0 from crates.io using debcargo 2.5.0
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sat, 21 May 2022 20:11:41 +0200
+
+rust-prometheus (0.13.0-1) unstable; urgency=medium
+
+  * Source upload
+  * Package prometheus 0.13.0 from crates.io using debcargo 2.5.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 23 Apr 2022 18:32:54 +0100

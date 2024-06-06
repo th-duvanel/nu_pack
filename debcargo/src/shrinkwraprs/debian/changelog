@@ -1,0 +1,13 @@
+rust-shrinkwraprs (0.3.0-2) experimental; urgency=medium
+
+  * Team upload.
+  * Package shrinkwraprs 0.3.0 from crates.io using debcargo 2.6.1
+  * Upgrade itertools to 0.12.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sun, 31 Mar 2024 18:00:39 -0400
+
+rust-shrinkwraprs (0.3.0-1) unstable; urgency=medium
+
+  * Package shrinkwraprs 0.3.0 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Sat, 19 Nov 2022 19:46:51 +0100

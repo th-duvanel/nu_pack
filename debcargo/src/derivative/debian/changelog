@@ -1,0 +1,23 @@
+rust-derivative (2.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package derivative 2.2.0 from crates.io using debcargo 2.6.0
+  * Disable derive-debug-generics test, it's already failing in testing, and
+    already reported upstream, so running it in debci is doing more harm than
+    good at this point.
+  * Remove upper limit from trybuild dev-dependency, upstream set it for msrv
+    reasons which are irrelevent to Debian.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 17 Jul 2023 02:18:17 +0000
+
+rust-derivative (2.1.1-2) unstable; urgency=high
+
+  * Rebuild.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 10 Jan 2021 10:27:58 +0100
+
+rust-derivative (2.1.1-1) unstable; urgency=medium
+
+  * Package derivative 2.1.1 from crates.io using debcargo 2.4.3
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 22 Dec 2020 14:43:41 +0100

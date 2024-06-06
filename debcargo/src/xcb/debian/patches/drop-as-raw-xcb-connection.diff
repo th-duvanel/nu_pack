@@ -1,0 +1,9 @@
+Index: xcb/Cargo.toml
+===================================================================
+--- xcb.orig/Cargo.toml
++++ xcb/Cargo.toml
+@@ -109,4 +109,0 @@
+-[dependencies.as-raw-xcb-connection]
+-version = "1.0"
+-optional = true
+-

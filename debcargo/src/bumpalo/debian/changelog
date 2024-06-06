@@ -1,0 +1,93 @@
+rust-bumpalo (3.14.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bumpalo 3.14.0 from crates.io using debcargo 2.6.0
+  * Set collapse_features = true
+
+ -- Blair Noctis <n@sail.ng>  Wed, 27 Dec 2023 14:53:44 +0000
+
+rust-bumpalo (3.12.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package bumpalo 3.12.0 from crates.io using debcargo 2.6.0
+    + New upstream fixes RUSTSEC-2022-0078 (Closes: #1032088)
+  * Update remove-benchmark.diff for new upstream.
+  * Drop fix-alloc-slice-fill-zero.patch and
+    disable-oom-instead-of-bump-pointer-overflow.patch, the affected tests
+    are no longer included in the crates.io release.
+  * Remove reference in Cargo.toml to test that is not included in the
+    crates.io release.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 28 Feb 2023 04:31:34 +0000
+
+rust-bumpalo (3.7.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package bumpalo 3.7.0 from crates.io using debcargo 2.4.4
+  * Apply patch (submitted and accepted upstream) to fix alloc_slice_fill_zero
+    test on architectures where max alignment is only 4.
+  * Disable oom_instead_of_bump_pointer_overflow test, upstream has agreed with
+    my determination that it is the test rather than the code it tests which
+    is broken, but we have not yet reached consensus on how best to fix it.
+    see https://github.com/fitzgen/bumpalo/issues/128
+
+ -- Peter Michael Green <plugwash@debian.org>  Sun, 21 Nov 2021 11:15:41 +0000
+
+rust-bumpalo (3.7.0-2) unstable; urgency=medium
+
+  * Package bumpalo 3.7.0 from crates.io using debcargo 2.4.4-alpha.0
+  * Re-upload with dependency on dh-cargo >= 26 fixing mtime of changelog file
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 29 Aug 2021 18:45:17 +0200
+
+rust-bumpalo (3.7.0-1) unstable; urgency=medium
+
+  * Package bumpalo 3.7.0 from crates.io using debcargo 2.4.4-alpha.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 29 Aug 2021 08:32:39 +0200
+
+rust-bumpalo (3.4.0-1) unstable; urgency=medium
+
+  * Package bumpalo 3.4.0 from crates.io using debcargo 2.4.3
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Mon, 15 Jun 2020 20:46:29 +0200
+
+rust-bumpalo (3.2.1-1) unstable; urgency=medium
+
+  * Package bumpalo 3.2.1 from crates.io using debcargo 2.4.2
+    Closes: #955151.
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 28 Mar 2020 07:28:21 +0100
+
+rust-bumpalo (3.1.2-1) unstable; urgency=medium
+
+  * Package bumpalo 3.1.2 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Wed, 08 Jan 2020 14:57:55 +0100
+
+rust-bumpalo (2.6.0-1) unstable; urgency=medium
+
+  * Package bumpalo 2.6.0 from crates.io using debcargo 2.4.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 28 Sep 2019 10:48:22 +0200
+
+rust-bumpalo (2.5.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Package bumpalo 2.5.0 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:09:44 +0200
+
+rust-bumpalo (2.5.0-2) unstable; urgency=medium
+
+  * Package bumpalo 2.5.0 from crates.io using debcargo 2.4.0
+  * Source-only reupload for bullseye
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Tue, 06 Aug 2019 11:11:29 +0200
+
+rust-bumpalo (2.5.0-1) unstable; urgency=medium
+
+  * Package bumpalo 2.5.0 from crates.io using debcargo 2.3.0
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 13 Jul 2019 19:37:43 +0200

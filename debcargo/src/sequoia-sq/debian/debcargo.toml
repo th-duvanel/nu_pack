@@ -1,0 +1,37 @@
+overlay = "."
+uploaders = [
+    "Alexander Kjäll <alexander.kjall@gmail.com>",
+    "Daniel Kahn Gillmor <dkg@fifthhorseman.net>",
+    "Holger Levsen <holger@debian.org>"
+]
+bin_name = "sq"
+summary = "OpenPGP command-line tool from Sequoia"
+
+description = """
+sq is a command-line interface for OpenPGP, structured using
+subcommands and implemented in Rust.
+
+Subcommands include: help, decrypt, encrypt, sign, verify, armor,
+dearmor, autocrypt, inspect, key, keyring, certify, packet.
+
+It offers modern cryptographic algorithms by default, like Ed25519 and
+Curve25519.
+
+The tool offers both message handling (encryption, decryption,
+signing, and verification), and key and certificate management (key
+generation, certificate maintenance, and certification), and is
+interoperable with other major OpenPGP implementations like GnuPG
+(gpg).
+
+WARNING: sq does not have a stable CLI interface yet.  Use with
+caution in scripts.
+"""
+
+[source]
+section = "utils"
+build_depends = ["bash-completion"]
+
+[packages.bin]
+# Final cleanup for #909085, and can be dropped for the release after
+# bullseye:
+extra_lines = ["Breaks: ispell (<< 3.4.00-6.1~)", "Replaces: ispell (<< 3.4.00-6.1~)"]

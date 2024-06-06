@@ -1,0 +1,38 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: cargo-debstatus
+Upstream-Contact:
+ kpcyrd <git@rxv.cc>
+ Steven Fackler <sfackler@gmail.com>
+Source: https://github.com/kpcyrd/cargo-debstatus
+
+Files: *
+Copyright:
+ 2015—2018 Steven Fackler <sfackler@gmail.com>
+ 2018-2023 kpcyrd <git@rxv.cc>
+License: GPL-3+
+
+Files: cargo-debstatus.1
+Copyright: 2023 Matthias Geiger <matthias.geiger1024@tutanota.de>
+License: GPL-3+
+
+Files: debian/*
+Copyright:
+ 2020-2023 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2023 Matthias Geiger <matthias.geiger1024@tutanota.de>
+License: GPL-3+
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ . 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ . 
+ Debian systems provide the GPL version 3 in /usr/share/common-licenses/GPL-3

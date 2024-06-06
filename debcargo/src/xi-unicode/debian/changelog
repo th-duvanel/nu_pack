@@ -1,0 +1,12 @@
+rust-xi-unicode (0.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package xi-unicode 0.3.0 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Mon, 26 Sep 2022 19:53:17 -0400
+
+rust-xi-unicode (0.1.0-1) unstable; urgency=medium
+
+  * Package xi-unicode 0.1.0 from crates.io using debcargo 2.2.3
+
+ -- kpcyrd <git@rxv.cc>  Mon, 09 Jul 2018 01:09:41 -0700

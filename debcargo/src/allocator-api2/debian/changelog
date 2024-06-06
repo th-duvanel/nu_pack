@@ -1,0 +1,5 @@
+rust-allocator-api2 (0.2.16-1) unstable; urgency=medium
+
+  * Package allocator-api2 0.2.16 from crates.io using debcargo 2.6.0
+
+ -- Fabian Grünbichler <debian@fabian.gruenbichler.email>  Thu, 21 Sep 2023 23:36:09 +0200

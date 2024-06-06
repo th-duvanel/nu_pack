@@ -1,0 +1,13 @@
+rust-section-testing (0.0.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package section_testing 0.0.4 from crates.io using debcargo 2.4.0
+  * Source upload to allow transition (Closes: #948218)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Sun, 05 Jan 2020 15:22:25 +0100
+
+rust-section-testing (0.0.4-1) unstable; urgency=medium
+
+  * Package section_testing 0.0.4 from crates.io using debcargo 2.2.10
+
+ -- Nikos Tsipinakis <nikos@tsipinakis.com>  Tue, 29 Oct 2019 17:52:45 +0100

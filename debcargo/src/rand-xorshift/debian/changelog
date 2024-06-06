@@ -1,0 +1,27 @@
+rust-rand-xorshift (0.3.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package rand_xorshift 0.3.0 from crates.io using debcargo 2.5.0
+  * Upload to unstable.
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 05 Feb 2022 09:19:44 +0000
+
+rust-rand-xorshift (0.3.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package rand_xorshift 0.3.0 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Jan 2022 16:33:35 +0000
+
+rust-rand-xorshift (0.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package rand_xorshift 0.2.0 from crates.io using debcargo 2.4.0
+
+ -- Ximin Luo <infinity0@debian.org>  Thu, 29 Aug 2019 07:50:47 -0700
+
+rust-rand-xorshift (0.1.1-1) unstable; urgency=medium
+
+  * Package rand_xorshift 0.1.1 from crates.io using debcargo 2.2.9
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sat, 05 Jan 2019 20:05:38 +0100

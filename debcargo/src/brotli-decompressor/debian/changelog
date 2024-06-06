@@ -1,0 +1,21 @@
+rust-brotli-decompressor (2.5.0-1) unstable; urgency=medium
+
+  * Package brotli-decompressor 2.5.0 from crates.io using debcargo 2.6.0
+  * Disable a non-terminating test.
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Sat, 02 Dec 2023 15:15:56 +0000
+
+rust-brotli-decompressor (2.3.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package brotli-decompressor 2.3.4 from crates.io using debcargo 2.6.0
+  * Mark tests for the all features case as broken (See: #1032446)
+  * Tweak newly added upstream test to be compatible with rustc 1.63.
+
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 07 Mar 2023 04:11:50 +0000
+
+rust-brotli-decompressor (2.3.2-1) unstable; urgency=medium
+
+  * Package brotli-decompressor 2.3.2 from crates.io using debcargo 2.5.0
+
+ -- Alexander Kjäll <alexander.kjall@gmail.com>  Thu, 09 Jun 2022 23:36:35 +0200

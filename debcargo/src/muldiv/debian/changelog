@@ -1,0 +1,41 @@
+rust-muldiv (1.0.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package muldiv 1.0.1 from crates.io using debcargo 2.6.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Tue, 13 Jun 2023 15:36:59 +0200
+
+rust-muldiv (1.0.1-1) experimental; urgency=medium
+
+  * Package muldiv 1.0.1 from crates.io using debcargo 2.6.0
+  [ Peter Michael Green ]
+  * Team upload.
+  * Package muldiv 1.0.0 from crates.io using debcargo 2.5.0
+
+ -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 19 May 2023 17:32:57 +0200
+
+rust-muldiv (0.2.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package muldiv 0.2.1 from crates.io using debcargo 2.4.0
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 30 Dec 2019 11:59:58 +0200
+
+rust-muldiv (0.2.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package muldiv 0.2.0 from crates.io using debcargo 2.2.10
+
+  * Source upload for rebuild...
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Mon, 28 Oct 2019 21:02:58 +0100
+
+rust-muldiv (0.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package muldiv 0.2.0 from crates.io using debcargo 2.4.0
+
+  [ Wolfgang Silbermayr ]
+  * Package muldiv 0.2.0 from crates.io using debcargo 2.4.0
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 15 Oct 2019 10:31:23 +0300
